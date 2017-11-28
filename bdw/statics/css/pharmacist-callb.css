@@ -1,0 +1,16 @@
+/* 主体 */
+.main {width: 1190px; margin: 0 auto;}
+
+.main-pharmacist-callb {height: 268px; border: 1px solid #eee; overflow: hidden; margin-top: 25px; margin-bottom: 42px;}
+.main-pharmacist-callb > .fl {width: 333px; height: 100%; padding-left: 125px; float: left; border-right: 1px solid #eee; background: url(../images/icon-succed.png) no-repeat 46px 55px;}
+.main-pharmacist-callb .fl .dt {padding-top: 50px; font-size: 24px; color: #05113e;}
+.main-pharmacist-callb .fl .tips {padding-top: 6px; font-size: 14px; color: #666;}
+.main-pharmacist-callb .fl .price-number {padding-top: 20px; font-size: 14px;}
+.main-pharmacist-callb .fl .price-number span {color: #ff6600; font-size: 24px;}
+.main-pharmacist-callb .fl .price-number i {font-size: 14px;}
+.main-pharmacist-callb .btn-box {padding-top: 18px;}
+.main-pharmacist-callb .btn-box a{display: inline-block; width: 98px; height: 28px; border:  1px solid #ff6b00; background: #ff6b00; color: #fff; text-align: center; margin-right: 10px; font-size: 12px; line-height: 28px;}
+.main-pharmacist-callb .btn-box .btn2 {border-color: #e8e8e8; color: #ff6b00; background: #fff;}
+
+.main-pharmacist-callb > .fr {width: 728px; height: 100%; float: right;}
+.main-pharmacist-callb .fr .header-shop-cart {padding-top: 90px; float: none; margin: 0 auto;}

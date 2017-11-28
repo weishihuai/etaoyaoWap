@@ -1,0 +1,78 @@
+/* CSS Document */
+#main{width:980px;margin:0 auto;}
+
+#main .m1{width:980px;margin:10px 0;}
+#main .m1 .m1-l{width:270px; height:280px; margin-right:10px;float:left;}
+#main .m1 .m1-l .box{ border-left:#cc0000 3px solid;  height:auto;}
+#main .m1 .m1-l .box h2{ background:url(../../statics/images/01-1.PNG) no-repeat; width:107px; height:27px; margin-left:-1px;}
+#main .m1 .m1-l .box h2 a{color:#fff; font-weight:bold; line-height:27px; margin-left:15px;}
+#main .m1 .m1-l .box .ubox{ border:#DDD 1px solid;background:#ededed; width:265px; margin-top:-1px;}
+#main .m1 .m1-l .box .ubox .advLi{ margin:1.5px 1.5px;float:left; height: 60px;width: 85px;overflow: hidden;}
+#main .m1 .m1-r{float:left;width: 700px;height: 280px;float: left; overflow: hidden;position: relative; z-index: 1;}
+
+#main .m2{ width:980px;margin:10px 0;}
+#main .m2 .layer{background:#e6e6e6; width:180px; height:35px; text-align:center;}
+#main .m2 .layer a{color:#cc0000; font-family:"微软雅黑"; font-size:16px; font-weight:bold; line-height:35px;}
+#main .m2 .layer a span{color:#333; font-size:13px; font-weight:normal;}
+#main .m2 .box{border-top:#000 2px solid; width:980px;}
+#main .m2 .box .box-l{width: 210px;height: 300px;}
+#main .m2 .box .box-l,#main .m2 .box .box-r,#main .m2 .box .last{float:left;}
+#main .m2 .box .box-r p a{ display:block; float:left;}
+#main .m2 .box .box-r{width: 770px;height: 300px;}
+#main .f-long-adv{float:left;width: 980px;height: 90px;}
+/*F1*/
+#main .m2 .box .box-r .f1-r1{float:left;width: 360px;height: 300px;}
+#main .m2 .box .box-r .f1-r1 .f1-r1-t{float:left;width: 180px;height: 150px;}
+#main .m2 .box .box-r .f1-r1 .f1-r1-b{float:left;width: 360px;height: 150px;}
+#main .m2 .box .box-r .f1-r2{float:left;width: 180px;height: 300px;}
+#main .m2 .box .box-r .f1-r2 .f1-r2-all{float:left;width: 180px;height: 150px;}
+#main .m2 .box .box-r .f1-r3{float:right;width: 230px;height: 300px;}
+#main .m2 .box .box-r .f1-r3 .f1-r3-all{float:left;width: 230px;height: 150px;}
+
+/*F2*/
+#main .m2 .box .box-r .f2-r1{float:left;width: 540px;height: 300px;}
+#main .m2 .box .box-r .f2-r1 .f2-r1-all{float:left;width: 180px;height: 150px;}
+#main .m2 .box .box-r .f2-r2{float:right;width: 230px;height: 300px;}
+#main .m2 .box .box-r .f2-r2 .f2-r2-all{float:left;width: 230px;height: 100px;}
+/*F3*/
+#main .m2 .box .box-r .f3-r1{float:left;width: 360px;height: 300px;}
+#main .m2 .box .box-r .f3-r1 .f3-r1-all{float:left;width: 360px;height: 150px;}
+#main .m2 .box .box-r .f3-r2{float:left;width: 180px;height: 300px;}
+#main .m2 .box .box-r .f3-r2 .f3-r2-all{float:left;width: 180px;height: 150px;}
+#main .m2 .box .box-r .f3-r3{float:left;width: 230px;height: 300px;}
+#main .m2 .box .box-r .f3-r3 .f3-r3-all{float:left;width: 230px;height: 150px;}
+/*F4*/
+#main .m2 .box .box-r .f4-r1 {float:left;width: 770px;height: 150px;}
+#main .m2 .box .box-r .f4-r1 .f4-r1-all{float:left;width: 180px;height: 150px;}
+#main .m2 .box .box-r .f4-r2 .f4-r2-all{float:left;width: 180px;height: 150px;}
+#main .m2 .box .box-r .f4-r-all{float:left;width: 230px;height: 150px;}
+#main .m2 .box .box-r .f4-r2 {float:left;width: 770px;height: 150px;}
+
+#main .m1 .m1-r .mub{  position:absolute; z-index:99; height:30px; width:700px; overflow:hidden;bottom:0; left:0;}
+#main .m1 .m1-r .mub ul{ padding-top:3px;float:right;padding-right:10px;}
+#main .m1 .m1-r .mub ul li{ float:left; display:inline; padding-left:5px;}
+#main .m1 .m1-r .mub ul li a{ display:block; background:url(../images/index_adv_ico.png) no-repeat; width:23px; height:23px; line-height:22px; text-align:center; color:#fff; overflow:hidden;_background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/index_adv_ico.png"); position:relative; cursor: pointer;}
+#main .m1 .m1-r .mub ul li a.cur,#index .produ-item-part1 .adv .mub ul li a:hover{ text-decoration:none;background:url(../images/index_adv_ico_cur.png) no-repeat;_background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/index_adv_ico_cur.png");}
+
+#main .m2 .box .last a{ display:block;}
+#main .m2 .box .list a{ background:#e3e3e3; border:#CCC 1px solid; border-left:none;width:195px; height:195px; display:block; float:left;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

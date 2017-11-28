@@ -1,0 +1,5 @@
+.m-top { position: fixed; left: 0; top: 0; right: 0; z-index: 11; height: 1.40625rem; line-height: 1.40625rem; color: #333; background-color: #fafafa; text-align: center; border-bottom: 1px solid #EEEEEE; font-size: 17px; }
+
+.item {padding: 0.4375rem; background: #fff; margin-bottom: 0.3125rem;}
+
+.item .title {max-height: 1.4375rem; margin-bottom: 0.28125rem; color: #fb6600; font-size: 22px; line-height: 0.71875rem; display: -webkit-box; display: -moz-box; display: -ms-box; display: -o-box; -webkit-line-clamp: 2; -moz-line-clamp: 2; -ms-line-clamp: 2; -o-line-clamp: 2; -webkit-box-orient: vertical; -moz-box-orient: vertical; -ms-box-orient: vertical; -o-box-orient: vertical; overflow: hidden; }

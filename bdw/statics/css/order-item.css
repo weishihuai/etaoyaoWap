@@ -1,0 +1,50 @@
+
+/*主体*/
+.main-bg{background-color: #f0f0f0; padding: 40px 0 100px;}
+.main-bg .main{width: 1190px; margin: 0 auto;}
+.main .mt{width: 1190px; background-color: #fff; padding-top: 60px; position: relative;}
+.main .mt .suc-icon{width: 62px; height: 62px; background: url("../images/suc-icon.png") no-repeat; position: absolute;left: 565px; top:-26px;}
+.main .mt .m-bot{padding: 24px 0 26px 75px; border-top: 1px solid #f0f0f0; overflow: hidden;}
+.main .mt .mb-lt{width: 115px; float: left; line-height: 24px; color: #666666; font-size: 16px;}
+.main .mt .mb-rt{width: 940px; float: left; line-height: 24px; color: #333333;}
+.main .mt .m-top{padding-bottom: 46px; text-align: center;}
+.main .mt .m-top h5{color: #000000; font-size: 22px; margin-bottom: 5px; line-height: 30px;}
+.main .mt .m-top p{color: #666666; font-size: 14px;}
+.main .mt .price{margin: 28px 0; font-size: 14px; color: #666;}
+.main .mt .price i{color: #ff6600; font-size: 18px;}
+.main .mt .price span{color: #ff6600; font-size: 28px;}
+.main .mt .pay{display: inline-block; width: 98px; height: 28px; line-height: 28px; text-align: center; border: 1px solid #fb6600; background-color: #fb6600; color: #fff; margin: 0 5px; }
+.main .mt .back{display: inline-block; width: 98px; height: 28px; line-height: 28px; text-align: center; border: 1px solid #fb6600; color: #fb6600; margin: 0 5px; }
+.main .mt .od-info{display: inline-block; width: 98px; height: 28px; line-height: 28px; text-align: center; border: 1px solid #e8e8e8; color: #333333; margin: 0 5px; }
+
+.main .mc{padding: 25px 0 60px 50px; background-color: #fff; margin: 10px auto 0;}
+.main .mc-bot{border-top: 1px solid #e8e8e8; padding: 19px 0 0 145px;}
+.main .mc-bot a{display: block; background-color: #fb6600; width: 182px; height: 48px; line-height: 48px; color: #fff; text-align: center; font-size: 20px;}
+.main .prepay{border-bottom: 1px solid #e8e8e8; padding-bottom: 28px; overflow: hidden;}
+.main .pre-lt{width: 140px; float: left; height: 20px; line-height: 20px; color: #666666; font-size: 16px; }
+.main .pre-lt span{display: inline-block; padding-left: 25px; background: url("../images/choice-icon.png") no-repeat 0 -34px; cursor: pointer;}
+.main .pre-lt .selected{background: url("../images/choice-icon.png") no-repeat 0 -52px; cursor: pointer;}
+.main .pre-rt{width: 940px; color: #666666; float: left;}
+.main .pre-rt p{padding-bottom: 3px;}
+.main .pre-rt span{font-size: 16px; color: #ff6600;}
+
+.main .terrace{padding: 28px 0; overflow: hidden;}
+.main .ter-lt{width: 140px; float: left; height: 20px; line-height: 20px; color: #666666; font-size: 16px; }
+.main .ter-lt span{display: inline-block; padding-left: 25px; background: url("../images/choice-icon.png") no-repeat 0 -34px; cursor: pointer;}
+.main .ter-lt .selected{background: url("../images/choice-icon.png") no-repeat 0 -52px; cursor: pointer;}
+.main .ter-rt{width: 980px; float: left;}
+.main .rt-top{width: 950px; line-height: 20px; color: #666666; border-bottom: 1px dashed #e8e8e8; padding-bottom: 15px; overflow: hidden;}
+.main .rt-top span{float: left;}
+.main .rt-top i{float: right; margin-right: 265px;}
+.main .rt-top em{font-size: 16px; color: #ff6600;}
+.main .rt-bot{width: 980px; padding-top: 30px;}
+.main .rt-bot .item{/*width: 80px; height: 80px; */border-radius: 2px; box-shadow: 0 2px 4px rgba(0,0,0,0.12); border: 1px solid #fb6600; float: left; margin: 0 20px 20px 0; overflow: hidden;}
+.main .rt-bot .cur{border: 1px solid #f03c28; box-shadow: 0 2px 4px rgba(214,36,16,0.3);}
+
+.fail-od{width:1190px; margin: 0 auto; padding: 60px 0; text-align: center; background-color: #fff; position: relative; }
+.fail-od .fail-icon{width: 62px; height: 62px; background: url("../images/fail-icon.png") no-repeat; position: absolute;left: 565px; top:-26px;}
+.fail-od h5{color: #000000; font-size: 22px; line-height: 30px;}
+.fail-od p{width: 550px; margin: 5px auto 40px; line-height: 22px; font-size: 14px; color: #666666;}
+.fail-od .back{display: inline-block; width: 98px; height: 28px; line-height: 28px; text-align: center; border: 1px solid #f03c28; color: #f03c28; margin: 0 5px; }
+.fail-od .cart{display: inline-block; width: 98px; height: 28px; line-height: 28px; text-align: center; border: 1px solid #e8e8e8; color: #333333; margin: 0 5px; }
+

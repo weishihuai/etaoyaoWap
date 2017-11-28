@@ -1,0 +1,49 @@
+.header02 { overflow: hidden; width: 1190px; height: 100px; margin: 0 auto; padding-top: 20px; }
+.header02 .logo { float: left; overflow: hidden; width: 300px; height: 80px; }
+.header02 h5 { float: left; margin-left: 10px; font-size: 24px; line-height: 80px; color: #333; }
+.header02 .login { float: right; height: 40px; margin: 20px 18px 0 0; font-size: 16px; line-height: 40px; color: #666; }
+.header02 .login a { display: inline-block; width: 100px; height: 40px; margin-left: 5px; font-size: 16px; line-height: 40px; text-align: center; color: #fff; border-radius: 2px; background-color: #2448ab; }
+.header02 .login a:hover { background-color: #1c3e9c; }
+
+.main-bg { width: 100%; min-width: 1190px; padding: 40px 0 30px; background: #eee url('../images/register-bg.png') no-repeat center 0; }
+.main-bg .main { overflow: hidden; width: 1190px; margin: 0 auto; }
+
+.box { overflow: hidden; width: 1190px; margin-bottom: 10px; border-radius: 3px;}
+.box-header { overflow: hidden; height: 50px; font-size: 20px; line-height: 50px; background: url('../images/tit-bg.png') repeat-x; }
+.box-header h2 { font-size: 20px; text-align: center; color: #2d415a; }
+.box-body { background-color: #fff; }
+.box-body .process-img { width: 1092px; height: 144px; margin: 0 auto 20px; padding-top: 50px; background: url('../images/join-process.png') no-repeat bottom left; }
+.box-body .process-desc dl { float: left; width: 238px; text-align: center; }
+.box-body .process-desc dt { margin-bottom: 8px; font-size: 20px; line-height: 34px; color: #333; }
+.box-body .process-desc dd { margin-bottom: 50px; }
+.box-body .process-desc dd p { font-size: 14px; line-height: 24px; color: #666; }
+.box-body .detail-list { padding: 50px 35px 50px 45px; }
+.box-body .detail-list li { margin-bottom: 20px; line-height: 20px; }
+.box-body .detail-list p { font-size: 14px; color: #666; }
+.box-footer { overflow: hidden; border-radius: 0 0 3px 3px; }
+.box-footer .join-btn { position: relative; width: 1190px; height: 120px; background: url('../images/join-btn.png') no-repeat; }
+.box-footer .join-btn a { position: absolute; top: 50%; left: 50%; width: 200px; height: 56px; margin-top: -28px; margin-left: -100px; font-size: 0; }
+
+.succ-w { margin-top: 30px; background-color: #fff; }
+.succ-case { position: relative; width: 1190px; margin: 0 auto; }
+.succ-case-tit { position: absolute; top: -6px; left: 0; width: 65px; height: 62px; font-size: 0; background: url('../images/succ-lab.png') no-repeat; }
+.succ-list-w { position: relative; overflow: hidden; width: 1070px; height: 460px; margin: 0 auto; }
+.succ-list { width: 200%; }
+.succ-item { position: relative; float: left; width: 187px; height: 460px; padding: 0 40px; }
+.succ-item-logo { display: block; width: 140px; height: 140px; margin: 56px auto 0; }
+.succ-item-name { width: 160px; margin: 0 auto 10px; font-size: 18px; line-height: 50px; text-align: center; color: #2d415a; color: #2d415a; border-bottom: 1px dashed #ddd;height: 50px; overflow: hidden;}
+.succ-item-desc { overflow: hidden; max-height: 168px; font-size: 14px; line-height: 24px; text-align: justify; color: #666; }
+.succ-item .dropdown { position: absolute; top: 460px; left: 0; width: 187px; height: 420px; padding: 40px 40px 0 40px; transition: top ease .5s; color: #fff; background-color: #f84b28; background-color: rgba(255, 50, 10, .85); }
+.succ-item .dropdown .name { margin-bottom: 15px; font-size: 18px; font-weight: 700; line-height: 20px; }
+.succ-item .dropdown .desc { overflow: hidden; max-height: 168px; font-size: 14px; line-height: 24px; text-align: justify; }
+.succ-item .dropdown .time { margin: 15px 0 20px; font-size: 14px; line-height: 30px; border-top: 1px solid #fdc9bf; border-bottom: 1px solid #fdc9bf; }
+.succ-item .dropdown .btn-view { display: inline-block; width: 100px; height: 36px; font-size: 14px; line-height: 36px; text-align: center; color: #ff320a; border-radius: 3px; background-color: #fff; }
+.succ-item .dropdown .btn-view:hover { color: #ea2a05; }
+.succ-item:hover .dropdown { top: 0; }
+
+.succ-case .op { position: absolute; top: 50%; width: 50px; height: 50px; margin-top: -25px; font-size: 0; background-image: url('../images/join-arr1.png'); background-repeat: no-repeat; }
+.succ-case .op-prev { left: 0; background-position: 0 0; }
+.succ-case .op-next { right: 0; background-position: 0 -50px; }
+.succ-case .op:hover { background-image: url('../images/join-arr2.png'); background-repeat: no-repeat; }
+.succ-case .op-prev:hover { background-position: 0 0; }
+.succ-case .op-next:hover { background-position: 0 -50px; }

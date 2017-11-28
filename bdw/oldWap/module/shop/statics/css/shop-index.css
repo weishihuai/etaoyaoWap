@@ -1,0 +1,74 @@
+/* CSS Document */
+html{background-color: #e8e8e8; }
+body{background-color: #e8e8e8; min-width: 320px; max-width: 640px; margin: 0 auto; }
+.header{ background-color: #2f2f2f; width: 100%; max-width: 100%; position: fixed; right: 0; top:0; z-index: 20;}
+
+.main{padding-top: 45px; }
+.main .top-search{width: 100%; border-bottom: 2px solid #e8e8e8; border-top: 2px solid #e8e8e8; background-color: #e0e0e0; padding: 12px 12px;}
+.main .top-search input{display: block; width: 100%; height: 30px; border: none; line-height: 24px; padding-left: 30px; border-radius: 10px; font-size: 14px; background: #fff url("../images/icon-search.png") no-repeat 12px center / 14px auto;}
+
+.main .mt{position: relative;}
+.main .mt img{width: 100%; height: auto;}
+.main .collect{display: inline-block; width: 90px; height: 23px; line-height: 25px; background: rgba(217,215,215,.2) url("../images/collect.png") no-repeat 7px center / 14px auto; padding-left: 12px; text-align: center; color: #fff; font-size: 12px; border-radius: 12px;}
+.main .collect.cur{background: rgba(217,215,215,.2) url("../images/collect-yellow.png") no-repeat 7px center / 14px auto; }
+.main .mt-cont{width: 100%; right: 0; top:17%; position: absolute;}
+.main .mt-cont .pic{width: 15%; height: 15%; border-radius: 50%; overflow: hidden; background-color: #fff; margin: 0 auto;}
+.main .mt-cont .pic img{width: 100%; height:auto; max-height: 100%; }
+.main .mt-cont h5{text-align: center; font-size: 14px; color: #333; padding-top: 5px;}
+
+.main .server{width: 100%; height: 36px; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8; background-color: #fff; overflow: hidden;}
+.main .server a{display: block; width: 50%; height: 100%; line-height: 34px; padding-left: 6px; float: left; text-align: center; color: #666666; font-size: 13px;}
+.main .server .phone{background: url("../images/phone2.png") no-repeat 27% center / 16px auto; border-right: 1px solid #e8e8e8;}
+.main .server .ins-msg{background: url("../images/ins-msg2.png") no-repeat 27% center / 16px auto;}
+
+.main .mc-nav{width: 100%; background-color: #fff; overflow: hidden;}
+.main .mc-nav li{width: 25%; padding: 9px 0; border-bottom: 2px solid #fff; float: left;}
+.main .mc-nav li a{display: block; padding-top: 22px; text-align: center; color: #333333; border-left: 1px solid #e8e8e8; font-size: 13px;}
+.main .mc-nav li:first-child a{border-left: none;}
+.main .mc-nav .st-icon1{background: url("../images/store-icon1.png") no-repeat center 8px / 18px auto;}
+.main .mc-nav .st-icon2{background: url("../images/store-icon2.png") no-repeat center 8px / 18px auto;}
+.main .mc-nav .st-icon3{background: url("../images/store-icon3.png") no-repeat center 8px / 18px auto;}
+.main .mc-nav .st-icon4{background: url("../images/store-icon4.png") no-repeat center 8px / 18px auto;}
+.main .mc-nav .cur{border-bottom: 2px solid #d01c1c;}
+
+.main .mc .mc-cont{margin-top: 8px;}
+.main .mc .mc-tab{width: 100%; height: 36px; border-bottom: 1px solid #e8e8e8; background-color: #f3f3f3;}
+.main .mc .mc-tab li{width: 33.3%; border-left: 1px solid #e8e8e8; height: 36px; float: left; }
+.main .mc .mc-tab li a{display: block; width: 100%; height: 36px; line-height: 36px; text-align: center; color: #666666; font-size: 12px; position: relative;}
+.main .mc .mc-tab li a:before{display: block; width: 0; height: 0; content: ''; border-left: 3px solid transparent; border-right: 3px solid transparent; border-bottom: 5px solid #cdcccc; position: absolute; top:12px; right: 30%;}
+.main .mc .mc-tab li a:after{display: block; width: 0; height: 0; content: ''; border-left: 3px solid transparent; border-right: 3px solid transparent; border-top: 5px solid #cdcccc; position: absolute; bottom:12px; right: 30%;}
+.main .mc .mc-tab li:first-child{border-left: none;}
+.main .mc .mc-tab li:first-child a:before{display: none;}
+.main .mc .mc-tab li:first-child a:after{display: none;}
+.main .mc .mc-tab .cur{background-color: #f9f9f9; }
+.main .mc .mc-tab .cur a{color: #d01c1c;}
+.main .mc .mc-tab li .up:before{ border-bottom: 5px solid #545454; }
+.main .mc .mc-tab li .down:after{border-top: 5px solid #545454;}
+
+
+.main .mc .tab-cont{background-color: #fff; padding-bottom: 12px; border-bottom: 1px solid #e8e8e8;}
+.main .mc .tab-cont ul{width: 100%; background-color: #f9f9f9; padding-top: 7px; overflow: hidden;}
+.main .mc .tab-cont  li{  width: 50%; float: left; background-color: #ffffff; border: 2px solid #e8e8e8; position: relative; }
+.main .mc .tab-cont .g-pic{width: 100%; overflow: hidden;}
+.main .mc .tab-cont .g-pic img{  width: 100%; height: auto;}
+.main .mc .tab-cont .g-title{  width: 100%; height: 42px; line-height: 18px; padding: 6px 5px 0 5px; font-size: 13px; color: #333333; overflow: hidden; }
+.main .mc .tab-cont .g-price{ float: left; padding: 8px 5px; font-size: 12px; color: #df0000; overflow: hidden; }
+.main .mc .tab-cont .g-price span{  font-size: 14px; }
+
+.main .mc .tab-cont .old-price{float: left; color: #999; font-size: 12px; padding: 10px 5px 0 5px;}
+
+.main .mc .tab-cont .star{  width: 28px; height: 24px; background: url("../images/icon-star01.png") no-repeat center center / 18px auto; position: absolute; bottom: 5px; right: 12px; }
+.main .mc .tab-cont .star.cur{ background: url("../images/icon-star.png") no-repeat center center / 18px auto; }
+
+.main .mc .more{display: block; width: 50%; height: 28px; border: 1px solid #d4d4d4; border-radius: 4px; margin: 10px auto 0; background-color: #e8e8e8; font-size: 13px; text-align: center; line-height: 28px;}
+
+.footer-logo{text-align: center; background-color: #fff; padding: 20px 0 35px;}
+.footer-logo img{width: 24%; height: auto;}
+
+
+.main .mt .mt-btn{width: 100%; height: 25px; text-align: center; position: absolute; left: 0; bottom: 12px; z-index: 2;}
+.main .share{margin-right: 10px;display: inline-block; width: 81px; height: 23px; line-height: 25px; background: rgba(217,215,215,.2) ; padding-left: 3px; text-align: center; color: #fff; font-size: 12px; border-radius: 12px;}
+
+
+.main .mc .tab-cont li .ac_image{position: absolute; width: 20%; top:0; right: 0; z-index: 5;max-width: 36px;max-height: 46px;}
+.main .mc .tab-cont li .ac_image img{width: 100%; height: auto;}

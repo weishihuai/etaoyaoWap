@@ -1,0 +1,13 @@
+
+
+ .right{float: left;width: 790px;}
+ .right .tit{height: 28px;width: 763px;padding-left: 25px;font-weight: bold;font-size: 14px; line-height: 28px;border: 1px solid #d4d4d4; background: url(../images/dt_bg.png);}
+ .right ul{width: 789px;overflow: hidden;border-left: 1px solid #d4d4d4;}
+ .right li{float: left;width: 242px;padding: 10px 10px 20px; border-right: 1px solid #d4d4d4;border-bottom: 1px solid #d4d4d4;}
+ .right li .p-img{display: block;width: 240px;height: 160px;overflow: hidden;}
+ .right li .p-img img{display: block;overflow: hidden;}
+ .right li .p-name{display: block;height: 18px;margin:10px 0 5px; line-height: 18px;color: #333;font-size: 12px; overflow: hidden; clear: both;}
+ .right li .p-name:hover{text-decoration: underline;}
+ .right li .c-price{margin-right:20px;color:#f00;font-family: Verdana; float: left;}
+ .right li .o-price{color: #999;font-family: Verdana; float: left;}
+ .right li a.del{position: relative;top: 5px;left:0; display: inline-block;width: 15px;height: 20px; background: url(../images/rubbish.png) no-repeat; float: right; margin-right: 10px;}

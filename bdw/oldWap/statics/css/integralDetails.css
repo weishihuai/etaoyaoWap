@@ -1,0 +1,61 @@
+/* CSS Document */
+.g_pic{margin:0 auto; position:relative; overflow:hidden;}
+.g_pic .layer_title{height:50px; background:#000; opacity:0.5; overflow:hidden; color:#fff; font-size:14px; font-family:"微软雅黑"; line-height:20px; padding:5px; position:absolute; bottom:0; left:0;}
+.jf{color:#000; font-family:"微软雅黑"; font-size:14px; float:left;}
+.jf_layer{margin:10px 0;}
+.jf{color:#000; font-family:"微软雅黑"; font-size:14px; float:left;}
+.jf_num{color:#F13535; font-family:"Century Gothic"; font-size:16px; font-weight:bold; }
+
+.jf_layer .add_box{width:140px; height:40px; overflow:hidden; }
+.jf_layer .add_box .sub{margin-top:5px; float:left;}
+.jf_layer .add_box .sub a{background:url(../images/cgmb_icon01.png); width:35px; height:35px; display:block;}
+.jf_layer .add_box .number{border:#ccc 1px solid;  width:48px; height:35px;line-height:35px; color:#666; text-align:center; float:left; margin:5px;}
+.jf_layer .add_box .add{margin-top:5px; float:left;}
+.jf_layer .add_box .add a{background:url(../images/cgmb_icon02.png); width:35px; height:35px; display:block;}
+.jf_layer .ljdh_btn a{background:#d43536; border:#be1c1d 1px solid; border-radius:2px; display:block; width:100%; height:40px; color:#fff; font-family:"微软雅黑"; font-size:16px; line-height:40px; text-align:center; float:left; margin:0 auto;}
+.jf_layer .xi_title{float:left; font-family:"微软雅黑"; font-size:16px; color: #333; line-height:35px; font-weight:bold; border-top:#ccc 1px solid; padding-top:10px;}
+.xx_pic img{width: 100%}
+
+
+
+.row .r_Data .choose-pro .cho-cont li{
+    list-style: none;width:auto;float:left;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 1px;
+    color: rgb(102, 102, 102);
+    line-height: 24px;
+    margin-right: 10px;
+}
+
+.row .r_Data .choose-pro .cho-cont li a {
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 5px 0 2px;
+    text-underline: none;
+}
+
+.row .r_Data .choose-pro .cho-cont li a:focus {
+    text-decoration: none;
+    color: rgb(44, 35, 25);
+}
+
+.row .r_Data .choose-pro .cho-cont .cur{
+    position: relative;
+    border: 2px solid #DF1830;
+    padding: 0;
+}
+
+.row .r_Data .choose-pro .cho-cont .cur i {
+    display: inline-block;
+    width: 13px;
+    height: 12px;
+    overflow: hidden;
+    background: url("../images/detail-01-allbg.png") no-repeat -63px -36px;
+    position: absolute;
+    right: -1px;
+    bottom: 0;
+}
+

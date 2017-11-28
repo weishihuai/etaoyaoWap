@@ -1,0 +1,49 @@
+/* CSS Document */
+html{ background:white; color:#333;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,input,textarea,p,blockquote,th,td,hr,button,article,footer,header,menu,nav,section{margin:0; padding:0;}
+body,button,input,select,textarea {font-size:12px; font-family:Lato,"Hiragino Sans GB",arial,tahoma,"微软雅黑", "宋体", sans-serif;}
+h1,h2,h3,h4,h5,h6,textarea{font-weight:normal; font-size:12px;}
+b,textarea{font-style:normal; font-weight:400;}
+table{ border-collapse:collapse; border-spacing:0;}/* 去掉 table cell 的边距并让其边重合 */
+td{word-break: break-all;word-wrap:break-word;}/*英文字符和数字能自动换行*/
+pre{white-space: pre-wrap;word-wrap: break-word;}/* pre 可以换行*/
+img{border:none; vertical-align:middle;}
+input,select,textarea {font-size:100%;}
+del{text-decoration:line-through;}/* 一致的 del 样式 */
+a{color:#666;text-decoration:none;}
+a:active,a:focus,*:focus {-moz-outline:none;outline:none;}/* 去除 ie6 & ie7 焦点点状线 */
+a:hover,a:link, a:visited, a:active,input:focus{text-decoration: none; transition:background 120ms, border 120ms, text-shadow 250ms ease-in 0ms, color 120ms ease-in 0ms;}
+ul,li,ol{ list-style:none;}
+input{font-family:inherit; margin: 0; padding: 0;}
+th {text-align:inherit;}/* ie bug：th 不继承 text-align */
+iframe{display:block;}/* ie6 7 8(q) bug 显示为行内表现 */
+i,em{font-style: normal;}
+@font-face {
+    font-family: 'lato';
+    src: url('../font/lato-regular-webfont.eot');
+    src: url('../font/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/lato-regular-webfont.woff') format('woff'),
+    url('../font/lato-regular-webfont.ttf') format('truetype'),
+    url('../font/lato-regular-webfont.svg#lato') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.elli{overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}/* 单行多出省略号.... */
+.clear{display:block;overflow:hidden;clear:both;height:0;line-height:0;font-size:0;zoom:1; }/* 清除浮动 zoom:1 for ie6 & ie7 */
+.clear:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{zoom:1; /* for ie6 & ie7 */}
+
+.hide{overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}/* 多出隐藏变... */
+.fl{float:left;display:inline;}/* 设置浮动，减少浮动带来的 bug */
+.fr{float:right;display:inline;}
+.ctrl-prev a,.ctrl-next a{transition: all 0.15s ease-in 0s;}
+
+
+
+
+
+
+
+

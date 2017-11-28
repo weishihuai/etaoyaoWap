@@ -1,0 +1,589 @@
+/* CSS Document */
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+a:hover{text-decoration:none; color:inherit;}
+
+#d_row1{background:#fb6600; line-height:38px; padding:0 12px; text-align:center; color:#fb6600; border:#fb6600 1px solid;box-shadow:2px 2px 3px #8A8A8A; font-family:"微软雅黑";}
+.glyphicon-arrow-left{font-size:20px; line-height:38px; display:block;}
+
+#index_row6{background:#fb6600; line-height:38px; margin-bottom:0px; padding:0 12px; text-align:center; color:#fff;}
+.login{color:#fff; font-family:"微软雅黑"; font-size:12px;}
+.su{color:#fff; margin:0 5px;}
+#index_row7{background:#fff; /*border:#dddede 1px solid;*/padding-bottom: 0px}
+#index_row7 p{text-align:center; padding:10px 0 0;color:#666666;font-size:12px;}
+#index_row7 p a{color:#666;font-size:14px; margin-left:20px; border-bottom:#fff 2px solid; padding:3px;}
+#index_row7 .cur{border-bottom:#9a7d6e 2px solid;}
+
+.yue a{overflow: hidden;width:45px; height:45px;vertical-align:middle; background:url(../images/yue4.png); background-position:0 -81px; display:block;}
+
+
+.pan{width:175px; height:175px; position:absolute;left:-88px;bottom: -175px}
+.pan a{background:url(../images/pan3.png);float:left;}
+.pan .icon1{background-position:0 0;width:88px; height:88px; }
+.pan .icon2{background-position:-88px 0;width:87px; height:88px; }
+.pan .icon3{background-position:0 -88px;width:88px; height:87px; }
+.pan .icon4{background-position:-88px -88px;width:87px; height:87px; }
+.pan .icon5{background:url(../images/pan4.png);width:67px; height:67px; display:block; position:absolute; top:55px; left:54px;}
+.pan .icon1:hover{background-position:-176px 0;}
+.pan .icon2:hover{background-position:-263px 0;}
+.pan .icon3:hover{background-position:-176px -88px;}
+.pan .icon4:hover{background-position:-263px -88px;}
+.pan .icon5:hover{background-position:0 -67px;}
+#floatMenu {
+    padding-top: 5px;
+    position:fixed;
+    bottom: 20px;
+    left: 5px;
+    margin-left: 0px;
+}
+#circular{
+    margin-top:15px;
+    width:64px;
+    float:left;
+}
+.circular{
+    background-color:#5FB7FF;
+    float:left;
+    width:15px;
+    height:15px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-animation-name: loading;
+    -webkit-animation-duration: 0.7s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: linear;
+}
+#circular_1{
+    margin-top:25px;
+    -webkit-animation-delay: .3s;
+}
+#circular_2{
+    margin-left:-8px;
+    margin-top:9px;
+    -webkit-animation-delay: .4s;
+}
+#circular_3{
+    margin-top:1px;
+    -webkit-animation-delay: .5s;
+}
+#circular_4{
+    margin-left:0;
+    margin-top:9px;
+    -webkit-animation-delay: .6s;
+}
+#circular_5{
+    margin-left:-8px;
+    margin-top:25px;
+    -webkit-animation-delay: .7s;
+}
+#circular_6{
+    margin-left:-22px;
+    margin-top:40px;
+    -webkit-animation-delay: .8s;
+}
+#circular_7{
+    margin-left:-37px;
+    margin-top:48px;
+    -webkit-animation-delay: .9s;
+}
+#circular_8{
+    margin-left:-53px;
+    margin-top:41px;
+    -webkit-animation-delay: 1s;
+}
+@-webkit-keyframes loading{
+    0%{-webkit-transform: scale(1.2);opacity:1;}
+    100%{-webkit-transform: scale(0.7);opacity:0.1;}
+}
+a{color:#2C2319;text-decoration:none;}
+
+
+/**
+FOOTER
+***/
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+a:focus {
+    outline: thin dotted;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+    outline: 0;
+}
+ol,
+ul,
+li,
+a,
+span{
+    padding: 0;
+    margin: 0;
+}
+
+.testfield {
+    position:fixed;
+    bottom: 20px;
+    left: 5px;
+    margin-left: 0px;
+}
+
+.flyout-wrap {
+    position: relative;
+    height: 200px;
+}
+.flyout-wrap .flyout {
+    position: relative;
+    margin: 0 0 1px 5px;
+    line-height: 0;
+}
+.flyout-wrap .flyout > li {
+    position: absolute;
+    display: block;
+    height: 180px;
+    background: yellow;
+    transform-origin: 16px bottom;
+}
+.flyout-wrap .flyout > li:nth-of-type( 1) {
+    transform: rotate(0deg);
+}
+.flyout-wrap .flyout > li:nth-of-type( 2) {
+    transform: rotate(22deg);
+}
+.flyout-wrap .flyout > li:nth-of-type( 3) {
+    transform: rotate(44deg);
+}
+.flyout-wrap .flyout > li:nth-of-type( 4) {
+    transform: rotate(66deg);
+}
+.flyout-wrap .flyout > li:nth-of-type( 5) {
+    transform: rotate(88deg);
+}
+
+.flyout-wrap .flyout > li a {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    /*text-indent: -99999px;*/
+}
+.flyout-wrap .flyout > li a:active {
+    background: #F2F2F2;
+    border-color: #F2F2F2;
+}
+.flyout-wrap .flyout > li a:active span {
+    opacity: .3;
+}
+.flyout-wrap .flyout > li a span {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    opacity: 0.7;
+}
+.flyout-wrap .flyout li:nth-of-type( 1) a span {
+    background-image:url(../images/pan9.png);
+}
+.flyout-wrap .flyout li:nth-of-type( 2) a span {
+    background-image:url(../images/pan5.png);
+}
+.flyout-wrap .flyout li:nth-of-type( 3) a span {
+    background-image:url(../images/pan8.png);
+}
+.flyout-wrap .flyout li:nth-of-type( 4) a span {
+    background-image:url(../images/pan6.png);
+}
+.flyout-wrap .flyout li:nth-of-type( 5) a span {
+    background-image:url(../images/pan7.png);
+}
+.flyout-wrap .flyout-init li {
+    display: none;
+}
+.flyout-wrap .flyout li a {
+    top: 300px;
+    animation: contract 0.35s ease-out 1 backwards;
+}
+.flyout-wrap .flyout.expand li a {
+    top: 10px;
+    animation: expand .6s ease 1 backwards;
+}
+.flyout-wrap .flyout.fade li a.clicked {
+    top: 10px;
+    animation: clicked 0.5s ease-out 1 forwards;
+}
+.flyout-wrap .flyout.fade li a:not(.clicked) {
+    top: 10px;
+    animation: fade 0.5s ease-out 1 forwards;
+}
+.flyout-wrap .flyout.fade li a:not(.clicked) span {
+    opacity: .1;
+    transition: opacity .5s ease;
+}
+.flyout-wrap .flyout li:nth-of-type( 1) a {
+    animation-delay: 0.2s;
+}
+.flyout-wrap .flyout li:nth-of-type( 1) a:not(.clicked) span {
+    animation: spin1-contract .9s ease-out 1 backwards;
+}
+.flyout-wrap .flyout.expand li:nth-of-type( 1) a {
+    animation-delay: 0s;
+}
+.flyout-wrap .flyout.expand li:nth-of-type( 1) a span {
+    transform: rotate(0deg);
+    animation: spin1-expand .6s ease-out 1 backwards;
+}
+.flyout-wrap .flyout.fade li:nth-of-type( 1) a.clicked span {
+    transform: rotate(0deg);
+}
+.flyout-wrap .flyout li:nth-of-type( 2) a {
+    animation-delay: 0.16s;
+}
+.flyout-wrap .flyout li:nth-of-type( 2) a:not(.clicked) span {
+    animation: spin2-contract .9s ease-out 1 backwards;
+}
+.flyout-wrap .flyout.expand li:nth-of-type( 2) a {
+    animation-delay: 0.04s;
+}
+.flyout-wrap .flyout.expand li:nth-of-type( 2) a span {
+    transform: rotate(-21deg);
+    animation: spin2-expand .6s ease-out 1 backwards;
+}
+.flyout-wrap .flyout.fade li:nth-of-type( 2) a.clicked span {
+    transform: rotate(-21deg);
+}
+.flyout-wrap .flyout li:nth-of-type( 3) a {
+    animation-delay: 0.12000000000000001s;
+}
+.flyout-wrap .flyout li:nth-of-type( 3) a:not(.clicked) span {
+    animation: spin3-contract .9s ease-out 1 backwards;
+}
+.flyout-wrap .flyout.expand li:nth-of-type( 3) a {
+    animation-delay: 0.08s;
+}
+.flyout-wrap .flyout.expand li:nth-of-type( 3) a span {
+    transform: rotate(-42deg);
+    animation: spin3-expand .6s ease-out 1 backwards;
+}
+.flyout-wrap .flyout.fade li:nth-of-type( 3) a.clicked span {
+    transform: rotate(-42deg);
+}
+.flyout-wrap .flyout li:nth-of-type( 4) a {
+    animation-delay: 0.08000000000000002s;
+}
+.flyout-wrap .flyout li:nth-of-type( 4) a:not(.clicked) span {
+    animation: spin4-contract .9s ease-out 1 backwards;
+}
+.flyout-wrap .flyout.expand li:nth-of-type( 4) a {
+    animation-delay: 0.12s;
+}
+.flyout-wrap .flyout.expand li:nth-of-type( 4) a span {
+    transform: rotate(-63deg);
+    animation: spin4-expand .6s ease-out 1 backwards;
+}
+.flyout-wrap .flyout.fade li:nth-of-type( 4) a.clicked span {
+    transform: rotate(-63deg);
+}
+.flyout-wrap .flyout li:nth-of-type( 5) a {
+    animation-delay: 0.04000000000000001s;
+}
+.flyout-wrap .flyout li:nth-of-type( 5) a:not(.clicked) span {
+    animation: spin5-contract .9s ease-out 1 backwards;
+}
+.flyout-wrap .flyout.expand li:nth-of-type( 5) a {
+    animation-delay: 0.16s;
+}
+.flyout-wrap .flyout.expand li:nth-of-type( 5) a span {
+    transform: rotate(-84deg);
+    animation: spin5-expand .6s ease-out 1 backwards;
+}
+.flyout-wrap .flyout.fade li:nth-of-type( 5) a.clicked span {
+    transform: rotate(-84deg);
+}
+
+.flyout-wrap .flyout-btn {
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    text-indent: -99999px;
+    border-radius: 50%;
+    outline: none;
+    background-image:url("../images/pan9.png");
+    background-size:50px 50px;
+    opacity: 0.7;
+    /*box-shadow: rgba(0, 0, 0, 0.3) 0 3px 8px 0, rgba(0, 0, 0, 0.2) 0 0 0 1px, inset rgba(0, 0, 0, 0.3) 0 0 0 1px, inset rgba(255, 255, 255, 0.3) 0 1px 0 1px;*/
+}
+.flyout-wrap .flyout-btn span {
+    display: block;
+    width: 45px;
+    height: 45px;
+
+    transition: transform .4s ease;
+}
+.flyout-wrap .flyout-btn.btn-rotate span {
+    transform: rotate(-135deg);
+}
+
+@keyframes expand {
+    0% {
+        top: 150px;
+    }
+    50% {
+        top: -10px;
+    }
+    70% {
+        top: 15px;
+    }
+    100% {
+        top: 10px;
+    }
+}
+@keyframes contract {
+    0% {
+        top: 10px;
+    }
+    40% {
+        top: -25px;
+    }
+    100% {
+        top: 150px;
+    }
+}
+@keyframes clicked {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+        top: 10px;
+    }
+    90% {
+        top: 10px;
+    }
+    99% {
+        transform: scale(6);
+        opacity: 0;
+        top: 150px;
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+@keyframes fade {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+        top: 10px;
+    }
+    90% {
+        opacity: 0;
+        top: 10px;
+    }
+    99% {
+        transform: scale(0);
+        top: 150px;
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes spin1-expand {
+    0% {
+        transform: rotate(0deg);
+    }
+    60% {
+        transform: rotate(-360deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+@keyframes spin2-expand {
+    0% {
+        transform: rotate(-21deg);
+    }
+    60% {
+        transform: rotate(-381deg);
+    }
+    100% {
+        transform: rotate(-381deg);
+    }
+}
+@keyframes spin3-expand {
+    0% {
+        transform: rotate(-42deg);
+    }
+    60% {
+        transform: rotate(-402deg);
+    }
+    100% {
+        transform: rotate(-402deg);
+    }
+}
+@keyframes spin4-expand {
+    0% {
+        transform: rotate(-63deg);
+    }
+    60% {
+        transform: rotate(-423deg);
+    }
+    100% {
+        transform: rotate(-423deg);
+    }
+}
+@keyframes spin5-expand {
+    0% {
+        transform: rotate(-84deg);
+    }
+    60% {
+        transform: rotate(-444deg);
+    }
+    100% {
+        transform: rotate(-444deg);
+    }
+}
+
+@keyframes spin1-contract {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin2-contract {
+    0% {
+        transform: rotate(-21deg);
+    }
+    50% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin3-contract {
+    0% {
+        transform: rotate(-42deg);
+    }
+    50% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin4-contract {
+    0% {
+        transform: rotate(-63deg);
+    }
+    50% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin5-contract {
+    0% {
+        transform: rotate(-84deg);
+    }
+    50% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.cart-label {
+    background-color: #d40000;
+    position: absolute;
+    border-radius: 1em;
+    color: #FFFFFF;
+    display: inline;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    padding: 0.2em 0.6em 0.3em;
+    margin-left:5px;
+    margin-top:5px;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+/*底部导航*/
+.bottom-item{ width: 100%; overflow: hidden; background-color: #ffffff; position: fixed; bottom: 0; left: 0; z-index: 99}
+.bottom-item .bottom-nav{ padding-top: 5px; border-top: 1px solid #e8e8e8; position: relative}
+.bottom-item .bottom-nav a.bottom-link{ float: left; font-size: 12px; text-decoration: none; color: #7a7a7a; text-align: center; display: block; padding-bottom: 5px;}
+.bottom-item .bottom-nav a.bottom-link img{ display: block; width: 24px; height: 24px; margin: 0 auto 5px auto; overflow: hidden; }

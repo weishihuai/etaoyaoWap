@@ -1,0 +1,81 @@
+
+.header .topbar .w{width: 980px;}
+.header .logobar{width: 980px;}
+.header .navbar .w{width: 980px;}
+.logobar form{width: 360px;margin-left: 35px;}
+.logobar form .inp{width: 230px;}
+.logobar form .btn{width: 95px;}
+.category .dd{display: none;}
+.category:hover .dd{display: block;}
+.category .dd .li .con{display: none;}
+
+.topbar .fl strong{font-weight: normal;color: #666;}
+
+.main{width: 980px;margin:0 auto;margin-bottom:100px;clear: both;}
+.main .crumb{margin-bottom: 10px; line-height: 34px;color: #666;box-shadow: 0 1px 1px #e3e3e3; padding-left: 10px;}
+.main .tit{width: 950px;padding: 0 15px; overflow: hidden; margin: 20px 0 10px;}
+.main .tit h3{float: left;font-size: 30px;color: #333;}
+.main .tit a{float: right;font-size: 14px;color: #2362af; margin-top: 15px;}
+.main .tit a:hover{text-decoration: underline;}
+.main .con{width: 960px;padding: 10px 10px 50px 10px; background-color: #f8f8f8;}
+.main .con .li01{padding: 20px;width: 920px; margin-bottom: 10px; line-height: 30px;border: 1px solid #eee; background-color: #fff;overflow: hidden;}
+.main .con .li01 .fl{font-size: 16px;color: #000;}
+.main .con .li01 .fl strong{color: #ed1f23;font-weight: normal;}
+.main .con .li01 .fr{color: #999;}
+.main .con .li02{padding: 20px 10px;margin-bottom: 10px; line-height: 30px;border: 1px solid #eee; background-color: #fff;}
+.main .con .li02 p{height: 40px;margin-bottom: 10px;padding-left: 10px; line-height: 40px;color: #666;background-color: #f8f8f8;}
+.main .con .li02 p.first{background: none;}
+.main .con .li02 p strong{color: #333;}
+.main .con .li02 p a{color: #f60; float: right; margin-right: 22px;}
+.main .con .li02 p i{float: right; margin-right: 28px; font-style: normal;}
+.main .con .li02 p span{float: left;}
+.main .con .li02 p strong{float: left;}
+.main .con .li02 p a:hover{text-decoration: underline;}
+.main .con .li03 {margin-bottom: 10px;}
+.main .con .li03 .top{height: 32px;padding: 0 15px; line-height: 32px;color: #666; border: 1px solid #eee;background-color: #f3f3f3;}
+.main .con .li03 .top .span01{float: left; color: #333;font-weight: bold;}
+.main .con .li03 .top .span03{float: left;}
+.main .con .li03 .top .span02{float:left;margin:0 20px 0 15px;}
+.main .con .li03 .top .span04{float: right; margin-right: 33px;}
+.main .con .li03 .top .span05{float: right; margin-right: 22px; }
+.main .con .li03 .bottom{height: 60px;padding-left: 15px; line-height: 60px;color: #999; border: 1px solid #eee;border-top: 0; background-color: #fff; overflow: hidden;}
+.main .con .li03 .bottom span{float: left;}
+.main .con .li03 .bottom .span01{display: block; width: 180px; float: left; margin-right: 5px; font-size: 16px;color: #000;overflow: hidden;white-space: nowrap; text-overflow: ellipsis;}
+.main .con .li03 .bottom .span02{display: block; width: 400px; overflow: hidden;white-space: nowrap; text-overflow: ellipsis;}
+.main .con .li03 .bottom .span04{display: block; width: 70px;}
+.main .con .li03 .bottom .span03{display: block; width: 100px; overflow: hidden;}
+.main .con .li03 .bottom .span05{display: block; width: 160px; padding-right: 20px; text-align: right;}
+.main .con .li03 .bottom .span05 strong{ font-family: Verdana;font-size: 16px;color: #f60;}
+.main .con .li04{min-height:120px; padding: 10px 20px;margin-bottom: 10px; line-height: 30px;border: 1px solid #eee; background-color: #fff;}
+
+
+
+.evaluate{width: 750px;height: 380px;padding: 5px; margin: 0 auto;margin-bottom: 20px;font-family: Simsun; background-color: #ccc;}
+.evaluate .e-tit{width:730px;height: 35px;padding:0 10px; line-height: 35px;border-bottom: 1px solid #ccc; background: url(../images/tit_bg2.png);overflow: hidden;}
+.evaluate .e-tit h3{float: left; font-size: 14px;font-weight: bold; color: #666;}
+.evaluate .e-tit a{float: right; display: inline-block;width: 25px;height: 25px;margin-top: 5px;text-indent: -9999px; background: url(../images/quit.png) no-repeat; }
+.evaluate .e-con{height: 325px;width: 730px;padding: 10px; clear: both; background-color: #fff;overflow: hidden;}
+.evaluate .e-con .li{width: 730px; line-height: 40px;color: #666; overflow: hidden;}
+.evaluate .e-con .li .label{margin-right: 10px; font-weight: bold;color: #666;}
+.evaluate .e-con .li01 span{float: left;}
+.evaluate .e-con .li01 .star-bg{height: 14px;width: 80px;margin-top: 12px; background: url(../images/star-icon.png) 0 -14px;overflow: hidden;}
+.evaluate .e-con .li01 .star-bg .star{height: 14px;background: url(../images/star-icon.png) ;}
+.evaluate .e-con .li02 .label{float:left;margin-right: 10px;}
+.evaluate .e-con .li02 textarea{width: 580px;height: 160px;margin-top: 10px; padding: 10px; color: #666;}
+.evaluate .e-con .btn{display: block;width: 155px;height: 35px; margin: 30px auto 0; padding-bottom: 35px; background: url(../images/btn05.png) no-repeat;text-indent: -9999px;}
+
+.refund{width: 750px;height: 380px;padding: 5px; margin: 0 auto;margin-bottom: 20px;font-family: Simsun; background-color: #ccc;}
+.refund .e-tit{width:730px;height: 35px;padding:0 10px; line-height: 35px;border-bottom: 1px solid #ccc; background: url(../images/tit_bg2.png);overflow: hidden;}
+.refund .e-tit h3{float: left; font-size: 14px;font-weight: bold; color: #666;}
+.refund .e-tit a{float: right; display: inline-block;width: 25px;height: 25px;margin-top: 5px;text-indent: -9999px; background: url(../images/quit.png) no-repeat; }
+.refund .e-con{height: 325px;width: 730px;padding: 10px;color: #666; clear: both; background-color: #fff;overflow: hidden;}
+.refund .e-con ul{width: 730px;overflow: hidden;}
+.refund .e-con li{float: left;margin-right: 30px;}
+.refund .e-con li .label{margin-right: 10px;font-weight:bold;line-height: 40px;color: #999999;}
+.refund .e-con li .val{color: #333;font-weight: bold;}
+.refund .e-con .sum{margin-right: 70px;float: right;_margin-right: 35px;}
+.refund .e-con .sum .val{font-weight:normal;color: #f33;font-family: Verdana;}
+
+.refund .e-con .reason .label{float:left;margin-right: 10px;font-weight:bold;line-height: 40px;color: #999999;}
+.refund .e-con .reason textarea{width: 580px;height: 160px;margin-top: 10px; padding: 10px; color: #666;}
+.refund .e-con .btn{display: block;width: 155px;height: 35px;margin: 30px auto; background: url(../images/btn06.png) no-repeat;text-indent: -9999px;}

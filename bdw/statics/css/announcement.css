@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+
+#announcement .announcement_Box .lBox .t2 h2,#announcement .announcement_Box .lBox .t2 h1,#announcement .rBox .t1 h2{background: #e82c35}
+
+
+/*------------商城公告-------*/
+#announcement{ width:100%; overflow:hidden; /*background:url(../images/index_line01.gif) repeat-x;*/}
+#announcement .announcement_Box{ width:1190px; overflow:hidden; margin:0 auto;}
+#announcement .announcement_Box .lBox{ float:left; width:230px;/*margin-right:5px;*/padding-right: 10px;}
+#announcement .announcement_Box .lBox .t1{ width:203px; border:1px solid #D63824;background:#fff;}
+#announcement .announcement_Box .lBox .t1 p{ background-position:-260px -35px; padding-left:32px; line-height:21px; height:21px; overflow:hidden; border-top:1px solid #F5ECDA;}
+#announcement .announcement_Box .lBox .t1 p a{ color:#666;}
+#announcement .announcement_Box .lBox .t1 p a:hover{ text-decoration: none;}
+#announcement .announcement_Box .lBox .t1 .item{ height:35px; width:203px;}
+#announcement .announcement_Box .lBox .t1 .item span{ display:block; line-height:33px; padding-left:25px; height:33px; overflow:hidden; width:178px; border-top:1px solid #FDEDB8; background-position:0 -307px; font-size:14px;position:relative; z-index:1; cursor:pointer;}
+#announcement .announcement_Box .lBox .t1 .hover span{ padding-left:23px; line-height:31px; width:165px; height:31px; border:2px solid #D63824; border-right:0; background-position:-205px -307px;z-index:10; cursor:pointer; }
+#announcement .announcement_Box .lBox .t1 .item span a{color:#8C392A; }
+#announcement .announcement_Box .lBox .t1 .item span a:hover{color:#8C392A; text-decoration:none; }
+#announcement .announcement_Box .lBox .t1 .hover span a{color:#8C392A; }
+#announcement .announcement_Box .lBox .t1 .hover span a:hover{ text-decoration:none; }
+#announcement .announcement_Box .lBox .t1 .item .i-m{  position:absolute; display:none;}
+#announcement .announcement_Box .lBox .t1 .hover .i-m{ z-index:9; display:block;}
+#announcement .announcement_Box .lBox .t1 .i-m{margin-top:-35px; margin-left:188px;background:#fff; border:2px solid #D63824; width:547px; overflow:hidden; padding-bottom:20px;}
+#announcement .announcement_Box .lBox .t1 .i-m .l{ float:left; width:315px; overflow:hidden; border-right:1px dashed #999; padding-bottom:3000px; margin-bottom:-3000px;}
+#announcement .announcement_Box .lBox .t1 .i-m .l .fixBox{ width:315px; overflow:hidden; padding-top:20px;}
+#announcement .announcement_Box .lBox .t1 .i-m .l .fixBox label{ float:left; width:82px; padding-right:18px; line-height:20px; text-align:right; font-weight:bold;}
+#announcement .announcement_Box .lBox .t1 .i-m .l .fixBox .linkList{ float:left; width:215px; overflow:hidden; line-height:20px; overflow:hidden; color:#ECECEC;}
+#announcement .announcement_Box .lBox .t1 .i-m .l .fixBox .linkList a{ color:#666;}
+#announcement .announcement_Box .lBox .t1 .i-m .l .fixBox .linkList a:hover{ color:#C81D15;}
+#announcement .announcement_Box .lBox .t1 .i-m .r{ float:left; width:231px; overflow:hidden; background:#FEFBE8;  padding-bottom:3000px; margin-bottom:-3000px;}
+#announcement .announcement_Box .lBox .t1 .i-m .r h1{ height:20px; line-height:20px; padding-left:12px; overflow:hidden; font-weight:bold; padding-top:18px;}
+#announcement .announcement_Box .lBox .t1 .i-m .r .k1{width:231px; overflow:hidden;}
+#announcement .announcement_Box .lBox .t1 .i-m .r .k1 .box{width:231px; overflow:hidden;}
+#announcement .announcement_Box .lBox .t1 .i-m .r .k1 .box ul{ padding-left:10px;}
+#announcement .announcement_Box .lBox .t1 .i-m .r .k1 .box ul li{ float:left; display:inline; padding-top:5px; width:100px; height:50px; overflow:hidden; margin-right:10px;}
+#announcement .announcement_Box .lBox .t1 .i-m .r .k1 .box ul li a{ display:block; width:96px; overflow:hidden; height:46px; border:2px solid #fff;}
+#announcement .announcement_Box .lBox .t1 .i-m .r .k1 .box ul li a.cur,#announcement .announcement_Box .lBox .t1 .i-m .r .k1 .box ul li a:hover{ border:2px solid #D63824;}
+#announcement .announcement_Box .lBox .t1 .i-m .r .k2{width:231px; overflow:hidden;}
+#announcement .announcement_Box .lBox .t1 .i-m .r .k2 .box{width:220px; overflow:hidden; padding-left:11px;}
+#announcement .announcement_Box .lBox .t1 .i-m .r .k2 .box ul li{ height:18px; line-height:18px; padding-top:3px; overflow:hidden;}
+#announcement .announcement_Box .lBox .t1 .i-m .r .k2 .box ul li a{ color:#666;}
+#announcement .announcement_Box .lBox .t1 .i-m .r .k2 .box ul li a:hover{ color:#C81D15;}
+#announcement .announcement_Box .lBox .t2{ width:220px; overflow:hidden; /*margin-top:10px;*/ border-bottom:1px solid #D4D4D4;}
+#announcement .announcement_Box .lBox .t2 h2{ background-position:0 0; height:33px; line-height:33px; overflow:hidden; border:1px solid #e82c35; padding-left:10px; font-size:14px; font-weight:bold; color:#fff; }
+#announcement .announcement_Box .lBox .t2 h1{ padding-left:10px; height:28px; line-height:28px; overflow:hidden;border:1px solid #DED5BA; border-bottom:0; background-position:0 -35px; color:#BC9075;}
+#announcement .announcement_Box .lBox .t2 ul{ padding-left:10px;width:208px; overflow:hidden; border:1px solid #D4D4D4;border-bottom:0; padding-bottom:16px;}
+#announcement .announcement_Box .lBox .t2 .bg{ background:#FFFBED;}
+#announcement .announcement_Box .lBox .t2 ul li{ height:18px; line-height:18px; overflow:hidden; width:193px; padding-top:6px;}
+#announcement .announcement_Box .lBox .t2 ul li a{ color:#333;}
+#announcement .announcement_Box .lBox .t2 ul li a.cur, a:hover{ color:#c33; text-decoration:none;}
+
+#announcement .rBox{ float:left;/* width:960px;*/ overflow:hidden;}
+#announcement .rBox .position{ height:22px; overflow:hidden; padding-top:11px; padding-left:18px;}
+#announcement .rBox .t1{ width:940px; overflow:hidden;float: right;margin-bottom: 60px;}
+#announcement .rBox .t1 h2{ background-position:0 0; height:33px; line-height:33px; overflow:hidden; border:1px solid #e82c35; padding-left:10px; font-size:14px; font-weight:bold; color:#fff; }
+#announcement .rBox .t1 .box{/*width:748px; */overflow:hidden; border:1px solid #D4D4D4; border-top:0; padding:10px 10px 138px;}
+#announcement .rBox .t1 .box h3{ height:69px; overflow:hidden; padding-top:8px;text-align:center;}
+#announcement .rBox .t1 .box h3 .title{ height:38px; overflow:hidden; line-height:30px; font-size:16px; font-weight:bold; }
+#announcement .rBox .t1 .box h3 .from{ height:30px; line-height:30px; overflow:hidden; color:#999; border-top:1px solid #E4E4E4;}
+#announcement .rBox .t1 .box p{  overflow:hidden; line-height:22px; margin:18px 0; text-indent:28px;}
+
+#announcement .announcement_Box .position{  height: 28px;margin: 0 auto 2px;overflow: hidden;padding-left: 2px; padding-top: 12px; width: 1190px;}
+/*------end------商城公告-------*/

@@ -1,0 +1,9 @@
+/*弹出提示框*/
+.layer-tip {position: fixed; bottom: 6rem; left: 50%; z-index: 9999; width: 50%; min-height: 3rem; margin-left: -25%; padding: 0 1rem; font-size: 1.2rem; text-align: center; line-height: 3rem; color: #fff; background-color: rgba(0,0,0,.5);}
+
+/*弹出确认框*/
+.msg-box {position: fixed;bottom: 10rem; left: 50%; width: 80%; height: auto; margin-left: -40%; padding: 1rem; background-color: rgba(0,0,0,.7);z-index: 9999;}
+.msg-box p { margin-bottom: 1.5rem; font-size: 1.2rem; color: #fff;line-height: 1.5rem;text-align: justify;}
+.msg-box .btn {display: inline-block; width: 48%;height: 3rem;line-height: 3rem;text-align: center;font-size: 1.3rem; border-radius: .4rem;}
+.msg-box .btn-l {color: #666; background-color: #fff;}
+.msg-box .btn-r {color: #fff; background-color: #2fbdc8;}

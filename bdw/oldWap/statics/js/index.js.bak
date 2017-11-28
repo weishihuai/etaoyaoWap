@@ -1,0 +1,30 @@
+(function($){
+
+    $(document).ready(function(){
+        $( "#carousel-example-generic" ).on( "swiperight", swiperightHandler );
+        $( "#carousel-example-generic" ).on( "swipeleft", swipeleftHandler );
+
+        /*搜索*/
+
+        $("#search_btn").click(function(){
+            if($("#put").val()==""||$("#put").val()==null||$("#put").val()=="请输入关键字搜索"){
+               /* $("#put").attr("value","请输入关键字搜索");*/
+               /* $("#put").css("color","red");*/
+                return false;
+            }
+            var searchForm=document.getElementById("searchForm");
+            setTimeout(function() {
+                searchForm.submit();
+            },1);
+            return true;
+        })
+    });
+})(jQuery);
+
+function swipeleftHandler( event ){
+    $(".right").click();
+}
+function swiperightHandler( event ){
+    $(".left").click();
+}
+

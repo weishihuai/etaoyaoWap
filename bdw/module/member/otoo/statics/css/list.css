@@ -1,0 +1,79 @@
+
+.category .dd{display: none;}
+.category:hover .dd{display: block;}
+.category .dd .li .con{display: none;}
+
+.main{width: 1190px;margin:0 auto;clear: both;}
+
+.main .s-tit{width: 1188px;border: 1px solid #e6e6e6;background-color: #fbfbfb;}
+.main .s-tit dl{font-family: "Simsun"; line-height: 49px;border-bottom: 1px solid #e5e5e5; overflow: hidden;}
+.main .s-tit dt{float:left;margin: 0 30px 0 10px; font-size:14px;color: #333;font-weight: bold; }
+.main .s-tit dd{float:left;height: 49px; width: 640px;overflow: hidden;}
+.main .s-tit dd a{display: inline-block;margin-right: 25px; color: #666;}
+.main .s-tit dd a.hot{color: #f00;}
+.main .s-tit dd a:hover{text-decoration: underline;}
+
+.main .crumb{line-height: 44px;color: #666;}
+.main .crumb a{margin:0 10px;}
+.main .crumb a i{display: inline-block;width: 10px;height: 5px;margin:0 5px; background: url(../images/list_icon03.png) no-repeat;overflow: hidden;}
+.main .crumb a:hover{text-decoration: underline;}
+.main .crumb a.sel{padding:0 10px;color: #ed1f23; border: 1px dashed #ed1f23;overflow: hidden;}
+.main .crumb a.sel b{display:inline-block;width:10px;height: 10px;margin-left: 13px; background: url(../images/list_icon04.png) no-repeat;}
+.main .crumb a.sel:hover{text-decoration: none;}
+
+.main .filter{width: 1188px;margin-bottom: 20px; border: #e7e7e7;background-color: #f7f7f7;box-shadow: 0 0 2px 2px rgba(204,204,204,.5); overflow: hidden;}
+.main .filter dl{border-bottom: 1px solid #e7e7e7;font-family: Simsun;line-height: 20px; overflow: hidden;}
+.main .filter dt{float:left;width: 100px;color: #666;padding: 10px 0; text-align: right;}
+.main .filter dd{float: left;width: 1058px;padding:10px 15px; background-color: #fff;}
+.main .filter dd .con{float:left;width: 1000px;}
+.main .filter dd .con a{display: inline-block;padding:0 10px;margin-bottom: 10px;transition:color 0ms;}
+.main .filter dd .con a.cur{color: #fff; background-color: #ed1f23;}
+.main .filter dd .con a:hover{color: #fff; background-color: #ed1f23;}
+.main .filter dd .pup{float:left; display: block;width: 50px;height: 22px;text-align: center; color: #999; border: 1px solid #d6d6d6;background-color: #f8f8f8;}
+.main .filter dd .pup:hover{background-color: #d6d6d6;}
+.main .filter dd .more{float:left;float:left; display: block;width: 50px;height: 22px;text-align: center; color: #666; background: url(../images/list_icon03.png) right center no-repeat;}
+.main .filter dd .more:hover{background-color: #f8f8f8;}
+
+.main .left{float: left;width: 950px;margin-bottom: 100px;}
+
+
+.main .left .sort{width:948px; height:38px;line-height: 38px; border:#ddd 1px solid; background:#fafafa; margin-bottom:10px;clear: both; overflow: hidden;}
+.main .left .sort .fl a{float:left; display:block;width: 80px;text-align: center;border-right: 1px solid #ddd; transition:color 0ms;}
+.main .left .sort .fl a.li01-cur{color: #fff; background-color: #2362af;}
+.main .left .sort .fl a:hover{color: #fff; background-color:#2362af;}
+.main .left .sort .fl a.li02{background: url(../images/sort01.png) 55px center no-repeat;}
+.main .left .sort .fl a.li02:hover{color: #fff;background:#2362af url(../images/sort02.png) 55px center no-repeat;}
+.main .left .sort .fl a.li03{background: url(../images/sort01.png) 55px center no-repeat;}
+.main .left .sort .fl a.li03:hover{color: #fff;background:#2362af url(../images/sort02.png) 55px center no-repeat;}
+.main .left .sort .fl a.li04{background: url(../images/sort03.png) 55px center no-repeat;}
+.main .left .sort .fl a.li04:hover{color: #fff;background:#2362af url(../images/sort04.png) 55px center no-repeat;}
+.main .left .sort .fr{margin-right: 10px;}
+.main .left .sort .fr span{margin-right:10px;font-family: Arial;font-size: 14px;color: #333;}
+.main .left .sort .fr span em{color: #ed1f23;font-style: normal;}
+.main .left .sort .fr .pre{position:relative;top: 6px;left: 0; display: inline-block;width:26px;height: 27px;*margin-right: 10px; background: url(../images/list_icon06.png) no-repeat;}
+.main .left .sort .fr .pre:hover{background: url(../images/list_icon08.png) no-repeat;}
+.main .left .sort .fr .next{position:relative;top: 6px;left: 0; display: inline-block;width:26px;height: 27px;background: url(../images/list_icon07.png) no-repeat;}
+.main .left .sort .fr .next:hover{background: url(../images/list_icon09.png) no-repeat;}
+
+.main .left .pros{width: 948px;clear: both;overflow: hidden;}
+.main .left .pros ul{overflow: hidden;}
+.main .left .pros li{float: left;width: 296px;height: 274px;padding: 20px 9px;border: 1px solid #eee;}
+.main .left .pros li .p-img{display: block;width: 300px;height: 200px;overflow: hidden;}
+.main .left .pros li .p-img img{display: block;width: 300px;height: 200px;overflow: hidden;}
+.main .left .pros li .p-name{display: block;height: 18px;margin: 10px 0 20px 0; line-height: 18px; color: #333;overflow: hidden;}
+.main .left .pros li .p-name:hover{text-decoration: underline;}
+.main .left .pros li .c-price{font-size:30px;color: #f33;font-family: Arial;}
+.main .left .pros li .c-price i{font-style: normal;font-family: "Microsoft YaHei";font-size: 24px;}
+.main .left .pros li .o-price{font-size:14px;color: #666;font-family: "Microsoft YaHei";}
+
+.main .right{float: right;width: 224px;border: 1px solid #e5e5e5;overflow: hidden;}
+.main .right h3{padding-left: 15px; height: 60px;line-height: 60px;font-size: 18px;color: #333;border-bottom: 1px solid #e5e5e5; overflow: hidden;}
+.main .right li{height: 80px; padding: 15px 10px;border-bottom: 1px solid #e5e5e5;overflow: hidden;}
+.main .right li .p-img{float: left;display: block; width: 80px;height: 80px;margin-right: 10px; overflow: hidden;}
+.main .right li .p-img img{display: block; width: 80px;height: 80px;overflow: hidden;}
+.main .right li .p-info{float: left;width: 114px;line-height: 20px;overflow: hidden;}
+.main .right li .p-name{display: block; height:20px; color: #333;overflow: hidden;}
+.main .right li .p-name:hover{text-decoration: underline;}
+.main .right li p{height: 40px;color: #999; overflow: hidden;}
+.main .right li .c-price{color: #f00;font-family: Verdana;}
+.main .right li .o-price{color: #999;font-family: Verdana;}

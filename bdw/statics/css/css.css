@@ -1,0 +1,77 @@
+@CHARSET "UTF-8";
+
+.ul_a {
+	list-style: none;
+}
+
+.ul_a li {
+	float: left;
+	width: 320px;
+	height: 40px;
+}
+
+.ul_b {
+	list-style: none;
+}
+
+.ul_b li {
+	float: left;
+	width: 320px;
+	height: 40px;
+}
+.tab_2{ display:none; background:#ffffff; padding:20px 0px;}
+.tab_2 ul li{ width:400px; height:25px; float:left; line-height:25px;}
+.tab_2 .span_1{ width:100px; float:left;}
+.tab_2 .span_2{ width:290px; float:left;}
+.tab_2 .li_1{ background:#f2f9fc;}
+.tab_2 .ser{ width:45px; height:25px; background:#fff; border:#ccc 1px solid; border-radius:5px;}
+.tab_2 .ipt{ width:200px; height:25px; background:#fff; border:#ccc 1px solid; border-radius:5px;}
+.tab_3{ display:none; background:#ffffff;width:800px; height:auto; margin:0 auto; padding:20px 0px;}
+/*退款*/
+.form_1 {
+	margin: 0px auto;
+	padding-top: 20px;
+	width: 300px
+}
+
+.title_font {
+	padding-top: 15px;
+	font-size:20px;color:#08c;
+	
+}
+
+.btn {
+	margin-top: 20px;
+	margin-left: 20px
+}
+
+.col-xs-10 {
+width: 83.33333333%;
+}
+.form-control {
+display: block;
+
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.42857143;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+label {
+display: inline-block;
+max-width: 100%;
+margin-bottom: 5px;
+font-weight: bold;float: left;width: 50px;
+}
+.form-group {
+	overflow: hidden;margin-bottom: 15px;line-height: 38px;
+}
+.sub{ width:58px; height:34px; background:#fff; border:#ccc 1px solid; border-radius:5px; margin-left:50px;}

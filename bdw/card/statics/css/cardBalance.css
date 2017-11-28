@@ -1,0 +1,41 @@
+
+.header-mc .logo{margin-right: 40px;}
+.header-mc .hd-title{height: 30px; line-height: 30px; padding-left: 30px; border-left: 2px solid #e8e8e8; color: #333333; font-size: 24px; float: left; margin-top: 36px; }
+
+/*主体*/
+.main-bg{width: 100%; min-width: 1190px; padding:20px 0 50px; background-color: #f0f0f0; }
+.main{width: 1190px; margin: 0 auto; background-color: #fafafa; }
+.main .mt{height: 39px; line-height: 39px; padding-left: 30px; color: #2d415a; font-size: 16px; border-bottom: 2px solid #e8e8e8;}
+.main .mb{padding: 35px 53px 40px 0; text-align: right;}
+.main .mb .amount{display: inline-block; width: 600px; height: 37px; border-bottom: 1px solid #e8e8e8; color: #333333; font-size: 14px;}
+.main .mb .amount i{padding-left: 20px;}
+.main .mb p{color: #f03c28; margin:25px 0 18px; font-size: 28px;}
+.main .mb p i{font-size: 18px;}
+.main .mb p em{color: #333333; font-size: 14px;}
+.main .mb .mb-btn{display: inline-block; width: 220px; height: 50px; margin-left: 20px; text-align: center; line-height: 50px; background-color: #f03c28; font-size: 20px; color: #fff; }
+.main .mb span{color: #333333; font-size: 14px;}
+
+.main .list-cont{background-color: #fff; border-bottom: 1px solid #eeeeee; }
+.main .list-cont .th{height: 38px; border-bottom: 1px solid #e8e8e8; line-height: 38px; color: #666666; }
+.main .list-cont .th span{float: right; }
+.main .list-cont .td{padding: 20px 0 23px 30px; overflow: hidden; }
+.main .list-cont .td .pic{width: 120px; height: 75px; float: left; margin-right: 27px; overflow: hidden;}
+.main .list-cont .td .pic img{width: 120px; height: 75px;}
+.main .list-cont .td .info{width: 350px; float: left;}
+.main .list-cont .td .title{max-width: 350px; max-height: 48px; line-height: 24px; color: #2d415a; font-size: 18px; overflow: hidden;}
+/*.main .list-cont .td .title:hover{text-decoration: underline;}*/
+.main .list-cont .td .m1{width: 100px; text-align: center; color: #666666; font-size: 14px; float: left; margin-right: 40px; }
+.main .list-cont .td .price{width: 180px; float: left; text-align: center; color: #f03c28; font-size: 18px; }
+.main .list-cont .td .price i{font-size: 14px;}
+
+.main .pay-cont{padding: 36px 0 30px 30px; background-color: #fff;}
+.main .pay-cont .pay-top{width: 990px; height: 37px; line-height: 21px; border-bottom: 1px dashed #eaeaea; color: #666666;}
+.main .pay-cont .pay-top span{display: inline-block; margin-right: 90px;}
+.main .pay-cont .pay-top i{color: #333333; font-size: 16px;}
+.main .pay-cont .pay-bot{padding-top: 30px;}
+.main .pay-cont .pay-bot ul{width: 1010px; overflow: hidden;}
+.main .pay-cont .pay-bot li{width: 80px; height: 80px; border: 1px solid #e8e8e8; background-color: #fff; float: left; margin: 0 20px 20px 0; overflow: hidden;}
+.main .pay-cont .pay-bot li img{width: 80px; height: 80px;}
+.main .pay-cont .pay-bot .cur{border: 1px solid #f03c28; box-shadow: 0 2px 6px rgba(0,0,0,0.1);}
+
+

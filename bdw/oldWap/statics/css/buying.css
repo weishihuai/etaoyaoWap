@@ -1,0 +1,61 @@
+/* CSS Document */
+
+/*抢购页面*/
+.t-nav{height:44px; border-bottom:1px solid #2aa6d0;background-color:#f8f8f8;}
+.t-nav a{display:block; height:42px; line-height:42px; text-align:center; font-family:黑体-简; color:#333; font-size:16px;border-left:1px solid #d1d1d1;}
+.t-nav .dropdown-menu a{text-align:left;}
+.t-nav .cur{position:relative;}
+.t-nav .cur a{ color:#e43a43; background-color:#fff;}
+
+.container{background:url(../images/buying-bg.jpg) repeat; background-position: center 0; padding-top:13px;}
+.container .g-box{border:1px solid #cccccc; background-color:#fff; height:148px; margin-bottom:18px;}
+.container .g-box .g-lf{ padding:55px 0 8px 5px; position:relative;}
+.container .g-box .g-lf .g-title{ height:43px; overflow:hidden; margin-bottom:15px;}
+.container .g-box .g-lf span{color:#999999; font-size:10px; line-height:16px;}
+.container .g-box .g-lf .g-time p{font-family:"黑体-简";color:#999; overflow:hidden; text-align:center;}
+.container .g-box .g-lf .g-time i{display:block; float:left; width:12px; height:16px; background:url(../images/buying-bg2.jpg) no-repeat; text-align:center; line-height:16px;font-family:"黑体-简"; font-size:12px; color:#fff; margin-left:1px;}
+.container .g-box .g-lf .g-time em{font-family:"黑体-简"; font-size:12px; color:#333; float:left; display:block; width:4px; text-align:left; height:18px; overflow:hidden;}
+.container .g-box .g-lf .zk{width:138px; height:32px; background:url(../images/buying-bg.png) no-repeat; position:absolute; left:-4px; top:17px; text-align:center; line-height:30px; color:#fff;}
+.container .g-box .g-lf .zk i{font-size:16px;}
+.container .g-box .g-lf .zk i span{font-family:"Verdana"; font-size:16px; color:#fff;}
+.container .g-box .g-rf{ padding-top:8px;}
+
+/*end 抢购页面*/
+
+
+
+/*购物车无商品*/
+
+/*end 购物车无商品*/
+
+#list_rows {
+    border-bottom: 1px dashed #808080;
+    margin: 10px 0;
+    padding-bottom: 10px;
+}
+.list_title {
+    font-size: 13px;
+    height: 35px;
+    overflow: hidden;
+}
+.list_rice em {
+    color: #CC0000;
+    font-style: normal;
+    font-weight: bold;
+}
+.volume {
+    color: #999999;
+    float: left;
+    font-size: 12px;
+    font-weight: normal;
+    height: 19px;
+    line-height: 19px;
+    padding-right: 3px;
+    text-align: center;
+}
+
+
+
+
+
+

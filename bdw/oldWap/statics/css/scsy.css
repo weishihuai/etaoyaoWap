@@ -1,0 +1,38 @@
+body{background-color:#f7f7f7;}
+.scsy{width:100%; }
+
+.scsy .pic .banner_layer{bottom:0; margin-bottom:0;}
+.scsy .pic .banner_turn{background:none;}
+.scsy .pic .lb{margin:0 auto; width:320px; height:120px;}
+.scsy .logo{margin:10px auto 0; background-color:#f8f8f8;}
+/*.scsy .logo .img2{padding:2px 5px;}*/
+.scsy .logo .pos{position:absolute; left:1px; top:1px; width:35px; height:33px;}
+.scsy .logo .pos .n_btn{border:none; width:30px; }
+.scsy .logo .pos .n_btn span{color:#9fa0a4;}
+.scsy .logo .xian{ display:inline-block; width:1px; height:33px; box-shadow:0 0 5px #CCC; background-color:#fff;}
+.scsy .logo .n_text{text-indent: 19px;border-radius:3px;}
+
+.scsy .border {height:5px; margin-top:5px;}
+.scsy .border .bg{background:url(../images/bg2.jpg) repeat-x;height:5px; width:100%;}
+.scsy .fenl {border-bottom:1px solid #c3c3c3;height: 70px;}
+.scsy .fenl .icon{ margin:5px auto; width:35px; height:35px;}
+.scsy .fenl .title{margin:0 auto 5px;width:50px; height:18px;}
+
+.p1{width:100%; margin-top:5px; padding-bottom:8px; border-bottom: 1px solid #C3C3C3; background: #fff;}
+.p1 .pic{margin:0 auto; background:#ff6600; height:35px; line-height:35px; color:#fff; text-align:center;overflow: hidden; font-size: 12px;}
+.p1 .new{background:#fff;  margin:0 5px;}
+.p1 .new .gx{ background:url(../images/bg3.png) repeat-x;height:30px; width:100%; color: #333; line-height: 30px; text-align: center;}
+.p1 .new .gx i{ padding:5px 10px; line-height: 30px; text-align: center; background:#fff; font-size: 12px; }
+.p1 .goods {background:#fff;}
+.p1 .goods .icon{width:90px; height:100px; margin:0 auto;}
+.p1 .goods .title{ width:100px; height:32px; overflow:hidden; text-align:left;margin:0 auto; padding-left:5px; line-height: 16px;}
+.p1 .goods .pri{color:#ff0000; width:100px; height:18px; overflow:hidden;margin:0 auto;text-align:left;padding-left: 5px;}
+
+.p2{width:100%; background-color:#fff; border-top:2px solid #fff; padding-bottom:5px;border-bottom: 1px solid #C3C3C3; margin-top: 5px;}
+.p2 .pic{margin:0 auto; background:#33cccc; height:35px; line-height:35px; color:#fff; text-align:center;overflow: hidden; font-size: 12px;}
+.p2 .pic1{margin:5px auto;}
+.p2 .pic2{text-align:right; padding-right:3px;}
+.p2 .pic3{padding-left:2px;}
+
+.p3{background-color: #fff;}
+.p3 .pic{margin:0 auto; background:#6ac116; height:35px; line-height:35px; color:#fff; text-align:center; overflow: hidden; font-size: 12px;}

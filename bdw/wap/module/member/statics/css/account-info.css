@@ -1,0 +1,27 @@
+
+.rem-get { width: 4.6875rem; height: 1.5625rem; line-height: 1.5625rem; text-align: center; border-radius: 0.09375rem; color: #fff; position: fixed; left: 50%; top: 7.5rem; margin-left: -2.34375rem; font-size: 13px; background-color: rgba(0, 0, 0, 0.6); z-index: 21; }
+[data-dpr="2"] .rem-get { font-size: 26px; }
+[data-dpr="3"] .rem-get { font-size: 39px; }
+
+.account-info-main {padding: 1.40625rem 0 0 0.390625rem; background: #fff; font-family: PingFangSC-Regular; font-size: 15px;}
+[data-dpr="2"] .account-info-main {font-size: 30px;}
+[data-dpr="3"] .account-info-main {font-size: 45px;}
+.account-info-main .item {height: 1.65625rem; padding-right: 0.390625rem; color: #0C1828; border-bottom: 1px solid #eee; line-height: 1.65625rem; position: relative;}
+.account-info-main .item span {float: right; font-size: 14px; color: #959FA7;}
+[data-dpr="2"] .account-info-main .item span {font-size: 28px;}
+[data-dpr="3"] .account-info-main .item span {font-size: 42px;}
+.account-info-main .item-logo {height: 2.34375rem; line-height: 2.34375rem; }
+.account-info-main .item-logo img {width: 1.5625rem; height: 1.5625rem; position: absolute; right: 0.9375rem; top: 50%; margin-top: -0.78125rem;}
+.account-info-main .item-logo, .account-info-main .item-age, .account-info-main .item-data-birth {padding-right: 0.9375rem;}
+.account-info-main .item-logo::before, .account-info-main .item-age::before, .account-info-main .item-data-birth::before {display: block; content: ''; width: 0.1875rem; height: 100%; background: url(../images/youjiantou.png) no-repeat center center / 0.1875rem 0.359375rem; position: absolute; top: 0; right: 0.390625rem;}
+
+.account-info-layer {display: none; position: fixed; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0,4,14,0.50); z-index: 104;}
+.account-info-layer .account-info-box { width: 100%; background: #fff; position: absolute; bottom: 0; left: 0;}
+.account-info-layer .account-info-box .dt {height: 1.5625rem; font-size: 16px; line-height: 1.5625rem; background: #EDEDED; text-align: center; position: relative; color: #333333;}
+[data-dpr="2"] .account-info-layer .account-info-box .dt {font-size: 32px;}
+[data-dpr="3"] .account-info-layer .account-info-box .dt {font-size: 48px;}
+.account-info-layer .account-info-box .dt a {display: block; width: 1.71875rem; height: 100%; font-size: 15px; position: absolute; left: 0; top: 0; color: #FF6B00;}
+[data-dpr="2"] .account-info-layer .account-info-box .dt a {font-size: 30px;}
+[data-dpr="3"] .account-info-layer .account-info-box .dt a {font-size: 45px;}
+.account-info-layer .account-info-box .dt .confirm-btn {left: auto; right: 0;}
+.account-info-layer .account-info-box .dd {height: 6.09375rem;}

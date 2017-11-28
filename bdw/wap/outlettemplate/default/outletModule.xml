@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageModules>
+    <!--首页-->
+    <pageModule frontendNm="门店首页_顶部_轮换广告" innerCode="outlet_top_route" pageModuleTypeCode="0" pageNm="门店首页"/>
+    <pageModule frontendNm="门店首页_服务_保障" innerCode="outlet_service_guarantee" pageModuleTypeCode="2" pageNm="门店首页"/>
+    <pageModule frontendNm="门店首页_主题_链接" innerCode="outlet_topic_link" pageModuleTypeCode="2" pageNm="门店首页"/>
+    <pageModule frontendNm="门店首页_中部_广告位" innerCode="outlet_center_adv" pageModuleTypeCode="0" pageNm="门店首页"/>
+    <pageModule frontendNm="门店首页_底部_商品推荐" innerCode="outlet_bottom_product_recommend" pageModuleTypeCode="1" pageNm="门店首页"/>
+
+</pageModules>

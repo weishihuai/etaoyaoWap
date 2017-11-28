@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+
+
+#Other .t_Menu .r_menu ul li a,#Other .h-D .item .r .btn a,#Other .t_Menu2 .l_menu ul li a,#Other .t_Menu2 .l_menu ul li a,#Other .z-q .r h1{ background: url(../images/other_BG.png) no-repeat;}
+
+
+
+
+#header .menu_Area .nav .l_btn{ height:39px;}
+#header .menu_Area{ height:49px;}
+
+
+
+
+#Other{ width:980px; overflow:hidden; margin:10px auto 0;}
+#Other .t_Menu{ background:url(../images/member_Other_bg2.gif) no-repeat; height:45px; overflow:hidden;}
+#Other .t_Menu .f{ float:left; padding-left:132px; line-height:35px; width:320px; overflow:hidden; color:#c33;}
+#Other .t_Menu .r_menu{ float:right; width:336px; overflow:hidden;}
+#Other .t_Menu .r_menu ul li{ float:left; display:inline; width:112px; overflow:hidden; height:44px; padding-top:1px;}
+#Other .t_Menu .r_menu ul li a{ display:block; width:112px; height:34px; text-align:center; padding-top:10px; overflow:hidden; background-position:0 -89px; color:#666;}
+#Other .t_Menu .r_menu ul li img{ vertical-align:middle;}
+#Other .t_Menu .r_menu ul li a:hover,#Other .t_Menu .r_menu ul li a.cur{ background-position:0 -43px; text-decoration:none; font-weight:bold;}
+#Other .h-D{ width:980px; overflow:hidden;}
+#Other .h-D .item{ width:980px; overflow:hidden; border:1px solid #E7E7E7; margin-top:6px;}
+#Other .h-D .item .l{ float:left; width:631px; padding:14px 17px 0;}
+#Other .h-D .item .r{ float:left; border-left:1px solid #E7E7E7; width:312px; overflow:hidden; background:#F5F5F5;}
+#Other .h-D .item .r h1{ height:89px; overflow:hidden; line-height:89px; padding-left:15px; border-bottom:2px solid #E7E7E7; font-size:22px; font-weight:bold; font-family:"微软雅黑";}
+#Other .h-D .item .r .fixBox{ width:312px; overflow:hidden; line-height:20px; padding-top:8px;}
+#Other .h-D .item .r .fixBox label{ float:left; width:72px; overflow:hidden; text-align:right;}
+#Other .h-D .item .r .fixBox .text{ float:left; width:230px; overflow:hidden;}
+#Other .h-D .item .r .btn{ height:41px; overflow:hidden; padding-top:28px; padding-bottom:15px;}
+#Other .h-D .item .r .btn a{ background-position:0 0; display:block; width:161px; height:41px; overflow:hidden; margin:0 auto;}
+
+
+/*-------------------------------------------------*/
+#Other .t_Menu2{ background:url(../images/member_Other_bg2.gif) no-repeat; height:45px; overflow:hidden;padding-left: 1px;}
+#Other .t_Menu2 .l_menu{ float: left; width:350px; overflow:hidden;}
+#Other .t_Menu2 .l_menu ul li{ float:left; display:inline; width:150px; overflow:hidden; height:44px; padding-top:1px;}
+#Other .t_Menu2 .l_menu ul li a{ display:block; width:150px; height:34px; text-align:center; padding-top:10px; overflow:hidden; background-position:-114px -89px; color:#666;}
+#Other .t_Menu2 .l_menu ul li img{ vertical-align:middle;}
+#Other .t_Menu2 .l_menu ul li a:hover,#Other .t_Menu2 .l_menu ul li a.cur{ background-position:-114px -43px; text-decoration:none; font-weight:bold;}
+#Other .linkList{ line-height:26px; overflow:hidden; padding-top:12px; color:#ccc; padding-left:15px;}
+#Other .z-q{ width:970px; overflow:hidden; background:#F2F2F2; padding:5px;}
+#Other .z-q .l{ float:left; width:740px; overflow: hidden; margin-right:4px;}
+#Other .z-q .l .each{width:738px; overflow: hidden;border:1px solid #E7E7E7; background:#fff url(../images/other_line02.gif) repeat-y; padding-bottom:15px; margin-bottom:10px; cursor:pointer; }
+#Other .z-q .l .each .fixBox{ width:738px; overflow:hidden; padding-top:18px;}
+#Other .z-q .l .each .fixBox label a{ float:left; width:110px; padding-right:20px; text-align:right; font-weight:bold; color:#36c; line-height:18px;}
+#Other .z-q .l .each .fixBox .text{ float:left; width:600px; overflow:hidden; line-height:18px;}
+#Other .z-q .l .each:hover{background:#F8F8F8 url(../images/other_line03.gif) repeat-y;}
+#Other .z-q .l .cur{background:#F8F8F8 url(../images/other_line03.gif) repeat-y;}
+#Other .z-q .l .hover{background:#F8F8F8 url(../images/other_line03.gif) repeat-y;}
+
+#Other .z-q .l .each dl{ width:738px; overflow:hidden; }
+#Other .z-q .l .each dl dt{ height:36px; overflow: hidden; line-height:36px; padding-top:18px;padding-left:48px; font-size:14px; font-weight:bold;}
+#Other .z-q .l .each dl dd{ display:inline; float:left; width:108px; overflow:hidden; text-align:center; margin-left:35px; padding-bottom:16px;height: 90px}
+
+
+/*-------------------------------------------------*/
+#Other .z-q .r{ float:left; width:226px; overflow:hidden; background:#fff;}
+#Other .z-q .r h1{ background-position:0 -135px; width:174px; height:49px; overflow:hidden; line-height:48px; font-size:14px; font-weight:bold; padding-left:52px;}
+#Other .z-q .r .box{ width:226px; overflow:hidden;}
+#Other .z-q .r .box table{ border-top:1px solid #E7E7E7; border-left:1px solid #E7E7E7;}
+#Other .z-q .r .box table tr td{ border-bottom:1px solid #E7E7E7; border-right:1px solid #E7E7E7; padding:0; line-height:33px;}
+#Other .z-q .r .box table .bg td{ background:#F2F2F2;}
+#Other .z-q .r .box table tr .td1{ width:40px; text-align:center; font-weight:bold; font-family:Arial;}
+#Other .z-q .r .box table tr .td2{ width:90px; padding-left:10px; color:#666;}
+#Other .z-q .r .box table tr .td3{ width:76px; padding-left:6px; color:#666;}
+#Other .z-q .r .box table tr .td1 span{ color:#1f78dc;}
+#Other .z-q .r .box table tr .td3 span{ color:#CEAA00;}
+#Other .z-q .r .box table .hover td{ background:url(../images/other_line01.gif) repeat-x;}
+#Other .z-q .r .box table .hover .td1{ border-right:0;color:#fff;}
+#Other .z-q .r .box table .hover .td2{ border-right:0; color:#fff;}
+#Other .z-q .r .box table .hover .td1 span{ color:#fff;}
+#Other .z-q .r .box table .hover .td3{ color:#fff;}
+#Other .z-q .r .box table .hover .td3 span{ color:#fff;}
+/*修改*/
+/*#praise .m2 .box ul li .hp_Ico{ background:url(../images/detail_hp.png) no-repeat;}
+#praise .m2 .box ul li .hp_Ico{_ background-image: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/detail_hp.png');
+}*/

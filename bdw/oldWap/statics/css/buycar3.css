@@ -1,0 +1,111 @@
+/* CSS Document */
+
+/*结算页面-提交订单*/
+.tips{height:50px; background-color:#fff7ea; line-height:50px; text-align:center;border-bottom:1px solid #cccccc; border-top:1px solid #cccccc;}
+.tips a{color:#ff0000; margin-left:5px;}
+.tips span{color:#ff0000; font-size:18px; font-family:Verdana; margin-right:3px;}
+
+.pay-main{ background-color:#f9f9f9; margin-top:18px; margin-bottom:18px; padding:0 12px; background-color:#fff; border-bottom:1px solid #cccccc; border-top:1px solid #cccccc;}
+.orders{ border-bottom:1px dashed #dadada; line-height:48px;overflow: hidden;}
+.orders .od-dd{ color:#666;}
+.orders .od-num{ color:#333;}
+.orders .od-check a{ color:#ff0000; font-weight:bold;}
+.orders .od-pri{color:#ff0000; font-family:Verdana;}
+.orders .payment{ color:#333; font-weight:bold;}
+.orders .od-bdd{ color:#666; font-size:16px;}
+.orders .od-bpri{color:#ff0000; font-size:16px; font-family:Verdana;}
+.orders .od-pay a{display:block; width:108px; height:38px; margin-left:15px; line-height:38px; font-size:16px; font-weight:bold; color:#fff; text-align:center; background-color:#ff3333; margin-top:5px; border-radius:4px;}
+.lh36{line-height:34px; padding:5px 0;}
+
+.tips2{padding:10px 0 5px;}
+.tips2 p{background-color:#fff; font-size:14px; border:none; color:#999999; line-height:21px; margin-bottom:10px;}
+.tips2 i{color:#ff0000;}
+/*end*/
+
+
+/*结算页面-提交订单 - 到付*/
+.orders .delivery{ color:#333; font-weight:bold;}
+.orders .od-bpri2{color:#ff0000; font-size:16px; font-family:Verdana;}
+.orders .od-bpri2 i{color:#999; font-weight:bold; font-family:"黑体-简";}
+/*end*/
+
+
+/*收银台页面*/
+.ckout-main{ margin-top:18px;}
+.ck-title{padding:0 15px; background: url("../images/wsc_byc_bg01.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0); border-bottom: 1px solid #ccc; border-top: 1px solid #ccc; height: 41px;font-size: 16px; line-height: 41px;}
+.ck-title i{color:#ff0000; padding:0 5px;}
+.ckout-main .ck-title a{background: url("../images/pay-op-icon02.png") no-repeat scroll 80% center rgba(0, 0, 0, 0); display: inline-block;height: 41px; width:50px; float:right;}
+.ckout-main .ck-title a.cur{background: url("../images/pay-op-icon.png") no-repeat scroll 80% center rgba(0, 0, 0, 0); display: inline-block;height: 41px; width:50px; float:right;}
+.orders-main{padding:0 14px; background-color:#fff;  border-bottom:1px solid #cccccc;}
+.order-one{ border-bottom:1px dashed #dadada; color:#666; line-height:23px; padding:15px 0;}
+.order-one i{color:#0091ff;}
+.form{color:#333;}
+.last{border-bottom:none;}
+
+.acc-pay{ margin-top:18px; height:48px; background-color:#fff; border-top:1px solid #ccc; border-bottom:1px solid #ccc; padding:0 13px; line-height:48px;}
+.acc-pay a{display:inline-block; width:20px; height:20px; background:url(../images/wsc_byc_icon01.png) no-repeat; float:left; margin-top:13px;}
+.acc-pay a.cur2{background:url(../images/wsc_byc_icon02.png) no-repeat;}
+.acc-pay span{ font-size:16px; color:#333; font-weight:bold; float:left; margin-left:5px;}
+.acc-pay i{color:#999; float:left; margin-left:5px;}
+.acc-pay em{color:#ff0000; float:left; font-family:Verdana;}
+.ano-pay{line-height:21px; color:#999; padding:10px 15px 10px 25px; background:url(../images/addr-03.png) no-repeat; background-position:13px 17px;}
+.ano-pay em{font-family:Verdana;}
+
+.payment{ height:48px; line-height:48px; border-top:1px solid #ccc; border-bottom:1px solid #ccc;  background:url(../images/wsc_fl_icon02.png) no-repeat; background-position:94% center; background-color:#fff; color:#999; padding:0 13px;}
+.payment i{font-size:16px; color:#333; font-weight:bold;}
+.submit{margin-top:20px; background-color:#fff; border-top:1px solid #ccc; border-bottom:1px solid #ccc; text-align:center; padding:10px 0;}
+.submit em{ color:#333; font-size:16px; margin:0 13px;}
+.submit em i{color:#ff0000; font-family:Verdana;}
+.submit a{display:inline-block; width:108px; height:38px; line-height:38px; text-align:center; color:#fff; background-color:#ff3333; font-size:16px; border-radius:4px;}
+/*end */
+
+/*收银台页面-支付方式*/
+.online-banking{ margin:18px 0 23px 0; border-top:1px solid #ccc; border-bottom:1px solid #ccc; background-color:#fff; padding:0 15px;}
+.online-banking li{border-bottom:1px dashed #dadada; line-height:21px; font-size:15px; color:#333; padding:12px 0 12px 35px; background:url(../images/wsc_byc_icon05.png) no-repeat; background-position:4px center;}
+.online-banking .cur{background:url(../images/wsc_byc_icon06.png) no-repeat; background-position:4px center;}
+.online-banking .last{border-bottom:none;}
+/*end*/
+
+/*支付成功*/
+.successful-pay{ height:275px; background:url(../images/recharge01.png) no-repeat; background-position:center 25px; padding-top:140px;}
+.successful-pay .ye{ text-align:center; font-size:16px; color:#999; margin-bottom:15px;}
+.successful-pay .btn{ text-align:center;}
+.successful-pay .btn a.user{display:inline-block; width:108px; height:36px; line-height:36px; border-radius:3px; background-color:#fff;border:1px solid #cccccc; color:#666; text-align:center; font-size:16px; margin-right:5px;}
+.successful-pay .btn a.return{display:inline-block; width:108px; height:36px; line-height:36px; border-radius:3px; font-weight:bold; background-color:#ff3333; border:1px solid #ff3300; color:#fff; text-align:center; font-size:16px;}
+.successful-pay .cg-pass{ text-align:center; font-size:16px; color:#999;padding:10px 0;}
+/*end*
+
+/*订单详情*/
+.o-del{padding:10px 13px; line-height:23px;}
+.o-del i{color:#ff0000; font-weight:bold;}
+.o-del em{color:#ff0000; font-family:Verdana;}
+.o-btn{ padding:0 13px; text-align:center;}
+.o-btn .del{display:inline-block; width:138px; height:38px; border:1px solid #cccccc; border-radius:4px; text-align:center; line-height:38px; font-size:16px; color:#333; margin-right:10px;}
+.o-btn .go-pay{display:inline-block; width:138px; height:38px; border:1px solid #ff3333; border-radius:4px; text-align:center; line-height:38px; font-size:16px; color:#fff; background-color:#ff3333;}
+
+.ord{margin-top:18px;}
+.ord .o-title{padding:14px 15px; background:url(../images/addr-bg01.png) repeat-x; border-top:1px solid #ccc; border-bottom:1px solid #ccc;}
+.ord .o-title a{padding-right:20px; background:url(../images/pay-op-icon02.png) no-repeat; background-position:100% center; float:right;}
+.ord .o-title a.cur{background:url(../images/pay-op-icon.png) no-repeat; background-position:100% center;}
+.o-goods{padding:14px 9px; border-bottom:1px solid #cccccc;}
+.o-goods .o-top{padding-left:10px;}
+.o-goods .o-pri{padding-left:10px; color:#ff0000; font-family:Verdana;}
+.o-goods .o-nun{padding-right:15px; text-align:right;}
+
+.o-all{ padding:5px 20px; text-align:right; color:#666;}
+.o-all i{font-family:Verdana; color:#ff0000;}
+.o-all em{font-family:Verdana;}
+
+.ano-od{background-color:#fff; border-top:1px solid #ccc; color:#666; margin-bottom:30px;}
+.ano-od span{font-family:Verdana;}
+.ano-od i{color:#333; font-weight:bold; margin-right:20px;}
+.ano-od em{color:#333; font-weight:bold; }
+.ano-od .row{border-bottom:1px solid #ccc; padding:10px 0;}
+.ano-od .tlr{text-align:right;}
+.ano-od .pd10{padding-left:10px; color:#333;}
+.ano-od .addr{margin-top:5px;}
+
+/*end*
+
+
+

@@ -1,0 +1,60 @@
+/* CSS Document */
+body{font-size:12px; font-family:tahoma,arial,"Hiragino Sans GB","微软雅黑", "宋体", sans-serif; margin:0; padding:0; background-color:#1859b3;}
+ul,li,ol{ list-style:none;}
+div,p,ul,li,ol,dl,dd,dt,td,tr,th,h1,h2,h3,h4,h5,img,input,a,pre,textarea {margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6,textarea{font-weight:normal; font-size:12px;}
+em,i,b,textarea{font-style:normal; font-weight:400;}
+input{font-family:inherit;}
+img{border:none; vertical-align:middle;}
+.clear{ clear:both;!important; margin:0; padding:0;}
+a{color:#666;text-decoration:none;}
+pre{white-space: pre-wrap;word-wrap: break-word;}
+
+.l_header_bg{width:100%; min-width:980px; height:80px;}
+.l_header_bg .l_header{width:980px; height:80px; margin:0 auto;}
+.l_header_bg .l_header .h-lt{width:180px; height:80px; float:left;}
+.l_header_bg .l_header .h-md{ float:left; /*background:url(../images/l_logo_bg.png) no-repeat;*/ height:80px; padding-left:12px; color:#fff; line-height:80px;}
+.l_header_bg .l_header .h-md span{float:left; font-size:24px;}
+.l_header_bg .l_header .h-md i{float:left; margin-left:27px;}
+.l_header_bg .l_header .h-md .hm-btn{float: left; padding-top: 27px; overflow: hidden;}
+.l_header_bg .l_header .h-md .hm-btn a{display: inline-block; width: 98px; height: 28px; border-radius: 3px; line-height: 28px; text-align: center; color: #fff; border: 1px solid #4879b9; margin-left: 10px;}
+.l_header_bg .l_header .h-md .hm-btn a:hover{text-decoration: none; border: 1px solid #4879b9; background-color: #1a58a7;}
+.l_header_bg .l_header .h-md .hm-btn a.cur{display: inline-block; width: 98px; height: 28px; line-height: 28px; text-align: center; color: #fff; border: 1px solid #a0c710; background-color: #a0c710; margin-left: 10px;}
+.l_header_bg .l_header .h-md a{float:left; margin-left:20px; color:#fff;}
+.l_header_bg .l_header .h-md a:hover{ text-decoration:underline;}
+.l_header_bg .l_header .h-rt{float:right; color:#fff; line-height:80px; height:80px; padding-right:30px;}
+.l_header_bg .l_header .h-rt i{font-family:Arial; font-size:20px; float:right;}
+.l_header_bg .l_header .h-rt span{ font-family:"宋体"; float:right;}
+
+.l_footer{margin:20px auto 0; color:#fff; padding-bottom: 100px; text-align:center; line-height:21px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+

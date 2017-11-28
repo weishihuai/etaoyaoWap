@@ -1,0 +1,105 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    font: inherit;
+    font-size: 100%;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    border: 0;
+    outline: none;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+strong {
+    font-weight: bold;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+img {
+    max-width: 100%;
+
+    border: 0;
+}
+
+a, img {
+    -webkit-touch-callout: none;
+}
+button, input, optgroup, select, textarea {
+    -webkit-appearance: none;
+}
+a, button, input, optgroup, select, textarea, label {
+    -webkit-tap-highlight-color: transparent;
+}
+button {
+    padding: 0;
+
+    border: none;
+    outline: none;
+    background: none;
+}
+input {
+    font-family: inherit;
+
+    margin: 0;
+    padding: 0;
+
+    border: none;
+    border-radius: 0;
+    outline: none;
+}
+input::-webkit-input-placeholder {
+    color: #999;
+}
+input:focus::-webkit-input-placeholder {
+    color: #999;
+}
+input::-webkit-input-speech-button {
+    display: none;
+}
+a {
+    text-decoration: none;
+
+    color: #666;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+html, body {
+    -webkit-user-select: none;
+            user-select: none;
+}
+body {
+    font-family: 'Helvetica Neue', Helvetica, STHeiTi, sans-serif;
+    line-height: 1;
+
+    -webkit-text-size-adjust: 100% !important;
+}
+
+.fl {
+    float: left;
+    display: inline;
+}
+.fr {
+    float: right;
+    display: inline;
+}

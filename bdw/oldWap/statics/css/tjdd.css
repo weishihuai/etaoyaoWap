@@ -1,0 +1,33 @@
+/* CSS Document */
+.tjdd{ width:100%}
+.container .row1{background:url(../images/bg1.jpg) repeat-x;border-bottom:1px solid #bcbab6;}
+.container .row1 .jt{ width:22px; height:22px; border-radius:12px; border:1px solid #666;text-align:center; color:#666; padding-top:3px; margin:5px 0 0 20px;}
+.container .row1 .nbtn{background:url(../images/bg1.jpg) repeat-x;color:#333333; border:none; font-weight:bold; text-align:left; padding-left:40px;}
+
+.container .row2{padding:5px; border-bottom:1px solid #bcbab6;}
+.container .row2 .row2_r{font-size:14px;}
+.container .row2 .row2_r .pir{ margin-top:15px;}
+.container .row2 .row2_r .dd{margin-top:10px; border:1px solid #bcbab6;background:#f0eff3; width:30%;}
+.container .row2 .row2_r .pir i{color:#ff0000;}
+.container .row2 .row2_r .dd i{display:inline-block;background:#fff;border-right:1px solid #bcbab6; padding:5px; margin-right:5px;}
+.container .row2 .row2_r .dd span{color:#999999;}
+
+.container .row3{padding:10px; border:1px solid #0066ff; margin:8px auto;}
+.container .row3 .ml{font-weight:bold;}
+.container .row3 .m2 .name{font-weight:bold;}
+.container .row3 .m3 {color:#c5c5c5; margin-top:18px; padding-left:10px;}
+.container .row3 .m2 .add{line-height:20px;}
+
+.container .row4{padding:10px; border:1px solid #bcbab6;}
+.container .row4 .m1{font-weight:bold;}
+.container .row4 .m3 {color:#c5c5c5; padding-left:10px;}
+
+.container .row5{padding:10px 0 0 5px;}
+.container .row5 .m1{color:#ff0000;}
+.container .row5 .m2{color:#666666;}
+.container .row6 .wxp{margin:10px 0;}
+.container .row6 .wxp a{background-color:#04b10f;color:#fff; border:none;}
+.container .row7 .df a{background-color:#fff;color:#666; border:1px solid #cccccc; box-shadow: 0 1px 2px #cccccc;}
+
+
+

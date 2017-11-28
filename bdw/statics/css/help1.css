@@ -1,0 +1,40 @@
+.past{width: 1170px; height: 26px; padding: 15px 0 15px 20px; margin: 0 auto;}
+.past .links{color: #2d415a; float: left; line-height: 25px;}
+.past a:hover.links{text-decoration: underline;}
+.crumbs-arrow {display: block;  float: left;  line-height: 25px;  margin: 0 10px; font-family: Simsun; font-size: 14px; color: #666666;}
+.past span {color: #666666;  float: left;  line-height: 26px;}
+
+/*主体*/
+.main-bg { width: 100%; min-width: 1190px; background-color: #eee; }
+.main-bg .main { width: 1190px; margin: 0 auto; padding-bottom: 30px; }
+
+.main .main-lt{width: 220px; float: left;}
+.main .main-lt dl{width: 220px;}
+.main .main-lt dt{width: 185px; padding-left: 35px; height: 39px; line-height: 39px; cursor: pointer; border-top: 1px solid #e8e8e8; background: #fafafa url("../images/arrows.png") no-repeat 18px -150px; color: #333; font-size: 14px; overflow: hidden;}
+.main .main-lt dd{width: 220px; background-color: #fff; padding: 15px 0;}
+.main .main-lt dd a{display: block; width: 185px; height: 38px; line-height: 38px; padding-left: 35px; font-size: 14px; color: #666666; overflow: hidden;}
+.main .main-lt dd a:hover{color: #2448ab;}
+.main .main-lt dd a.cur{position: relative; background-color: #2448ab; color: #fff;}
+.main .main-lt dd a.cur:after{content: ''; display: inline-block; width: 0; height: 0; border-right: 4px solid #fff; border-top: 5px solid transparent; border-bottom: 3px solid transparent; position: absolute; right: 0; top:15px;}
+
+.help-cont{width: 950px; float: right;  background-color: #fff;}
+.help-cont .mt{width: 950px; height: 70px; padding-top: 40px; text-align: center; font-size: 28px; color: #2d415a;}
+.help-cont .mc{width: 812px; padding: 39px 69px 25px 69px; line-height: 36px; border-top: 1px solid #e8e8e8; color: #666666; font-size: 14px; }
+.help-cont .mc p{text-indent: 2em;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

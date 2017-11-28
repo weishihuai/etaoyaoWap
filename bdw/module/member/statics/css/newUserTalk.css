@@ -1,0 +1,275 @@
+@charset "utf-8";
+
+
+#userTalk .lBox .m1 h2,#userTalk .lBox .m2 h2{ background:url(../../../../../bdw/statics/images/list_bg.png) no-repeat;}
+
+#userTalk .rBox .talkList .t_Menu ul li a,#userTalk .rBox .talkList .box .plList .item .messg .b_are a,#userTalk .lBox .m1 .box .btn a{ background:url(../../../../../bdw/statics/images/detail_bg.png) no-repeat;}
+
+
+#userTalk{ width:980px; overflow:hidden; margin:0 auto;}
+
+/*商品评论*/
+#userTalk .lBox{ float: left; width:200px; overflow:hidden; margin-right:10px;}
+#userTalk .lBox .m1{ width:200px; overflow:hidden;}
+#userTalk .lBox .m1 h2{ height:35px; background-position:0 0; line-height:34px; overflow: hidden; padding-left:15px; font-weight:bold; font-size:14px; color:#fff;}
+#userTalk .lBox .m1 .box{ width:198px; overflow:hidden; border-top:0; border:1px solid #D4D4D4; padding:10px 0;}
+#userTalk .lBox .m1 .box .pic{ width:150px; height:150px; overflow:hidden; margin:0 auto;}
+#userTalk .lBox .m1 .box .title{ width:180px; overflow:hidden; margin:0 auto; height:60px; line-height:20px; padding-top:6px;}
+#userTalk .lBox .m1 .box .title a{ color:#36c;}
+#userTalk .lBox .m1 .box .price{ width:180px; overflow:hidden; margin:0 auto; height:22px; line-height:22px; padding-top:5px;}
+#userTalk .lBox .m1 .box .price b{ color:#f30;}
+#userTalk .lBox .m1 .box p{ width:180px; overflow:hidden; margin:0 auto; height:20px; line-height:20px;}
+#userTalk .lBox .m1 .box .btn{ height:43px; overflow:hidden; padding-top:8px; padding-left:5px;}
+#userTalk .lBox .m1 .box .btn a{ background-position:0 0; display:block; width:142px; height:43px; overflow:hidden;}
+#userTalk .lBox .m2{ width:200px; overflow:hidden; margin-top:10px;}
+#userTalk .lBox .m2 h2{ background-position:0 -67px; height:33px; overflow:hidden; border:1px solid #ddd; border-bottom:0; line-height:32px; font-weight:bold; padding-left:15px; font-size:14px;}
+#userTalk .lBox .m2 .box{ width:198px; overflow:hidden; border:1px solid #ddd;}
+#userTalk .lBox .m2 .box ul{ margin-top:-1px;}
+#userTalk .lBox .m2 .box ul li{ width:180px; padding:15px 0 15px 18px; overflow:hidden; border-top:1px solid #EFEFEF;}
+#userTalk .lBox .m2 .box ul li .pic{ float:left; width:52px; height:52px; overflow:hidden; border:1px solid #ccc;}
+#userTalk .lBox .m2 .box ul li .title{ float:left; width:120px; padding-left:5px; height:36px; line-height:18px; overflow:hidden;}
+#userTalk .lBox .m2 .box ul li .price{ float:left; width:120px; padding-left:5px; line-height:20px; height:20px; overflow:hidden; font-weight:bold; color:#c00;}
+#userTalk .rBox{ float:left; width:770px; overflow: hidden;}
+#userTalk .rBox .talkList{ width:770px; overflow:hidden;}
+#userTalk .rBox .talkList .t_Menu{ height:27px; overflow:hidden; border-bottom:2px solid #B20000;}
+#userTalk .rBox .talkList .t_Menu ul li{ float:left; display:inline; width:84px; height:27px; margin-right:4px; overflow:hidden;}
+#userTalk .rBox .talkList .t_Menu ul li a{ display:block; width:84px; height:27px; line-height:26px; overflow:hidden; text-align:center; color:#666;background-position:-88px -45px; font-weight:bold; }
+#userTalk .rBox .talkList .t_Menu ul li a:hover,#userTalk .rBox .talkList .t_Menu ul li a.cur{ background-position:0 -45px;color:#fff; text-decoration:none;}
+#userTalk .rBox .talkList .t_Menu ul .w{ width:124px;}
+#userTalk .rBox .talkList .t_Menu ul .w a{ width:124px; background-position:0 -114px;}
+#userTalk .rBox .talkList .t_Menu ul .w a:hover,#userTalk .rBox .talkList .t_Menu ul .w a.cur{ background-position:-126px -114px;}
+#userTalk .rBox .talkList .t_Menu ul li span{ color:#c00;}
+#userTalk .rBox .talkList .t_Menu ul li a:hover span,#userTalk .rBox .talkList .t_Menu ul li a.cur span{ color:#fff;}
+#userTalk .rBox .talkList .box{ width:770px; overflow:hidden;}
+#userTalk .rBox .talkList .box .datShowBox{ width:770px; overflow:hidden; border-bottom:2px solid #eee; margin-top:10px;}
+#userTalk .rBox .talkList .box .datShowBox .shar{ width:768px; overflow:hidden; border:1px solid #ddd; background:#EFEFEF;}
+#userTalk .rBox .talkList .box .datShowBox .shar .hornot{ float:left; width:134px; padding-left:20px; overflow:hidden; height:140px; padding-top:12px; background:#fff url(../../../../../bdw/statics/images/detail_line02.gif) right center no-repeat}
+#userTalk .rBox .talkList .box .datShowBox .shar .hornot .prod{ height:48px; line-height:48px; font-size:22px; font-weight:bold; font-family:"微软雅黑"; color:#ccc;}
+#userTalk .rBox .talkList .box .datShowBox .shar .hornot .prod2{ height:48px; line-height:48px; font-family:"微软雅黑"; color:#000;}
+#userTalk .rBox .talkList .box .datShowBox .shar .hornot .prod2 b{ font-size:32px; color:#f30;}
+#userTalk .rBox .talkList .box .datShowBox .shar .hornot p{ padding-top:11px;}
+#userTalk .rBox .talkList .box .datShowBox .shar .starShow{ float:left; width:315px; padding-left:20px; overflow:hidden; background:#fff; height:142px; padding-top:10px;}
+#userTalk .rBox .talkList .box .datShowBox .shar .starShow ul li{ height:21px; overflow:hidden; padding-top:5px;}
+#userTalk .rBox .talkList .box .datShowBox .shar .starShow ul li .star{ float:left; width:85px; overflow:hidden;}
+#userTalk .rBox .talkList .box .datShowBox .shar .starShow ul li .sorll{ float: left; width:200px; padding-top:4px; overflow:hidden;}
+#userTalk .rBox .talkList .box .datShowBox .shar .starShow ul li .sorll .bg{ background:#f30; height:8px; overflow:hidden;}
+#userTalk .rBox .talkList .box .datShowBox .shar .starShow ul li .sorll .mub{ position:absolute; margin-top:-11px; color:#f30; padding-left:5px;}
+#userTalk .rBox .talkList .box .datShowBox .shar .tips{ float:left; background:url(../../../../../bdw/statics/images/detail_line01.gif) no-repeat; width:250px; overflow:hidden; padding-left:29px; padding-top:30px;}
+#userTalk .rBox .talkList .box .datShowBox .shar .tips p{ line-height:22px;}
+#userTalk .rBox .talkList .box .datShowBox .shar .tips .btn{ height:29px; overflow:hidden; padding-top:11px;}
+#userTalk .rBox .talkList .box .plList{ width:770px; overflow:hidden; margin-top:10px;}
+#userTalk .rBox .talkList .box .plList .item{ width:100%; overflow:hidden; padding-top:18px;}
+#userTalk .rBox .talkList .box .plList .item .user{ float:left; width:118px; overflow:hidden; border:1px solid #ddd; padding:10px 0 5px;}
+#userTalk .rBox .talkList .box .plList .item .user .pic{ width:80px; height:80px; overflow:hidden; margin:0 auto 10px;}
+#userTalk .rBox .talkList .box .plList .item .user p{ line-height:20px; text-align:center;; color:#999;}
+#userTalk .rBox .talkList .box .plList .item .user .vipConf{ color:#333;}
+#userTalk .rBox .talkList .box .plList .item .messg{ float:left; padding-left:7px; width:643px; overflow:hidden;}
+#userTalk .rBox .talkList .box .plList .item .messg .t_are{ background:#F4F4F4; height:33px; overflow:hidden;}
+#userTalk .rBox .talkList .box .plList .item .messg .t_are span{ float:left; padding-top:9px; padding-left:10px;}
+#userTalk .rBox .talkList .box .plList .item .messg .t_are span img{ vertical-align:middle;}
+#userTalk .rBox .talkList .box .plList .item .messg .t_are em{ float:right; font-style:normal; text-align:right; padding-right:10px; line-height:32px; color:#999;}
+#userTalk .rBox .talkList .box .plList .item .messg .c_are{ width:630px; overflow:hidden; padding-left:10px;}
+#userTalk .rBox .talkList .box .plList .item .messg .c_are p{ width:630px; line-height:20px;overflow:hidden; padding-top:12px; padding-bottom:10px;}
+#userTalk .rBox .talkList .box .plList .item .messg .c_are .rePut{ color:#c00; border-top:1px dashed #E8E8E8;}
+#userTalk .rBox .talkList .box .plList .item .messg .b_are{ height:24px; overflow:hidden;}
+#userTalk .rBox .talkList .box .plList .item .messg .b_are label{ float:left; width:72px; line-height:24px; overflow:hidden; padding-left:10px; color:#999;}
+#userTalk .rBox .talkList .box .plList .item .messg .b_are .btn1{ float:left;}
+#userTalk .rBox .talkList .box .plList .item .messg .b_are .btn1 a{ background-position:-174px -45px; display:block; width:67px; height:23px; line-height:20px; text-align:center; overflow:hidden;color:#36c;}
+#userTalk .rBox .talkList .box .plList .item .messg .b_are .btn1 a:hover{ text-decoration:none;}
+#userTalk .rBox .talkList .box .plList .item .messg .b_are .btn2{ float:left; padding-left:10px;}
+#userTalk .rBox .talkList .box .plList .item .messg .b_are .btn2 a{ background-position:-174px -45px; display:block; width:67px; height:23px; line-height:20px; text-align:center; overflow:hidden; color:#36c;}
+#userTalk .rBox .talkList .box .plList .item .messg .b_are .btn2 a:hover{ text-decoration:none;}
+#userTalk .rBox .talkList .box .page{ height:20px; overflow:hidden; text-align:right; padding:18px 0;}
+
+
+
+/*end 商品评论*/
+
+/*------------售前咨询----------*/
+#userTalk .rBox .set-B{width:750px; overflow:hidden;}
+#userTalk .rBox .set-B .t_Area{ border-bottom:2px solid #B20000; height:27px; overflow:hidden;}
+#userTalk .rBox .set-B .t_Area .tit{ float:left; width:124px; overflow:hidden; height:27px; line-height:26px; font-size:14px; font-weight:bold; color:#fff; text-align:center; background:url(../../../../../bdw/statics/images/userTalk_tit01.gif) no-repeat;}
+#userTalk .rBox .set-B .box{ width:748px; overflow:hidden; border:1px solid #E5E5E5; margin-top:10px;}
+#userTalk .rBox .set-B .box .m1{ background:#F7F3E7;width:708px; overflow:hidden; padding:18px 20px 10px; line-height:18px;}
+#userTalk .rBox .set-B .box .m2{ width:748px; overflow:hidden; padding:18px 0; border-top:1px solid #E7E7E7;}
+#userTalk .rBox .set-B .box .m2 label{ float:left; width:98px; overflow:hidden; line-height:20px; font-weight:bold; text-align:right;}
+#userTalk .rBox .set-B .box .m2 .put{ float:left; width:650px; overflow:hidden; padding-top:2px;_padding-top:0px;}
+#userTalk .rBox .set-B .box .m2 .put input{ vertical-align:middle;}
+#userTalk .rBox .set-B .box .m2 .put2{ float:left; width:650px; overflow:hidden;}
+#userTalk .rBox .set-B .box .m2 .put2 textarea{ width:630px; height:140px; overflow-y:scroll; overflow-x:hidden; border:1px solid #ccc; font-size:12px;}
+#userTalk .rBox .set-B .box .btn{ height:29px; overflow:hidden; padding-left:98px; padding-bottom:18px;}
+#userTalk .rBox .set-B .box .btn a{ background:url(../../../../../bdw/statics/images/userTalk_btn01.gif) no-repeat; display:block; width:115px; height:29px; overflow:hidden; line-height:28px; text-align:center; color:#fff;}
+#userTalk .rBox .set-B .box .btn a:hover{ text-decoration:none;}
+/*------end------售前咨询----------*/
+
+/*------------评论商品----------*/
+#userTalk .rBox .Put-B{ width:750px; overflow:hidden;}
+#userTalk .rBox .Put-B .t_Area{ border-bottom:2px solid #1f78dc; height:27px; overflow:hidden;}
+#userTalk .rBox .Put-B .t_Area .tit{ float:left; width:124px; overflow:hidden; height:27px; line-height:26px; font-size:14px; font-weight:bold; color:#fff; text-align:center; background:url(../../../../../bdw/statics/images/userTalk_tit01.gif) repeat-x;}
+#userTalk .rBox .Put-B .box{ width:748px; overflow:hidden; border:1px solid #E5E5E5; margin-top:10px;}
+#userTalk .rBox .Put-B .box .m1{ width:748px; overflow:hidden;}
+#userTalk .rBox .Put-B .box .m1 .lBox{ float: left; width:200px; overflow:hidden; margin-right:10px; border: 0 none;}
+#userTalk .rBox .Put-B .box .m1 .title{ width:180px; overflow:hidden; margin:0 auto; height:60px; line-height:20px; padding-top:6px;padding-right: 560px;padding-left: 22px;height: auto;}
+#userTalk .rBox .Put-B .box .m1 .title a{ color:#36c;}
+#userTalk .rBox .Put-B .box .m1 .pic{ width:150px; height:150px; overflow:hidden; margin:0 auto;padding-right: 560px; padding-left: 10px;}
+#userTalk .rBox .Put-B .box .m1 .price{ width:180px; overflow:hidden; margin:0 auto; height:22px; line-height:22px; padding-top:5px;padding-right: 560px; padding-left: 22px;}
+#userTalk .rBox .Put-B .box .m1 .price b{ color:#f30;}
+#userTalk .rBox .Put-B .box .m1 .commentNum{ padding-left: 4px;padding-left: 22px;padding-bottom: 20px;}
+#userTalk .rBox .Put-B .box .m1 .t1{ height:48px; overflow:hidden; padding-top:23px; overflow:hidden; padding-left:16px; font-size:14px;}
+#userTalk .rBox .Put-B .box .m1 .t1 img{ vertical-align:middle; cursor:pointer;}
+#userTalk .rBox .Put-B .box .m1 .t1 span{ color:#f60; font-size:12px; font-weight:bold;}
+#userTalk .rBox .Put-B .box .m1 .t2{ height:160px; overflow:hidden; padding-top:12px;}
+#userTalk .rBox .Put-B .box .m1 .t2 label{ float:left; width:140px; text-align:right; line-height:22px; font-size:14px;}
+#userTalk .rBox .Put-B .box .m1 .t2 .put{ float:left;}
+#userTalk .rBox .Put-B .box .m1 .t2 .put textarea{ height:109px; width:450px; overflow-y:scroll; overflow-x:hidden; border:1px solid #E7E7E7; font-size:12px; line-height:20px; color:#000000;}
+#userTalk .rBox .Put-B .box .m1 .t3{ height:48px; overflow:hidden; padding-top:23px; overflow:hidden; padding-left:141px; font-size:14px;}
+#userTalk .rBox .Put-B .box .m1 .t3 img{ vertical-align:middle; cursor:pointer;}
+#userTalk .rBox .Put-B .box .m1 .t3 span{ color:#f60; font-size:12px; font-weight:bold;}
+#userTalk .rBox .Put-B .box .btn{ height:29px; padding-top:5px; padding-bottom:18px; overflow:hidden; padding-left:550px;}
+#userTalk .rBox .Put-B .box .btn a{ background:url(../../../../../bdw/statics/images/userTalk_btn01.gif) no-repeat; display:block; width:115px; height:29px; overflow:hidden; line-height:28px; text-align:center; color:#fff;}
+#userTalk .rBox .Put-B .box .btn a:hover{ text-decoration:none;}
+/*-------end-----评论商品----------*/
+
+#userTalk .rBox .Put-B .box .m1 .t2 .result{ float:left; width:600px; overflow:hidden; line-height:22px; font-size:14px;}
+
+
+
+/*------------评论提示----------*/
+#userTalk .rBox .tip-B{ width:750px; overflow:hidden;}
+#userTalk .rBox .tip-B .t_Area{ border-bottom:2px solid #B20000; height:27px; overflow:hidden;}
+#userTalk .rBox .tip-B .t_Area .tit{  float:left; width:124px; overflow:hidden; height:27px; line-height:26px; font-size:14px; font-weight:bold; color:#fff; text-align:center; background:url(../../../../../bdw/statics/images/userTalk_tit01.gif) no-repeat;}
+#userTalk .rBox .tip-B .box{ width:538px; padding-top:58px; padding-left:210px; overflow:hidden; border:1px solid #E5E5E5; background:url(../../../../../bdw/statics/images/userTalk_Ico03.gif) 119px 48px no-repeat; padding-bottom:123px; margin-top:10px;}
+#userTalk .rBox .tip-B .box h1{ color:#c33; height:30px; line-height:30px; overflow:hidden; font-size:14px; font-weight:bold;}
+#userTalk .rBox .tip-B .box p{ height:22px; line-height:22px; overflow:hidden;}
+#userTalk .rBox .tip-B .box .btn{ height:25px; overflow:hidden; padding-top:8px;}
+#userTalk .rBox .tip-B .box .btn a{ color:#36c; background:url(../../../../../bdw/statics/images/userTalk_btn02.gif) no-repeat; display:block; width:118px; height:25px; overflow:hidden; line-height:24px; text-align:center;}
+#userTalk .rBox .tip-B .box .btn a:hover{ text-decoration:none;}
+/*-------end-----评论提示----------*/
+
+
+#userTalk1 .lBox .m1 h2,#userTalk .lBox .m2 h2{ background:url(../../../../../bdw/statics/images/list_bg.png) no-repeat;}
+
+#userTalk1 .rBox .talkList .t_Menu ul li a,#userTalk .rBox .talkList .box .plList .item .messg .b_are a,#userTalk .lBox .m1 .box .btn a{ background:url(../../../../../bdw/statics/images/detail_bg.png) no-repeat;}
+
+
+#userTalk1{ width:980px; overflow:hidden; margin:0 auto;}
+
+
+/*商品评论*/
+
+#userTalk1 .rBox{ float:left; width:940px; overflow: hidden;}
+#userTalk1 .rBox .talkList{ width:770px; overflow:hidden;}
+#userTalk1 .rBox .talkList .t_Menu{ height:27px; overflow:hidden; border-bottom:2px solid #B20000;}
+#userTalk1 .rBox .talkList .t_Menu ul li{ float:left; display:inline; width:84px; height:27px; margin-right:4px; overflow:hidden;}
+#userTalk1 .rBox .talkList .t_Menu ul li a{ display:block; width:84px; height:27px; line-height:26px; overflow:hidden; text-align:center; color:#666;background-position:-88px -45px; font-weight:bold; }
+#userTalk1 .rBox .talkList .t_Menu ul li a:hover,#userTalk .rBox .talkList .t_Menu ul li a.cur{ background-position:0 -45px;color:#fff; text-decoration:none;}
+#userTalk1 .rBox .talkList .t_Menu ul .w{ width:124px;}
+#userTalk1 .rBox .talkList .t_Menu ul .w a{ width:124px; background-position:0 -114px;}
+#userTalk1 .rBox .talkList .t_Menu ul .w a:hover,#userTalk .rBox .talkList .t_Menu ul .w a.cur{ background-position:-126px -114px;}
+#userTalk1 .rBox .talkList .t_Menu ul li span{ color:#c00;}
+#userTalk1 .rBox .talkList .t_Menu ul li a:hover span,#userTalk .rBox .talkList .t_Menu ul li a.cur span{ color:#fff;}
+#userTalk1 .rBox .talkList .box{ width:770px; overflow:hidden;}
+#userTalk1 .rBox .talkList .box .datShowBox{ width:770px; overflow:hidden; border-bottom:2px solid #eee; margin-top:10px;}
+#userTalk1 .rBox .talkList .box .datShowBox .shar{ width:768px; overflow:hidden; border:1px solid #ddd; background:#EFEFEF;}
+#userTalk1 .rBox .talkList .box .datShowBox .shar .hornot{ float:left; width:134px; padding-left:20px; overflow:hidden; height:140px; padding-top:12px; background:#fff url(../../../../../bdw/statics/images/detail_line02.gif) right center no-repeat}
+#userTalk1 .rBox .talkList .box .datShowBox .shar .hornot .prod{ height:48px; line-height:48px; font-size:22px; font-weight:bold; font-family:"微软雅黑"; color:#ccc;}
+#userTalk1 .rBox .talkList .box .datShowBox .shar .hornot .prod2{ height:48px; line-height:48px; font-family:"微软雅黑"; color:#000;}
+#userTalk1 .rBox .talkList .box .datShowBox .shar .hornot .prod2 b{ font-size:32px; color:#f30;}
+#userTalk1 .rBox .talkList .box .datShowBox .shar .hornot p{ padding-top:11px;}
+#userTalk1 .rBox .talkList .box .datShowBox .shar .starShow{ float:left; width:315px; padding-left:20px; overflow:hidden; background:#fff; height:142px; padding-top:10px;}
+#userTalk1 .rBox .talkList .box .datShowBox .shar .starShow ul li{ height:21px; overflow:hidden; padding-top:5px;}
+#userTalk1 .rBox .talkList .box .datShowBox .shar .starShow ul li .star{ float:left; width:85px; overflow:hidden;}
+#userTalk1 .rBox .talkList .box .datShowBox .shar .starShow ul li .sorll{ float: left; width:200px; padding-top:4px; overflow:hidden;}
+#userTalk1 .rBox .talkList .box .datShowBox .shar .starShow ul li .sorll .bg{ background:#f30; height:8px; overflow:hidden;}
+#userTalk1 .rBox .talkList .box .datShowBox .shar .starShow ul li .sorll .mub{ position:absolute; margin-top:-11px; color:#f30; padding-left:5px;}
+#userTalk1 .rBox .talkList .box .datShowBox .shar .tips{ float:left; background:url(../../../../../bdw/statics/images/detail_line01.gif) no-repeat; width:250px; overflow:hidden; padding-left:29px; padding-top:30px;}
+#userTalk1 .rBox .talkList .box .datShowBox .shar .tips p{ line-height:22px;}
+#userTalk1 .rBox .talkList .box .datShowBox .shar .tips .btn{ height:29px; overflow:hidden; padding-top:11px;}
+#userTalk1 .rBox .talkList .box .plList{ width:770px; overflow:hidden; margin-top:10px;}
+#userTalk1 .rBox .talkList .box .plList .item{ width:100%; overflow:hidden; padding-top:18px;}
+#userTalk1 .rBox .talkList .box .plList .item .user{ float:left; width:118px; overflow:hidden; border:1px solid #ddd; padding:10px 0 5px;}
+#userTalk1 .rBox .talkList .box .plList .item .user .pic{ width:80px; height:80px; overflow:hidden; margin:0 auto 10px;}
+#userTalk1 .rBox .talkList .box .plList .item .user p{ line-height:20px; text-align:center;; color:#999;}
+#userTalk1 .rBox .talkList .box .plList .item .user .vipConf{ color:#333;}
+#userTalk1 .rBox .talkList .box .plList .item .messg{ float:left; padding-left:7px; width:643px; overflow:hidden;}
+#userTalk1 .rBox .talkList .box .plList .item .messg .t_are{ background:#F4F4F4; height:33px; overflow:hidden;}
+#userTalk1 .rBox .talkList .box .plList .item .messg .t_are span{ float:left; padding-top:9px; padding-left:10px;}
+#userTalk1 .rBox .talkList .box .plList .item .messg .t_are span img{ vertical-align:middle;}
+#userTalk1 .rBox .talkList .box .plList .item .messg .t_are em{ float:right; font-style:normal; text-align:right; padding-right:10px; line-height:32px; color:#999;}
+#userTalk1 .rBox .talkList .box .plList .item .messg .c_are{ width:630px; overflow:hidden; padding-left:10px;}
+#userTalk1 .rBox .talkList .box .plList .item .messg .c_are p{ width:630px; line-height:20px;overflow:hidden; padding-top:12px; padding-bottom:10px;}
+#userTalk1 .rBox .talkList .box .plList .item .messg .c_are .rePut{ color:#c00; border-top:1px dashed #E8E8E8;}
+#userTalk1 .rBox .talkList .box .plList .item .messg .b_are{ height:24px; overflow:hidden;}
+#userTalk1 .rBox .talkList .box .plList .item .messg .b_are label{ float:left; width:72px; line-height:24px; overflow:hidden; padding-left:10px; color:#999;}
+#userTalk1 .rBox .talkList .box .plList .item .messg .b_are .btn1{ float:left;}
+#userTalk1 .rBox .talkList .box .plList .item .messg .b_are .btn1 a{ background-position:-174px -45px; display:block; width:67px; height:23px; line-height:20px; text-align:center; overflow:hidden;color:#36c;}
+#userTalk1 .rBox .talkList .box .plList .item .messg .b_are .btn1 a:hover{ text-decoration:none;}
+#userTalk1 .rBox .talkList .box .plList .item .messg .b_are .btn2{ float:left; padding-left:10px;}
+#userTalk1 .rBox .talkList .box .plList .item .messg .b_are .btn2 a{ background-position:-174px -45px; display:block; width:67px; height:23px; line-height:20px; text-align:center; overflow:hidden; color:#36c;}
+#userTalk1 .rBox .talkList .box .plList .item .messg .b_are .btn2 a:hover{ text-decoration:none;}
+#userTalk1 .rBox .talkList .box .page{ height:20px; overflow:hidden; text-align:right; padding:18px 0;}
+
+
+
+/*end 商品评论*/
+
+/*------------售前咨询----------*/
+#userTalk1 .rBox .set-B{width:750px; overflow:hidden;}
+#userTalk1 .rBox .set-B .t_Area{ border-bottom:2px solid #B20000; height:27px; overflow:hidden;}
+#userTalk1 .rBox .set-B .t_Area .tit{ float:left; width:124px; overflow:hidden; height:27px; line-height:26px; font-size:14px; font-weight:bold; color:#fff; text-align:center; background:url(../../../../../bdw/statics/images/userTalk_tit01.gif) no-repeat;}
+#userTalk1 .rBox .set-B .box{ width:748px; overflow:hidden; border:1px solid #E5E5E5; margin-top:10px;}
+#userTalk1 .rBox .set-B .box .m1{ background:#F7F3E7;width:708px; overflow:hidden; padding:18px 20px 10px; line-height:18px;}
+#userTalk1 .rBox .set-B .box .m2{ width:748px; overflow:hidden; padding:18px 0; border-top:1px solid #E7E7E7;}
+#userTalk1 .rBox .set-B .box .m2 label{ float:left; width:98px; overflow:hidden; line-height:20px; font-weight:bold; text-align:right;}
+#userTalk1 .rBox .set-B .box .m2 .put{ float:left; width:650px; overflow:hidden; padding-top:2px;_padding-top:0px;}
+#userTalk1 .rBox .set-B .box .m2 .put input{ vertical-align:middle;}
+#userTalk1 .rBox .set-B .box .m2 .put2{ float:left; width:650px; overflow:hidden;}
+#userTalk1 .rBox .set-B .box .m2 .put2 textarea{ width:630px; height:140px; overflow-y:scroll; overflow-x:hidden; border:1px solid #ccc; font-size:12px;}
+#userTalk1 .rBox .set-B .box .btn{ height:29px; overflow:hidden; padding-left:98px; padding-bottom:18px;}
+#userTalk1 .rBox .set-B .box .btn a{ background:url(../../../../../bdw/statics/images/userTalk_btn01.gif) no-repeat; display:block; width:115px; height:29px; overflow:hidden; line-height:28px; text-align:center; color:#fff;}
+#userTalk1 .rBox .set-B .box .btn a:hover{ text-decoration:none;}
+/*------end------售前咨询----------*/
+
+/*------------评论商品----------*/
+#userTalk1 .rBox .Put-B{ width:940px; overflow:hidden;}
+#userTalk1 .rBox .Put-B .t_Area{ border-bottom:2px solid #e5151f; height:30px; overflow:hidden;padding-top: 0px;}
+#userTalk1 .rBox .Put-B .t_Area .tit{ float:left; width:124px; overflow:hidden; height:30px; line-height:30px; font-size:14px; font-weight:bold; color:#fff; text-align:center; background: #e5151f;}
+#userTalk1 .rBox .Put-B .box{ width:938px; overflow:hidden; border:1px solid #E5E5E5; margin-top:10px;}
+#userTalk1 .rBox .Put-B .box .m1{ width:938px; overflow:hidden;}
+#userTalk1 .rBox .Put-B .box .m1 .lBox{ float: left; width:200px; overflow:hidden; margin-right:10px;}
+#userTalk1 .rBox .Put-B .box .m1 .title{ width:180px; overflow:hidden; margin:0 auto; height:60px; line-height:20px; padding-top:6px;padding-right: 560px;padding-left: 10px;}
+#userTalk1 .rBox .Put-B .box .m1 .title a{ color:#36c;}
+#userTalk1 .rBox .Put-B .box .m1 .pic{ width:150px; height:150px; overflow:hidden; margin:0 auto;padding-right: 560px; padding-left: 10px;}
+#userTalk1 .rBox .Put-B .box .m1 .price{ width:180px; overflow:hidden; margin:0 auto; height:22px; line-height:22px; padding-top:5px;padding-right: 560px; padding-left: 10px;}
+#userTalk1 .rBox .Put-B .box .m1 .price b{ color:#f30;}
+#userTalk1 .rBox .Put-B .box .m1 .commentNum{ padding-left: 4px;padding-left: 10px;padding-bottom: 20px;}
+#userTalk1 .rBox .Put-B .box .m1 .t1{ height:48px; overflow:hidden; padding-top:23px; overflow:hidden; padding-left:16px; font-size:14px;}
+#userTalk1 .rBox .Put-B .box .m1 .t1 img{ vertical-align:middle; cursor:pointer;}
+#userTalk1 .rBox .Put-B .box .m1 .t1 span{ color:#f60; font-size:12px; font-weight:bold;}
+#userTalk1 .rBox .Put-B .box .m1 .t2{ height:160px; overflow:hidden; padding-top:12px;}
+#userTalk1 .rBox .Put-B .box .m1 .t2 label{ float:left; width:140px; text-align:right; line-height:22px; font-size:14px;}
+#userTalk1 .rBox .Put-B .box .m1 .t2 .put{ float:left;}
+#userTalk1 .rBox .Put-B .box .m1 .t2 .put textarea{ height:134px; width:450px; overflow-y:scroll; overflow-x:hidden; border:1px solid #E7E7E7; font-size:12px; line-height:20px; color:#ccc;}
+#userTalk1 .rBox .Put-B .box .m1 .t3{ height:48px; overflow:hidden; padding-top:23px; overflow:hidden; padding-left:248px; font-size:14px;}
+#userTalk1 .rBox .Put-B .box .m1 .t3 img{ vertical-align:middle; cursor:pointer;}
+#userTalk1 .rBox .Put-B .box .m1 .t3 span{ color:#f60; font-size:12px; font-weight:bold;display: none}
+#userTalk1 .rBox .Put-B .box .btn{ height:29px; padding-top:5px; padding-bottom:18px; overflow:hidden; padding-left:323px;}
+#userTalk1 .rBox .Put-B .box .btn a{ background:url(../../../../../bdw/statics/images/userTalk_btn01.gif) no-repeat; display:block; width:115px; height:29px; overflow:hidden; line-height:28px; text-align:center; color:#fff;}
+#userTalk1 .rBox .Put-B .box .btn a:hover{ text-decoration:none;}
+/*-------end-----评论商品----------*/
+
+#userTalk1 .rBox .Put-B .box .m1 .t2 .result{ float:left; width:600px; overflow:hidden; line-height:22px; font-size:14px;}
+
+
+
+/*------------评论提示----------*/
+#userTalk1 .rBox .tip-B{ width:750px; overflow:hidden;}
+#userTalk1 .rBox .tip-B .t_Area{ border-bottom:2px solid #B20000; height:27px; overflow:hidden;}
+#userTalk1 .rBox .tip-B .t_Area .tit{  float:left; width:124px; overflow:hidden; height:27px; line-height:26px; font-size:14px; font-weight:bold; color:#fff; text-align:center; background:url(../../../../../bdw/statics/images/userTalk_tit01.gif) no-repeat;}
+#userTalk1 .rBox .tip-B .box{ width:538px; padding-top:58px; padding-left:210px; overflow:hidden; border:1px solid #E5E5E5; background:url(../../../../../bdw/statics/images/userTalk_Ico03.gif) 119px 48px no-repeat; padding-bottom:123px; margin-top:10px;}
+#userTalk1 .rBox .tip-B .box h1{ color:#c33; height:30px; line-height:30px; overflow:hidden; font-size:14px; font-weight:bold;}
+#userTalk1 .rBox .tip-B .box p{ height:22px; line-height:22px; overflow:hidden;}
+#userTalk1 .rBox .tip-B .box .btn{ height:25px; overflow:hidden; padding-top:8px;}
+#userTalk1 .rBox .tip-B .box .btn a{ color:#36c; background:url(../../../../../bdw/statics/images/userTalk_btn02.gif) no-repeat; display:block; width:118px; height:25px; overflow:hidden; line-height:24px; text-align:center;}
+#userTalk1 .rBox .tip-B .box .btn a:hover{ text-decoration:none;}
+/*-------end-----评论提示----------*/

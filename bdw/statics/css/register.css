@@ -1,0 +1,487 @@
+@charset "utf-8";
+
+
+
+/*会员登陆*/
+.login-bg .produ{ overflow:hidden; width:100%;position: absolute; /*top:0; left: 50%; margin-left: -951px;*/ z-index: 2;}
+.login-bg .produ .logo{ width:239px; overflow:hidden; height:82px;}
+.login-bg .produ .show{ width:100%; height:500px; overflow: hidden;}
+
+.login-bg {
+    /*background: url("../images/login-01-bg01.jpg") no-repeat scroll center center rgba(0, 0, 0, 0);*/
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+.login-bg .w {
+    height: 420px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    z-index: 5;
+}
+.login-bg .l-main {
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+    min-height: 380px;
+    position: relative;
+    left:50%;
+    top: 40px;
+    width: 390px;
+    margin-left: 8em;
+    z-index: 10;
+}
+.login-bg .l-main .mt {
+    height: 42px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 25px;
+    width: 320px;
+}
+.login-bg .l-main .mt a {
+    border-bottom: 3px solid #EBEBEB;
+    color: #999999;
+    display: block;
+    float: left;
+    font-size: 16px;
+    height: 39px;
+    line-height: 39px;
+    margin: 0 5px;
+    text-align: center;
+    width: 150px;
+}
+.login-bg .l-main .mt .cur {
+    border-bottom: 3px solid #ff6b00;
+    color: #ff6b00;
+    font-size: 18px;
+}
+.login-bg .l-main .mc {
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 320px;
+}
+.login-bg .l-main .mc .item-fore1 {
+    height: 41px;
+    margin-bottom: 19px;
+    overflow: hidden;
+    width: 320px;
+}
+.login-bg .l-main .mc .item-fore1 input {
+    background: url("../images/login-01-user.png") no-repeat scroll 12px center rgba(0, 0, 0, 0);
+    border: 1px solid #BDBDBD;
+    color: #666666;
+    font-size: 14px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 50px;
+    width: 268px;
+}
+.login-bg .l-main .mc .item-fore2 {
+    height: 41px;
+    overflow: hidden;
+    width: 320px;
+}
+.login-bg .l-main .mc .item-fore2 input {
+    background: url("../images/login-01-psw.png") no-repeat scroll 14px center rgba(0, 0, 0, 0);
+    border: 1px solid #BDBDBD;
+    color: #666666;
+    font-size: 14px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 50px;
+    width: 268px;
+}
+.login-bg .l-main .mc .item-fore3 {
+    display: none;
+    height: 41px;
+    margin-top: 19px;
+    overflow: hidden;
+    width: 320px;
+}
+.login-bg .l-main .mc .item-fore3 input {
+    border: 1px solid #BDBDBD;
+    color: #666666;
+    font-size: 14px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 50px;
+    width: 100px;
+}
+.login-bg .l-main .mc .forget {
+    height: 41px;
+    padding-right: 5px;
+    text-align: right;
+    width: 315px;
+}
+.login-bg .l-main .mc .forget a {
+    color: #999999;
+    display: inline-block;
+    float: right;
+    position: relative;
+    right: 0;
+    top: 5px;
+}
+.login-bg .l-main .mc .forget a:hover {
+    color: #ff6b00;
+    text-decoration: underline;
+}
+.login-bg .l-main .mc .l-btn {
+    background-color: #ff6b00;
+    border: 1px solid #ff6b00;
+    border-radius: 2px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+}
+.login-bg .l-main .mc a.l-btn:hover {
+    background-color: #ff6b00;
+}
+.login-bg .l-main .mc .coagent {
+    margin-top: 30px;
+    padding-left: 10px;
+    width: 310px;
+}
+.login-bg .l-main .mc .coagent h5 {
+    color: #999999;
+    line-height: 22px;
+}
+.login-bg .l-main .mc .coagent ul {
+    height: 44px;
+    margin-top: 7px;
+    overflow: hidden;
+    width: 300px;
+}
+.login-bg .l-main .mc .coagent ul li {
+    float: left;
+    height: 22px;
+    margin-right: 8px;
+}
+.login-bg .l-main .mc .coagent ul li span {
+    color: #999999;
+    line-height: 22px;
+    padding: 0 4px;
+}
+.login-bg .l-main .mc .coagent ul li a {
+    color: #333333;
+    line-height: 22px;
+}
+.login-bg .l-main .mc .coagent ul li a:hover {
+    color: #F03C28;
+    text-decoration: underline;
+}
+.login-bg .l-main .mc #alert {
+    background: url("../images/register_line01.gif") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    height: 25px;
+}
+.login-bg .l-main .mc #alert2 {
+    background: url("../images/register_line01.gif") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    height: 25px;
+}
+.login-bg .l-main .mc #alert3 {
+    background: url("../images/register_line01.gif") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    height: 25px;
+}
+.login-bg .l-main .mc #alert .l-l {
+    background: url("../images/register_line03.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline;
+    float: left;
+    height: 27px;
+    overflow: hidden;
+    width: 3px;
+}
+.login-bg .l-main .mc #alert .t-b {
+    color: #ff6b00;
+    display: block;
+    float: left;
+    height: 22px;
+    overflow: hidden;
+    padding-left: 8px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.login-bg .l-main .mc #alert .t-b img {
+    vertical-align: middle;
+}
+.login-bg .l-main .mc #alert .r-l {
+    background: url("../images/register_line02.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline;
+    float: right;
+    height: 27px;
+    overflow: hidden;
+    width: 3px;
+}
+.login-bg .l-main .mc #alert2 .r-l {
+    background: url("../images/register_line02.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline;
+    float: right;
+    height: 27px;
+    overflow: hidden;
+    width: 3px;
+}
+.login-bg .l-main .mc #alert2 .l-l {
+    background: url("../images/register_line03.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline;
+    float: left;
+    height: 27px;
+    overflow: hidden;
+    width: 3px;
+}
+.login-bg .l-main .mc #alert2 .t-b {
+    color: #666666;
+    display: block;
+    float: left;
+    height: 31px;
+    overflow: hidden;
+    padding-left: 8px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.login-bg .l-main .mc #alert2 .t-b img {
+    vertical-align: middle;
+}
+.login-bg .l-main .mc #alert2 .r-l {
+    background: url("../images/register_line02.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline;
+    float: right;
+    height: 27px;
+    overflow: hidden;
+    width: 3px;
+}
+.login-bg .l-main .mc #alert3 .l-l {
+    background: url("../images/register_line03.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline;
+    float: left;
+    height: 27px;
+    overflow: hidden;
+    width: 3px;
+}
+.login-bg .l-main .mc #alert3 .t-b {
+    color: #666666;
+    display: block;
+    float: left;
+    height: 22px;
+    overflow: hidden;
+    padding-left: 8px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.login-bg .l-main .mc #alert3 .t-b img {
+    vertical-align: middle;
+}
+.login-bg .l-main .mc #alert3 .r-l {
+    background: url("../images/register_line02.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline;
+    float: right;
+    height: 27px;
+    overflow: hidden;
+    width: 3px;
+}
+
+
+
+
+#login{ width:980px; overflow:hidden; margin:28px auto 0;}
+#login .login_box{ float:left; width:358px; overflow:hidden; border-right:3px solid #E5E5E5;}
+#login .login_box .b_line{ overflow:hidden; margin-left:5px; border-top:3px solid #E5E5E5;}
+#login .login_box .box{ width:356px; overflow:hidden; border:1px solid #ccc;}
+#login .login_box .box h2{ height:40px; line-height:40px; padding-top:20px; overflow:hidden; font-size:22px; /*font-weight:bold;color:#ff6600;*/ color:#F72227;padding-left:30px; font-family:"微软雅黑";}
+#login .login_box .box .fixBox{ padding-top:16px;width:325px; overflow:hidden;}
+#login .login_box .box .fixBox label{ float:left; width:105px; overflow:hidden; line-height:26px; text-align:right; color:#666; font-size:14px;}
+#login .login_box .box .fixBox .put{ float:left;}
+#login .login_box .box .fixBox .put input{ width:187px; height:19px; line-height:18px; overflow:hidden; border:1px solid #ccc; padding:2px 0 2px 3px; color:#333333;}
+#login .login_box .box .fixBox .put .code{ width:68px;}
+#login .login_box .box .fixBox .codeImg{ float:left; padding-left:5px;}
+#login .login_box .box .fixBox .codeImg img{ vertical-align:middle; cursor:pointer;}
+#login .login_box .box .fixBox .codeImg a{ color:#36c;}
+#login .login_box .box .btnArea{ height:47px; overflow:hidden; padding-left:105px; padding-top:20px;}
+#login .login_box .box .btnArea .btn{ float:left;}
+#login .login_box .box .btnArea .btn a{ display:block; height:32px; /*background:url(../images/buyCar_line01.gif) repeat-x; */background-color: #e82c35; width:72px; line-height:32px; text-align:center; font-size:14px; font-weight:bold; color:#fff;}
+#login .login_box .box .btnArea .btn a:hover{ text-decoration:none;}
+#login .login_box .box .btnArea .forget{ float:left; padding-left:12px; width:80px; padding-top:8px;}
+#login .login_box .box .btnArea .forget a{ color:#36c;}
+#login .login_box .box .loginForOther{ width:326px; overflow:hidden; padding-left:30px; border-top:1px dashed #E5E5E5; margin-top:18px; padding:15px 0 15px 30px;}
+#login .login_box .box .loginForOther p{ overflow:hidden; line-height:18px; height:18px; color:#666;}
+#login .login_box .box .loginForOther ul{ width:300px; overflow:hidden;}
+/*#login .login_box .box .loginForOther ul li{ float:left; display:inline; margin-top:12px; padding-right:18px;}*/
+#login .login_box .box .doles{width:326px; overflow:hidden; padding-left:30px; margin-top:18px; padding:10px 0 30px 30px; background:#F3F3F3;}
+#login .login_box .box .doles h1{ height:36px; line-height:36px; overflow:hidden;; font-size:22px; /*font-weight:bold; color:#ff6600;*/  color:#F72227;font-family:"微软雅黑";}
+#login .login_box .box .doles p{ overflow:hidden; line-height:18px; height:18px; padding-top:8px; color:#666;}
+#login .login_box .box .doles p a{ color:#36c;}
+
+#login .login_box #alert{ background:url(../images/register_line01.gif) repeat-x;height: 25px;}
+#login .login_box #alert2{ background:url(../images/register_line01.gif) repeat-x;height: 25px;}
+#login .login_box #alert3{ background:url(../images/register_line01.gif) repeat-x;height: 25px;}
+#login .login_box #alert .l-l{ float:left; display:inline; background:url(../images/register_line03.gif) no-repeat; width:3px; overflow:hidden; height:27px;}
+#login .login_box #alert .t-b{ float:left; display:block; height:22px; padding-left:8px;padding-right: 5px; padding-top:5px; overflow:hidden; color:#666;}
+#login .login_box #alert .t-b img{ vertical-align:middle;}
+#login .login_box #alert .r-l{ float:right; display:inline; background:url(../images/register_line02.gif) no-repeat; width:3px; overflow:hidden; height:27px;}
+#login .login_box #alert2 .r-l{ float:right; display:inline; background:url(../images/register_line02.gif) no-repeat; width:3px; overflow:hidden; height:27px;}
+#login .login_box #alert2 .l-l{ float:left; display:inline; background:url(../images/register_line03.gif) no-repeat; width:3px; overflow:hidden; height:27px;}
+/*#login .login_box #alert2 .t-b{ float:left; display:block; padding-left:8px;padding-right: 5px; padding-top:5px; overflow:hidden; color:#666;}*/
+#login .login_box #alert2 .t-b{width: 170px; float:left; display:block; height:35px; padding-left:8px;padding-right: 5px; padding-top:5px; overflow:hidden; color:#666;}
+#login .login_box #alert2 .t-b img{ vertical-align:middle;}
+#login .login_box #alert2 .r-l{ float:right; display:inline; background:url(../images/register_line02.gif) no-repeat; width:3px; overflow:hidden; height:27px;}
+#login .login_box #alert3 .l-l{ float:left; display:inline; background:url(../images/register_line03.gif) no-repeat; width:3px; overflow:hidden; height:27px;}
+#login .login_box #alert3 .t-b{ float:left; display:block; height:22px; padding-left:8px;padding-right: 5px; padding-top:5px; overflow:hidden; color:#666;}
+#login .login_box #alert3 .t-b img{ vertical-align:middle;}
+#login .login_box #alert3 .r-l{ float:right; display:inline; background:url(../images/register_line02.gif) no-repeat; width:3px; overflow:hidden; height:27px;}
+
+/*end 会员登陆*/
+
+/*新用户注册*/
+#register{ width:1090px; overflow:hidden; margin:65px auto ;}
+#register .newRegist{ width:970px; /*overflow:hidden;border: 1px solid rgb(231,231,231)*/}
+/*#register .newRegist .l{ float:left; width:750px; padding-left:0px; margin-right:0px; overflow:hidden;border-right: 1px solid rgb(231,231,231)}*/
+#register .newRegist .l{ float:left; width:750px; padding-left:0px; margin-right:0px; overflow:hidden;border-right: 1px solid rgb(231,231,231);padding-bottom: 20px;}
+/*#register .newRegist .l h2{ width:750px;height:55px; line-height:40px; font-size:22px; font-weight:bold; color: #000000;border-bottom: 1px solid rgb(231,231,231)}*/
+#register .newRegist .l h2{ width:750px;height:55px; line-height:55px; font-size:22px; font-weight:bold; color: #000000;border-bottom: 1px solid rgb(231,231,231);text-align: center;}
+#register .newRegist .l .fixBox{ width:750px; overflow:hidden; padding-top:10px;height: 27px;}
+#register .newRegist .l .fixBox label{ margin:0 auto 0 20px;float:left; width:86px; overflow:hidden; font-size:14px; color:#666; text-align:right; line-height:24px;}
+#register .newRegist .l .fixBox .put{ float:left; width:195px; overflow:hidden;}
+#register .newRegist .l .fixBox .put input{ height:18px; line-height:18px; width:188px; overflow:hidden; border:1px solid #ccc; padding:2px 0 2px 2px;}
+#register .newRegist .l .fixBox .pass{ padding-left:20px; float:left; padding-top:5px;}
+#register .newRegist .l .fixBox .tips{ float:left; background:url(../images/register_line01.gif) repeat-x; margin-left:10px; }
+#register .newRegist .l .fixBox .tips .l-l{ float:left; display:inline; background:url(../images/register_line03.gif) no-repeat; width:3px; overflow:hidden; height:27px;}
+#register .newRegist .l .fixBox .tips .t-b{ float:left; display:inline; height:22px; padding-left:8px; padding-top:5px; overflow:hidden; color:#666;}
+#register .newRegist .l .fixBox .tips .t-b img{ vertical-align:middle;}
+#register .newRegist .l .fixBox .tips .t-b a{ color:#06c;}
+#register .newRegist .l .fixBox .tips .r-l{ float:right; display:inline; background:url(../images/register_line02.gif) no-repeat; width:3px; overflow:hidden; height:27px;}
+#register .newRegist .l .PasswordTipsBox{ height:18px; overflow:hidden; padding-top:10px; padding-left:86px; color:#666;}
+#register .newRegist .l .PasswordTipsBox img{ vertical-align:middle;}
+#register .newRegist .l .btn{ height:32px; overflow:hidden; padding:26px 0 0 86px;}
+#register .newRegist .l .btn a{margin: auto auto auto 4px; background-color:#ff1d00; display:block; height:32px; overflow:hidden; font-size:14px; line-height:32px; text-align:center; font-weight:bold; color:#fff; width:162px;}
+#register .newRegist .l .btn a:hover{ text-decoration:none;}
+#register .newRegist .l .fixBox_b{ width:479px; overflow:hidden; padding-top:10px;height: 27px;margin: auto auto auto 80px}
+#register .newRegist .l .fixBox_b a{color: rgb(255,0,0)}
+/*#register .newRegist .r {width:217px; float:left;}*/
+#register .newRegist .r .box{ width:217px; height:100px; padding-top:90px; text-align:center;}
+#register .newRegist .r .box label{font-size:16px; font-weight:bold; font-family:"微软雅黑";}
+#register .newRegist .r .box a{margin: 0 auto;width: 80px;height: 40px; background: url("../images/deng_lu.png") no-repeat;display: block}
+#register .newRegist .r .box img{margin: 0 auto;}
+
+/*end 新用户注册*/
+/*注册成功*/
+#register .resulr{ width:932px; overflow:hidden;  margin:0 auto; }
+#register .resulr .box{width:610px; padding-top:40px; padding-left:320px; padding-bottom:88px; overflow:hidden; border:1px solid #989898; background:url(../images/register_result_succe.gif) 203px 96px no-repeat;}
+#register .resulr .box h1{ font-size:16px; font-weight:bold; height:56px; line-height:36px; overflow:hidden;}
+#register .resulr .box h2{ font-size:14px; height:20px; line-height:20px; padding-top:4px; overflow:hidden;}
+#register .resulr .box h2 a{ color:#36c;}
+#register .resulr .box p{ line-height:18px; padding-top:15px;}
+#register .resulr .box p a{ color:#36c;}
+/*end 注册成功*/
+
+
+
+
+/*----------找回密码--------*/
+.tab_out{font-size: 14px;color:#666;}
+#register .resulr .tab_title{margin:10px 0px;}
+#register .resulr .tab_title .tab_hover{font-size: 14px;color:#fff;background-color: #ff6b00}
+#register .resulr .tab_title .tab_email{font-size: 14px;padding: 10px;font-weight: bold;cursor: pointer;}
+#register .resulr .tab_title .tab_mobile{font-size: 14px;padding: 10px;font-weight: bold;cursor: pointer;}
+.boxDiv{display: none}
+#register .resulr .findPassword{width:710px; padding-top:40px; padding-left:220px; padding-bottom:82px; overflow:hidden; border:1px solid #E6E6E6;}
+#register .resulr .findPassword h1{ height:38px; line-height:22px;font-weight:500;font-style:normal;     color:#ff6b00;}
+#register .resulr .findPassword .fixBox{width:710px; overflow:hidden; padding-top:20px;}
+#register .resulr .findPassword .fixBox label{ float:left; width:162px; overflow:hidden; line-height:28px;  text-align:right; color:#666; font-size:14px;}
+#register .resulr .findPassword .fixBox .put{ float:left;}
+#register .resulr .findPassword .fixBox .put input{ width:187px; height:24px; line-height:25px; overflow:hidden; border:1px solid #ccc; padding:2px 0 2px 3px;}
+#register .resulr .findPassword .fixBox .put .code{ width:68px;}
+
+#register .resulr .findPassword .PasswordTipsBox{ height:18px; overflow:hidden; padding-top:10px; padding-left:86px; color:#666;}
+#register .resulr .findPassword .PasswordTipsBox img{ vertical-align:middle;}
+#register .resulr .findPassword .fixBox .codeImg{ float:left; padding-left:5px;}
+#register .resulr .findPassword .fixBox .codeImg img{ vertical-align:middle; cursor:pointer;}
+#register .resulr .findPassword .fixBox .codeImg a{ color:#36c;}
+#register .resulr .findPassword .btn{ height:32px; overflow:hidden; padding-left:163px; padding-top:31px;}
+#register .resulr .findPassword .btn a{background:#ff6b00; display:block; width:129px; height:32px; overflow:hidden; text-align:center; font-size:14px; line-height:32px; font-weight:bold; color:#fff;}
+#register .resulr .findPassword .btn a:hover{ text-decoration:none;}
+/*--------end--找回密码--------*/
+
+/*----------找回密码提示--------*/
+#register .resulr .tipsB{ width:930px;overflow:hidden; padding:48px 0; background:#F8F8F8; line-height:18px; color:#666; text-align:center;}
+#register .resulr .tipsB p{ height:48px; line-height:48px; font-size:14px; overflow:hidden;}
+#register .resulr .tipsB .btn{ height:32px; overflow:hidden; margin-top:48px;}
+#register .resulr .tipsB .btn a{  background:url(../images/buyCar_line01.gif) repeat-x; display:block; width:130px; height:32px; overflow:hidden; text-align:center; font-size:14px; line-height:32px; font-weight:bold; color:#fff; margin:0 auto;}
+#register .resulr .tipsB .btn a:hover{ text-decoration:none;}
+/*--------end--找回密码提示--------*/
+
+
+/*----------重置密码--------*/
+#register .resulr .findPassword .PasswordTipsBox{ height:18px; overflow:hidden; padding-top:18px; padding-left:162px; color:#666;}
+#register .resulr .findPassword .PasswordTipsBox img{ vertical-align:middle;}
+/*--------end--重置密码--------*/
+
+/*----------找回密码成功--------*/
+#register .resulr .findSucce{ width:610px; padding-top:120px; padding-left:320px; padding-bottom:88px; overflow:hidden; border:1px solid #E6E6E6; background:url(../images/register_result_succe.gif) 243px 96px no-repeat;}
+#register .resulr .findSucce p{font-size:20px;margin-top:-8px;}
+#register .resulr .btn{ height:32px; overflow:hidden; padding-top:35px;}
+#register .resulr .btn a{ background:#ff6b00; display:block; width:90px; height:32px; overflow:hidden; text-align:center; font-size:14px; line-height:32px; font-weight:bold; color:#fff;}
+#register .resulr .btn a:hover{ text-decoration:none;}
+/*--------end--重置密码--------*/
+
+/*提交意见建议*/
+#getYuorGinst{ width:980px; overflow:hidden; margin:0 auto;}
+#getYuorGinst .sali{ width:932px; overflow:hidden; border:4px solid #EAEAEA; margin:0 auto; background:#fff url(../images/register_result_line01.gif) repeat-x; }
+#getYuorGinst .sali .box{width:820px; padding-top:40px; padding-left:110px; padding-bottom:88px; overflow:hidden; border:1px solid #989898;}
+#getYuorGinst .sali .box h1{ height:24px; line-height:24px; overflow:hidden; font-size:14px; font-weight:bold;}
+#getYuorGinst .sali .box h1 span{ color:#ff6b00;}
+#getYuorGinst .sali .box .fixBox{ width:820px; overflow:hidden; padding-top:13px;}
+#getYuorGinst .sali .box .fixBox label{ float:left; width:100px; font-size:14px; overflow:hidden; text-align:right; line-height:28px;}
+#getYuorGinst .sali .box .fixBox label span{color:#ff6b00;}
+#getYuorGinst .sali .box .fixBox .put{ float:left; padding-top:2px;}
+#getYuorGinst .sali .box .fixBox .put select{ width:132px; font-size:14px;}
+#getYuorGinst .sali .box .fixBox .put input{ width:270px; height:21px; line-height:20px; overflow:hidden; border:1px solid #B5B8C8; padding:2px 0 2px 2px;}
+#getYuorGinst .sali .box .fixBox .put .code{ width:110px;}
+#getYuorGinst .sali .box .fixBox .put2{ float:left; width:660px; overflow:hidden; height:135px;}
+#getYuorGinst .sali .box .fixBox .put2 textarea{ width:650px; height:125px; overflow-x:hidden; overflow-y:scroll; font-size:14px; line-height:20px; padding-left:5px; border:1px solid #B5B8C8;}
+#getYuorGinst .sali .box .fixBox .codeImg{ float:left; padding-left:5px;}
+#getYuorGinst .sali .box .fixBox .codeImg img{ vertical-align:middle; cursor:pointer;}
+#getYuorGinst .sali .box p{ padding-left:72px; line-height:18px; color:#999; height:18px; overflow:hidden;}
+#getYuorGinst .sali .box .btn{ height:29px; overflow:hidden; padding-top:15px; padding-left:72px;}
+#getYuorGinst .sali .box .btn a{ background:url(../images/getYuorGinst_btn01.gif) no-repeat; display:block; width:115px; height:29px; line-height:28px; text-align:center; color:#fff;}
+#getYuorGinst .sali .box .btn a:hover{ text-decoration: none;}
+#getYuorGinst .sali .box2{width:700px; padding-top:40px; padding-left:230px; padding-bottom:88px; overflow:hidden; border:1px solid #989898;}
+#getYuorGinst .sali .box2 h1{ height:40px; line-height:40px; font-size:16px;}
+#getYuorGinst .sali .box2 .fixBox{ width:700px; overflow:hidden; padding-top:15px;}
+#getYuorGinst .sali .box2 .fixBox label{ float:left; width:90px; font-size:14px; line-height:28px;}
+#getYuorGinst .sali .box2 .fixBox label span{ color:#ff6b00;}
+#getYuorGinst .sali .box2 .fixBox .put{ float:left;}
+#getYuorGinst .sali .box2 .fixBox .put input{ width:290px; height:21px; line-height:20px; overflow:hidden; border:1px solid #B5B8C8; padding:2px 0 2px 2px;}
+#getYuorGinst .sali .box2 .btn{ height:29px; overflow:hidden; padding-left:90px; padding-top:15px;}
+#getYuorGinst .sali .box2 .btn a{ background:url(../images/getYuorGinst_btn01.gif) no-repeat; display:block; width:115px; height:29px; line-height:28px; text-align:center; color:#fff;}
+#getYuorGinst .sali .box2 .btn a:hover{ text-decoration: none;}
+#getYuorGinst .sali .succe{width:930px;overflow:hidden; border:1px solid #989898; padding:48px 0;}
+#getYuorGinst .sali .succe h1{ height:36px; overflow:hidden; color:#666; font-size:26px; font-weight:bold; font-family:"微软雅黑"; text-align:center; padding-top:35px;}
+#getYuorGinst .sali .succe h1 img{ vertical-align:middle;}
+#getYuorGinst .sali .succe p{ height:20px; line-height:20px; text-align:center; padding-top:48px;color:#666;}
+/*end  提交意见建议*/
+
+/*微博登陆*/
+#login .login_box .box .loginForOther ul{margin-top: 10px;}
+#login .login_box .box .loginForOther ul div{background:url(../images/api_logo.png) no-repeat;margin-bottom: 8px;}
+#login .login_box .box .loginForOther ul div span{color: #55aadd;margin-left: 20px;line-height: 23px;font-weight:bold;}
+#login .login_box .box .loginForOther ul div a{text-decoration: none;}
+#login .login_box .box .loginForOther ul .li1{background-position: 0 0;width: 120px;height: 25px;float: left;margin-right: 20px;}
+#login .login_box .box .loginForOther ul .li2{background-position: 0 -28px;width: 120px;height: 25px;float: left;}
+#login .login_box .box .loginForOther ul .li3{background-position: 0 -52px;width: 68px;height: 23px;float: left;}
+#login .login_box .box .loginForOther ul .li4{background-position: 0 -72px;width: 68px;height: 23px;float: left;}
+#login .login_box .box .loginForOther ul .li5{background-position: 0 -93px;width:68px;height: 23px;float: left;}
+#login .login_box .box .loginForOther ul .li6{background-position: 0 -113px;width:68px;height: 23px;float: left;}
+#login .login_box .box .loginForOther ul .li7{background-position: 0 -113px;width:68px;height: 23px;float: left;}
+
+#register .newRegist .r .box ul{margin: 10px 0 0 25px;}
+#register .newRegist .r .box ul div{background:url(../images/api_logo.png) no-repeat;margin-bottom: 8px;}
+#register .newRegist .r .box ul div span{color: #55aadd;margin-left: 20px;line-height: 23px;font-weight:bold;}
+#register .newRegist .r .box ul div a{text-decoration: none;}
+#register .newRegist .r .box ul .li1{background-position: 0 0;width: 120px;height: 25px;margin-right: 20px;}
+#register .newRegist .r .box ul .li2{background-position: 0 -28px;width: 120px;height: 25px;}
+#register .newRegist .r .box ul .li3{background-position: 0 -52px;width: 68px;height: 23px;}
+#register .newRegist .r .box ul .li4{background-position: 0 -72px;width: 68px;height: 23px;}
+#register .newRegist .r .box ul .li5{background-position: 0 -93px;width:68px;height: 23px;}
+#register .newRegist .r .box ul .li6{background-position: 0 -113px;width:68px;height: 23px;}
+

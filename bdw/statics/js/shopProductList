@@ -1,0 +1,32 @@
+$(function(){
+    $($(".xz_price").children(".put").mousemove(function(){
+          if($(".xz_price").children(".put").val() !=""){
+                     $(".xz_price").siblings(".xz_btn").css("display","block");
+            }else{
+                      $(".xz_price").siblings(".xz_btn").css("display","none");
+              }
+     }))
+    $(".qc").click(function(){
+           $(".xz_price").children(".put").val("");
+     })
+    $(".qd").click(function(){
+             $(".xz_price").siblings(".xz_btn").css("display","none");
+     })
+    $(".pageUp").click(function(){
+              if(paramData.page==1){
+                  alert("当前已是第一页");
+                  return;
+              }
+              var page=parseInt(paramData.page)-1;
+              window.location.href=paramData.webRoot+"/shopTemplate/default/shopProductList.ac?shopId="+paramData.shopId+"&q="+paramData.q+"&keyword="+paramData.keyword+"&order="+paramData.order+"&page="+page;
+          })
+
+          $(".pageDown").click(function(){
+              if(paramData.page==paramData.totalCount){
+                  alert("当前已是最后一页");
+                  return;
+              }
+              var page=parseInt(paramData.page)+1;
+              window.location.href=paramData.webRoot+"/shopTemplate/default/shopProductList.ac?shopId="+paramData.shopId+"&q="+paramData.q+"&keyword="+paramData.keyword+"&order="+paramData.order+"&page="+page
+          })
+})

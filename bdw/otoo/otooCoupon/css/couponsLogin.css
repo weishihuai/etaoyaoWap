@@ -1,0 +1,68 @@
+/* CSS Document */
+.l_index_bg{width:100%; background-color:#fff;}
+.l_index_bg .l_index{width:980px; padding:40px 0; margin:0 auto;}
+.l_index_bg .l_index .li_lt{width:610px; height:400px; float:left; background:url(../images/login_bg02.png) no-repeat;}
+.l_index_bg .l_index .li_rt_bg{width:360px; height:396px; border-top:4px solid #1a58a7; float:right; box-shadow:0 0 7px #bbb;}
+.l_index_bg .l_index .li_rt_bg .li_rt{width:315px; padding-left:43px; height:395px; border:1px solid #ccc; border-top:none;}
+.l_index_bg .l_index .li_rt_bg .li_rt h4{font-size:16px; color:#333; font-weight:bold; line-height:64px;}
+.l_index_bg .l_index .li_rt_bg .li_rt .item{width:290px; height:43px; margin-bottom:14px;}
+.l_index_bg .l_index .li_rt_bg .li_rt .item input{width:240px; height:40px; line-height:40px; border:1px solid #dedede; padding-left:45px;}
+.l_index_bg .l_index .li_rt_bg .li_rt .fore1 input{background:url(../images/l_icon01.png) no-repeat;}
+
+.l_index_bg .l_index .li_rt_bg .li_rt .yzm{width: 300px; height: 40px; padding-top: 19px; position: relative;}
+.l_index_bg .l_index .li_rt_bg .li_rt .yzm input{float: left; width: 115px; padding-left: 15px; height: 38px; line-height: 38px; font-size: 14px; font-weight: bold; color: #333; border: 1px solid #dedede;}
+.l_index_bg .l_index .li_rt_bg .li_rt .yzm a{display: block; width: 130px; height: 40px; float: left; margin-left: 16px;}
+.l_index_bg .l_index .li_rt_bg .li_rt .yzm .error{ display:none; position:absolute; top:0; left:0; width:110px; padding-left:3px; color:#ff0000; height:17px; border:1px solid #ffbdbf; background-color:#ffebec;}
+
+.l_index_bg .l_index .li_rt_bg .li_rt .fore2{padding-top:19px;}
+.l_index_bg .l_index .li_rt_bg .li_rt .fore2 .error{ display:none; position:absolute; top:0; left:0; width:235px; padding-left:3px; color:#ff0000; height:17px; border:1px solid #ffbdbf; background-color:#ffebec;}
+.l_index_bg .l_index .li_rt_bg .li_rt .fore1 .error{ display:none; position:absolute; top:-19px; left:0; width:235px; padding-left:3px; color:#ff0000; height:17px; border:1px solid #ffbdbf; background-color:#ffebec;}
+.l_index_bg .l_index .li_rt_bg .li_rt .fore2 input{background:url(../images/l_icon02.png) no-repeat;}
+.l_index_bg .l_index .li_rt_bg .li_rt .cur{position:relative;}
+.l_index_bg .l_index .li_rt_bg .li_rt .cur .error{display:block;}
+.l_index_bg .l_index .li_rt_bg .li_rt .rem{width:285px; height:19px; margin:15px 0 20px;}
+.l_index_bg .l_index .li_rt_bg .li_rt .rem input{float:left; margin:4px 8px 0 0;}
+.l_index_bg .l_index .li_rt_bg .li_rt .rem span{color:#333333; line-height:19px; float:left;}
+.l_index_bg .l_index .li_rt_bg .li_rt .rem a{color:#333; line-height:19px; float:left; margin-left:50px;}
+.l_index_bg .l_index .li_rt_bg .li_rt .rem a:hover{color:#ff0000; text-decoration:underline;}
+.l_index_bg .l_index .li_rt_bg .li_rt .login_btn{width:290px; height:43px;margin-top: 30px;}
+.l_index_bg .l_index .li_rt_bg .li_rt .login_btn a{display:block; width:285px; height:40px; line-height:42px; text-align:center; color:#fff; font-size:15px; font-weight:bold; background-color:#1a58a7; border:1px solid #003399;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

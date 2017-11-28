@@ -1,0 +1,139 @@
+.main-bg{background-color: #f8f8f8; padding-bottom: 60px; }
+.past{width: 1190px; height: 26px; padding: 19px 0 13px; margin: 0 auto;}
+.past .crumbs-arrow{display: block; width: 6px; height: 12px; float:left; background: url("../images/past-icon01.png") no-repeat; margin: 7px 0 0 10px; overflow: hidden;}
+.past .first{float: left; padding-left: 20px; height: 26px; margin-right: 10px;}
+.past a{font-size:13px;}
+.past .first span{float: left; line-height: 26px; color: #000000;}
+.past .last{float: left;padding-left: 10px; line-height: 26px; color: #000000;}
+.past .cata{color: #000000;  float: left;  line-height: 26px;}
+.past a:hover.cata{color: #e60611; }
+
+/*条件选择*/
+.main{width: 1190px; margin: 10px auto 0;}
+.main .mt{width: 1155px; height: 48px; line-height: 48px; padding: 0 25px 0 10px;}
+.main .mt span{float: left; color: #333333; font-size: 28px;}
+.main .mt a{float: right; line-height: 48px; padding-left: 18px; background: url("../images/back-icon.png") no-repeat 0 center; color: #148cf0; font-size: 14px;}
+.main .mt a:hover{text-decoration: underline;}
+
+.main .mc{width: 1190px; margin-top: 20px; background-color: #fff;}
+.main .mc .mc-nav{width: 1190px; height: 42px; border-bottom: 2px solid #e60611;}
+.main .mc .mc-nav a{display: block; width: 140px; height: 42px; float: left; text-align: center; line-height: 42px; color: #333333; font-size: 22px;}
+.main .mc .mc-nav a.cur{background:url("../images/x-tii-bg1.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); color: #fff;}
+
+.illn-know{padding: 15px 120px 100px 30px; width: 1040px; background-color: #fff;}
+.illn-know label{display: block; line-height: 24px; color: #333333; font-size: 16px; font-weight: bold;}
+.illn-know .kn-item01{width: 1040px; padding: 10px 0 14px; border-bottom: 1px dashed #dddddd;}
+.illn-know .kn-item01 .mc-cont{width: 1040px; line-height: 24px; margin-top: 10px; overflow: hidden;}
+.illn-know .kn-item01 .mc-cont span{ color: #666666; font-size: 14px; margin-right: 35px; float: left; }
+
+.illn-know .kn-item02{width: 1040px; padding: 10px 0 14px; border-bottom: 1px dashed #dddddd; margin-top: 5px;}
+.illn-know .kn-item02 .mc-cont{width: 1040px; color: #666666; font-size: 14px; line-height: 20px; margin-top: 10px; overflow: hidden;}
+
+.illn-know .kn-item03{width: 1040px; padding: 10px 0 14px;margin-top: 5px;}
+.illn-know .kn-item03 .mc-cont{width: 1040px; color: #666666; font-size: 14px; line-height: 20px; margin-top: 10px; overflow: hidden;}
+.illn-know .kn-item03 .reason{width: 1040px; padding: 8px 0 30px; margin-top: 15px; border-top: 1px solid #cccccc; background-color: #fafafa; overflow: hidden;}
+.illn-know .kn-item03 .reason li{width: 420px; float: left; padding: 5px 0; font-size: 14px; margin: 0 80px 0 20px; border-bottom: 1px dashed #dfdfdf; overflow: hidden;}
+.illn-know .kn-item03 .reason li span{float: left; min-width: 76px;  color: #999999; height: 25px; line-height: 25px;}
+.illn-know .kn-item03 .reason li em{float: left; font-style: normal; width: 310px; line-height: 25px; color: #333333;}
+.illn-know .kn-item03 .reason li em i{padding-right: 5px; color: #333;}
+
+.illn-suggest{padding-bottom: 40px;}
+.illn-suggest .sug-cont{width: 1130px; padding-left: 30px; min-height: 300px;}
+.illn-suggest .sug-cont li{width: 1100px; min-height: 130px; padding: 24px 30px 21px 0; border-bottom: 1px solid #dddddd; overflow: hidden;}
+.illn-suggest .sug-cont .pic{width: 100px; height: 100px; border: 1px solid #dddddd; float: left; margin: 6px 20px 0 0; position: relative;}
+.illn-suggest .sug-cont .rec{display: inline-block; width: 106px; height: 18px; line-height: 18px; color: #fff; text-align: center; padding-top: 3px; background: url("../images/rec-bg.png") no-repeat; position: absolute; left: -3px; bottom: -18px;}
+
+.illn-suggest .sug-cont .sc-md{width: 625px; float: left;}
+.illn-suggest .sug-cont .sc-md .title{width: 625px; height: 28px; line-height: 28px; font-size: 16px; font-weight: bold; color: #e5151f;}
+.illn-suggest .sug-cont .sc-md p{width: 590px; height: 36px; line-height: 18px; font-size: 14px; color: #333333; overflow: hidden;}
+.illn-suggest .sug-cont .sc-md .md-info{width: 625px; padding-top: 5px; border-top: 1px dashed #dfdfdf; margin-top: 9px; overflow: hidden;}
+.illn-suggest .sug-cont .sc-md .info-item{width: 300px; padding: 2px 0; float: left; margin-right: 10px; overflow: hidden;}
+.illn-suggest .sug-cont .sc-md .info-item label{float: left; width: 75px; line-height: 20px; overflow: hidden; color: #999999; font-size: 14px;}
+.illn-suggest .sug-cont .sc-md .info-item span{float: left; line-height: 20px; color: #333333; font-size: 14px; display: inline-block; width: 220px;}
+
+
+.illn-suggest .sug-cont .sc-rt{float: right; margin-top: 28px; text-align: right;}
+.illn-suggest .sug-cont .sc-rt span{color: #e5151f; font-size: 24px; font-weight: bold; padding-right: 18px;}
+.illn-suggest .sug-cont .sc-rt i{font-style: normal; font-size: 18px; font-weight: 400; }
+.illn-suggest .sug-cont .sc-rt del{color: #999; font-size: 14px; vertical-align: text-bottom;}
+.illn-suggest .sug-cont .sc-rt a{display: inline-block; color: #e5151f; font-size: 18px; margin-top: 23px; width: 158px; height: 42px; border: 1px solid #e5151f; text-align: center; line-height: 42px; border-radius: 2px;}
+.illn-suggest .sug-cont .sc-rt a:hover{background-color: #e5151f; color: #fff;}
+.illn-suggest .sug-cont .sc-rt a.dis{background-color: #f8f8f8; color: #bbbbbb; border: 1px solid #cccccc; cursor: default;}
+
+
+.pager{width: 1120px; padding-top: 30px; padding-right: 70px; overflow: hidden;}
+#infoPage {_float:right; font-size: 14px; height: 42px;margin-bottom: 10px;margin-top: 4px;text-align: center;}
+#infoPage{width:auto;float:right;}
+#infoPage ul li{float:left; line-height: 38px;list-style:none;color:#999999;}
+#infoPage li span { float: left}
+#infoPage .prev {margin-right: 20px;}
+#infoPage .next {margin-left: 15px;}
+#infoPage .everyPage{color:#666666;margin-left: 12px;border: 1px solid #e9e9e9;border-radius: 1px;display: inline-block;height: 38px;line-height: 38px; text-align: center;width:38px;box-shadow: 0 2px 2px rgba(0,0,0,0.1);}
+#infoPage .nowPage{margin-left: 4px;border-radius: 1px; display: inline-block; height: 38px; line-height: 38px;text-align: center;width:38px;border: 1px solid #e5151f;color: #FFF;background:#e5151f;box-shadow: 0 2px 2px rgba(0,0,0,0.1);}
+#infoPage select{height:18px;color:#e60611;}
+#infoPage span, .pager a {text-decoration: none;}
+#infoPage li {display: inline-block;height: 45px;}
+#infoPage li a, #infoPage .pages li span {display: block; float: left; width: auto; line-height:11px;}
+#infoPage li a:hover {color:#e5151f;;background:#FFF; border: 1px solid #e5151f;}
+#infoPage .upPage,#infoPage .downPage {border: 1px solid  #e9e9e9;border-radius: 1px; box-shadow: 0 2px 2px rgba(0,0,0,0.1); color: #333333;display: inline-block;font-size: 14px;font-style: normal;height: 38px;line-height: 38px;text-align: center;width:70px;margin-left:4px;}
+#infoPage li.current {color: #000000; cursor: default;}
+#inputPage{border:#e9e9e9 1px solid; font-size: 14px; color: #666666; width:50px; height: 38px; line-height: 38px; text-align: center;}
+#inputPage:focus{border: 1px solid #e5151f;}
+#infoPage .goToPage{margin-left:5px; background:#FFF;border:1px solid #e9e9e9; color: #999999; font-size: 14px; width: 70px; height: 38px; line-height: 34px; cursor:pointer;_padding-top: 1px;*padding-top: 1px;box-shadow: 0 2px 2px rgba(0,0,0,0.1);transition:all 120ms;}
+#infoPage .goToPage:hover {color:#e5151f;;background:#FFF; border: 1px solid #e5151f;}
+
+/*弹出层——加入购物车*/
+.layer-bg{width: 100%; height: 100%; position: fixed; z-index: 999; background: url("../images/bg0.15.png") repeat;}
+.layer-bg .d-layer{width: 618px; border-radius: 4px; box-shadow: 0 0 0 5px rgba(0,0,0,0.15); border: 1px solid #bdbdbd; background-color: #fff; position: absolute; left: 50%; margin-left: -309px; top: 155px; z-index: 9999;}
+.layer-bg .d-layer .mt{width: 618px; height: 35px; background-color: #f3f3f3; overflow: hidden;}
+.layer-bg .d-layer .mt span{float: left; line-height: 35px; color: #666666; font-size: 14px; margin-left: 20px;}
+.layer-bg .d-layer .mt a{display: block; width: 28px; height: 28px; background: url("../images/detail-01-allbg.png") no-repeat -55px 9px; float: right; margin: 3px 5px 0 0;}
+.layer-bg .d-layer .mt a:hover{background: url("../images/detail-01-allbg2.png") no-repeat -55px 9px; ;}
+.layer-bg .addCartInfo .mc{padding: 23px 0 40px; background-color: #fff; margin-left: 55px}
+.layer-bg .addCartInfo .mc em{display: block;color:#000; padding-left: 150px;line-height: 30px}
+em, i {
+    font-style: normal;
+    color: red;
+}
+.layer-bg .addCartInfo .mc .btn{padding-left: 140px;}
+.layer-bg .addCartInfo .mc .btn .sub{display: inline-block; width: 100px; height: 30px; border-radius: 2px; line-height: 30px; text-align: center; color: #fff; font-size: 14px; background-color: #e5151f; margin-left: 10px; margin-top: 25px}
+.layer-bg .addCartInfo .mc .btn a:hover.sub{background-color: #e5151f;}
+.layer-bg .addCartInfo .mc span{display: block; width: 400px; line-height: 24px; padding-left: 166px; color: #666; margin: 15px 0 25px;}
+.layer-bg .addCartInfo .mc i{font-style: normal; padding: 0 3px;}
+.layer-bg .addCartInfo .mc p{width: 250px; padding-left: 150px; height: 30px; font-size: 18px;line-height: 30px; color: #000000; background: url("../images/layer-icon03.png") no-repeat 106px 0; margin-left: 0px}
+
+/*151223添加，收藏疾病*/
+/*.mc .collect{width: 300px;}*/
+.mc .collect .diseaseCollect{
+    width: 100px;   font-size: 14px;color: #e5151f;margin-top: 25px;margin-right: 15px; float: right; }
+
+/*.mc .collect .diseaseCollect .yes{display: block; width: 18px; height: 20px; background: url("../images/detail-01-allbg.png") no-repeat -20px 0; position: absolute; left: 0; top: 1px;}
+.mc .collect .diseaseCollect .no{display: block; width: 18px; height: 20px; background: url("../images/detail_isCollect.png") no-repeat 0 0; position: absolute; left: 0; top: 1px;}*/
+
+.mc .collect .diseaseCollect .yes{
+    display: block;
+    width: 18px;
+    height: 20px;
+    background: url("../images/detail-01-allbg.png") no-repeat -20px 0;
+    position: relative;
+    float: left;
+}
+
+.mc .collect .diseaseCollect .no{
+    display: block;
+    width: 18px;
+    height: 20px;
+    background: url("../images/detail_isCollect.png") no-repeat 0 0;
+    position: relative;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+

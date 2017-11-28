@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<moudle>
+    <templateNm>宝得网</templateNm>
+    <designer>邓君</designer>
+    <templateBrief>宝得网商城</templateBrief>
+    <pictSizeSpec>420x420,360x360,320x320,220x220,200x200,160x160,120x120,100x100,150x150,80x80,60x60,50x50</pictSizeSpec>
+    <marketingActivityAdvt>1190x100,1190x290,280x360,580x216,640x328,130x130</marketingActivityAdvt>
+    <mainProductPictSpec>600x600</mainProductPictSpec>
+    <groupBuySizeSpec>180x180,160x160,180x120</groupBuySizeSpec>
+    <categoryAdvt>160x160</categoryAdvt>
+
+    <!--好货推广PC效果图-->
+    <cpsThemeActivitieEffect>360x270</cpsThemeActivitieEffect>
+    <cpsThemeAdvt>360x270,320x240,300x250</cpsThemeAdvt>
+    <cpsMainAdvt>880x660,360x270,440x330</cpsMainAdvt>
+    <!--好货推广wap效果图-->
+    <cpsThemeActivitieWapEffect>590x250,640X280</cpsThemeActivitieWapEffect>
+
+
+    <pageModules>
+
+        <!--团购-->
+        <pageModule frontendNm="团购_轮换广告" innerCode="yaoBulk_banner_adv" pageModuleTypeCode="0" pageNm="团购"/>
+        <!--==========================================================================================================-->
+        <!--O2O商品首页-->
+        <pageModule frontendNm="上中部文字链接标题_1" innerCode="O2O_topCenter_linkTitle_1" pageModuleTypeCode="2" pageNm="O2O首页"/>
+        <pageModule frontendNm="上中部文字链接标题_2" innerCode="O2O_topCenter_linkTitle_2" pageModuleTypeCode="2" pageNm="O2O首页"/>
+        <pageModule frontendNm="上中部文字链接标题_3" innerCode="O2O_topCenter_linkTitle_3" pageModuleTypeCode="2" pageNm="O2O首页"/>
+
+        <pageModule frontendNm="上中部文字链接_1" innerCode="O2O_topCenter_link_1" pageModuleTypeCode="2" pageNm="O2O首页"/>
+        <pageModule frontendNm="上中部文字链接_2" innerCode="O2O_topCenter_link_2" pageModuleTypeCode="2" pageNm="O2O首页"/>
+        <pageModule frontendNm="上中部文字链接_3" innerCode="O2O_topCenter_link_3" pageModuleTypeCode="2" pageNm="O2O首页"/>
+
+        <pageModule frontendNm="上中部轮播广告" innerCode="O2O_topCenter_adv" pageModuleTypeCode="0" pageNm="O2O首页"/>
+
+        <pageModule frontendNm="上左商品分类文字修饰_1" innerCode="O2O_topLeft_decoration_1" pageModuleTypeCode="2" pageNm="O2O首页"/>
+        <pageModule frontendNm="上左商品分类文字修饰_2" innerCode="O2O_topLeft_decoration_2" pageModuleTypeCode="2" pageNm="O2O首页"/>
+        <pageModule frontendNm="上左商品分类文字修饰_3" innerCode="O2O_topLeft_decoration_3" pageModuleTypeCode="2" pageNm="O2O首页"/>
+        <pageModule frontendNm="上左商品分类文字修饰_4" innerCode="O2O_topLeft_decoration_4" pageModuleTypeCode="2" pageNm="O2O首页"/>
+        <pageModule frontendNm="上左商品分类文字修饰_5" innerCode="O2O_topLeft_decoration_5" pageModuleTypeCode="2" pageNm="O2O首页"/>
+        <pageModule frontendNm="上左商品分类文字修饰_6" innerCode="O2O_topLeft_decoration_6" pageModuleTypeCode="2" pageNm="O2O首页"/>
+        <pageModule frontendNm="上左商品分类文字修饰_7" innerCode="O2O_topLeft_decoration_7" pageModuleTypeCode="2" pageNm="O2O首页"/>
+
+
+        <pageModule frontendNm="上中右侧广告" innerCode="O2O_topRightCenter_adv" pageModuleTypeCode="0" pageNm="O2O首页"/>
+
+        <pageModule frontendNm="中部商品推荐标题_1" innerCode="O2O_center_recommend_title_1" pageModuleTypeCode="2" pageNm="O2O首页"/>
+        <pageModule frontendNm="中部商品推荐标题_2" innerCode="O2O_center_recommend_title_2" pageModuleTypeCode="2" pageNm="O2O首页"/>
+        <pageModule frontendNm="中部商品推荐标题_3" innerCode="O2O_center_recommend_title_3" pageModuleTypeCode="2" pageNm="O2O首页"/>
+        <pageModule frontendNm="中部商品推荐标题_4" innerCode="O2O_center_recommend_title_4" pageModuleTypeCode="2" pageNm="O2O首页"/>
+        <pageModule frontendNm="中部商品推荐标题_5" innerCode="O2O_center_recommend_title_5" pageModuleTypeCode="2" pageNm="O2O首页"/>
+        <pageModule frontendNm="中部商品推荐标题_6" innerCode="O2O_center_recommend_title_6" pageModuleTypeCode="2" pageNm="O2O首页"/>
+
+        <pageModule frontendNm="中部商品推荐_1" innerCode="O2O_center_recommend_1" pageModuleTypeCode="6" pageNm="O2O首页"/>
+        <pageModule frontendNm="中部商品推荐_2" innerCode="O2O_center_recommend_2" pageModuleTypeCode="6" pageNm="O2O首页"/>
+        <pageModule frontendNm="中部商品推荐_3" innerCode="O2O_center_recommend_3" pageModuleTypeCode="6" pageNm="O2O首页"/>
+        <pageModule frontendNm="中部商品推荐_4" innerCode="O2O_center_recommend_4" pageModuleTypeCode="6" pageNm="O2O首页"/>
+        <pageModule frontendNm="中部商品推荐_5" innerCode="O2O_center_recommend_5" pageModuleTypeCode="6" pageNm="O2O首页"/>
+        <pageModule frontendNm="中部商品推荐_6" innerCode="O2O_center_recommend_6" pageModuleTypeCode="6" pageNm="O2O首页"/>
+
+
+        <!--万家福频道页-->
+        <pageModule frontendNm="页头大轮换广告推荐" innerCode="wjf_Head_Slide_Recommend" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="页头大轮换广告上的图片优惠" innerCode="wjf_Head_Recommend" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+
+        <pageModule frontendNm="页头优惠上广告" innerCode="wjf_Head_Top_favorable" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="页头优惠下左广告" innerCode="wjf_HeadLeft_favorable_adv1" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="页头优惠下右广告" innerCode="wjf_HeadRight_favorable_adv1" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+
+        <pageModule frontendNm="楼层F1左侧单广告" innerCode="wjf_f1_left_adv1" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F2左侧单广告" innerCode="wjf_f2_left_adv1" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F3左侧单广告" innerCode="wjf_f3_left_adv1" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F4左侧单广告" innerCode="wjf_f4_left_adv1" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F5左侧单广告" innerCode="wjf_f5_left_adv1" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F6左侧单广告" innerCode="wjf_f6_left_adv1" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F7左侧单广告" innerCode="wjf_f7_left_adv1" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+
+
+        <pageModule frontendNm="楼层F1左上侧单广告" innerCode="wjf_f1_leftTop_adv1" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F2左上侧单广告" innerCode="wjf_f2_leftTop_adv1" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F3左上侧单广告" innerCode="wjf_f3_leftTop_adv1" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F4左上侧单广告" innerCode="wjf_f4_leftTop_adv1" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F5左上侧单广告" innerCode="wjf_f5_leftTop_adv1" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F6左上侧单广告" innerCode="wjf_f6_leftTop_adv1" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F7左上侧单广告" innerCode="wjf_f7_leftTop_adv1" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+
+        <pageModule frontendNm="楼层F1上侧文字链接" innerCode="wjf_f1_Top_TitleAdv1" pageModuleTypeCode="2" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F2上侧文字链接" innerCode="wjf_f2_Top_TitleAdv1" pageModuleTypeCode="2" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F3上侧文字链接" innerCode="wjf_f3_Top_TitleAdv1" pageModuleTypeCode="2" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F4上侧文字链接" innerCode="wjf_f4_Top_TitleAdv1" pageModuleTypeCode="2" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F5上侧文字链接" innerCode="wjf_f5_Top_TitleAdv1" pageModuleTypeCode="2" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F6上侧文字链接" innerCode="wjf_f6_Top_TitleAdv1" pageModuleTypeCode="2" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F7上侧文字链接" innerCode="wjf_f7_Top_TitleAdv1" pageModuleTypeCode="2" pageNm="万家福频道页"/>
+
+
+        <pageModule frontendNm="楼层F1左中侧文字链接" innerCode="wjf_f1_leftCenter_adv1" pageModuleTypeCode="2" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F2左中侧文字链接" innerCode="wjf_f2_leftCenter_adv1" pageModuleTypeCode="2" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F3左中侧文字链接" innerCode="wjf_f3_leftCenter_adv1" pageModuleTypeCode="2" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F4左中侧文字链接" innerCode="wjf_f4_leftCenter_adv1" pageModuleTypeCode="2" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F5左中侧文字链接" innerCode="wjf_f5_leftCenter_adv1" pageModuleTypeCode="2" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F6左中侧文字链接" innerCode="wjf_f6_leftCenter_adv1" pageModuleTypeCode="2" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F7左中侧文字链接" innerCode="wjf_f7_leftCenter_adv1" pageModuleTypeCode="2" pageNm="万家福频道页"/>
+
+        <pageModule frontendNm="楼层头幻灯片" innerCode="wjf_Head_slide" pageModuleTypeCode="2" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F1幻灯片" innerCode="wjf_f1_slide" pageModuleTypeCode="2" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F2幻灯片" innerCode="wjf_f2_slide" pageModuleTypeCode="2" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F3幻灯片" innerCode="wjf_f3_slide" pageModuleTypeCode="2" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F4幻灯片" innerCode="wjf_f4_slide" pageModuleTypeCode="2" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F5幻灯片" innerCode="wjf_f5_slide" pageModuleTypeCode="2" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F6幻灯片" innerCode="wjf_f6_slide" pageModuleTypeCode="2" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F7幻灯片" innerCode="wjf_f7_slide" pageModuleTypeCode="2" pageNm="万家福频道页"/>
+
+        <pageModule frontendNm="楼层F1右上文字链接" innerCode="wjf_f1_RightTop_link" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F2右上文字链接" innerCode="wjf_f2_RightTop_link" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F3右上文字链接" innerCode="wjf_f3_RightTop_link" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F4右上文字链接" innerCode="wjf_f4_RightTop_link" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F5右上文字链接" innerCode="wjf_f5_RightTop_link" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F6右上文字链接" innerCode="wjf_f6_RightTop_link" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F7右上文字链接" innerCode="wjf_f7_RightTop_link" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+
+        <pageModule frontendNm="楼层F1右中推荐" innerCode="wjf_f1_RightCenter_recommend" pageModuleTypeCode="1" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F2右中推荐" innerCode="wjf_f2_RightCenter_recommend" pageModuleTypeCode="1" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F3右中推荐" innerCode="wjf_f3_RightCenter_recommend" pageModuleTypeCode="1" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F4右中推荐" innerCode="wjf_f4_RightCenter_recommend" pageModuleTypeCode="1" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F5右中推荐" innerCode="wjf_f5_RightCenter_recommend" pageModuleTypeCode="1" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F6右中推荐" innerCode="wjf_f6_RightCenter_recommend" pageModuleTypeCode="1" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F7右中推荐" innerCode="wjf_f7_RightCenter_recommend" pageModuleTypeCode="1" pageNm="万家福频道页"/>
+
+        <pageModule frontendNm="楼层F1中下推荐" innerCode="wjf_f1_CenterBottom_recommend" pageModuleTypeCode="1" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F2中下推荐" innerCode="wjf_f2_CenterBottom_recommend" pageModuleTypeCode="1" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F3中下推荐" innerCode="wjf_f3_CenterBottom_recommend" pageModuleTypeCode="1" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F4中下推荐" innerCode="wjf_f4_CenterBottom_recommend" pageModuleTypeCode="1" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F5中下推荐" innerCode="wjf_f5_CenterBottom_recommend" pageModuleTypeCode="1" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F6中下推荐" innerCode="wjf_f6_CenterBottom_recommend" pageModuleTypeCode="1" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F7中下推荐" innerCode="wjf_f7_CenterBottom_recommend" pageModuleTypeCode="1" pageNm="万家福频道页"/>
+
+
+        <pageModule frontendNm="楼层F1居中侧幻灯片广告" innerCode="wjf_f1_Center_slide_adv1" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F2居中侧幻灯片广告" innerCode="wjf_f2_Center_slide_adv1" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F3居中侧幻灯片广告" innerCode="wjf_f3_Center_slide_adv1" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F4居中侧幻灯片广告" innerCode="wjf_f4_Center_slide_adv1" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F5居中侧幻灯片广告" innerCode="wjf_f5_Center_slide_adv1" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F6居中侧幻灯片广告" innerCode="wjf_f6_Center_slide_adv1" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+        <pageModule frontendNm="楼层F7居中侧幻灯片广告" innerCode="wjf_f7_Center_slide_adv1" pageModuleTypeCode="0" pageNm="万家福频道页"/>
+
+        <pageModule frontendNm="频道页_商品推荐" innerCode="channel_recommend" pageModuleTypeCode="1" pageNm="频道页"/>
+        <pageModule frontendNm="频道页_更多链接" innerCode="panic_bottom_link" pageModuleTypeCode="2" pageNm="频道页"/>
+
+
+        <!-- 领券页面 -->
+        <pageModule frontendNm="领券页面_中间广告1" innerCode="getCoupon_middle_adv1" pageModuleTypeCode="0" pageNm="领券页"/>
+        <pageModule frontendNm="领券页面_中间广告2" innerCode="getCoupon_middle_adv2" pageModuleTypeCode="0" pageNm="领券页"/>
+
+        <!--首页-->
+        <pageModule frontendNm="商城logo" innerCode="top_logo" pageModuleTypeCode="0" pageNm="页头"/>
+        <pageModule frontendNm="首页头部链接" innerCode="top_links" pageModuleTypeCode="2" pageNm="页头"/>
+
+        <pageModule frontendNm="商城微信二维码" innerCode="top_wechat_qr" pageModuleTypeCode="0" pageNm="页头"/>
+        <pageModule frontendNm="分类标题1" innerCode="menu_category_link1" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类标题2" innerCode="menu_category_link2" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类标题3" innerCode="menu_category_link3" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类标题4" innerCode="menu_category_link4" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类标题5" innerCode="menu_category_link5" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类标题6" innerCode="menu_category_link6" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类标题7" innerCode="menu_category_link7" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类标题8" innerCode="menu_category_link8" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类标题9" innerCode="menu_category_link9" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类标题10" innerCode="menu_category_link10" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类标题11" innerCode="menu_category_link11" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类标题12" innerCode="menu_category_link12" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类标题13" innerCode="menu_category_link13" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类广告1" innerCode="index_category_adv1" pageModuleTypeCode="0" pageNm="页头"/>
+        <pageModule frontendNm="分类广告2" innerCode="index_category_adv2" pageModuleTypeCode="0" pageNm="页头"/>
+        <pageModule frontendNm="分类广告3" innerCode="index_category_adv3" pageModuleTypeCode="0" pageNm="页头"/>
+        <pageModule frontendNm="分类广告4" innerCode="index_category_adv4" pageModuleTypeCode="0" pageNm="页头"/>
+        <pageModule frontendNm="分类广告5" innerCode="index_category_adv5" pageModuleTypeCode="0" pageNm="页头"/>
+        <pageModule frontendNm="分类广告6" innerCode="index_category_adv6" pageModuleTypeCode="0" pageNm="页头"/>
+        <pageModule frontendNm="分类广告7" innerCode="index_category_adv7" pageModuleTypeCode="0" pageNm="页头"/>
+        <pageModule frontendNm="分类广告8" innerCode="index_category_adv8" pageModuleTypeCode="0" pageNm="页头"/>
+        <pageModule frontendNm="分类广告9" innerCode="index_category_adv9" pageModuleTypeCode="0" pageNm="页头"/>
+        <pageModule frontendNm="分类广告10" innerCode="index_category_adv10" pageModuleTypeCode="0" pageNm="页头"/>
+        <pageModule frontendNm="分类广告11" innerCode="index_category_adv11" pageModuleTypeCode="0" pageNm="页头"/>
+        <pageModule frontendNm="分类广告12" innerCode="index_category_adv12" pageModuleTypeCode="0" pageNm="页头"/>
+        <pageModule frontendNm="分类广告13" innerCode="index_category_adv13" pageModuleTypeCode="0" pageNm="页头"/>
+        <pageModule frontendNm="分类右侧品牌链接1" innerCode="top_right_brand1" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类右侧品牌链接2" innerCode="top_right_brand2" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类右侧品牌链接3" innerCode="top_right_brand3" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类右侧品牌链接4" innerCode="top_right_brand4" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类右侧品牌链接5" innerCode="top_right_brand5" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类右侧品牌链接6" innerCode="top_right_brand6" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类右侧品牌链接7" innerCode="top_right_brand7" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类右侧品牌链接8" innerCode="top_right_brand8" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类右侧品牌链接9" innerCode="top_right_brand9" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类右侧品牌链接10" innerCode="top_right_brand10" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类右侧品牌链接11" innerCode="top_right_brand11" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类右侧品牌链接12" innerCode="top_right_brand12" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类右侧品牌链接13" innerCode="top_right_brand13" pageModuleTypeCode="2" pageNm="页头"/>
+        <pageModule frontendNm="分类下方广告" innerCode="index_category_bottom_adv" pageModuleTypeCode="0" pageNm="页头"/>
+        <pageModule frontendNm="页尾广告" innerCode="index_bottom_adv" pageModuleTypeCode="0" pageNm="页尾"/>
+
+        <pageModule frontendNm="轮换广告" innerCode="index_banner" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="公告下方广告" innerCode="index_notice_bottom" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="轮换左下方广告" innerCode="index_banner_bottom_left" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="轮换右下方广告" innerCode="index_banner_bottom_right" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="横幅广告1" innerCode="index_streamer_adv1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="横幅广告2" innerCode="index_streamer_adv2" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="横幅广告3" innerCode="index_streamer_adv3" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="横幅广告4" innerCode="index_streamer_adv4" pageModuleTypeCode="0" pageNm="首页"/>
+
+        <!--F1-->
+        <pageModule frontendNm="首页_f1_标题" innerCode="index_f1_title_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f1_标题下广告" innerCode="index_f1_left_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f1_标题下链接" innerCode="index_f1_left_link" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="首页_f1_右边_广告1" innerCode="index_f1_right_adv1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f1_右边_广告2" innerCode="index_f1_right_adv2" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f1_右边_广告3" innerCode="index_f1_right_adv3" pageModuleTypeCode="0" pageNm="首页"/>
+        <!--F2-->
+        <pageModule frontendNm="首页_f2_标题" innerCode="index_f2_title_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f2_标题下广告" innerCode="index_f2_left_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f2_标题下链接" innerCode="index_f2_left_link" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="首页_f2_右边_广告1" innerCode="index_f2_right_adv1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f2_右边_广告2" innerCode="index_f2_right_adv2" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f2_右边_广告3" innerCode="index_f2_right_adv3" pageModuleTypeCode="0" pageNm="首页"/>
+        <!--F3-->
+        <pageModule frontendNm="首页_f3_标题" innerCode="index_f3_title_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f3_标题下广告" innerCode="index_f3_left_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f3_标题下链接" innerCode="index_f3_left_link" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="首页_f3_右边_广告1" innerCode="index_f3_right_adv1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f3_右边_广告2" innerCode="index_f3_right_adv2" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f3_右边_广告3" innerCode="index_f3_right_adv3" pageModuleTypeCode="0" pageNm="首页"/>
+        <!--F4-->
+        <pageModule frontendNm="首页_f4_标题" innerCode="index_f4_title_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f4_标题下广告" innerCode="index_f4_left_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f4_标题下链接" innerCode="index_f4_left_link" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="首页_f4_右边_广告1" innerCode="index_f4_right_adv1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f4_右边_广告2" innerCode="index_f4_right_adv2" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f4_右边_广告3" innerCode="index_f4_right_adv3" pageModuleTypeCode="0" pageNm="首页"/>
+        <!--F5-->
+        <pageModule frontendNm="首页_f5_标题" innerCode="index_f5_title_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f5_标题下广告" innerCode="index_f5_left_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f5_标题下链接" innerCode="index_f5_left_link" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="首页_f5_右边_广告1" innerCode="index_f5_right_adv1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f5_右边_广告2" innerCode="index_f5_right_adv2" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f5_右边_广告3" innerCode="index_f5_right_adv3" pageModuleTypeCode="0" pageNm="首页"/>
+        <!--F6-->
+        <pageModule frontendNm="首页_f6_标题" innerCode="index_f6_title_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f6_标题下广告" innerCode="index_f6_left_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f6_标题下链接" innerCode="index_f6_left_link" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="首页_f6_右边_广告" innerCode="index_f6_right_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f6_右边_商品推荐" innerCode="index_f6_right_recommend" pageModuleTypeCode="1" pageNm="首页"/>
+        <!--F7-->
+        <pageModule frontendNm="首页_f7_标题" innerCode="index_f7_title_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f7_标题下广告" innerCode="index_f7_left_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f7_标题下链接" innerCode="index_f7_left_link" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="首页_f7_右边_广告1" innerCode="index_f7_right_adv1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f7_右边_广告2" innerCode="index_f7_right_adv2" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f7_右边_广告3" innerCode="index_f7_right_adv3" pageModuleTypeCode="0" pageNm="首页"/>
+        <!--F8-->
+        <pageModule frontendNm="首页_f8_标题" innerCode="index_f8_title_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f8_标题下广告" innerCode="index_f8_left_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f8_标题下链接" innerCode="index_f8_left_link" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="首页_f8_右边_广告1" innerCode="index_f8_right_adv1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f8_右边_广告2" innerCode="index_f8_right_adv2" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f8_右边_广告3" innerCode="index_f8_right_adv3" pageModuleTypeCode="0" pageNm="首页"/>
+        <!--F9-->
+        <pageModule frontendNm="首页_f9_标题上广告" innerCode="index_f9_title_top_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f9_标题" innerCode="index_f9_title_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f9_标题下广告" innerCode="index_f9_left_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f9_标题下链接" innerCode="index_f9_left_link" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="首页_f9_右边_链接" innerCode="index_f9_right_link" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="首页_f9_右边_广告1" innerCode="index_f9_right_adv1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f9_右边_广告2" innerCode="index_f9_right_adv2" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f9_右边_广告3" innerCode="index_f9_right_adv3" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f9_右边_商品推荐" innerCode="index_f9_right_recommend" pageModuleTypeCode="1" pageNm="首页"/>
+        <!--F10-->
+        <pageModule frontendNm="首页_f10_标题上广告" innerCode="index_f10_title_top_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f10_标题" innerCode="index_f10_title_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f10_标题下广告" innerCode="index_f10_left_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f10_标题下链接" innerCode="index_f10_left_link" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="首页_f10_右边_链接" innerCode="index_f10_right_link" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="首页_f10_右边_广告1" innerCode="index_f10_right_adv1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f10_右边_广告2" innerCode="index_f10_right_adv2" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f10_右边_广告3" innerCode="index_f10_right_adv3" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f10_右边_商品推荐" innerCode="index_f10_right_recommend" pageModuleTypeCode="1" pageNm="首页"/>
+
+        <!--lml 2015/4/3  新首页的装修模块-->
+        <pageModule frontendNm="团购左边的广告位" innerCode="index_f1_Left_GroupBuy" pageModuleTypeCode="0" pageNm="首页"/>
+
+        <pageModule frontendNm="通栏左方广告" innerCode="index_left_Adv_Top" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="通栏右方广告" innerCode="index_right_Adv_Top" pageModuleTypeCode="0" pageNm="首页"/>
+
+        <pageModule frontendNm="底部通栏左方广告" innerCode="index_left_Adv_Btom" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="底部通栏右方广告" innerCode="index_right_Adv_Btom" pageModuleTypeCode="0" pageNm="首页"/>
+        <!--f1-->
+        <pageModule frontendNm="首页_f2_标题" innerCode="index_f2_titleAdv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f2_标题下链接" innerCode="index_f2_leftLink" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="首页_f2_链接下广告" innerCode="index_f2_advLeft" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f2_推荐1" innerCode="index_f2_recommend1" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f2_推荐2" innerCode="index_f2_recommend2" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f2_推荐3" innerCode="index_f2_recommend3" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f2_右侧推荐" innerCode="index_f2_recommend4" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f2_中间广告" innerCode="index_f2_advMid" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f2_右侧品牌" innerCode="index_f2_advLogo" pageModuleTypeCode="0" pageNm="首页"/>
+        <!--f2-->
+        <pageModule frontendNm="首页_f3_标题" innerCode="index_f3_titleAdv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f3_标题下链接" innerCode="index_f3_leftLink" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="首页_f3_链接下广告" innerCode="index_f3_advLeft" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f3_推荐1" innerCode="index_f3_recommend1" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f3_推荐2" innerCode="index_f3_recommend2" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f3_推荐3" innerCode="index_f3_recommend3" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f3_右侧推荐" innerCode="index_f3_recommend4" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f3_中间广告" innerCode="index_f3_advMid" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f3_右侧品牌" innerCode="index_f3_advLogo" pageModuleTypeCode="0" pageNm="首页"/>
+        <!--f3-->
+        <pageModule frontendNm="首页_f4_标题" innerCode="index_f4_titleAdv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f4_标题下链接" innerCode="index_f4_leftLink" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="首页_f4_链接下广告" innerCode="index_f4_advLeft" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f4_推荐1" innerCode="index_f4_recommend1" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f4_推荐2" innerCode="index_f4_recommend2" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f4_推荐3" innerCode="index_f4_recommend3" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f4_右侧推荐" innerCode="index_f4_recommend4" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f4_中间广告" innerCode="index_f4_advMid" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f4_右侧品牌" innerCode="index_f4_advLogo" pageModuleTypeCode="0" pageNm="首页"/>
+        <!--f4-->
+        <pageModule frontendNm="首页_f5_标题" innerCode="index_f5_titleAdv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f5_标题下链接" innerCode="index_f5_leftLink" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="首页_f5_链接下广告" innerCode="index_f5_advLeft" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f5_推荐1" innerCode="index_f5_recommend1" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f5_推荐2" innerCode="index_f5_recommend2" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f5_推荐3" innerCode="index_f5_recommend3" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f5_右侧推荐" innerCode="index_f5_recommend4" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f5_中间广告" innerCode="index_f5_advMid" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f5_右侧品牌" innerCode="index_f5_advLogo" pageModuleTypeCode="0" pageNm="首页"/>
+        <!--f5-->
+        <pageModule frontendNm="首页_f6_标题" innerCode="index_f6_titleAdv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f6_标题下链接" innerCode="index_f6_leftLink" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="首页_f6_链接下广告" innerCode="index_f6_advLeft" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f6_推荐1" innerCode="index_f6_recommend1" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f6_推荐2" innerCode="index_f6_recommend2" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f6_推荐3" innerCode="index_f6_recommend3" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f6_右侧推荐" innerCode="index_f6_recommend4" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f6_中间广告" innerCode="index_f6_advMid" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f6_右侧品牌" innerCode="index_f6_advLogo" pageModuleTypeCode="0" pageNm="首页"/>
+        <!--f6-->
+        <pageModule frontendNm="首页_f7_标题" innerCode="index_f7_titleAdv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f7_标题下链接" innerCode="index_f7_leftLink" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="首页_f7_链接下广告" innerCode="index_f7_advLeft" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f7_推荐1" innerCode="index_f7_recommend1" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f7_推荐2" innerCode="index_f7_recommend2" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f7_推荐3" innerCode="index_f7_recommend3" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f7_右侧推荐" innerCode="index_f7_recommend4" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_f7_中间广告" innerCode="index_f7_advMid" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_f7_右侧品牌" innerCode="index_f7_advLogo" pageModuleTypeCode="0" pageNm="首页"/>
+        <!--lml 2015/4/3 新首页介绍-->
+
+
+        <pageModule frontendNm="客服热线" innerCode="custom19" pageModuleTypeCode="5" pageNm="首页"/>
+        <pageModule frontendNm="版权" innerCode="custom20" pageModuleTypeCode="5" pageNm="首页"/>
+        <pageModule frontendNm="首页_浮动快捷" innerCode="index_float_shortcut" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="详情页_左边_广告" innerCode="product_adv" pageModuleTypeCode="0" pageNm="详情页"/>
+
+
+        <pageModule frontendNm="好友推荐" innerCode="myInvite" pageModuleTypeCode="5" pageNm="会员中心"/>
+        <pageModule frontendNm="自定义模块7" innerCode="custom07" pageModuleTypeCode="5" pageNm="团购详细页"/>
+
+        <!--列表页-->
+        <pageModule frontendNm="列表页_banner2" innerCode="adv8" pageModuleTypeCode="0" pageNm="列表页"/>
+        <pageModule frontendNm="列表页_banner3" innerCode="adv9" pageModuleTypeCode="0" pageNm="列表页"/>
+        <pageModule frontendNm="列表页_banner4" innerCode="adv10" pageModuleTypeCode="0" pageNm="列表页"/>
+        <pageModule frontendNm="列表页左侧广告" innerCode="productList_left_adv" pageModuleTypeCode="0" pageNm="列表页"/>
+
+        <!--团购-->
+        <pageModule frontendNm="团购列表_上方广告" innerCode="tuanlistAdv" pageModuleTypeCode="0" pageNm="团购列表页"/>
+        <pageModule frontendNm="团购详细_左下广告" innerCode="tuanAdv" pageModuleTypeCode="0" pageNm="团购详细页"/>
+
+        <!--活动 首页  列表-->
+        <pageModule frontendNm="活动首页_banner" innerCode="activityIndexBannerAdv" pageModuleTypeCode="0" pageNm="抢购首页"/>
+        <pageModule frontendNm="活动首页_轮换广告" innerCode="activityIndexRoteAdv" pageModuleTypeCode="0" pageNm="抢购首页"/>
+        <!--        <pageModule frontendNm="活动列表_banner" innerCode="activityListBannerAdv" pageModuleTypeCode="0" pageNm="活动列表"/>
+                <pageModule frontendNm="活动列表_bigBanner" innerCode="activityListRoteAdv" pageModuleTypeCode="0" pageNm="活动列表"/>-->
+
+        <!--积分-->
+        <pageModule frontendNm="积分商品首页广告" innerCode="integralAdv" pageModuleTypeCode="0" pageNm="积分商品首页"/>
+        <pageModule frontendNm="积分商品列表页广告" innerCode="integralListAdv" pageModuleTypeCode="0" pageNm="积分商品列表页"/>
+
+        <!--登陆页面-->
+        <pageModule frontendNm="登陆页面广告" innerCode="loginAdv" pageModuleTypeCode="0" pageNm="登陆页"/>
+
+        <!--帮助中心-->
+        <pageModule frontendNm="帮助中心广告" innerCode="helpAdv" pageModuleTypeCode="0" pageNm="帮助中心"/>
+
+
+
+        <pageModule frontendNm="宝得网支付" innerCode="custom21" pageModuleTypeCode="5" pageNm="首页"/>
+
+        <pageModule frontendNm="会员中心_banner" innerCode="memberBanner" pageModuleTypeCode="0" pageNm="首页"/>
+
+        <!--新增广告位-->
+        <pageModule frontendNm="登录logo" innerCode="jvan_logo" pageModuleTypeCode="0" pageNm="登录页"/>
+        <pageModule frontendNm="登录广告" innerCode="jvan_loginAdv" pageModuleTypeCode="0" pageNm="登录页"/>
+
+
+        <!--活动专栏-->
+        <pageModule frontendNm="热门品牌广告1" innerCode="jvan_activity_remen_adv1" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="热门品牌广告2" innerCode="jvan_activity_remen_adv2" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="热门品牌广告3" innerCode="jvan_activity_remen_adv3" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="热门品牌广告4" innerCode="jvan_activity_remen_adv4" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="热门品牌广告5" innerCode="jvan_activity_remen_adv5" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="热门品牌广告6" innerCode="jvan_activity_remen_adv6" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="热门品牌广告7" innerCode="jvan_activity_remen_adv7" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="热门品牌广告8" innerCode="jvan_activity_remen_adv8" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="热门品牌广告9" innerCode="jvan_activity_remen_adv9" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="热门品牌广告10" innerCode="jvan_activity_remen_adv10" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="热门品牌广告11" innerCode="jvan_activity_remen_adv11" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="热门品牌广告12" innerCode="jvan_activity_remen_adv12" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="轮换广告" innerCode="jvan_activity_lunhuan_adv" pageModuleTypeCode="0" pageNm="活动专区"/>
+
+        <!--F1-->
+        <pageModule frontendNm="自定义楼层1" innerCode="jvan_activity_custom_tab1" pageModuleTypeCode="2" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F1_左边广告" innerCode="jvan_activity_F1_left_adv" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F1_右边广告1" innerCode="jvan_activity_F1_right_adv1" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F1_右边广告2" innerCode="jvan_activity_F1_right_adv2" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F1_右边广告3" innerCode="jvan_activity_F1_right_adv3" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F1_右边广告4" innerCode="jvan_activity_F1_right_adv_c_1" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F1_右边广告5" innerCode="jvan_activity_F1_right_adv_c_2" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F1_右边广告6" innerCode="jvan_activity_F1_right_adv_r_1" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F1_右边广告7" innerCode="jvan_activity_F1_right_adv_r_2" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F1_长幅广告" innerCode="jvan_activity_F1_long_adv" pageModuleTypeCode="0" pageNm="活动专区"/>
+
+        <!--F2-->
+        <pageModule frontendNm="自定义楼层2" innerCode="jvan_activity_custom_tab2" pageModuleTypeCode="2" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F2_左边广告" innerCode="jvan_activity_F2_left_adv" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F2_右边广告1" innerCode="jvan_activity_F2_right_adv1" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F2_右边广告2" innerCode="jvan_activity_F2_right_adv2" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F2_右边广告3" innerCode="jvan_activity_F2_right_adv3" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F2_右边广告4" innerCode="jvan_activity_F2_right_adv4" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F2_右边广告5" innerCode="jvan_activity_F2_right_adv5" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F2_右边广告6" innerCode="jvan_activity_F2_right_adv6" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F2_右边广告7" innerCode="jvan_activity_F2_right_adv_r_1" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F2_右边广告8" innerCode="jvan_activity_F2_right_adv_r_2" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F2_右边广告9" innerCode="jvan_activity_F2_right_adv_r_3" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F2_长幅广告" innerCode="jvan_activity_F2_long_adv" pageModuleTypeCode="0" pageNm="活动专区"/>
+
+        <!--F3-->
+        <pageModule frontendNm="自定义楼层3" innerCode="jvan_activity_custom_tab3" pageModuleTypeCode="2" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F3_左边广告" innerCode="jvan_activity_F3_left_adv" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F3_右边广告1" innerCode="jvan_activity_F3_right_adv1" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F3_右边广告2" innerCode="jvan_activity_F3_right_adv2" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F3_右边广告3" innerCode="jvan_activity_F3_right_adv_c_1" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F3_右边广告4" innerCode="jvan_activity_F3_right_adv_c_2" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F3_右边广告5" innerCode="jvan_activity_F3_right_adv_r_1" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F3_右边广告6" innerCode="jvan_activity_F3_right_adv_r_2" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F3_长幅广告" innerCode="jvan_activity_F3_long_adv" pageModuleTypeCode="0" pageNm="活动专区"/>
+
+        <!--F4-->
+        <pageModule frontendNm="自定义楼层4" innerCode="jvan_activity_custom_tab4" pageModuleTypeCode="2" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F4_左边广告" innerCode="jvan_activity_F4_left_adv" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F4_右边广告1" innerCode="jvan_activity_F4_right_adv1" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F4_右边广告2" innerCode="jvan_activity_F4_right_adv2" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F4_右边广告3" innerCode="jvan_activity_F4_right_adv3" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F4_右边广告4" innerCode="jvan_activity_F4_right_adv4" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F4_右边广告5" innerCode="jvan_activity_F4_right_adv5" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F4_右边广告6" innerCode="jvan_activity_F4_right_adv_b_1" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F4_右边广告7" innerCode="jvan_activity_F4_right_adv_b_2" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F4_右边广告8" innerCode="jvan_activity_F4_right_adv_b_3" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F4_长幅广告" innerCode="jvan_activity_F4_long_adv" pageModuleTypeCode="0" pageNm="活动专区"/>
+
+        <!--积分兑换-->
+        <pageModule frontendNm="积分默认页_轮换广告" innerCode="integral_roteAdv" pageModuleTypeCode="0" pageNm="积分兑换"/>
+        <pageModule frontendNm="积分默认页_左边广告1" innerCode="integral_adv1" pageModuleTypeCode="0" pageNm="积分兑换"/>
+        <pageModule frontendNm="积分默认页_左边广告2" innerCode="integral_adv2" pageModuleTypeCode="0" pageNm="积分兑换"/>
+        <pageModule frontendNm="积分默认页_右边广告1" innerCode="integral_right1" pageModuleTypeCode="0" pageNm="积分兑换"/>
+        <pageModule frontendNm="积分列表页_左边广告1" innerCode="jvan_integral_left_adv1" pageModuleTypeCode="0" pageNm="积分兑换"/>
+        <pageModule frontendNm="积分列表页_左边广告2" innerCode="jvan_integral_left_adv2" pageModuleTypeCode="0" pageNm="积分兑换"/>
+        <!--页头-->
+        <pageModule frontendNm="顶部_页面连接" innerCode="top_right_link" pageModuleTypeCode="2" pageNm="页头"/>
+
+        <!--商品详情页温馨提示(div样式为ts)-->
+        <pageModule frontendNm="商品详情页提示" innerCode="product_hint" pageModuleTypeCode="5" pageNm="商品详情页提示"/>
+
+        <!--底部自定义-->
+        <pageModule frontendNm="底部自定义" innerCode="commons_bottom" pageModuleTypeCode="5" pageNm="底部自定义"/>
+        <pageModule frontendNm="底部承诺" innerCode="index_bot_Adv" pageModuleTypeCode="0" pageNm="底部承诺"/>
+
+
+        <!-- 易淘药首页 -->
+        <pageModule frontendNm="PC首页导航" innerCode="sy_index_navigate" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页Logo" innerCode="sy_index_logo" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页顶部标语" innerCode="sy_index_top_slogan" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页证明Logo" innerCode="sy_index_security_logo" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+
+        <pageModule frontendNm="PC首页banner热卖商品上1" innerCode="sy_index_hotSale_up1" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页banner热卖商品下1" innerCode="sy_index_hotSale_down1" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页banner热卖商品上2" innerCode="sy_index_hotSale_up2" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页banner热卖商品下2" innerCode="sy_index_hotSale_down2" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页banner热卖商品上3" innerCode="sy_index_hotSale_up3" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页banner热卖商品下3" innerCode="sy_index_hotSale_down3" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页banner热卖商品上4" innerCode="sy_index_hotSale_up4" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页banner热卖商品下4" innerCode="sy_index_hotSale_down4" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页banner热卖商品上5" innerCode="sy_index_hotSale_up5" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页banner热卖商品下5" innerCode="sy_index_hotSale_down5" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页banner热卖商品上6" innerCode="sy_index_hotSale_up6" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页banner热卖商品下6" innerCode="sy_index_hotSale_down6" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页banner热卖商品上7" innerCode="sy_index_hotSale_up7" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页banner热卖商品下7" innerCode="sy_index_hotSale_down7" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页banner热卖商品上8" innerCode="sy_index_hotSale_up8" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页banner热卖商品下8" innerCode="sy_index_hotSale_down8" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页banner热卖商品上9" innerCode="sy_index_hotSale_up9" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页banner热卖商品下9" innerCode="sy_index_hotSale_down9" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页banner热卖商品上10" innerCode="sy_index_hotSale_up10" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页banner热卖商品下10" innerCode="sy_index_hotSale_down10" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+
+        <pageModule frontendNm="PC首页头部菜单" innerCode="sy_top_menu" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页APP下载" innerCode="sy_app_download" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页顶部轮播" innerCode="sy_main_banner" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页轮播下方广告" innerCode="sy_gg_banner_down" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页轮播右方链接1" innerCode="sy_link1_banner_right" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页轮播右方链接2" innerCode="sy_link2_banner_right" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页轮播右方广告" innerCode="sy_gg_banner_right" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页轮播右方链接面板1" innerCode="sy_link_panel1_banner_right" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页轮播右方链接面板2" innerCode="sy_link_panel2_banner_right" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+
+        <pageModule frontendNm="PC首页中部上方广告" innerCode="sy_middle_top_gg" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页中部下方广告1" innerCode="sy_middle_down_gg1" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页中部下方链接1" innerCode="sy_middle_down_link1" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页中部下方广告2" innerCode="sy_middle_down_gg2" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页中部下方链接2" innerCode="sy_middle_down_link2" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页中部下方广告3" innerCode="sy_middle_down_gg3" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页中部下方链接3" innerCode="sy_middle_down_link3" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页供应商推荐" innerCode="sy_index_shop_recommend" pageModuleTypeCode="8" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页供应商推荐链接" innerCode="sy_index_shop_recommend_links" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+
+        <pageModule frontendNm="PC首页楼层1标题" innerCode="sy_floor1_title" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层1快速搜索" innerCode="sy_floor1_quickSearch" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层1图片" innerCode="sy_floor1_pic" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层1热销类目" innerCode="sy_floor1_hotSaleCate" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层1商品推荐" innerCode="sy_floor1_recommend" pageModuleTypeCode="1" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层1本周热销" innerCode="sy_floor1_hotSaleWeek" pageModuleTypeCode="1" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层1品牌" innerCode="sy_floor1_brand" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+
+        <pageModule frontendNm="PC首页楼层2标题" innerCode="sy_floor2_title" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层2快速搜索" innerCode="sy_floor2_quickSearch" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层2图片" innerCode="sy_floor2_pic" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层2热销类目" innerCode="sy_floor2_hotSaleCate" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层2商品推荐" innerCode="sy_floor2_recommend" pageModuleTypeCode="1" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层2本周热销" innerCode="sy_floor2_hotSaleWeek" pageModuleTypeCode="1" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层2品牌" innerCode="sy_floor2_brand" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+
+        <pageModule frontendNm="PC首页楼层3标题" innerCode="sy_floor3_title" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层3快速搜索" innerCode="sy_floor3_quickSearch" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层3图片" innerCode="sy_floor3_pic" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层3热销类目" innerCode="sy_floor3_hotSaleCate" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层3商品推荐" innerCode="sy_floor3_recommend" pageModuleTypeCode="1" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层3本周热销" innerCode="sy_floor3_hotSaleWeek" pageModuleTypeCode="1" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层3品牌" innerCode="sy_floor3_brand" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+
+        <pageModule frontendNm="PC首页楼层4标题" innerCode="sy_floor4_title" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层4快速搜索" innerCode="sy_floor4_quickSearch" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层4图片" innerCode="sy_floor4_pic" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层4热销类目" innerCode="sy_floor4_hotSaleCate" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层4商品推荐" innerCode="sy_floor4_recommend" pageModuleTypeCode="1" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层4本周热销" innerCode="sy_floor4_hotSaleWeek" pageModuleTypeCode="1" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层4品牌" innerCode="sy_floor4_brand" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+
+        <pageModule frontendNm="PC首页楼层5标题" innerCode="sy_floor5_title" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层5快速搜索" innerCode="sy_floor5_quickSearch" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层5图片" innerCode="sy_floor5_pic" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层5热销类目" innerCode="sy_floor5_hotSaleCate" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层5商品推荐" innerCode="sy_floor5_recommend" pageModuleTypeCode="1" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层5本周热销" innerCode="sy_floor5_hotSaleWeek" pageModuleTypeCode="1" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层5品牌" innerCode="sy_floor5_brand" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+
+        <pageModule frontendNm="PC首页楼层6标题" innerCode="sy_floor6_title" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层6快速搜索" innerCode="sy_floor6_quickSearch" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层6图片" innerCode="sy_floor6_pic" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层6热销类目" innerCode="sy_floor6_hotSaleCate" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层6商品推荐" innerCode="sy_floor6_recommend" pageModuleTypeCode="1" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层6本周热销" innerCode="sy_floor6_hotSaleWeek" pageModuleTypeCode="1" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层6品牌" innerCode="sy_floor6_brand" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+
+        <pageModule frontendNm="PC首页楼层7标题" innerCode="sy_floor7_title" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层7快速搜索" innerCode="sy_floor7_quickSearch" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层7图片" innerCode="sy_floor7_pic" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层7热销类目" innerCode="sy_floor7_hotSaleCate" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层7商品推荐" innerCode="sy_floor7_recommend" pageModuleTypeCode="1" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层7本周热销" innerCode="sy_floor7_hotSaleWeek" pageModuleTypeCode="1" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页楼层7品牌" innerCode="sy_floor7_brand" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+
+        <pageModule frontendNm="PC首页品牌大全图标" innerCode="sy_brand_logo" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页品牌大全广告" innerCode="sy_brands" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页友情链接" innerCode="sy_friend_links" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页底部栏" innerCode="sy_bottom_bar" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页按钮" innerCode="sy_bottom_button" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页版权" innerCode="sy_bottom_copyright" pageModuleTypeCode="5" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页备案" innerCode="sy_bottom_friendship_link" pageModuleTypeCode="5" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页底部链接" innerCode="sy_bottom_links" pageModuleTypeCode="2" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页限时抢购" innerCode="sy_panic_buy" pageModuleTypeCode="7" pageNm="易淘药首页"/>
+
+        <pageModule frontendNm="楼层广告1" innerCode="sy_gg_floor1" pageModuleTypeCode="1" pageNm="易淘药首页"/>
+        <pageModule frontendNm="楼层广告2" innerCode="sy_gg_floor2" pageModuleTypeCode="1" pageNm="易淘药首页"/>
+        <pageModule frontendNm="楼层广告3" innerCode="sy_gg_floor3" pageModuleTypeCode="1" pageNm="易淘药首页"/>
+        <pageModule frontendNm="楼层广告4" innerCode="sy_gg_floor4" pageModuleTypeCode="1" pageNm="易淘药首页"/>
+        <pageModule frontendNm="楼层广告5" innerCode="sy_gg_floor5" pageModuleTypeCode="1" pageNm="易淘药首页"/>
+        <pageModule frontendNm="楼层广告6" innerCode="sy_gg_floor6" pageModuleTypeCode="1" pageNm="易淘药首页"/>
+        <pageModule frontendNm="楼层广告7" innerCode="sy_gg_floor7" pageModuleTypeCode="1" pageNm="易淘药首页"/>
+
+        <pageModule frontendNm="楼层1广告2" innerCode="sy_gg2_floor1" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="楼层2广告2" innerCode="sy_gg2_floor2" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="楼层3广告2" innerCode="sy_gg2_floor3" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="楼层4广告2" innerCode="sy_gg2_floor4" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="楼层5广告2" innerCode="sy_gg2_floor5" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="楼层6广告2" innerCode="sy_gg2_floor6" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="楼层7广告2" innerCode="sy_gg2_floor7" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+
+        <pageModule frontendNm="PC首页店铺推荐图片广告1" innerCode="sy_index_shop_recommend_adv1" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页店铺推荐图片广告2" innerCode="sy_index_shop_recommend_adv2" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页店铺推荐图片广告3" innerCode="sy_index_shop_recommend_adv3" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页店铺推荐图片广告4" innerCode="sy_index_shop_recommend_adv4" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+        <pageModule frontendNm="PC首页店铺推荐图片广告5" innerCode="sy_index_shop_recommend_adv5" pageModuleTypeCode="0" pageNm="易淘药首页"/>
+
+        <!--资讯首页-->
+        <pageModule frontendNm="资讯_轮换广告" innerCode="news_adv" pageModuleTypeCode="0" pageNm="资讯"/>
+        <pageModule frontendNm="资讯_推荐文章" innerCode="information_recommend" pageModuleTypeCode="4" pageNm="资讯"/>
+        <pageModule frontendNm="资讯_中间广告" innerCode="midAdv" pageModuleTypeCode="0" pageNm="资讯"/>
+        <pageModule frontendNm="资讯_右广告" innerCode="rightAdv" pageModuleTypeCode="0" pageNm="资讯"/>
+        <pageModule frontendNm="资讯列表_推荐文章" innerCode="article_recommend" pageModuleTypeCode="4" pageNm="资讯"/>
+
+        <!--微信版开始-->
+        <pageModule frontendNm="微信版首页_轮换广告" innerCode="weixinAdv_mobile" pageModuleTypeCode="0" pageNm="微信版首页"/>
+        <pageModule frontendNm="微信logo" innerCode="weixin_logo" pageModuleTypeCode="0" pageNm="微信版首页"/>
+
+        <pageModule frontendNm="微信快捷入口1" innerCode="weixin_Navigate_1" pageModuleTypeCode="2" pageNm="微信版首页"/>
+        <pageModule frontendNm="微信快捷入口2" innerCode="weixin_Navigate_2" pageModuleTypeCode="2" pageNm="微信版首页"/>
+        <pageModule frontendNm="微信快捷入口3" innerCode="weixin_Navigate_3" pageModuleTypeCode="2" pageNm="微信版首页"/>
+        <pageModule frontendNm="微信快捷入口4" innerCode="weixin_Navigate_4" pageModuleTypeCode="2" pageNm="微信版首页"/>
+
+        <pageModule frontendNm="微信F1标题" innerCode="weixin_tittle_F1" pageModuleTypeCode="2" pageNm="微信版首页"/>
+        <pageModule frontendNm="微信F1内标题" innerCode="weixin_in_tittle_F1" pageModuleTypeCode="2" pageNm="微信版首页"/>
+        <pageModule frontendNm="微信F1内容" innerCode="weixin_content_F1" pageModuleTypeCode="1" pageNm="微信版首页"/>
+
+        <pageModule frontendNm="微信F2标题" innerCode="weixin_tittle_F2" pageModuleTypeCode="2" pageNm="微信版首页"/>
+        <pageModule frontendNm="微信F2内容1" innerCode="weixin_content_F2_1" pageModuleTypeCode="0" pageNm="微信版首页"/>
+        <pageModule frontendNm="微信F2内容2" innerCode="weixin_content_F2_2" pageModuleTypeCode="0" pageNm="微信版首页"/>
+        <pageModule frontendNm="微信F2内容3" innerCode="weixin_content_F2_3" pageModuleTypeCode="0" pageNm="微信版首页"/>
+
+        <pageModule frontendNm="微信F3标题" innerCode="weixin_tittle_F3" pageModuleTypeCode="2" pageNm="微信版首页"/>
+        <pageModule frontendNm="微信F3内标题" innerCode="weixin_in_tittle_F3" pageModuleTypeCode="2" pageNm="微信版首页"/>
+        <pageModule frontendNm="微信F3内容" innerCode="weixin_content_F3" pageModuleTypeCode="1" pageNm="微信版首页"/>
+        <!--微信版结束-->
+
+        <!-- WAP首页-->
+        <pageModule frontendNm="WAP首页_Logo1" innerCode="wap_index_logo1" pageModuleTypeCode="0" pageNm="WAP首页"/>
+        <pageModule frontendNm="WAP首页_Logo2" innerCode="wap_index_logo2" pageModuleTypeCode="0" pageNm="WAP首页"/>
+        <pageModule frontendNm="WAP首页_轮换广告" innerCode="wap_index_roteAdv" pageModuleTypeCode="0" pageNm="WAP首页"/>
+        <pageModule frontendNm="WAP首页_入口_导航" innerCode="wap_index_entry_nav" pageModuleTypeCode="0" pageNm="WAP首页"/>
+        <pageModule frontendNm="WAP首页_限时抢购" innerCode="wap_index_panic_buy" pageModuleTypeCode="7" pageNm="WAP首页"/>
+        <pageModule frontendNm="WAP首页_店铺推荐_标题" innerCode="wap_index_shop_recommend_title" pageModuleTypeCode="2" pageNm="WAP首页"/>
+        <pageModule frontendNm="WAP首页_店铺推荐_内容" innerCode="wap_index_shop_recommend_content" pageModuleTypeCode="8" pageNm="WAP首页"/>
+
+        <pageModule frontendNm="WAP首页_促销专区_标题" innerCode="wap_index_area_title" pageModuleTypeCode="2" pageNm="WAP首页"/>
+        <pageModule frontendNm="WAP首页_促销专区_广告1" innerCode="wap_index_area_adv1" pageModuleTypeCode="0" pageNm="WAP首页"/>
+        <pageModule frontendNm="WAP首页_促销专区_广告2" innerCode="wap_index_area_adv2" pageModuleTypeCode="0" pageNm="WAP首页"/>
+        <pageModule frontendNm="WAP首页_促销专区_广告3" innerCode="wap_index_area_adv3" pageModuleTypeCode="0" pageNm="WAP首页"/>
+
+        <pageModule frontendNm="WAP首页_F1_标题" innerCode="wap_index_F1_title" pageModuleTypeCode="2" pageNm="WAP首页"/>
+        <pageModule frontendNm="WAP首页_F1_广告1" innerCode="wap_index_F1_adv1" pageModuleTypeCode="0" pageNm="WAP首页"/>
+        <pageModule frontendNm="WAP首页_F1_广告2" innerCode="wap_index_F1_adv2" pageModuleTypeCode="0" pageNm="WAP首页"/>
+        <pageModule frontendNm="WAP首页_F1_广告3" innerCode="wap_index_F1_adv3" pageModuleTypeCode="0" pageNm="WAP首页"/>
+        <pageModule frontendNm="WAP首页_F1_底部_广告" innerCode="wap_index_F1_bottom_banner" pageModuleTypeCode="0" pageNm="WAP首页"/>
+
+        <pageModule frontendNm="WAP首页_F2_标题" innerCode="wap_index_F2_title" pageModuleTypeCode="2" pageNm="WAP首页"/>
+        <pageModule frontendNm="WAP首页_F2_广告1" innerCode="wap_index_F2_adv1" pageModuleTypeCode="0" pageNm="WAP首页"/>
+        <pageModule frontendNm="WAP首页_F2_广告2" innerCode="wap_index_F2_adv2" pageModuleTypeCode="0" pageNm="WAP首页"/>
+        <pageModule frontendNm="WAP首页_F2_广告3" innerCode="wap_index_F2_adv3" pageModuleTypeCode="0" pageNm="WAP首页"/>
+        <pageModule frontendNm="WAP首页_F2_底部_广告" innerCode="wap_index_F2_bottom_banner" pageModuleTypeCode="0" pageNm="WAP首页"/>
+
+        <pageModule frontendNm="WAP首页_F3_标题" innerCode="wap_index_F3_title" pageModuleTypeCode="2" pageNm="WAP首页"/>
+        <pageModule frontendNm="WAP首页_F3_广告1" innerCode="wap_index_F3_adv1" pageModuleTypeCode="0" pageNm="WAP首页"/>
+        <pageModule frontendNm="WAP首页_F3_广告2" innerCode="wap_index_F3_adv2" pageModuleTypeCode="0" pageNm="WAP首页"/>
+        <pageModule frontendNm="WAP首页_F3_广告3" innerCode="wap_index_F3_adv3" pageModuleTypeCode="0" pageNm="WAP首页"/>
+        <pageModule frontendNm="WAP首页_F3_底部_广告" innerCode="wap_index_F3_bottom_banner" pageModuleTypeCode="0" pageNm="WAP首页"/>
+
+        <pageModule frontendNm="WAP首页_商品推荐_标题" innerCode="wap_index_recommend_title" pageModuleTypeCode="2" pageNm="WAP首页"/>
+        <pageModule frontendNm="WAP首页_商品推荐_内容" innerCode="wap_index_recommend_content" pageModuleTypeCode="1" pageNm="WAP首页"/>
+
+        <pageModule frontendNm="WAP首页版权" innerCode="wap_index_copyright" pageModuleTypeCode="5" pageNm="WAP首页"/>
+        <!-- WAP首页-->
+
+        <!-- WAP会员中心首页-->
+        <pageModule frontendNm="WAP会员中心首页版权" innerCode="wap_member_index_copyright" pageModuleTypeCode="5" pageNm="WAP会员中心首页"/>
+        <!-- WAP会员中心首页-->
+    </pageModules>
+</moudle>

@@ -1,0 +1,18 @@
+/* CSS Document */
+.login_btn1{margin:10px 0; border:#ccc 1px solid; color:#333;}
+.form-control::-moz-placeholder{color:#333;}
+.yzm{margin-bottom:10px;}
+.yzm_pic{width:60px; margin:20px; margin:10px 10px 0;}
+.hyz{color:#333333; font-size:14px; display:inline-block; margin-top:12px;}
+.login_btn2{margin-bottom:5px; background:#cc3333; border:#cc3333 1px solid; font-weight:bold; font-size:14px;}
+.btn-primary:hover{background:#d63636; border:#d63636 1px solid;}
+.mfzc{color:#666; line-height:22px; font-size:12px;}
+.yyzh{color:#333; line-height:22px; font-size:14px; margin:10px 0 0 10px;}
+.qdl{color:#333; line-height:35px; font-size:14px; margin-top:10px;}
+.form-control{border:#ccc 1px solid; text-align:left;}
+.sendCode{float: left;padding: 5px;border: 1px solid #e5e5e5;margin-left: 12px}
+
+.other .register{display: inline-block;color:#d80c0a;font-size: 1.4rem;}
+.other .findPsw{text-decoration: underline;display: inline-block;margin-right: 5px;font-size: 1.4rem;}
+.other .findPsw:hover{color:#d80c0a; }
+.other .line {margin:0px 10px;}

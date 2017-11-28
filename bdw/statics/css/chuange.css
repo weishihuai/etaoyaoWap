@@ -1,0 +1,261 @@
+@charset "utf-8";
+
+
+
+
+
+/*-----------积分兑换------------*/
+#chuange{ width:1190px; overflow:hidden; margin:10px auto; }
+#chuange .lBox{ float:left; width:770px; overflow:hidden; margin-right:10px;  position: relative;  left: 111px;  }
+#chuange .lBox .adv{ width:770px; height:160px; overflow:hidden;}
+#chuange .lBox .search_Box{width:768px; overflow:hidden; border:1px solid #d4d4d4; background:#fffceb; margin-top:10px; padding:18px 0;}
+#chuange .lBox .search_Box label{ float:left; width:120px; text-align:right; line-height:20px;_line-height:22px; padding-top:5px;}
+#chuange .lBox .search_Box .put{ float:left; padding-top:5px;}
+#chuange .lBox .search_Box .put select{ width:120px; vertical-align:middle;}
+#chuange .lBox .search_Box .put input{ border:1px solid #999; width:73px; height:18px; vertical-align:middle; line-height:18px;}
+#chuange .lBox .search_Box .btn{ float:left; padding-left:20px;}
+#chuange .lBox .search_Box .btn a{ background:url(../images/chuange_btn02.gif) no-repeat; display:block; width:79px; height:30px; overflow:hidden; line-height:28px; text-align:center; color:#fff;}
+#chuange .lBox .search_Box .btn a:hover{ text-decoration:none;}
+#chuange .lBox .search_Box .reput{ float:left; padding-top:8px; padding-left:10px;}
+#chuange .lBox .search_Box .reput a{ color:#06c;}
+#chuange .lBox .m1{ width:768px; overflow:hidden; border:1px solid #E5E5E5; margin-top:10px;}
+#chuange .lBox .m1 h2{ height:33px; overflow:hidden; border-bottom:1px solid #E5E5E5; background:url(../images/chuange_line01.gif) repeat-x; line-height:33px; color:#999; padding-left:10px;}
+#chuange .lBox .m1 h2 b{ color:#ff6b00; font-size:14px;}
+#chuange .lBox .m1 ul{ padding-left:24px;}
+#chuange .lBox .m1 ul li{ float:left; width:160px; overflow:hidden; margin-right:24px; padding-top:20px;}
+#chuange .lBox .m1 ul li .pic{ width:160px; height:116px; overflow:hidden;}
+#chuange .lBox .m1 ul li p{ height:20px; line-height:20px; text-align:center; padding-top:8px; color:#999;}
+#chuange .lBox .m1 ul li p b{ color:#ff6b00;}
+#chuange .lBox .m1 ul li .btn{ height:38px; overflow:hidden; padding:8px 0 18px;}
+#chuange .lBox .m1 ul li .btn a{ background:url(../images/chuange_btn01.gif) no-repeat; display:block; width:119px; height:38px; overflow:hidden; line-height:36px; text-align:center; color:#fff; font-size:14px; margin:0 auto;}
+#chuange .lBox .m1 ul li .btn a:hover{ text-decoration:none;}
+#chuange .lBox .m2{ width:768px; overflow:hidden; border:1px solid #E5E5E5; margin-top:10px;}
+#chuange .lBox .m2 h2{ height:33px; overflow:hidden; border-bottom:1px solid #E5E5E5; background:url(../images/chuange_line01.gif) repeat-x;}
+#chuange .lBox .m2 h2 .tit{ float:left; padding-left:10px; line-height:33px; color:#999;}
+#chuange .lBox .m2 h2 .tit b{ color:#ff6b00; font-size:14px;}
+#chuange .lBox .m2 h2 .more{ float: right; padding-right:22px; padding-top:11px;}
+#chuange .lBox .m2 h2 .more a{ color:#999;}
+#chuange .lBox .m2 h2 .more a:hover{ color:#ff6b00;}
+#chuange .lBox .m2 .box{ width:768px; overflow:hidden;}
+#chuange .lBox .m2 .box ul{ padding-left:24px;}
+#chuange .lBox .m2 .box ul li{ float:left; width:200px; overflow:hidden; margin-right:24px; padding-top:20px;}
+#chuange .lBox .m2 .box ul li .pic{ width:200px; height:160px; overflow:hidden;text-align: center;}
+#chuange .lBox .m2 .box ul li .title{ height:36px; line-height:18px; overflow:hidden; margin-left:30px; padding-top:10px;height:20px;}
+#chuange .lBox .m2 .box ul li .title a{ color:#999;}
+#chuange .lBox .m2 .box ul li .title a:hover{ color:#ff6b00;}
+#chuange .lBox .m2 .box ul li p{ height:20px; line-height:20px; margin-left:30px; padding-top:8px; color:#999;}
+#chuange .lBox .m2 .box ul li p b{ color:#ff6b00;}
+#chuange .lBox .m2 .box ul li .btn{ height:38px; overflow:hidden; padding:8px 0 18px;}
+#chuange .lBox .m2 .box ul li .btn a{ background:url(../images/chuange_btn01.gif) no-repeat; display:block; width:119px; height:38px; overflow:hidden; line-height:36px; text-align:center; color:#fff; font-size:14px; margin:0 auto;}
+#chuange .lBox .m2 .box ul li .btn a:hover{ text-decoration:none;}
+#chuange .rBox{ float:right; width:255px; overflow:hidden;}
+#chuange .rBox h2{height:33px; overflow:hidden;  background:url(../images/chuange_line01.gif) repeat-x; line-height:33px; color:#ff6b00; font-weight:bold; font-size:14px; padding-left:10px;}
+#chuange .rBox .useTologin{ width:198px; overflow:hidden; border:1px solid #d4d4d4; padding:10px 0; text-align:center; margin-bottom:10px;float: right;}
+#chuange .rBox .useTologin p{ height:20px; line-height:20px;}
+#chuange .rBox .useTologin .btn{ height:30px; overflow:hidden; padding-top:12px;}
+#chuange .rBox .useTologin .btn a{background:url(../images/chuange_btn03.gif) no-repeat; display:block; width:119px; height:30px; line-height:28px; text-align:center; font-weight:bold; color:#fff; margin:0 auto;}
+#chuange .rBox .useTologin .btn a:hover{ text-decoration:none;}
+#chuange .rBox .haveLongin{ width:200px; overflow:hidden;margin-bottom:10px; margin-left: 54px;}
+#chuange .rBox .haveLongin h1{ height:33px; overflow:hidden;  /*background:url(../images/chuange_line02.gif) repeat-x;*/ background-color: #ff6b00;  line-height:33px; font-size:14px; font-weight:bold; color:#fff; padding-left:15px;}
+#chuange .rBox .haveLongin .box{ width:180px; padding:0 9px;  overflow:hidden; border:1px solid #d4d4d4; border-top:0;}
+#chuange .rBox .haveLongin .box .t_area{ width:180px; overflow:hidden; border-bottom:1px dashed #e3e3e3; padding:12px 0;}
+#chuange .rBox .haveLongin .box .t_area .pic{float:left; width:40px; height:40px; padding:2px; border:1px solid #E6E6E6; margin-right:10px;}
+#chuange .rBox .haveLongin .box .t_area .rinfo{ float:left; width:120px; overflow:hidden;}
+#chuange .rBox .haveLongin .box .t_area .rinfo p{ line-height:22px;}
+#chuange .rBox .haveLongin .box .b_area{ width:180px; overflow:hidden; padding:10px 0;}
+#chuange .rBox .haveLongin .box .b_area p{ line-height:22px;}
+#chuange .rBox .haveLongin .box .b_area p b{ font-size:16px; font-family:"微软雅黑"; color:#ff6b00;}
+#chuange .rBox .haveLongin .box .b_area p a{ color:#ff6b00;}
+#chuange .rBox .showList{ width:200px; overflow:hidden; margin-left: 54px;}
+#chuange .rBox .showList h1{ height:33px; overflow:hidden;/* background:url(../images/chuange_line02.gif) repeat-x;*/ background-color: #ff6b00; line-height:33px; font-size:14px; font-weight:bold; color:#fff; padding-left:15px;}
+#chuange .rBox .showList .box{ width:198px; overflow:hidden; border:1px solid #d4d4d4; border-top:0;}
+#chuange .rBox .showList .box ul{ width:198px; overflow:hidden; margin-top:-1px;}
+#chuange .rBox .showList .box ul li{ width:198px; overflow:hidden;  border-top:1px solid #e5e5e5; height:28px;}
+#chuange .rBox .showList .box ul li a{ display:block; height:26px; width:186px; overflow:hidden; border:1px solid #fff; line-height:26px; padding-left:10px;}
+#chuange .rBox .showList .box ul li a:hover,#chuange .rBox .showList .box ul li a.cur{ font-weight:bold; text-decoration:none; color:#ff6b00; background:url(../images/chuange_line03.gif) repeat-x;}
+#chuange .rBox .m1{ width:198px; overflow:hidden; border:1px solid #E5E5E5; border-bottom:0;margin-top:10px;margin-left: 54px; }
+#chuange .rBox .m1 h2{ padding-right:6px;}
+#chuange .rBox .m1 h2 span{ float:left;}
+#chuange .rBox .m1 h2 a{ float:right; font-size:12px; font-weight:normal; color:#06c;}
+#chuange .rBox .m1 .box{ width:198px; overflow:hidden;}
+#chuange .rBox .m1 .box .each{ width:180px; padding:15px 9px; border-bottom:1px solid #E5E5E5; line-height:20px; color:#666;}
+#chuange .rBox .m2{width:198px; overflow:hidden; border:1px solid #E5E5E5; border-bottom:0; margin-top:10px;}
+#chuange .rBox .m2 .box{ width:198px; overflow:hidden;}
+#chuange .rBox .m2 .box .item{ width:188px; overflow:hidden; padding-left:10px; padding-top:15px; padding-bottom:9px; border-bottom:1px solid #E5E5E5;}
+#chuange .rBox .m2 .box .item .userPic{ float:left; width:40px; height:40px; padding:2px; border:1px solid #E6E6E6; margin-right:10px;}
+#chuange .rBox .m2 .box .item .tex{ float:left; width:130px; overflow:hidden; color:#666;}
+#chuange .rBox .m2 .box .item .tex a{ color:#36c;}
+#chuange .rBox .m2 .box .bg{ background:#FAFAFA;}
+/*--------end---积分兑换------------*/
+
+/*-----------------------*/
+#chuange .lBox .list h6 .Sort .inset a,#chuange .lBox .list h6 .Sort .inPrice a,#chuange .lBox .list h6 .Sort .s_Time a{ background:url(../images/list_bg.png) repeat-x;}
+#chuange .lBox .list{ width:770px; overflow:hidden; margin-top:10px;}
+#chuange .lBox .list h6{ width:768px; overflow:hidden; margin-top:10px; border:1px solid #E7E7E7; height:36px; border-top:2px solid #c00; border-bottom:0;}
+#chuange .lBox .list h6 .tipData{ float:left; width:240px; padding-left:18px; overflow:hidden; line-height:36px;}
+#chuange .lBox .list h6 .tipData span{ color:#ff6b00;}
+#chuange .lBox .list h6 .Sort{ float:left; width:224px; overflow:hidden;}
+#chuange .lBox .list h6 .Sort label{ float:left; width:42px; line-height:36px; overflow:hidden;}
+#chuange .lBox .list h6 .Sort .inset{ float:left; width:52px; margin-right:5px; overflow:hidden; padding-top:6px;}
+#chuange .lBox .list h6 .Sort .inPrice{ float:left;width:52px; margin-right:5px; overflow:hidden; padding-top:6px;}
+#chuange .lBox .list h6 .Sort .inset a,#chuange .lBox .list h6 .Sort .inPrice a{ display:block; width:46px; padding-left:6px; overflow:hidden; background-position:-68px -125px; height:24px; line-height:24px; color:#fff;}
+#chuange .lBox .list h6 .Sort .inset a:hover,#chuange .lBox .list h6 .Sort .inPrice a:hover{ text-decoration:none;}
+#chuange .lBox .list h6 .Sort .inset .s_d{ background-position:-68px -155px;}
+#chuange .lBox .list h6 .Sort .inPrice .s_d{ background-position:-68px -155px;}
+#chuange .lBox .list h6 .Sort .s_Time{ float:left; width:65px; overflow:hidden; padding-top:6px;}
+#chuange .lBox .list h6 .Sort .s_Time a{ display:block; width:65px; height:24px; overflow:hidden; text-align:center; color:#fff; line-height:24px; background-position:0 -125px;}
+#chuange .lBox .list h6 .Sort .s_Time a:hover{ text-decoration:none;}
+#chuange .lBox .list h6 .Sort .s_Time a.cur{ background-position:0 -155px;}
+#chuange .lBox .list h6 .trunPage{ float:right; padding-right:8px; padding-top:7px;}
+#chuange .lBox .list h6 .trunPage span{display: block;float:left;padding-top: 4px;}
+#chuange .lBox .list h6 .trunPage a{display: block;float:left;padding-top: 2px;padding-bottom: 1px;margin-left:5px;}
+#chuange .lBox .list h6 .trunPage img{ vertical-align:middle;}
+#chuange .chuangeList{ width:768px; overflow:hidden; border:1px solid #d4d4d4;}
+#chuange .chuangeList .showlist{ width:768px; overflow:hidden;}
+#chuange .chuangeList .showlist ul{ width:736px; overflow:hidden;margin:-1px auto 0;}
+#chuange .chuangeList .showlist ul li{ float:left; width:160px; overflow:hidden; padding-right:24px; padding-top:20px; border-top:1px solid #d4d4d4;}
+#chuange .chuangeList .showlist ul li .pic{ width:160px; height:160px; overflow:hidden;}
+#chuange .chuangeList .showlist ul li .title{ height:36px; line-height:18px; overflow:hidden; text-align:center; padding-top:5px;}
+#chuange .chuangeList .showlist ul li .title a{ color:#999;}
+#chuange .chuangeList .showlist ul li .title a:hover{ color:#ff6b00;}
+#chuange .chuangeList .showlist ul li p{ height:20px; line-height:20px; text-align:center; padding-top:8px; color:#999;}
+#chuange .chuangeList .showlist ul li p b{ color:#ff6b00;}
+#chuange .chuangeList .showlist ul li .btn{ height:38px; overflow:hidden; padding:8px 0 18px;}
+#chuange .chuangeList .showlist ul li .btn a{ background:url(../images/chuange_btn01.gif) no-repeat; display:block; width:119px; height:38px; overflow:hidden; line-height:36px; text-align:center; color:#fff; font-size:14px; margin:0 auto;}
+#chuange .chuangeList .showlist ul li .btn a:hover{ text-decoration:none;}
+#chuange .chuangeList .page{ height:20px; overflow:hidden; padding:18px 30px 18px 0; text-align:right;}
+/*--------end---积分兑换列表------------*/
+
+
+/*-----------积分兑换详细页------------*/
+#chuange .lBox .detail{ width:770px; overflow:hidden;}
+#chuange .lBox .detail .bigPic{ float:left; width:320px; height:320px; overflow:hidden; margin-right:20px;}
+#chuange .lBox .detail .r_Data{ float:left; width:430px; overflow:hidden;}
+#chuange .lBox .detail .r_Data h1{ height:44px; line-height:22px; font-size:16px; font-weight:bold; color:#000; padding-top:8px;}
+#chuange .lBox .detail .r_Data .p1{ height:30px; line-height:30px; overflow:hidden; padding-top:8px; color:#666;}
+#chuange .lBox .detail .r_Data .p2{ color:#ff6b00; height:30px; line-height:30px; overflow:hidden; padding-top:8px;}
+#chuange .lBox .detail .r_Data .p2 b{ font-family:Arial; font-size:22px; font-weight:bold; color:#ff6b00;}
+#chuange .lBox .detail .r_Data .p3{ color:#ff6b00; height:30px; line-height:30px; overflow:hidden; padding-top:8px;}
+#chuange .lBox .detail .r_Data .p3 b{ font-family:Arial; font-size:22px; font-weight:bold; color:#ff6b00;}
+#chuange .lBox .detail .r_Data .outBox{width:428px; overflow:hidden; background:#FAFAFA; padding-bottom:48px; margin-top:0px; border:1px solid #EFEFEF;}
+
+/**兑换方式样式**/
+#chuange .lBox .detail .r_Data .outBox .fixBox .choose-pro .cho-cont li{float:left;display: inline-block; border: 1px solid #ccc; background-color: #fff; padding: 1px;  color: rgb(102, 102, 102); line-height: 24px; margin-right: 10px;}
+#chuange .lBox .detail .r_Data .outBox .fixBox .choose-pro .cho-cont li i{display: inline-block; width: 13px; height: 12px; overflow: hidden; background: url("../images/detail-01-allbg.png") no-repeat -63px -36px; position: absolute; right: -1px; bottom: 0;}
+#chuange .lBox .detail .r_Data .outBox .fixBox .choose-pro .cho-cont li a{display: inline-block; height: 24px; line-height: 24px; padding:0 15px 0 10px; }
+#chuange .lBox .detail .r_Data .outBox .fixBox .choose-pro .cho-cont .cur{position: relative; border: 2px solid #ff6b00; padding: 0;}
+
+#chuange .lBox .detail .r_Data .outBox .fixBox .cho-cont{width: 345px; overflow: hidden;}
+
+#chuange .lBox .detail .r_Data .outBox .fixBox{ width:412px; overflow:hidden; padding-top:18px;margin-left:5px;}
+#chuange .lBox .detail .r_Data .outBox .fixBox label{ float:left; width:62px; overflow:hidden; line-height:22px; text-align:right; padding-right:7px; color:#ff6b00; display:inline;}
+#chuange .lBox .detail .r_Data .outBox .fixBox .inputArea{ float:left; width:72px; display:inline; overflow:hidden;}
+#chuange .lBox .detail .r_Data .outBox .fixBox .inputArea  .put{ float:left; padding-left:5px; width:30px; display:inline;}
+#chuange .lBox .detail .r_Data .outBox .fixBox .inputArea  .put input{ width:30px; height:18px; text-align:center; font-weight:bold; overflow:hidden; border:1px solid #DFDFDF;}
+#chuange .lBox .detail .r_Data .outBox .fixBox .inputArea .btn-add{ float:left; display:inline; width:15px; padding-top:3px;padding-left:5px;}
+#chuange .lBox .detail .r_Data .outBox .fixBox .inputArea .btn-add a{display:block;background-position:-471px -342px;width:15px; height:15px; overflow:hidden;}
+#chuange .lBox .detail .r_Data .outBox .fixBox .inputArea .btn-le{ float:left; padding-top:3px; width:15px;}
+#chuange .lBox .detail .r_Data .outBox .fixBox .inputArea .btn-le a{ display:block; background-position:-454px -342px; width:15px; height:15px; overflow:hidden;}
+#chuange .lBox .detail .r_Data .outBox .fixBox .tip{ float:left; line-height:22px; overflow:hidden; padding-left:18px; color:#666;}
+#chuange .lBox .detail .r_Data .outBox .fixBox .tip b{ color:#ff6b00;}
+#chuange .lBox .detail .r_Data .outBox .fixBox .getiT{ height:40px; overflow:hidden;padding-left:10px; padding-top:15px;}
+#chuange .lBox .detail .r_Data .outBox .fixBox .getiT a{ display:block; width:119px; height:40px; overflow:hidden;}
+#chuange .lBox .detail_Tex{ width:768px; overflow:hidden; border:1px solid #E5E5E5; margin-top:10px;}
+#chuange .lBox .detail_Tex h2{ height:33px; overflow:hidden; border-bottom:1px solid #E5E5E5; background:url(../images/chuange_line01.gif) repeat-x;}
+#chuange .lBox .detail_Tex h2 .tit{ float:left; padding-left:10px; line-height:33px; color:#999;}
+#chuange .lBox .detail_Tex h2 .tit b{ color:#ff6b00; font-size:14px;}
+#chuange .lBox .detail_Tex .box{ width:718px; overflow:hidden; padding:20px;}
+#chuange .lBox .detail_Tex .box p{ width:718px;line-height:22px; color:#999;}
+
+/*弹出层表单*/
+#myAddress{display: none;}
+#myAddress .box{border:#ffec9f 3px solid; background:#FFF;width:980px; height:400px; margin:auto;}
+#myAddress .box .new-ad{ margin-left:30px;}
+#myAddress .box .new-ad h2{ margin-top:5px;margin-left:930px;}
+#myAddress .box .new-ad p{color:#000; font-size:14px; font-weight:bold;}
+#myAddress .box .new-ad .province{/*border:#000 1px solid; */margin:15px 0 0 20px;height: 30px;}
+#myAddress .box .new-ad .province li em{color:#333;}
+#myAddress .box .new-ad .province li span{color:#F00; margin-right:5px;}
+#myAddress .box .new-ad .address span{color:#F00; margin-right:5px;}
+#myAddress .box .new-ad .province li{ color:#999;margin-left:10px;float:left;}
+#myAddress .box .new-ad .province h3{ color:#333;margin-left:30px;_margin-left:10px;float:left;}
+#myAddress .box .new-ad .province .select{ color:#666; width:86px; height:23px;text-align:center; vertical-align:middle;}
+#myAddress .box .new-ad .province .put{border:#98b2d5 1px solid; width:140px; height:22px; vertical-align:middle;}
+#myAddress .box .new-ad .address{margin:10px 0 15px 30px;height: 52px;}
+#myAddress .box .new-ad .address input{border:#98b2d5 1px solid; width:450px; height:50px; vertical-align:middle;}
+#myAddress .box .new-ad .info{border-top:#d1d7dc 1px solid; width:902px;padding:10px 0 0 0;}
+#myAddress .box .new-ad .info li{width: 800px;/*height: 48px;*/overflow: hidden;margin-bottom: 10px}
+#myAddress .box .new-ad .info li a{/*border:#000 1px solid;*/ width:90px; height:25px; margin-right:10px; text-align:right; display:block; float:left;}
+#myAddress .box .new-ad .info li span{color:#F00; margin-right:5px;}
+#myAddress .box .new-ad .info li em{color:#999; margin-left:20px;}
+#myAddress .box .new-ad .info input{border:#98b2d5 1px solid; width:140px; height:22px; vertical-align:middle;float: left;}
+#myAddress .box .new-ad .info .code{width:50px; height:22px;}
+#myAddress .box .new-ad .info strong{ color:#666;margin:0 10px;}
+#myAddress .box .new-ad .info .btn1{background:url(../images/7.JPG) no-repeat; width:95px; height:25px; text-align:center; margin:5px 10px 0 100px;_margin:10px 5px 0 50px;float:left;}
+#myAddress .box .new-ad .info .btn2{background:url(../images/btn.png) no-repeat; width:95px; height:25px; margin-top:5px;_margin-top:10px;text-align:center; float:left;}
+#myAddress .box .new-ad .info .btn1 a{color:#FFF; font-weight:bold;line-height:25px;}
+#myAddress .box .new-ad .info .btn2 a{color:#333; font-weight:bold; line-height:25px;}
+#myAddress .addressSelect{border: 1px solid #98B2D5;height: 22px;vertical-align: middle;}
+#myAddress .box .new-ad .zip{ width:902px;padding:10px 0 0 0;}
+#myAddress .box .new-ad .zip li{width: 800px;}
+#myAddress .box .new-ad .zip li a{/*border:#000 1px solid;*/ width:90px; height:25px; margin-right:10px; text-align:right; display:block; float:left;}
+#myAddress .box .new-ad .zip li span{color:#F00; margin-right:5px;}
+#myAddress .box .new-ad .zip li em{color:#999; margin-left:20px;}
+#myAddress .box .new-ad .zip input{border:#98b2d5 1px solid; width:140px; height:22px; vertical-align:middle;float: left;}
+
+.m1-bg{width:100%; height:35px; line-height:35px;  box-shadow:0 1px 1px #e3e3e3; font-family:"微软雅黑"; color:#999;}
+.m1-bg .m1{width:1180px; padding-left:10px; height:35px; line-height:35px; color:#333; margin:0 auto;}
+.m1-bg .m1 span{margin: 0 5px;}
+.m1-bg .m1 a{ color:#666;}
+.m1-bg .m1 a:hover{ color:#333; text-decoration:underline;}
+.m1-bg .m1 i{color:#999;}
+
+
+/*----------end-积分兑换详细页------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,108 @@
+.main {padding-bottom: 50px; background-color: #f8f8f8;}
+
+.menu-list {overflow: hidden; width: 1172px; margin: 0 auto 20px; padding: 20px 0px 20px 18px; background-color: #fff;}
+.menu-list li {float: left;width: 385px;height: 340px;}
+.menu-list li a {display: block;width: 385px;height: 325px;padding-top: 15px;}
+.menu-list li img {display: block;width: 250px; height: 250px; margin: 0 auto 20px; border-radius: 50%;}
+.menu-list li span {display: block; width: 250px; height: 35px; margin: 0 auto; padding-bottom: 20px; font-size: 26px; color: #666;text-align: center;border-bottom: 1px solid #eee;}
+.menu-list li a:hover {box-shadow: 0 0 3px 3px rgba(0,0,0,.1);}
+.menu-list li a:hover span {color: #333;}
+
+.info-list {width: 1190px; margin: 0 auto;}
+.info-list-title {height: 41px;padding-left: 35px;padding-right: 20px; line-height: 41px;border-top: 1px solid #e5e5e5;}
+.info-list-title h3 {position: relative; float: left;font-size: 16px; color: #333;}
+.info-list-title h3:after{position: absolute; left: -12px;top: 13px; content: ""; width: 3px; height: 16px; background-color: #2fbdc8;}
+.info-list-title a {float: right;font-size: 14px; color: #999;}
+.info-list-cont {overflow: hidden; padding: 30px; background-color: #fff;}
+.info-item {float: left; width: 530px; margin-bottom: 20px;margin-right: 35px; padding-bottom: 10px; border-bottom: 1px solid #e5e5e5;}
+.info-item a {display: block; position: relative; padding-left: 10px; margin-bottom: 5px; font-size: 16px; color: #333;overflow: hidden;width: 520px;}
+.info-item a i {position: absolute; top: -9px;left: 0;font-style: normal;font-size: 20px;}
+.info-item a:hover {text-decoration: underline;color: #2fbdc8;}
+.info-item span { color: #999; padding-right: 25px;}
+
+
+
+/*对话框*/
+.modal-bg {width: 100%; height: 100%; position: fixed; top: 0;left: 0; z-index: 9999; background: url("../images/bg0.15.png") repeat;}
+.modal {position: absolute; top: 30px; left: 50%;z-index: 9999; width: 750px; margin-left: -375px; background-color: #fff; box-shadow: 0 0 0 5px rgba(0,0,0,.15);border-radius: 3px;border: 5px solid #666 \9;}
+
+.modal .btn {display: inline-block;width: 130px; height: 40px; border-radius: 3px;font-size: 16px; color: #fff;text-align: center;line-height: 38px;}
+.modal .btn-org {background-color: #fa6400;}
+.modal .btn-org:hover {background-color: #f85127;}
+.modal .btn-blue {background-color: #2fbdc8;}
+.modal .btn-blue:hover {background-color: #1da5b0;}
+.modal .btn-lg {display: block; width: 271px; height: 38px; margin-top: 20px; color: #2fbdc8; background-color: #fff; border: 1px solid #2fbdc8;}
+.modal .btn-lg:hover {color: #fff;background-color: #2fbdc8;}
+.modal .mar-lft {margin-left: 120px;}
+.modal .mar-rgt {margin-right: 10px;}
+
+.modal .modal-title {position: relative; height: 35px;line-height: 35px;background-color: #f3f3f3;padding-left: 20px;}
+.modal .modal-title h3 {font-size: 16px; color: #333;}
+.modal .modal-title a {position: absolute; right: 20px;top: 0;font-size: 14px; color: #999;}
+.modal form {padding: 50px 0 50px 100px;}
+.modal form .item {min-height: 60px; width: 600px; }
+.modal form .item .label {float: left;width: 90px;margin-right: 30px;text-align: right; line-height: 35px;font-size: 14px;color: #333;}
+.modal form .item .label i {margin-right: 5px;font-size: 16px; font-style: normal;color: #c00;position: relative;top: 4px;left: 0;}
+.modal form .item .inp{float: left;height: 33px; width: 278px; padding-left: 10px; line-height: 33px; padding-left: 15px; font-size: 14px; color: #333; border: 1px solid #ddd;}
+.modal form > label {margin-left: 120px;font-size: 14px; color: #666;}
+.modal form > label input[type="checkbox"] {display: none; width: 10px; height: 10px; background-color: #fff; border: 1px solid #ddd;}
+.modal form > label span {display: inline-block;width: 12px; margin-right: 5px; margin-top: -2px; height: 12px; background: url(../images/checkbox-icon.png) no-repeat 0 0; vertical-align: middle;}
+.modal form > label input[type="checkbox"]:checked + span {background: url(../images/checkbox-icon.png) no-repeat -13px 0;}
+
+.modal-content {padding-bottom: 80px;}
+.modal-content .wel {width: 520px; margin: 50px auto 0;padding-bottom: 25px; font-size: 30px; line-height: 40px; color: #666; border-bottom: 1px dashed #ccc;}
+.modal-content .wel strong {font-style: normal; font-weight: 400; color: #333;}
+.modal-content .desc { width: 520px; margin: 20px auto; line-height: 20px; font-size: 14px; color: #666;}
+
+.modal-content .agreement {width: 520px;margin: 0 auto 20px; padding-bottom: 20px; font-size: 12px; color: #666;border-bottom: 1px solid #e5e5e5;}
+.modal-content .agreement label {cursor: pointer;}
+.modal-content .agreement .check input[type="checkbox"] {display: none;}
+.modal-content .agreement .check span {position: relative;top: 1px; left: 0; display: inline-block; width: 12px; height: 12px; margin-right: 5px; background: url(../images/filter01.png) no-repeat -14px 0;}
+.modal-content .agreement .check input[type="checkbox"]:checked + span {background: url(../images/filter02.png) no-repeat -14px 0;border: none;}
+.modal-content .agreement .check .checked + span{background: url(../images/filter02.png) no-repeat -14px 0;border: none;}
+.modal-content .agreement .btn-link {color: #216dbf;}
+.modal-content .agreement .btn-link i {position: relative;top: -2px;left: 0; display: inline-block;width: 9px; height: 5px; background: url(../images/past-icon04.png) no-repeat;}
+
+.modal-content .item-w {overflow-y: auto; max-height: 185px; margin: 0 15px; }
+.modal-content .item {overflow: hidden; padding: 15px; border-bottom: 1px solid #d9d9d9; }
+.modal-content .item p {float: left; width: 490px; height: 30px; line-height: 30px;}
+.modal-content .item p .checkbox {position: relative;top: 8px;left: 0; float: left; display: inline-block; width: 12px; height: 12px; margin-right: 20px; background: url(../images/filter01.png) no-repeat -14px 0; }
+.modal-content .item p .checkbox.checked {background: url(../images/filter02.png) no-repeat -14px 0; ;}
+.modal-content .item p span { float: left; margin-right: 30px;}
+.modal-content .item p .name {display: inline-block;width: 5em;overflow: hidden;}
+.modal-content .item p .gender {display: inline-block;width: 2em;overflow: hidden;}
+.modal-content .item p .age {display: inline-block;width: 3em;overflow: hidden;}
+.modal-content .item p .tel {display: inline-block;width: 10em;overflow: hidden;}
+.modal-content .item .btns {display: none;}
+.modal-content .item .btn {display: inline-block; float: right; height: 28px; width: 55px; font-size: 12px; margin-left: 10px; line-height: 28px; color: #666; border: 1px solid #e5e5e5; border-radius: 2px; }
+.modal-content .item .btn:hover {background-color: #e5e5e5; }
+.modal-content .item .btn-org {color: #fff; border: 1px solid #fa6400; background-color: #fa6400; }
+.modal-content .item .btn-org:hover {border: 1px solid #f85127; background-color: #f85127; }
+.modal-footer {margin-bottom: 30px; text-align: center; }
+.modal-footer .btn {display: inline-block; width: 158px; height: 38px; margin: 0 5px; font-size: 18px; border-radius: 4px; line-height: 38px; text-align: center; color: #fa6400; border: 1px solid #fa6400; border-radius: 3px; }
+.modal-footer .btn-org {color: #fff; background: #fa6400; }
+.modal-footer .btn:hover {background-color: #fa6400; color: #fff;}
+.modal-footer .btn-org:hover {background-color: #f85127;}
+.modal-content .item:hover {background-color: #fcfcfc;}
+.modal-content .item:hover .btns {display: block;}
+
+
+/*多选下拉*/
+.down-menu{width: 140px; position: relative; z-index: 20; background-color: #fff; float: left; margin-right: 20px;}
+.down-menu .down-switch{display: block; width: 138px; height: 33px; border:solid 1px #ddd; }
+.down-menu .down-switch label{ width: auto; padding-left: 10px; line-height: 35px; font-size: 14px; color: #333; word-break: normal; word-wrap: normal; display: block;cursor: pointer; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.down-menu .down-switch .arrow{display: block; width: 23px; height: 23px; background: url("../images/pwd-01-icon01.png") no-repeat center; position: absolute; top: 7px; right: 10px;}
+.down-menu .down-data{ display: none; min-width: 100%; position: absolute; left: 0; top: 100%; margin-top: -1px; z-index: 20; _width:100%;}
+.down-menu .down-data .data-list{background-color: #fff; border-radius: 3px; border: 1px solid #cccccc; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); max-height: 118px;min-height: 2em;overflow-x: hidden;overflow-y: auto; _overflow: hidden; _width:100%;}
+.down-menu .down-data .data-list li{line-height: 30px; vertical-align: bottom;  _width: 95%;}
+.down-menu .down-data .data-list li a{display: block; padding: 0 20px 0 10px;white-space:nowrap; color: #333;}
+.down-menu .down-data .data-list li a:hover{background-color: #2fbdc8; color: #fff;}
+.pull .down-data{display: block;}
+
+
+/*ie8*/
+@media \0screen {
+    .menu-list li a{width: 383px; height: 323px; border: 1px solid #fff;}
+    .menu-list li a:hover {width: 383px; height: 323px; border: 1px solid #eee;}
+    .footer {border-top: 1px solid #e2e2e2;}
+}

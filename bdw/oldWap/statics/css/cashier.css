@@ -1,0 +1,37 @@
+html,body { background-color: #f9f9f9; }
+
+.m-checkstand { padding-bottom: 5.0rem; }
+.m-checkstand .tip { background-color: #fff7e9; padding: 1.0rem 1.2rem; text-align: justify; font-size: 1.2rem; line-height: 1.4; color: #333;  }
+.m-checkstand .tip a { color: #e7141a; }
+.m-checkstand .btn-block { position: fixed; bottom: 0; left: 0; right: 0; height: 5.0rem; line-height: 5.0rem; background-color: rgb(227,40,48); font-size: 1.4rem; text-align: center; color: rgb(255,255,255); }
+.m-checkstand .btn-block small { font-size: 1.2rem; }
+
+.m-checkstand .horizontal-list { background-color: #fff; }
+.m-checkstand .horizontal-list li {position: relative; line-height: 5.0rem; padding: 0 1.2rem; font-size: 1.4rem; color: #333; overflow: hidden;}
+.m-checkstand .horizontal-list li + li:before { content: ''; position: absolute; left: 1.2rem; right: 0; height: 1px; background-color: rgb(238,238,238); }
+.m-checkstand .horizontal-list .lab { float: left; }
+.m-checkstand .horizontal-list .val { float: right; }
+.m-checkstand .horizontal-list .val.stress { color: #e7141a; font-size: 1.5rem;}
+.m-checkstand .horizontal-list small { font-size: 1.2rem; }
+
+.m-checkstand .balance {margin: 1.0rem 0; padding: 0 1.2rem; overflow: hidden; line-height: 5.0rem; font-size: 1.4rem; color: #655757; background-color: rgb(255,255,255);}
+.m-checkstand .balance .switch { float: right; margin-top: 1.25rem;}
+
+.pay-list { background-color: rgb(255,255,255); }
+.pay-list dt { padding-left: 1.2rem; line-height: 4.0rem; font-size: 1.4rem; color: #999; }
+.pay-item { position: relative; padding: 0 1.2rem; line-height: 5.0rem; font-size: 1.5rem; color: #333; overflow: hidden;}
+.pay-item img { display: inline-block; width: 2.8rem; height: 2.8rem; float: left; margin-top: 1.1rem; margin-right: 1.0rem;}
+.pay-item:before {content: ''; visibility: visible; position: absolute; right: 1.2rem; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); width: 1.8rem; height: 2.8rem; background: url(../images/inactive.png) no-repeat 0 0 / 100% auto;}
+.pay-item.active:before { content: ''; visibility: visible; position: absolute; right: 1.2rem; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); width: 1.8rem; height: 2.8rem; background: url(../images/select-active.png) no-repeat 0 0 / 100% auto;}
+
+
+
+
+
+.switch { display: inline-block; height: 2.5rem; font-size: 0;}
+.switch input { display: none; }
+.switch .icon { position: relative; display: inline-block; box-sizing: border-box; width: 4.5rem; height: 2.5rem; background-color: #ccc; border-radius: 1.25rem; }
+.switch .icon:before { content: ''; position: absolute; top: 0.15rem; width: 2.2rem; height: 2.2rem; border-radius: 50%; background-color: #fff; -webkit-transition: left 0.3s ease; transition: left 0.3s ease; }
+.switch .icon:before { left: 0.2rem; }
+.switch input:checked ~ .icon { background-color: #e7141a; }
+.switch input:checked ~ .icon:before { left: 2.15rem; }

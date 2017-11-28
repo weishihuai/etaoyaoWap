@@ -1,0 +1,42 @@
+.header .topbar .w{width: 980px;}
+.header .logobar{width: 980px;}
+.header .logobar .schedule{float: right;margin-top: 40px;}
+.header .topbar .fr {position:relative; z-index: 999;}
+.header .topbar .fr .cur2 .item_popup2{width:168px; height:174px; display:none;border:1px solid #ededed; position:absolute; top:30px; left:165px; z-index:9999; box-shadow:#ccc 1px 2px 3px;background-color: #fff;}
+.header .topbar .fr .cur2 .item_popup2 span{display:block; width:14px; height:7px; background:url(../images/ch_icon15.png) no-repeat; overflow:hidden; position:absolute; top:-7px; left:77px;}
+.header .topbar .fr .cur .item_popup{border:#eee 1px solid; display:none;border-top:none; width:81px; position:absolute; top:29px; left:68px; z-index:999; background:#fff; padding:5px 0; }
+.header .topbar .fr .cur .item_popup p{text-align:center;}
+.header .topbar .fr .cur .item_popup p a{text-align:center; color:#666; line-height:22px;}
+.header .topbar .fr .cur .item_popup p a:hover{text-decoration:underline;}
+
+.main{width: 980px;margin: 0 auto;padding-bottom: 200px;}
+.main .info{width: 960px;padding: 20px 10px 40px 10px;margin-bottom: 20px; background-color: #f8f8f8;}
+.main .info table{margin-bottom: 40px;}
+.main .info thead {width: 960px;}
+.main .info thead th{font-size: 14px;color: #333;line-height: 34px;}
+.main .info thead .th01{text-align: center;}
+.main .info thead .th02{width: 90px;text-align: center;}
+.main .info thead .th03{width: 130px;text-align: center;}
+.main .info thead .th04{width: 110px;text-align: center;}
+.main .info tbody tr{height: 35px;background-color: #fff;border: 1px solid #eee; overflow: hidden}
+.main .info tbody .td01{text-align: center;color: #999; height:22px;}
+.main .info tbody .td01 strong{font-size: 16px; width: 625px; padding-left: 15px;color: #000; display: block; height: 40px; line-height: 40px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.main .info tbody .td02{width: 90px;text-align: center;color: #999;font-family: Verdana;}
+.main .info tbody .td03{width: 110px;padding-left: 20px; text-align: center;}
+.main .info tbody .td03 .jian{float: left; display: inline-block;width: 22px;height:22px;text-indent: -9999px; background: url(../images/de_icon10.png) center center no-repeat;}
+.main .info tbody .td03 .jia{float: left; display: inline-block;width: 22px;height:22px;text-indent: -9999px;background: url(../images/de_icon11.png) center center no-repeat;}
+.main .info tbody .td03 input{float: left;height: 20px;width: 32px;margin:0 5px;line-height: 20px; text-align: center; border: 1px solid #ddd;}
+.main .info tbody .td04{width: 110px;text-align: center;font-size: 18px;font-family:Verdana;color: #f60;}
+
+.main .info .tip .fl{color: #666;}
+.main .info .tip .fr{font-size: 14px;color:#333;font-family: "microsoft yahei";}
+.main .info .tip .fr em{font-size: 24px;color:#f60;font-style: normal;}
+.main .info .tip .fr em i{font-size: 18px;font-style: normal;}
+
+.main  .btns{height: 41px;margin-bottom: 50px; line-height: 35px; overflow: hidden;}
+.main  .btns .btn02{display: block;width: 155px;height: 41px;background:url(../images/btn04.png) no-repeat;text-indent:-9999px;}
+.main  .btns .btn01{margin-right: 20px;}
+.main  .btns .btn01:hover{text-decoration: underline;}
+
+#zoomloader{display:none;position:fixed;opacity:0.6;top:50%;left: 50%;background:none repeat scroll 0 0 #333333;z-index:10000;}
+#zoomloader span{color: #fff;}

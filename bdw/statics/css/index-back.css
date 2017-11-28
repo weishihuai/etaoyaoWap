@@ -1,0 +1,181 @@
+﻿@charset "utf-8";
+
+
+
+#index .m2 .l .box .gourdPrice,#index .m2 .l .box .gourdPrice a,#index .m2 .r h3,#index .m2 .r .box ul li .c_info .bInfo .toBuy a,#index .m3 .r h3,#index .m3 .l h1,#index .m3 .r h3 .sIco ul li a,#index .m3 .r h4,/*#index .m4 h6 span,*/#index .m5 .r .t_Menu ul li a{ background:url(../images/index_bg.png) no-repeat;}
+
+
+/*首页*/
+
+#index{ width:980px; overflow:hidden; margin:0 auto;}
+#index .m1{ width:770px; padding-left:210px; overflow:hidden;}
+#index .m1 .sorPic{ float:left; width:570px; height:280px; overflow:hidden;}
+#index .m1 .sorPic .pic{width:570px; height:280px; overflow:hidden;}
+/*#index .m1 .sorPic .sMuber{position:absolute; width:120px; overflow:hidden; height:20px; margin-top:-30px; margin-left:440px;z-index: 100}*/
+#index .m1 .sorPic .sMuber{  float: right;height: 20px;margin-top: -30px;overflow: hidden;position: absolute; right: 5px;width: auto;z-index: 20;}
+#index .m1 .sorPic .sMuber ul li{ float:left; display:inline; width:30px; overflow:hidden;}
+#index .m1 .sorPic .sMuber ul li a{ background:#000; color:#fff; display:block; width:20px; height:20px; overflow:hidden; text-align:center; line-height:20px; font-weight:bold;}
+#index .m1 .sorPic .sMuber ul li a:hover,#index .m1 .sorPic .sMuber ul li a.cur{background:#fff; color:#000; text-decoration:none;}
+#index .m1 .rInfo{ float:left; width:190px; overflow:hidden; padding-left:10px;}
+#index .m1 .rInfo .t{ width:188px; height:163px; overflow:hidden; border:1px solid #D4D4D4; background:#F9F9F9;}
+#index .m1 .rInfo .t h1{ height:34px; overflow:hidden; background:#F3F3F3;}
+#index .m1 .rInfo .t h1 .tit{ float:left; font-size:14px; font-weight:bold; line-height:34px; padding-left:10px;}
+#index .m1 .rInfo .t h1 .more{ float:right; padding-top:9px; padding-right:10px;}
+#index .m1 .rInfo .t h1 .more a{ color:#3B8EB6;}
+#index .m1 .rInfo .t .conList{ width:170px; overflow:hidden; padding:5px 0 0px 9px;}
+#index .m1 .rInfo .t .conList ul li{ height:18px; line-height:18px; overflow:hidden; padding-top:5px;}
+#index .m1 .rInfo .t .conList ul li a{ color:#666;}
+#index .m1 .rInfo .t .conList ul li a:hover{ color:#C81D15;}
+#index .m1 .rInfo .b{ overflow:hidden; margin-top:10px;}
+#index .m2{ width:980px; overflow:hidden; margin-top:10px;}
+#index .m2 .l{ float:left; width:198px; overflow:hidden; margin-right:10px;overflow:hidden; border:1px solid #D4D4D4; background:#F9F9F9}
+#index .m2 .l h1{ height:37px; overflow:hidden; background:#F3F3F3;}
+#index .m2 .l h1 .tit{ float:left; font-size:14px; font-weight:bold; line-height:36px; padding-left:10px;}
+#index .m2 .l h1 .more{ float:right; padding-top:11px; padding-right:10px;}
+#index .m2 .l h1 .more a{ color:#3B8EB6;}
+#index .m2 .l .box{ width:180px; padding:9px; overflow:hidden;}
+#index .m2 .l .box .pic{ width:180px; height:115px; overflow:hidden;}
+#index .m2 .l .box .text{ width:180px; overflow:hidden; padding-top:6px; height:54px; line-height:18px;color:#000;}
+#index .m2 .l .box .gourdPrice{ position:absolute; width:207px; height:49px; overflow:hidden; background-position:0 -354px; margin-left:-13px; margin-top:4px;}
+#index .m2 .l .box .gourdPrice span{ display:block; float:left; width:70px; padding-left:20px; overflow:hidden; line-height:20px; padding-top:7px; color:#fff;}
+#index .m2 .l .box .gourdPrice a{ float:left; display:block; background-position:0 -163px; width:76px; height:32px; text-align:center; line-height:32px; color:#333; margin-top:11px;}
+#index .m2 .l .box .gourdPrice a:hover{ text-decoration:none;}
+#index .m2 .l .box .time{ padding-top:63px; width:180px; height:22px; line-height:22px; overflow:hidden; padding-bottom:3px; color:#999;font-family: arial;}
+#index .m2 .l .box .time b{ color:#666;}
+#index .m2 .r{ float:left; width:770px; overflow:hidden;}
+#index .m2 .r h3{ background-position:0 0; height:41px; overflow:hidden; background-repeat:repeat-x;}
+#index .m2 .r h3 span{  display:block; float:left; width:111px; height:41px; overflow:hidden;}
+#index .m2 .r h3 .time{ float:left; line-height:40px; padding-left:20px;}
+#index .m2 .r h3 .time b{ font-family:Times; font-size:16px; color:#CB0100;}
+#index .m2 .r .box{ width:770px; height:272px; padding-top:7px; overflow: hidden;}
+#index .m2 .r .box ul{ width:784px;}
+#index .m2 .r .box ul li{ float:left; height:272px; display:inline; margin-right:14px; width:182px; overflow:hidden;}
+#index .m2 .r .box ul li .t_line{ background:url(../images/index_line01.gif) no-repeat; width:182px; height:3px; overflow:hidden;}
+#index .m2 .r .box ul li .b_line{ background:url(../images/index_line02.gif) no-repeat; width:182px; height:3px; overflow:hidden;}
+#index .m2 .r .box ul li .c_info{ width:180px; overflow:hidden; border-left:1px solid #DBDBDB;border-right:1px solid #DBDBDB; height:266px;}
+#index .m2 .r .box ul li .c_info .pic{ width:150px; height:150px; overflow:hidden; margin:0 auto;padding-top:8px;}
+#index .m2 .r .box ul li .c_info .title{ width:150px; height:60px; line-height:20px; text-align:center; overflow:hidden; margin:0 auto; color:#666;}
+#index .m2 .r .box ul li .c_info .title span{ color:#FF5901;}
+#index .m2 .r .box ul li .c_info .bInfo{ height:55px; overflow:hidden; border-top:1px solid #DBDBDB; background:#EBEBEB;}
+#index .m2 .r .box ul li .c_info .bInfo .price{ float:left; color:#cd0000;padding-top:5px; padding-left:7px; line-height:22px;}
+#index .m2 .r .box ul li .c_info .bInfo .price b{ font-size:16px; color:#cd0000;}
+#index .m2 .r .box ul li .c_info .bInfo .price span{ color:#999;}
+#index .m2 .r .box ul li .c_info .bInfo .toBuy{ float:right; padding-top:5px; padding-right:7px;}
+#index .m2 .r .box ul li .c_info .bInfo .toBuy a{ display:block; background-position:-78px -163px; width:65px; height:23px; overflow:hidden; text-align:center; line-height:22px; color:#fff; }
+#index .m2 .r .box ul li .c_info .bInfo .toBuy a:hover{ text-decoration:none;}
+#index .m2 .r .box ul li .c_info .bInfo .toBuy span{ color:#999; display:block; padding-top:5px;}
+
+#index .m3{ width:980px; overflow:hidden; margin-top:10px;}
+#index .m3 .l{ float:left; width:200px; overflow:hidden; margin-right:10px;}
+#index .m3 .l h1{ background-position:0 -197px; line-height:34px; color:#fff; font-size:14px; padding-left:15px; font-weight:bold; height:35px; overflow:hidden;}
+#index .m3 .l .box{ width:198px; border:1px solid #D4D4D4; border-bottom:0; border-top:0;}
+#index .m3 .l .box .item{ width:198px; overflow:hidden;}
+#index .m3 .l .box .item h5{ border-bottom:1px solid #D4D4D4; height:20px; padding:6px 0  6px 5px; overflow:hidden; cursor:pointer; background:#f7f7f7;}
+#index .m3 .l .box .item h5 em{ display:block; float:left; font-style:normal; background:url(../images/index_ico02.png) no-repeat; width:14px; height:13px; overflow:hidden; color:#fff; line-height:12px; padding-left:2px; font-family: Arial; margin-top:3px;}
+#index .m3 .l .box .item h5 .firtTh{ background:url(../images/index_ico01.png) no-repeat;}
+#index .m3 .l .box .item h5 span{ float:left; display:block;; width:100px; padding-left:4px; overflow:hidden; line-height:20px;}
+#index .m3 .l .box .item h5 b{ display:block; float:left; width:68px; padding-left:5px; overflow:hidden; color:#f60; line-height:20px;}
+#index .m3 .l .box .item .info{ border-bottom:1px solid #D4D4D4; width:194px; overflow:hidden; padding:7px 0 7px 4px; background:#FFF9E6;}
+#index .m3 .l .box .item .info em{ display:block; font-style:normal; position:absolute;background:url(../images/index_ico02.png) no-repeat; width:14px; height:13px; overflow:hidden; color:#fff; line-height:12px; padding-left:2px; font-family: Arial; margin-left:1px; margin-top:1px;}
+#index .m3 .l .box .item .info em{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/index_ico02.png");_background:none;}
+#index .m3 .l .box .item .info .firtTh{ background:url(../images/index_ico01.png) no-repeat;}
+#index .m3 .l .box .item .info .firtTh{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/index_ico01.png");_background:none;}
+#index .m3 .l .box .item .info .pic{ float:left; width:60px; height:60px; overflow:hidden; border:1px solid #E3E3E1;}
+#index .m3 .l .box .item .info .title{ float:left; width:124px; height:36px; line-height:18px; overflow:hidden; padding-left:6px;}
+#index .m3 .l .box .item .info .price{ float:left; padding-left:6px; width:124px; height:18px; line-height:18px; overflow:hidden; font-weight:bold; color:#f60;}
+#index .m3 .r{ float:left; width:770px; overflow:hidden;}
+#index .m3 .r h3{ background-position:0 0; height:41px; overflow:hidden; background-repeat:repeat-x;}
+#index .m3 .r h3 span{ display:block; float:left; width:111px; height:41px; overflow:hidden;}
+#index .m3 .r h3 .sIco{ float:right;/* width:57px;*/ overflow:hidden; padding-right:20px; padding-top:15px;}
+#index .m3 .r h3 .sIco ul li{ float:left; display:inline; height:9px; width:19px; overflow:hidden;}
+#index .m3 .r h3 .sIco ul li a{ background-position:-145px -163px; display:block; width:9px; height:9px; overflow:hidden;}
+#index .m3 .r h3 .sIco ul li a:hover,#index .m3 .r h3 .sIco ul li a.cur{ background-position:-164px -163px;}
+#index .m3 .r .box1{ width:768px; overflow:hidden; height:268px; border-left:1px solid #dbdbdb; border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb;}
+#index .m3 .r .box1 ul{ width:784px;}
+#index .m3 .r .box1 ul li{ float:left; display:inline; width:193px; overflow:hidden; padding-top:12px;}
+/*#index .m3 .r .box1 ul li .newIco{ background:url(../images/index_newIco.png) no-repeat; width:64px; height:64px; overflow:hidden; position:absolute;}*/
+/*#index .m3 .r .box1 ul li .newIco{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/index_newIco.png");_background:none;}*/
+#index .m3 .r .box1 ul li .pic{ width:150px; height:150px; overflow:hidden; margin:0 auto;}
+#index .m3 .r .box1 ul li .title{ width:150px; height:60px; line-height:20px; overflow:hidden; margin:0 auto; text-align:center; color:#666; padding-top:5px;}
+#index .m3 .r .box1 ul li .title span{ color:#FD5A00;}
+#index .m3 .r .box1 ul li .price{ width:150px; height:20px; line-height:20px; overflow:hidden; margin:0 auto;text-align:center; color:#666;}
+#index .m3 .r .box1 ul li .price b{ color:#FD5A00;}
+#index .m3 .r h4{ background-position:0 -4px; height:37px; overflow:hidden; background-repeat:repeat-x; margin-top:5px;}
+#index .m3 .r h4 span{ display:block; float:left; width:111px; height:37px; overflow:hidden;}
+#index .m3 .r .box2{ width:769px; overflow:hidden; border-right:1px solid #F4F4F4;height: 58px}
+#index .m3 .r .box2 ul{ width:780px;}
+#index .m3 .r .box2 ul li{ float:left; display:inline; width:129px; height:57px; border-bottom:1px solid #F4F4F4; border-left:1px solid #F4F4F4;}
+
+#index .m4{ width:980px; overflow:hidden; margin-top:10px;}
+#index .m4 h6{ height:38px; overflow:hidden; background:url(../images/index_line03.gif) left bottom repeat-x;}
+#index .m4 h6 span{ float:left; display:block; width:201px; height:38px; overflow:hidden; background-position:0 -234px;}
+/*#index .m4 h6 .f2{ background-position:0 -274px;}*/
+/*#index .m4 h6 .f3{ background-position:0 -314px;}*/
+#index .m4 h6 .minMenu{ float:right; padding-right:10px; padding-top:11px; color:#999;}
+#index .m4 h6 .minMenu a{ color:#666; padding-left: 5px;padding-right: 5px}
+#index .m4 h6 .minMenu a:hover{ color:#cd0000;}
+#index .m4 h6 .minMenu span{width:auto; float:right;;}
+#index .m4 .box{ width:978px;overflow:hidden; border:1px solid #DBDBDB; border-top:0;}
+#index .m4 .box .lBenner{ float:left; width:199px; height:540px; overflow:hidden;border-right: 1px solid #DBDBDB;}
+#index .m4 .box .lBenner .advBig{ float:left; width:200px; height:270px; overflow:hidden;}
+#index .m4 .box .lBenner .leftAdv{ float:left; width:200px; height:90px; overflow:hidden; border-bottom:1px solid #dbdbdb}
+#index .m4 .box .lBenner2{ float:left; width:200px; height:270px; overflow:hidden;}
+#index .m4 .box .rList{ float:left; width:778px; overflow:hidden;}
+#index .m4 .box .rList ul{ margin-top:-1px; margin-left:-1px;}
+#index .m4 .box .rList ul li{ float:left; display:inline; width:193px; height:269px; overflow:hidden; border-top:1px solid #dbdbdb;border-left:1px solid #dbdbdb; overflow:hidden;}
+#index .m4 .box .rList ul li .hot{ background:url(../images/index_hot.png) no-repeat; width:36px; height:36px; overflow:hidden; position:absolute; margin-left:110px; margin-top:90px; line-height:36px; text-align:center; color:#fff;}
+#index .m4 .box .rList ul li .hot{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/index_hot.png");_background:none;}
+#index .m4 .box .rList ul li .pic{ width:150px; height:150px; overflow:hidden; margin:0 auto;padding-top:12px ;}
+#index .m4 .box .rList ul li .title{width:150px; padding-top:5px; height:60px; line-height:20px; overflow:hidden; margin:0 auto; color:#666;}
+#index .m4 .box .rList ul li .title span{ color:#FF6604;}
+#index .m4 .box .rList ul li .price{width:150px; padding-top:5px; height:20px; line-height:20px; overflow:hidden; margin:0 auto; color:#666;}
+#index .m4 .box .rList ul li .price b{ color:#FF6604;}
+#index .m4 .protar{ width:980px; overflow:hidden;  height:40px;}
+#index .m4 .protar label{ float:left; width:201px; overflow:hidden;}
+#index .m4 .protar .list{ float:left; width:779px; overflow:hidden;}
+#index .m4 .protar .list ul li{ float:left; display:inline; width:129.8px; overflow:hidden; text-align:center;}
+
+#index #benner{ width:980px; height:85px; overflow:hidden; margin-top:10px;}
+/*#index .m5{ width:980px; overflow:hidden; margin-top:10px;}*/
+/*#index .m5 .l{ float:left; width:198px; height:315px; overflow:hidden; margin-right:10px; border:1px solid #DADEE1; border-top:3px solid #CC0000;}*/
+/*#index .m5 .l ul li{ height:22px; overflow:hidden; padding:10px 0 4px 15px; border-bottom:1px solid #DADEE1;}*/
+/*#index .m5 .l ul li img{ vertical-align:middle;}*/
+/*#index .m5 .r{ float:left; width:768px; height:315px; overflow:hidden; border:1px solid #DADEE1; border-top:3px solid #CC0000;}*/
+/*#index .m5 .r .t_Menu{ height:38px; overflow:hidden; width:768px;}*/
+/*#index .m5 .r .t_Menu ul li{ float:left; display:inline; width:256px; height:38px; overflow:hidden;}*/
+/*#index .m5 .r .t_Menu ul li a{ display:block; width:254px; height:36px; overflow:hidden; border:1px solid #ddd; line-height:36px; text-align:center; background-position:0 -125px; background-repeat:repeat-x;font-family:"微软雅黑";font-size:14px; font-weight:bold;}*/
+/*#index .m5 .r .t_Menu ul li a:hover,#index .m5 .r .t_Menu ul li a.cur{ background:#fff; border:1px solid #fff; color:#CC0001; text-decoration:none;}*/
+/*#index .m5 .r .b_Info{ width:768px; overflow:hidden;}*/
+/*#index .m5 .r .b_Info ul li{ float:left; display: inline; width:192px; overflow:hidden;}*/
+/*#index .m5 .r .b_Info ul li .pic{ width:150px; height:150px; overflow:hidden; margin:0 auto;}*/
+/*#index .m5 .r .b_Info ul li .title{ width:150px; height:60px; line-height:20px; overflow:hidden; margin:0 auto; color:#666; padding-top:5px;}*/
+/*#index .m5 .r .b_Info ul li .title span{ color:#FF6500;}*/
+/*#index .m5 .r .b_Info ul li .price{ width:150px; height:20px; line-height:20px; overflow:hidden; margin:0 auto; color:#666; padding-top:5px;}*/
+/*#index .m5 .r .b_Info ul li .price b{ color:#FF6701;}*/
+/*#index .m5 .r .b_Info ul li p{ padding-top:5px; width:150px; overflow:hidden; margin:0 auto; color:#666;}*/
+/*#index .m5 .r .b_Info ul li p span{ color:#005BA2;}*/
+
+#index .m5{ width:980px; overflow:hidden; margin-top:10px;}
+#index .m5 h6{ height:38px; overflow:hidden; background:url(../images/index_line03.gif) left bottom repeat-x;}
+#index .m5 h6 span{ float:left; display:block; width:201px; height:38px; overflow:hidden;}
+#index .m5 h6 .minMenu{ float:right; padding-right:10px; padding-top:11px; color:#999;}
+#index .m5 h6 .minMenu a{ color:#666;}
+#index .m5 h6 .minMenu a:hover{ color:#cd0000;}
+#index .m5 .box{ width:968px;overflow:hidden; border:1px solid #DBDBDB; border-top:0;padding: 5px;}
+#index .m5 .box .lBenner{ float:left; width:200px; height:540px; overflow:hidden;}
+#index .m5 .box .lBenner2{ float:left; width:200px; height:270px; overflow:hidden;}
+#index .m5 .box .rList{ float:left; width:768px; overflow:hidden;}
+#index .m5 .box .rList ul{ margin-top:-1px; margin-left:-1px;}
+#index .m5 .box .rList ul li{ float:left; display:inline; width:191px; height:270px; overflow:hidden; border-top:1px solid #dbdbdb;border-left:1px solid #dbdbdb; overflow:hidden;}
+#index .m5 .box .rList ul li .hot{ background:url(../images/index_hot.png) no-repeat; width:36px; height:36px; overflow:hidden; position:absolute; margin-left:110px; margin-top:90px; line-height:36px; text-align:center; color:#fff;}
+#index .m5 .box .rList ul li .hot{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/index_hot.png");_background:none;}
+#index .m5 .box .rList ul li .pic{ width:150px; height:150px; overflow:hidden; margin:0 auto;}
+#index .m5 .box .rList ul li .title{width:150px; padding-top:5px; height:60px; line-height:20px; overflow:hidden; margin:0 auto; color:#666;}
+#index .m5 .box .rList ul li .title span{ color:#FF6604;}
+#index .m5 .box .rList ul li .price{width:150px; padding-top:5px; height:20px; line-height:20px; overflow:hidden; margin:0 auto; color:#666;}
+#index .m5 .box .rList ul li .price b{ color:#FF6604;}
+#index .m5 .protar{ width:980px; overflow:hidden; height:40px;}
+#index .m5 .protar label{ float:left; width:201px; overflow:hidden;}
+#index .m5 .protar .list{ float:left; width:779px; overflow:hidden;}
+#index .m5 .protar .list ul li{ float:left; display:inline; width:129.8px; overflow:hidden; text-align:center;}
+/*end 首页*/

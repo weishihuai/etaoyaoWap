@@ -1,0 +1,56 @@
+
+#member .right{float: left;width: 790px;}
+#member .right .tit{height: 35px;line-height: 35px;color: #000;font-size: 14px;font-family: Simsun; overflow: hidden;}
+#member .right .tit a{float: left;width: 125px;height: 35px;text-align: center;color: #000;font-weight: bold;}
+#member .right .tit a i{position: relative;top: 5px;left: 41px; display:inline-block;width: 1px;height: 20px;background-color:#dfdfdf;}
+#member .right .tit a.cur{background:url(../images/tit_bg.png) no-repeat;}
+#member .right .tit a.cur i{background-color:#fff;}
+#member .right .s-tit{width: 788px;height: 32px;margin-bottom: 10px; line-height: 32px; background-color: #f3f3f3; border: 1px solid #dfdfdf;overflow: hidden;}
+#member .right .s-tit span{float: left;display: block;}
+#member .right .s-tit .tit01{width: 210px;padding-left:37px;}
+#member .right .s-tit .tit02{width: 125px;text-align: center;}
+#member .right .s-tit .tit03{width: 65px;text-align: center;}
+#member .right .s-tit .tit04{width: 130px;text-align: center;}
+#member .right .s-tit .tit05{width: 94px;text-align: center;}
+#member .right .s-tit .tit06{width: 116px;text-align: center;}
+#member .right .item{width: 788px;margin-bottom: 15px; border: 1px solid #dfdfdf;}
+#member .right .item .i-tit{height: 32px;line-height: 32px;font-weight: bold;border-bottom: 1px solid #dfdfdf;background-color: #f3f3f3;}
+#member .right .item .i-tit strong{margin-left: 35px;margin-right: 20px;}
+#member .right .item .i-tit a{font-weight: normal;margin-left: 262px;}
+#member .right .item .i-tit a:hover{text-decoration: underline;}
+#member .right .item .i-con {min-height: 56px;overflow: hidden;line-height:56px;font-family: Simsun;}
+#member .right .item .i-con div{float: left; display: inline-block;}
+#member .right .item .i-con .con01{width: 247px;height: 50px; padding: 3px;overflow: hidden;}
+#member .right .item .i-con .con01 .img{float: left; display: inline-block;width: 50px;height: 50px;margin-right: 15px; overflow: hidden;}
+#member .right .item .i-con .con01 a img{float:left;display: inline-block;overflow: hidden;}
+#member .right .item .i-con .con01 em{font-style: normal;font-weight: bold;}
+#member .right .item .i-con .con02{width: 125px;text-align: center; font-family: Verdana;}
+#member .right .item .i-con .con03{width: 65px;text-align: center; font-family: Verdana;border-right: 1px solid #dfdfdf;}
+#member .right .item .i-con .con04{width: 130px;text-align: center; font-family: Verdana;color: #a80000; border-right: 1px solid #dfdfdf;}
+#member .right .item .i-con .con05{width: 94px;text-align: center;font-weight: bold; border-right: 1px solid #dfdfdf;}
+#member .right .item .i-con .con06{width: 116px;text-align: center;}
+#member .right .item-nopay .i-con .con06{line-height: 27px;}
+#member .right .item .i-con .con06 a:hover{text-decoration: underline;}
+#member .right .item .i-con .con06 a.btn{display: block;width: 75px;height: 25px;margin-left: 22px;text-indent: -9999px; background: url(../images/btn03.png) no-repeat;}
+#member .right .item .i-con .no-use{color: #a80000;}
+#member .right .item .i-con .no-pay{color: #a80000;}
+
+#member .right .item-cancel .i-tit i{position: relative;top: 7px;left: 0; display:inline-block;width: 20px;height:20px;margin-left: 300px; background: url(../images/rubbish.png) no-repeat;}
+#member .right .item-used .i-tit i{position: relative;top: 7px;left: 0; display:inline-block;width: 20px;height:20px;margin-left: 300px; background: url(../images/rubbish.png) no-repeat;}
+#member .right .item-tui .i-tit i{position: relative;top: 7px;left: 0; display:inline-block;width: 20px;height:20px;margin-left: 300px; background: url(../images/rubbish.png) no-repeat;}
+
+/*商品评价弹出层样式*/
+.evaluate{width: 750px;height: 380px;padding: 5px; margin:0 auto;font-family: Simsun; background-color: #ccc;}
+.evaluate .e-tit{width:730px;height: 35px;padding:0 10px; line-height: 35px;border-bottom: 1px solid #ccc; background: url(../images/tit_bg2.png);overflow: hidden;}
+.evaluate .e-tit h3{float: left; font-size: 14px;font-weight: bold; color: #666;}
+.evaluate .e-tit a{float: right; display: inline-block;width: 25px;height: 25px;margin-top: 5px;text-indent: -9999px; background: url(../images/quit.png) no-repeat; }
+.evaluate .e-con{height: 325px;width: 730px;padding: 10px; clear: both; background-color: #fff;overflow: hidden;}
+.evaluate .e-con .li{width: 730px; line-height: 40px;color: #666; overflow: hidden;}
+.evaluate .e-con .li .label{margin-right: 10px; font-weight: bold;color: #666;}
+.evaluate .e-con .li01 span{float: left;}
+/*.evaluate .e-con .li01 .star-bg{height: 14px;width: 80px;margin-top: 12px; background: url(../images/star-icon.png) 0 -14px;overflow: hidden;}
+.evaluate .e-con .li01 .star-bg .star{height: 14px;background: url(../images/star-icon.png) ;}*/
+.evaluate .e-con .li02 .label{float:left;margin-right: 10px;}
+.evaluate .e-con .li02 textarea{width: 580px;height: 160px;margin-top: 10px; padding: 10px; color: #666;}
+.evaluate .e-con .btn{display: block;width: 155px;height: 35px; margin: 30px auto 0; padding-bottom: 35px; background: url(../images/btn05.png) no-repeat;text-indent: -9999px;}
+.evaluate .e-con .submitted{display: block;width: 155px;height: 35px; margin: 30px auto 0; padding-bottom: 35px; background: url(../images/l_icon06_submitted.png) no-repeat;text-indent: -9999px;}

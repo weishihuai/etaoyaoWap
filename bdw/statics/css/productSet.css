@@ -1,0 +1,2458 @@
+@charset "utf-8";
+.pcWarp {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.blank18 {
+    clear: both;
+    display: block;
+    font-size: 1px;
+    overflow: hidden;
+    height: 18px;
+}
+
+.pcblank12 {
+    clear: both;
+    display: block;
+    font-size: 1px;
+    overflow: hidden;
+    height: 7px;
+    *height: 7px;
+    _height: 7px;
+}
+
+.pcNavMain {
+    height: 23px;
+    line-height: 23px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.pcNavMain span {
+    color: #999;
+    padding: 0px 7px 0px 0px;
+}
+
+.pcNavMain .pcNavStep {
+    color: #333;
+    padding: 0px 6px 0px 8px;
+}
+
+.pcProCon {
+}
+
+.pcProTitle {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    line-height: 32px;
+    height: 32px;
+    padding: 5px 0px 15px;
+}
+
+.pcProTitle span, .pcProTitle em, .pcProTitle strong {
+    color: #a10000;
+}
+
+.pcProTitle span {
+    padding: 0px 16px;
+}
+
+.pcProTitle em {
+    font-weight: bold;
+}
+
+.pcProTitle strong {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    padding: 0px 4px 0px 0px;
+}
+
+.productLeft {
+    float: left;
+    width: 380px;
+}
+
+.GoodsView {
+}
+
+.DanpinLeft {
+    width: 320px;
+    position: relative;
+    z-index: 1;
+}
+
+.selImg {
+    width: 380px;
+}
+
+#onlickImg span {
+    border: 2px solid #a10000;
+}
+
+.HsmallImg {
+    width: 360px;
+    margin: 0 auto;
+}
+
+.HsmallImg #imageMenu {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 340px;
+    height: 72px;
+    float: left;
+}
+
+.smallImgLeft {
+    margin-right: 10px;
+}
+
+.smallImgLeft, .smallImgRight {
+    float: left;
+    display: inline;
+}
+
+.HsmallImg li {
+    margin-right: 7px;
+    width: 72px;
+    height: 72px;
+    display: inline;
+}
+
+.HsmallImg li span {
+    width: 68px;
+    height: 68px;
+    border: 2px solid #fff;
+}
+
+.smallImgDown, .smallImgUp, .smallImgRight, .smallImgLeft, #imageMenu li img, .selColor ul li {
+    cursor: pointer;
+}
+
+#winSelector {
+    position: absolute;
+    cursor: crosshair;
+    filter: alpha(opacity = 60);
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+    background-color: #e6eaf3;
+    border: 1px solid White;
+}
+
+#vertical.bigImg {
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+    position: relative;
+}
+
+#horizontal.bigImg {
+    width: 380px;
+    height: 380px;
+}
+
+#winSelector {
+    width: 130px;
+    height: 170px;
+}
+
+#midimg {
+    width: 320px;
+    height: 320px;
+}
+
+#bigView {
+    position: absolute;
+    border: 1px solid #333;
+    overflow: hidden;
+    width: 260px;
+    height: 295px;
+    top: 10px !important;
+    left: 400px;
+    z-index: 999;
+    background: #fff;
+}
+
+#bigView img {
+    position: absolute;
+}
+
+.pcImgAmpPro {
+    height: 35px;
+    line-height: 35px;
+    float: right;
+    margin-right: 22px;
+    display: inline;
+}
+
+.pcImgAmpPro em {
+    background: url(//i.vanclimg.com/Others/item/purchaseset/spirite.png) no-repeat 0px 5px;
+    display: inline-block;
+    width: 15px;
+    height: 17px;
+    padding-right: 6px;
+}
+
+.pcImgAmpPro a {
+    color: #59676a;
+}
+
+.pcImgAmpPro a:link, .pcImgAmpPro a:visited {
+    color: #59676a;
+    text-decoration: none;
+}
+
+.pcImgAmpPro a:hover {
+    color: #a10000;
+    text-decoration: none;
+}
+
+.pcImgAmpPro a:active {
+    color: #FF3300;
+}
+
+.pcPurch {
+    width: 378px;
+    border: 1px solid #c9caca;
+    margin-top: 28px;
+}
+
+.pcPurch dl {
+    width: 360px;
+    margin: 0 auto;
+    padding: 0px 0px 13px;
+}
+
+.pcPurch dl dt {
+    border-bottom: 1px solid #c8c8c8;
+    height: 29px;
+    line-height: 29px;
+    margin-bottom: 10px;
+}
+
+.pcPurch dl dt span {
+    width: 124px;
+    border-bottom: 1px solid #a10000;
+    height: 26px;
+    line-height: 26px;
+    display: block;
+    padding: 3px 0px 0px 4px;
+    font-weight: bold;
+    color: #575757;
+}
+
+.pcPurch dl dd {
+    line-height: 24px;
+    padding-left: 8px;
+    color: #686868;
+}
+
+.pcDetailRight {
+    width: 581px;
+    float: right;
+}
+
+.pcStepCon {
+    height: 39px;
+    line-height: 39px;
+}
+
+.pcStep01, .pcStep02, .pcStep03, .pcStep04, .pcStep05 {
+    width: 97px;
+    float: left;
+}
+
+.pcStep01 p, .pcStep02 p, .pcStep03 p, .pcStep04 p, .pcStep05 p {
+    width: 86px;
+    height: 37px;
+    display: block;
+    float: left;
+    border: 1px solid #e0e0e0;
+    border-right: none;
+    overflow: hidden;
+}
+
+.pcStep01 p i, .pcStep02 p i, .pcStep03 p i, .pcStep04 p i, .pcStep05 p i {
+    font-style: normal;
+    display: inline-block;
+    padding-left: 15px;
+    font-weight: bold;
+    color: #a10000;
+    float: left;
+    padding-right: 3px;
+}
+
+.pcStep01 p span, .pcStep02 p span, .pcStep03 p span, .pcStep04 p span, .pcStep05 p span {
+    color: #999;
+    text-align: center;
+    display: inline-block;
+    line-height: 15px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    float: left;
+}
+
+.pcStepLeft, .pcStepRig {
+    display: block;
+    float: left;
+    background: url(//i.vanclimg.com/Others/item/purchaseset/spirite.png) no-repeat 0px -26px;
+    height: 39px;
+    width: 10px;
+}
+
+.pcStepLeft {
+    background-position: 0px -73px;
+}
+
+.pcStep02 p {
+    border-left: none;
+    width: 76px;
+}
+
+.pcStep02 p i {
+    padding-left: 10px;
+}
+
+.pcStep03 {
+    width: 134px;
+}
+
+.pcStep03 p {
+    border-left: none;
+    width: 114px;
+}
+
+.pcStep03 p i {
+    padding-left: 7px;
+}
+
+.pcStep03 p span {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.pcStep04 {
+    width: 134px;
+}
+
+.pcStep04 p {
+    border-left: none;
+    width: 114px;
+}
+
+.pcStep04 p i {
+    padding-left: 7px;
+}
+
+.pcStep04 p span {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.pcStep05 {
+    width: 119px;
+}
+
+.pcStep05 p {
+    border-left: none;
+    width: 108px;
+    border-right: 1px solid #e0e0e0;
+}
+
+.pcStep05 p i {
+    padding-left: 14px;
+}
+
+.pcStep05 p span {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.pcSelAreaBox {
+    width: 389px;
+    float: left;
+}
+
+.pcSelArea {
+    width: 389px;
+    height: auto;
+    padding: 11px 0px 16px;
+}
+
+#pcDhover {
+    background: #f5f5f5;
+}
+
+.pcSelTop {
+    overflow: hidden;
+    _height: 132px;
+}
+
+.pcSelImg {
+    width: 132px;
+    float: left;
+    margin-left: 11px;
+    display: inline;
+}
+
+.pcSelImg img {
+    width: 130px;
+    height: 130px;
+    border: 1px solid #e0e1e1;
+    vertical-align: top;
+}
+
+.pcMetaBox {
+    float: left;
+    width: 230px;
+    margin-left: 13px;
+    display: inline;
+}
+
+.pcMeta {
+    padding-top: 5px;
+}
+
+.pcMeta li {
+    line-height: 24px;
+    color: #666;
+    font-family: airal;
+}
+
+.pcMeta li .pcMetaName {
+    font-weight: bold;
+    color: #333;
+}
+
+.pcMeta li.pcMetaMarket {
+    color: #999;
+}
+
+.pcPl25 {
+    padding-left: 25px;
+}
+
+.pcColorBox {
+}
+
+.pcCoL, .pcCoL01 {
+    float: left;
+    margin-left: 15px;
+    display: inline;
+    height: 20px;
+    line-height: 20px;
+    color: #666;
+}
+
+.pcCoL01 {
+    *height: 27px;
+    *line-height: 27px;
+    _height: 20px;
+    _line-height: 20px;
+}
+
+.pcPt8 {
+    padding-top: 8px;
+}
+
+.pcSkinListBox {
+    float: left;
+    width: 315px;
+    margin-left: 5px;
+    display: inline;
+}
+
+.pcSkinList li {
+    border: 1px solid #cacbcd;
+    float: left;
+    height: 38px;
+    margin: 0 10px 5px 0;
+    width: 93px;
+    cursor: pointer;
+}
+
+.pcSkinList li a {
+    cursor: pointer;
+}
+
+.pcSkinList li:hover {
+    border: 1px solid #a20000;
+    cursor: pointer;
+    background: #a20000;
+}
+
+.pcSkinList li.active {
+    border: 1px solid #a20000;
+    position: relative;
+    background: #a20000;
+}
+
+.pcSkinList li.active em {
+    background: url(//i.vanclimg.com/Others/item/purchaseset/spirite.png) no-repeat -30px 0px;
+    display: block;
+    height: 12px;
+    width: 12px;
+    font-size: 0px;
+    line-height: 0px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.skinItem01 {
+    background: #fff;
+    display: block;
+    height: 36px;
+    margin: 1px;
+    width: 91px;
+}
+
+.skinItem01 a {
+    height: 36px;
+    width: 36px;
+    float: left;
+}
+
+.skinItem01 a img {
+    vertical-align: top;
+}
+
+.skinItem01 i {
+    font-style: normal;
+    line-height: 14px;
+    float: left;
+    margin-left: 10px;
+    display: inline;
+    padding-top: 4px;
+    width: 42px;
+    color: #666;
+}
+
+.pcAllSizeBox {
+    float: left;
+    width: 330px;
+    margin-left: 5px;
+    display: inline;
+}
+
+.pcAllSize li {
+    float: left;
+    background: #fff;
+    border: 1px solid #c8c8c8;
+    margin-right: 5px;
+    height: 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.pcAllSize li:hover {
+    border: 1px solid #a20000;
+    cursor: pointer;
+    background: #a20000;
+}
+
+.pcAllSize li.active {
+    border: 1px solid #a20000;
+    position: relative;
+    background: #a20000;
+}
+
+.pcAllSize li.active em {
+    background: url(//i.vanclimg.com/Others/item/purchaseset/spirite.png) no-repeat -30px 0px;
+    display: block;
+    height: 12px;
+    width: 12px;
+    font-size: 0px;
+    line-height: 0px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.pcAllSize li span {
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 10px;
+    overflow: hidden;
+    background: #fff;
+    margin: 1px;
+    float: left;
+}
+
+.pcAllSize li span.pcPl5 {
+    padding: 0px 5px;
+}
+
+.pcSizeNumBox {
+    line-height: 27px;
+}
+
+.pcSizeNum {
+    height: 27px;
+    line-height: 27px;
+    float: left;
+    width: 303px;
+    margin-left: 5px;
+    display: inline;
+}
+
+.pcSizeNum select {
+    height: 20px;
+    line-height: 20px;
+    width: 55px;
+    border: 1px solid #c8c8c6;
+}
+
+.buyNow {
+    float: right;
+    display: block;
+    height: 27px;
+    line-height: 27px;
+    width: 97px;
+    background: url(//i.vanclimg.com/Others/item/purchaseset/spirite.png) no-repeat 0px -116px;
+    text-align: center;
+    color: #fff;
+}
+
+.buyNow:link, .buyNow:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.buyNow:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.buyNow:active {
+    color: #fff;
+}
+
+.pcLine01 {
+    width: 347px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    height: 1px;
+    line-height: 0px;
+    font-size: 0px;
+    overflow: hidden;
+    margin-bottom: 18px;
+}
+
+.pcMoreSuit {
+    width: 980px;
+}
+
+.pcMoreBar {
+    width: 979px;
+    border: 1px solid #d6d6d6;
+    border-left: none;
+    border-bottom-color: #6e0019;
+    background: url(//i.vanclimg.com/Others/item/purchaseset/morebg01.jpg) repeat-x left top;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+}
+
+.pcMoreBar h2 {
+    background: url(//i.vanclimg.com/Others/item/purchaseset/spirite.png) no-repeat 0px -147px;
+    width: 120px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    margin-top: -1px;
+}
+
+.pcSuitScroll {
+    margin: 0;
+    width: 978px;
+    border: 1px solid #cacbcb;
+    height: 210px;
+    border-top: none;
+    overflow: hidden;
+}
+
+.pcSuitscrollPic {
+    width: 978px;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+
+.tehui {
+    clear: both;
+}
+
+.pcSuitBtRight a {
+    width: 22px;
+    height: 100px;
+    background: url(//i.vanclimg.com/Others/item/purchaseset/sbtright.jpg) center no-repeat;
+    float: right;
+    margin-top: 28px;
+    display: inline-block;
+    text-indent: -9999px;
+    margin-right: -1px;
+}
+
+.pcSuitBtLeft a {
+    width: 22px;
+    height: 100px;
+    background: url(//i.vanclimg.com/Others/item/purchaseset/sbtleft.jpg) left top no-repeat;
+    float: left;
+    margin-top: 28px;
+    display: inline-block;
+    text-indent: -9999px;
+    margin-right: 5px;
+    margin-left: -1px;
+}
+
+.pcSuitProductList {
+    margin: 0 auto;
+}
+
+.pcSuitProductList li p {
+    line-height: 18px;
+    padding-top: 4px;
+}
+
+.pcSuitProductList {
+    font-size: 12px;
+    overflow: hidden;
+    width: 931px;
+    z-index: 1;
+    float: left;
+}
+
+.pcSuitProductList .pcont {
+    float: left;
+    overflow: hidden;
+    width: 936px;
+}
+
+.pcSuitProductList .ScrCont {
+    width: 32766px;
+    z-index: 1;
+}
+
+.pcSuitProductList #List1_1 {
+    float: left;
+}
+
+.pcSuitProductList #List2_1 {
+    float: left;
+}
+
+.pcSuitProductList li {
+    width: 132px;
+    float: left;
+    overflow: hidden;
+    margin: 0px 44px 0px 15px;
+    display: inline;
+}
+
+.pcSuitProductList li div {
+    width: 132px;
+    height: 132px;
+}
+
+.pcSuitProductList li div a img {
+    vertical-align: top;
+    border: 1px solid #fff;
+}
+
+.pcSuitProductList li div a:hover img {
+    border: 1px solid #a10000;
+}
+
+.pcSelected {
+    width: 170px;
+    border: 1px solid #dddede;
+    margin-top: 10px;
+    margin-left: 409px;
+    background: #fff;
+    *position: absolute;
+    *margin-left: 19px;
+}
+
+.pcSelected h3 {
+    text-align: center;
+    height: 27px;
+    line-height: 27px;
+    color: #666;
+    font-weight: bold;
+    background: url(//i.vanclimg.com/Others/item/purchaseset/spirite.png) no-repeat 0px -181px;
+    border-bottom: 1px solid #dddede;
+}
+
+.noSelected {
+    width: 137px;
+    margin: 0 auto;
+}
+
+.noSelectedList li {
+    padding: 10px 0px;
+}
+
+.noSelectedList li.pcSeleLine {
+    padding: 0px;
+    height: 1px;
+    background: url(//i.vanclimg.com/Others/item/purchaseset/dot01.jpg) repeat-x;
+    font-size: 0px;
+    line-height: 0px;
+    overflow: hidden;
+}
+
+.noSelected p {
+    line-height: 14px;
+    width: 112px;
+    margin: 0 auto;
+    color: #666;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.yesSelected {
+}
+
+.yesSelectedList {
+    width: 137px;
+    margin: 0 auto;
+}
+
+.yesSelectedList li {
+    line-height: 16px;
+    padding: 15px 0px;
+}
+
+.yesSelectedList li.pcSeleLine {
+    padding: 0px;
+    height: 1px;
+    background: url(//i.vanclimg.com/Others/item/purchaseset/dot01.jpg) repeat-x;
+    font-size: 0px;
+    line-height: 0px;
+    overflow: hidden;
+}
+
+.yesSelectedList li .yesImg {
+    text-align: center;
+}
+
+.yesSelectedList li .yesImg img {
+    vertical-align: top;
+}
+
+.yesSelectedList li p {
+    padding-top: 9px;
+}
+
+.yesSelectedList li .yesSize {
+    color: #999;
+}
+
+.yesSelectedList li .yesPrice {
+    color: #a10000;
+    font-family: airal;
+}
+
+.yesSelectedList li .yesDelect {
+    float: right;
+    vertical-align: middle;
+}
+
+.yesSelectedList li .yesDelect em {
+    background: url(//i.vanclimg.com/Others/item/purchaseset/spirite.png) no-repeat -26px -26px;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    padding-right: 4px;
+    vertical-align: middle;
+}
+
+.yesSelectedList li .yesDelect span {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.yesTotal {
+    background: url(//i.vanclimg.com/Others/item/purchaseset/dot01.jpg) repeat-x left top;
+    padding: 10px 0px 25px;
+}
+
+.yesTotal p {
+    color: #a10000;
+    font-weight: bold;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.yesTotal p span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.yesTotal .yesBuyNow a {
+    background: url(//i.vanclimg.com/Others/item/purchaseset/spirite.png) no-repeat 0px -213px;
+    width: 138px;
+    height: 35px;
+    display: block;
+    text-align: center;
+    text-indent: -2000px;
+    overflow: hidden;
+    text-align: center;
+    margin: 5px auto 0px;
+}
+
+.pcTip01 {
+    color: #666;
+    line-height: 15px;
+    border: 1px solid #a10000;
+    padding: 2px 6px;
+    float: left;
+    clear: left;
+}
+
+.pcTip {
+    color: #666;
+    line-height: 15px;
+    border: 1px solid #a10000;
+    padding: 5px 6px;
+    float: right;
+    margin: 5px 30px 0px 0px;
+    display: inline;
+}
+
+.pcLoading {
+    float: right;
+    margin: 12px 23px 0px 0px;
+    display: inline;
+    color: #666;
+}
+
+.pcLoading img {
+    vertical-align: middle;
+    padding-right: 7px;
+}
+
+.shopbox {
+    width: 442px;
+    position: absolute;
+    left: 725px;
+    z-index: 9999;
+}
+
+.shopbox h2 {
+    height: 12px;
+    height: 22 px\9;
+    font-weight: bold;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.shopbox h2 a {
+    display: inline;
+    float: right;
+    font-weight: normal;
+}
+
+.shopbox h2 img {
+    display: block;
+    float: left;
+    margin: 0px 5px;
+    margin-top: 2px;
+}
+
+.shopbox h2 span {
+    display: inline;
+    float: left;
+}
+
+.shopboxcon {
+    width: 437px;
+    border: 1px solid #a10000;
+    background-color: #fff;
+    display: block;
+    float: left;
+    height: 120px;
+    overflow: hidden;
+}
+
+.shopboxdetail .spboxtitle {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.spboxleft {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+}
+
+.spboxright {
+    display: inline;
+    float: left;
+    margin-left: 18px;
+}
+
+.spboxcontent {
+    line-height: 20px;
+    width: 417px;
+    width: 437 px\9;
+    padding: 0px 10px;
+}
+
+.spbbtndiv .jxgwbtn {
+    display: inline;
+    float: left;
+    color: #a10000;
+    margin-top: 3px;
+}
+
+.qujiesuan {
+    margin-left: 30px;
+    display: inline;
+    float: left;
+}
+
+.numstyle {
+    color: #a10000;
+    font-weight: bold;
+}
+
+.numstyle2 {
+    color: #a10000;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.gmlist {
+    color: #666;
+}
+
+.gmlist h6 {
+    line-height: 30px;
+    height: 30px;
+}
+
+.gmlist li {
+    width: 72px;
+    display: inline;
+    float: left;
+    margin: 0px 5px 0px 6px;
+}
+
+.ygmPic img {
+    border: 1px solid #b4b4b4;
+    width: 70px;
+    height: 70px;
+    display: block;
+}
+
+.ygmName {
+    height: 50px;
+    line-height: 18px;
+    display: block;
+    margin-top: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.ygmPrice {
+    color: #a10000;
+    margin-top: 5px;
+}
+
+.rightborder {
+    width: 3px;
+    background: #b6b6b6;
+    margin-top: 4px;
+    height: 118px;
+    display: inline;
+    float: right;
+}
+
+.bottomborder {
+    height: 3px;
+    background: #b6b6b6;
+    margin-left: 4px;
+    overflow: hidden;
+}
+
+#shoploading {
+    text-align: center;
+    padding-top: 45px
+}
+
+.pcSkinList li.dhpruli {
+    border: 1px dashed #B4B4B4;
+    cursor: default;
+}
+
+.cB {
+    background: #f5f5f5 url(//i.vanclimg.com/Product/duanhuo.png) no-repeat right;
+    border: 1px #a10000 solid;
+    margin: 13px 0 7px 0;
+    width: 387px;
+}
+
+.cBp1 {
+    margin-left: 103px;
+    padding-top: 3px;
+    *padding-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cBp2 {
+    margin-left: 161px;
+    padding-bottom: 3px;
+    *padding-bottom: 2px;
+}
+
+
+
+.blank0 {
+    clear: both;
+    display: block;
+    font-size: 1px;
+    visibility: hidden;
+    height: -1px;
+    line-height: 0;
+}
+
+.blank5 {
+    clear: both;
+    display: block;
+    font-size: 1px;
+    overflow: hidden;
+    height: 5px;
+}
+
+.blank8 {
+    clear: both;
+    display: block;
+    font-size: 1px;
+    overflow: hidden;
+    height: 8px;
+}
+
+.blank10 {
+    clear: both;
+    display: block;
+    font-size: 1px;
+    overflow: hidden;
+    height: 10px;
+}
+
+.blank12 {
+    clear: both;
+    display: block;
+    font-size: 1px;
+    overflow: hidden;
+    height: 12px;
+}
+
+.blank15 {
+    clear: both;
+    display: block;
+    font-size: 1px;
+    overflow: hidden;
+    height: 15px;
+}
+
+.blank20 {
+    clear: both;
+    display: block;
+    font-size: 1px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.blank25 {
+    clear: both;
+    display: block;
+    font-size: 1px;
+    overflow: hidden;
+    height: 25px;
+}
+
+#body {
+    font: 100 12px " SimSun";
+}
+
+body {
+    font-family: "宋体";
+}
+
+#headerTopArea {
+    height: 29px;
+    background: #f7f7f7;
+    border-bottom: 1px solid #ccc;
+}
+
+#headerTopArea .headerTop {
+    width: 980px;
+    height: 29px;
+    line-height: 29px;
+    margin: 0 auto;
+}
+
+#headerTopArea .headerTopLeft {
+    width: 480px;
+    float: left;
+    display: inline;
+    padding-left: 12px;
+}
+
+#headerTopArea .loginArea {
+    float: left;
+    display: inline;
+}
+
+#headerTopArea .loginArea span {
+    color: #a10000;
+}
+
+#headerTopArea .loginArea a:link, #headerTopArea .loginArea a:visited, #headerTopArea .loginArea a:hover {
+    color: #a10000;
+}
+
+#headerTopArea .recommendArea {
+    margin: 0px 0 0 15px;
+    float: left;
+    display: inline;
+}
+
+#headerTopArea .recommendArea a {
+    padding-right: 12px;
+}
+
+#headerTopArea .headerTopRight {
+    width: 455px;
+    float: right;
+    margin-right: 12px;
+    display: inline;
+}
+
+#headerTopArea #shoppingCarNone {
+    width: 119px;
+    height: 19px;
+    line-height: 19px;
+    line-height: 19 px\9;
+    margin-top: 4px;
+    float: left;
+    display: inline;
+    position: relative;
+    z-index: 9999;
+}
+
+#headerTopArea #shoppingCarNone p {
+    width: 98px;
+    _width: 88px;
+    height: 19px;
+    padding-left: 24px;
+    z-index: 99;
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat -111px 4px;
+    *background-position: -111px 3px;
+}
+
+#headerTopArea #shoppingCarNone p span {
+    margin: 0 3px;
+    color: #a10000;
+    font-weight: bold;
+}
+
+#headerTopArea .active p a, #headerTopArea .hover p a {
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat;
+}
+
+#headerTopArea .active p a {
+    padding-right: 11px;
+    background-position: 82px 8px;
+}
+
+#headerTopArea .hover p a {
+    padding-right: 11px;
+    background-position: 82px -12px;
+}
+
+#headerTopArea .hover {
+    border-top: 1px solid #a10000;
+    border-left: 1px solid #a10000;
+    border-right: 1px solid #a10000;
+}
+
+#headerTopArea .active {
+    border-left: 1px solid #f7f7f7;
+    border-top: 1px solid #f7f7f7;
+    border-right: 1px solid #f7f7f7;
+}
+
+#headerTopArea div#shoppingCarNone.active {
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+#headerTopArea #shoppingCarNone .shopborder {
+    width: 84px;
+    display: block;
+}
+
+#headerTopArea #shoppingCarNone .shopborder span {
+    text-align: center;
+    color: #a10000;
+}
+
+#headerTopArea .ShopCarPage {
+    border-top: 1px solid #ededed;
+    margin: 0px 5px;
+    padding: 0px 5px;
+}
+
+#headerTopArea .SCtotalpage {
+    line-height: 22px;
+    display: block;
+    float: left;
+}
+
+#headerTopArea .SCtotalpage span {
+    color: #a10000;
+}
+
+#headerTopArea .SCtotalpage div {
+    width: 156px;
+    float: left;
+    display: inline;
+    overflow: hidden;
+}
+
+#headerTopArea .SCtotalpage strong img {
+    margin-top: 7px;
+    float: left;
+    display: inline;
+}
+
+#headerTopArea .SCtotalpage strong a {
+    width: 72px;
+    height: 20px;
+    display: block;
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat -115px -75px;
+    margin-top: 7px;
+    float: left;
+    display: inline;
+}
+
+#headerTopArea .SCpage {
+    display: inline;
+    float: right;
+    line-height: 22px;
+}
+
+#headerTopArea .SCpage input {
+    padding: 3px 2px 0px;
+    display: inline;
+    float: left;
+}
+
+#headerTopArea .SCpage a {
+    padding: 0px 2px;
+    display: inline;
+    float: left;
+}
+
+#headerTopArea .SCuppagebtn {
+    margin-top: 5px;
+}
+
+#headerTopArea .SCdownpagebtn {
+    margin-top: 5px;
+}
+
+#headerTopArea .SCpage a.SCnowpage {
+    color: #a10000;
+}
+
+#headerTopArea .seeCar {
+    clear: both;
+    padding-right: 10px;
+}
+
+#headerTopArea .seeCar input {
+    display: inline;
+    float: right;
+}
+
+#headerTopArea .havepru {
+    display: block;
+}
+
+#headerTopArea .shopnopru {
+    padding: 0px 10px;
+}
+
+#headerTopArea .noPruSeeCar {
+    display: inline;
+    float: right;
+}
+
+#headerTopArea .noPruSeeCar a {
+    width: 72px;
+    height: 20px;
+    display: block;
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat -115px -75px;
+}
+
+#headerTopArea .shopDropListNone {
+    width: 260px;
+    background: #fff url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat 7px -620px;
+    border: 1px solid #a10000;
+    border-top: 0;
+    position: absolute;
+    left: -1px;
+    top: 20px;
+}
+
+#headerTopArea .active .shopDropList {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#headerTopArea .hover .shopDropList {
+    display: block;
+}
+
+#headerTopArea .shopDropListNone span {
+    line-height: 40px;
+    margin-left: 12px;
+}
+
+#headerTopArea .shopDropListNone span, #headerTopArea .shopDropListNone strong {
+    float: left;
+    display: inline;
+}
+
+#headerTopArea .shopDropListNone strong {
+    margin: 10px 0 0 10px;
+}
+
+#headerTopArea .shopDropList {
+    width: 260px;
+    background: #fff url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat 7px -620px;
+    border: 1px solid #a10000;
+    border-top: 0;
+    z-index: 100;
+    position: absolute;
+    left: -1px;
+    top: 18px;
+}
+
+#headerTopArea .shopDropList h2 {
+    text-indent: 10px;
+}
+
+#headerTopArea .shopDropList ul {
+    margin-left: 10px;
+}
+
+#headerTopArea .shopDropList li {
+    height: 38px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+#headerTopArea .carListLeft {
+    width: 38px;
+    float: left;
+    display: inline;
+}
+
+#headerTopArea .carListLeft img {
+    border: 1px solid #ccc;
+}
+
+#headerTopArea .carListRight {
+    width: 200px;
+    float: right;
+    display: inline;
+}
+
+#headerTopArea .priceArea {
+    width: 200px;
+}
+
+#headerTopArea .priceArea strong {
+    color: #a10000;
+    font-weight: bold;
+}
+
+#headerTopArea .priceArea em {
+    color: #999;
+    display: inline;
+    margin-left: 5px;
+}
+
+#headerTopArea .priceArea span {
+    margin-right: 10px;
+    float: right;
+    display: inline;
+}
+
+#headerTopArea .priceArea span a:link, .priceArea span a:visited, .priceArea span a:hover {
+    color: #ff8400;
+}
+
+#headerTopArea #myVancl {
+    width: 68px;
+    height: 18px;
+    line-height: 18px;
+    margin: 3px 0 0 7px;
+    float: left;
+    display: inline;
+    position: relative;
+    cursor: pointer;
+}
+
+#headerTopArea .active {
+    border: 1px solid #f7f7f7;
+    border-bottom: none;
+}
+
+#headerTopArea .active #DropTitle, #headerTopArea .hover #DropTitle {
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat;
+}
+
+#headerTopArea .active #DropTitle {
+    background-position: 57px 8px;
+    width: 63px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    padding-left: 5px;
+}
+
+#headerTopArea .hover {
+    border: 1px solid #a10000;
+    border-bottom: none;
+    background-color: #fff;
+}
+
+#headerTopArea .hover #DropTitle {
+    background-position: 57px -12px;
+    width: 63px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    color: #a10000;
+    padding-left: 5px;
+}
+
+#headerTopArea .hover ul {
+    display: block;
+    border-top: none;
+}
+
+#headerTopArea .myVanclDropList {
+    width: 68px;
+    padding: 4px 0;
+    background: #fff;
+    border: 1px solid #a10000;
+    position: absolute;
+    left: -1px;
+    top: 18px;
+    display: none;
+}
+
+#headerTopArea .myVanclDropList li {
+    height: 18px;
+    line-height: 18px;
+}
+
+#headerTopArea .myVanclDropList li a, #headerTopArea .myVanclDropList li a:hover {
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat;
+}
+
+#headerTopArea .myVanclDropList li a {
+    padding-left: 14px;
+    background-position: -230px 8px;
+    display: block;
+}
+
+#headerTopArea .myVanclDropList li a:hover {
+    text-decoration: underline;
+    background-position: -230px -12px;
+}
+
+#headerTopArea #vanclMap {
+    width: 68px;
+    height: 20px;
+    line-height: 20px;
+    margin: 3px 3px 0 2px;
+    float: left;
+    display: inline;
+    cursor: pointer;
+    position: relative;
+    z-index: 15;
+    color: #a10000;
+}
+
+#headerTopArea .mapDropTitle, #headerTopArea .hover .mapDropTitle {
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat;
+}
+
+#headerTopArea .mapDropTitle {
+    border: 1px solid #f7f7f7;
+    padding-left: 5px;
+    background-position: 57px 8px;
+    display: block;
+}
+
+#headerTopArea .hover .mapDropTitle {
+    background-position: 57px -12px;
+    display: block;
+    color: #a10000;
+}
+
+#headerTopArea .mapDropList {
+    width: 68px;
+    padding: 4px 0;
+    border: 1px solid #a10000;
+    background: #fff;
+    position: absolute;
+    left: -1px;
+    top: 18px;
+    z-index: 10;
+    overflow: hidden;
+    display: none;
+}
+
+#headerTopArea .mapDropList ul {
+    margin: 3px 0;
+}
+
+#headerTopArea .mapDropList li {
+    width: 70px;
+}
+
+#headerTopArea .mapDropList li a, #headerTopArea .mapDropList li a:hover {
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat;
+}
+
+#headerTopArea .mapDropList li a {
+    width: 54px;
+    padding-left: 14px;
+    background-position: -230px 7px;
+    display: block;
+}
+
+#headerTopArea .mapDropList li a:hover {
+    text-decoration: underline;
+    background-position: -230px -13px;
+}
+
+#headerTopArea .hotLine {
+    color: #a10000;
+    float: right;
+    display: inline;
+    font-family: Tahoma;
+}
+
+#headerTopArea .hotLine strong {
+    margin: 0px;
+    font-weight: bold;
+}
+
+#headerTopArea .hotLine span {
+    margin-right: 17px;
+}
+
+#headerTopArea .hotLine span a:link, .hotLine span a:visited {
+    color: #333;
+}
+
+#headerTopArea .hotLine span a:hover {
+    color: #a10000;
+}
+
+#headerTopArea .hotLine em {
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat -344px -151px;
+    display: inline-block;
+    width: 19px;
+    height: 26px;
+    vertical-align: middle;
+}
+
+#logoArea {
+    width: 980px;
+    margin: 0 auto;
+}
+
+#logoArea .logoSearchSubnavArea {
+    width: 980px;
+    margin: 0 auto;
+}
+
+#logoArea .logoArea {
+    width: 380px;
+    height: 84px;
+    float: left;
+    margin-left: 12px;
+    display: inline;
+}
+
+#logoArea .logoArea a:link, .logoArea a:visited, .logoArea a:hover {
+    width: 380px;
+    height: 84px;
+    display: block;
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat 0px -275px;
+}
+
+#logoArea .searchBarArea {
+    width: 281px;
+    float: left;
+    display: inline;
+}
+
+#logoArea .search {
+    width: 264px;
+    height: 30px;
+    margin: 4px 0 0 0;
+}
+
+#logoArea .searchAreaBlock {
+    width: 281px;
+    height: 84px;
+    float: left;
+    display: inline;
+    padding-left: 5px;
+}
+
+#logoArea .searchAreaBlock .search {
+    width: 281px;
+    height: 30px;
+}
+
+#logoArea .searchAreaBlock .searchText {
+    width: 184px;
+    height: 22px;
+    line-height: 22px;
+    margin: 3px 0px 0px;
+    border-left: 1px solid #bbb;
+    border-top: 1px solid #bbb;
+    border-right: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    float: left;
+    display: inline;
+}
+
+#logoArea .searchAreaBlock .searchBtn {
+    width: 64px;
+    height: 24px;
+    margin: 3px 0 0 0;
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat -115px -20px;
+    border: 0;
+    cursor: pointer;
+    float: left;
+    display: inline;
+}
+
+#logoArea .searchAreaBlock .searchWords span {
+    color: #a10000;
+}
+
+#logoArea .searchAreaBlock .searchWords a {
+    margin-right: 7px;
+}
+
+#logoArea .subNavArea {
+    width: 290px;
+    height: 84px;
+    float: left;
+    display: inline;
+    overflow: hidden;
+}
+
+#logoArea .subComputer {
+    width: 288px;
+    padding-left: 2px;
+    margin-left: 1px;
+}
+
+#logoArea .subComputer li {
+    width: 49px;
+    height: 27px;
+    line-height: 27px;
+    padding-left: 23px;
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat -228px 15px;
+    float: left;
+    display: inline;
+    text-align: left;
+    padding-top: 3px;
+}
+
+#logoArea .subComputer .en {
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat -228px 15px;
+}
+
+#logoArea .trademark li {
+    height: 54px;
+    float: left;
+    display: inline;
+    padding-top: 2px;
+    overflow: hidden;
+}
+
+#logoArea .trademark li.trademarkMikko {
+    width: 114px;
+    height: 50px;
+}
+
+#logoArea .trademark li.trademarkMikko a:link, .trademark li.trademarkMikko a:visited, .trademark li.trademarkMikko a:hover {
+    width: 114px;
+    height: 50px;
+    display: block;
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat -286px -451px;
+}
+
+#logoArea .trademark li.trademarkVjia {
+    width: 110px;
+    height: 50px;
+}
+
+#logoArea .trademark li.trademarkVjia a:link, .trademark li.trademarkVjia a:visited, .trademark li.trademarkVjia a:hover {
+    width: 114px;
+    height: 50px;
+    display: block;
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat -290px -400px;
+}
+
+#logoArea .trademark li.trademarkPhone {
+    width: 57px;
+    height: 50px;
+}
+
+#logoArea .trademark li.trademarkPhone a:link, #logoArea .trademark li.trademarkPhone a:visited, #logoArea .trademark li.trademarkPhone a:hover {
+    width: 114px;
+    height: 50px;
+    display: block;
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat -343px -502px;
+}
+
+#logoArea .vjiaico {
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat -360px -40px;
+    *background-position: -360px -41px;
+}
+
+#logoArea .vjiaico a {
+    padding-right: 20px;
+    display: block;
+}
+
+#mainNav {
+    width: 980px;
+    height: 30px;
+    margin: 0 auto;
+    background: #a10000;
+    position: relative;
+}
+
+#mainNav ul {
+    margin-left: 1px;
+}
+
+#mainNav li {
+    height: 28px;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    display: inline;
+}
+
+#mainNav li a:link, #mainNav li a:visited {
+    margin-top: 1px;
+    padding: 0 9px;
+    height: 30px;
+    _height: 29px;
+    line-height: 28px;
+    display: block;
+    color: #fff;
+    float: left;
+    display: inline;
+}
+
+#mainNav li a:hover {
+    height: 28px;
+    display: block;
+    background: #fff;
+    color: #a10000;
+}
+
+#mainNav .newicon, #mainNav .hoticon, #mainNav .newProductNum {
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat;
+}
+
+#mainNav .newicon {
+    z-index: 5;
+    position: absolute;
+    top: -5px;
+    left: 38px;
+    _left: -15px;
+    background-position: -194px -139px;
+    width: 25px;
+    height: 13px;
+}
+
+#mainNav .hoticon {
+    z-index: 5;
+    position: absolute;
+    top: -5px;
+    left: 38px;
+    _left: -15px;
+    background-position: -212px -76px;
+    width: 25px;
+    height: 13px;
+}
+
+#mainNav li .pos {
+    position: relative
+}
+
+#mainNav .newProductNum {
+    width: 87px;
+    height: 22px;
+    line-height: 22px;
+    *line-height: 24px;
+    margin: 4px 10px 0 0;
+    background-position: -115px -48px;
+    color: #333;
+    float: right;
+    display: inline;
+    overflow: hidden;
+}
+
+#mainNav .newProductNum p {
+    margin-left: 24px;
+}
+
+#mainNav .newProductNum span {
+    color: #a10000;
+}
+
+#subNav {
+    width: 978px;
+    height: 30px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-top: 0;
+}
+
+#subNav li {
+    line-height: 28px;
+    float: left;
+    display: inline;
+    text-align: center;
+}
+
+#subNav li a, #subNav li a:hover, #subNav li.BgPostwohover a, #subNav .theTag a {
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat;
+}
+
+#subNav li a {
+    background-position: 48px -27px;
+    line-height: 28px;
+    text-align: center;
+    display: block;
+    color: #000;
+    font-size: 14px;
+    padding: 0px 14px;
+}
+
+#subNav li a:hover {
+    color: #a10000;
+    background-position: 48px -57px;
+    color: #a10000;
+}
+
+#subNav li.BgPostwohover a {
+    background-position: 48px -57px;
+}
+
+#subNav .theTag a {
+    color: #a10000;
+    background-position: 48px -57px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+}
+
+#subNav li.BgPosition a {
+    background-position: 64px -27px;
+}
+
+#subNav li.BgPosition a:hover, #subNav li.BgPositionhover a {
+    background-position: 64px -57px;
+}
+
+#subNav li.BgPosfour a {
+    background-position: 80px -27px;
+}
+
+#subNav li.BgPosfour a:hover, #subNav li.BgPosfourhover a {
+    background-position: 80px -57px;
+}
+
+#subNav li.BgPosone a {
+    background-position: 36px -27px;
+    color: #000;
+}
+
+#subNav li.BgPosone a:hover {
+    background-position: 36px -57px;
+    color: #a10000;
+}
+
+#subNav li.BgPosonehover a {
+    background-position: 36px -57px;
+    color: #a10000;
+}
+
+#subNav .trademark {
+    padding-left: 8px;
+    width: 282px;
+}
+
+#subNav li.yunfu, #subNav li.vjiaTag {
+    background-image: none;
+}
+
+#subNav li.yunfu a, #subNav li.vjiaTag {
+    background-image: none;
+}
+
+#subNav li.vjiaTag {
+    width: auto;
+}
+
+#subNav .vjiaTag a, #subNav .vjiaTag a:hover {
+    padding-left: 26px;
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) repeat -228px -43px;
+    display: inline;
+    width: auto;
+}
+
+#subNav .hoticon {
+    position: absolute;
+    top: -35px;
+    left: 44px;
+    z-index: 5;
+    width: 25px;
+    height: 13px;
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat -212px -76px;
+}
+
+#subNav .newicon {
+    position: absolute;
+    top: -35px;
+    left: 44px;
+    z-index: 5;
+    width: 25px;
+    height: 13px;
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat -194px -139px;
+}
+
+#subNav li .pos {
+    position: relative
+}
+
+#subNav {
+    z-index: 5;
+    position: relative;
+}
+
+#subNav .sub-floor_menus {
+    z-index: 6;
+}
+
+#subNav .sub-floor-menus .menu {
+    margin-left: -1px;
+    z-index: 7;
+    position: absolute;
+    top: 29px;
+    display: none;
+}
+
+#subNav .dht {
+    width: 620px;
+    margin-left: -1px;
+    background: #fff;
+    border: 1px solid #a10000;
+    _margin-left: 0px;
+}
+
+#subNav .dht {
+    line-height: 25px;
+}
+
+#subNav .childleft {
+    display: inline;
+    float: left;
+    width: 510px;
+}
+
+#subNav .childright {
+    display: inline;
+    float: right;
+    width: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#subNav .childright li {
+    display: block;
+    clear: both;
+    background: none;
+}
+
+#subNav .navchild .childright li a, #subNav .navchild .childright li a:hover {
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat;
+}
+
+#subNav .navchild .childright li a {
+    width: 72px;
+    color: #a10000;
+    background-position: -233px -5px;
+    display: block;
+    text-align: left;
+    clear: both;
+    line-height: 30px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+#subNav .navchild .childright li a:hover {
+    background-position: -233px -5px;
+}
+
+#subNav .childli {
+    padding: 2px 0px;
+    overflow: hidden;
+}
+
+#subNav .childclass {
+    width: 100px;
+    padding-left: 12px;
+    display: inline;
+    float: left;
+}
+
+#subNav .childleft .childclass a, #subNav .childleft .childclass span {
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat;
+}
+
+#subNav .childleft .childclass a {
+    background-position: -237px -15px;
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #a10000;
+}
+
+#subNav .childleft .childclass span {
+    background-position: -237px -15px;
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #a10000;
+}
+
+#subNav .childdetail {
+    display: inline;
+    float: left;
+    width: 398px;
+}
+
+#subNav .childdetail a {
+    display: inline;
+    float: left;
+}
+
+#subNav .childdetail span {
+    color: #999;
+    padding: 0px 6px;
+    display: inline;
+    float: left;
+}
+
+#subNav .LFkinddot {
+    background: url(http://i.vanclimg.com/header/20110117/childdotbg.gif) repeat-x scroll 0% 0% transparent;
+    height: 1px;
+    font-size: 1px;
+    clear: both;
+}
+
+#footerArea {
+    width: 980px;
+    margin: 0 auto;
+}
+
+#footerArea .footer {
+    border: 1px solid #cacbcb;
+    width: 978px;
+}
+
+#footerArea .helpCol_01, #footerArea .helpCol_02, #footerArea .helpCol_03, #footerArea .helpCol_04, #footerArea .helpCol_05, #footerArea .helpCol_06, #footerArea .helpCol_07 {
+    float: left;
+    display: inline;
+}
+
+#footerArea .helpCol_01 {
+    width: 117px;
+    margin-left: 12px;
+}
+
+#footerArea .helpCol_02 {
+    width: 125px;
+}
+
+#footerArea .helpCol_03 {
+    width: 144px;
+}
+
+#footerArea .helpCol_04 {
+    width: 150px;
+}
+
+#footerArea .helpCol_05 {
+    width: 128px;
+}
+
+#footerArea .helpCol_06 {
+    width: 120px;
+}
+
+#footerArea .helpCol_07 {
+    width: 180px;
+    height: 90px;
+    border-left: 1px solid #a10000;
+}
+
+#footerArea .helpCol_07 h5, #footerArea .helpCol_07 h4 {
+    line-height: 22px;
+    margin-left: 15px;
+}
+
+#footerArea .helpCol_07 h5 {
+    color: #666;
+}
+
+#footerArea .helpCol_07 h5 strong {
+    font-weight: bold;
+    color: #333;
+}
+
+#footerArea .helpCol_07 h4 {
+    color: #a10000;
+    font-size: 14px;
+    font-family: Tahoma;
+}
+
+#footerArea .helpCol_07 h4 strong {
+    font-weight: bold;
+}
+
+#footerArea .footer h3 {
+    color: #333;
+    font-weight: bold;
+    border-left: 3px solid #a10000;
+    text-indent: 4px;
+}
+
+#footerArea .footer li {
+    line-height: 18px;
+    text-indent: 8px;
+}
+
+#footerArea .footer li a:link, #footerArea .footer li a:visited {
+    color: #666;
+}
+
+#footerArea .footer li a:hover {
+    color: #a10000;
+}
+
+#footerArea .copyRight {
+    color: #999;
+    text-align: center;
+}
+
+#footerArea .subFooter {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#footerArea .subFooter a, #footerArea .subFooter span {
+    margin: 0 10px;
+}
+
+.blank7 {
+    clear: both;
+    display: block;
+    font-size: 1px;
+    overflow: hidden;
+    height: 7px;
+}
+
+#footerArea .redLogo:link, #footerArea .redLogo:visited, #footerArea .redLogo:hover {
+    width: 113px;
+    height: 42px;
+    display: inline-block;
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat 0px -400px;
+}
+
+#footerArea .costumeOrg {
+    width: 156px;
+    height: 45px;
+    display: inline-block;
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat 0px -448px;
+}
+
+#footerArea .wsjyBzzx:link, #footerArea .wsjyBzzx:visited, #footerArea .wsjyBzzx:hover {
+    width: 96px;
+    height: 42px;
+    display: inline-block;
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat 0px -494px;
+}
+
+#footerArea .vanclMsg:link, #footerArea .vanclMsg:visited, #footerArea .vanclMsg:hover {
+    width: 101px;
+    height: 42px;
+    display: inline-block;
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat -97px -494px;
+}
+
+#footerArea .footIcon {
+    width: 960px;
+    height: 48px;
+    margin: 0 auto;
+    background: #f8f8f8;
+    border: 1px solid #f6f6f6;
+}
+
+#footerArea .returnGoods {
+    width: 160px;
+    height: 28px;
+    display: inline-block;
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat 0px -556px;
+    margin: 10px 0px 0px 65px;
+}
+
+#footerArea .freeShip {
+    width: 196px;
+    height: 28px;
+    display: inline-block;
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat -204px -556px;
+    margin: 10px 0px 0px 38px;
+}
+
+#footerArea .cashOn {
+    width: 194px;
+    height: 28px;
+    display: inline-block;
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat 0px -588px;
+    margin: 10px 0px 0px 36px;
+}
+
+#footerArea .cusService {
+    width: 163px;
+    height: 28px;
+    display: inline-block;
+    background: url(http://i.vanclimg.com/header/20120309/spritesbg.png) no-repeat -204px -588px;
+    margin: 10px 0px 0px 37px;
+}
+
+.ac_results {
+    padding: 0px;
+    border: 1px solid black;
+    background-color: white;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.ac_results ul {
+    width: 100%;
+    list-style-position: outside;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ac_results li {
+    margin: 0px;
+    padding: 2px 5px;
+    cursor: default;
+    display: block;
+    font: menu;
+    font-size: 12px;
+    line-height: 16px;
+    overflow: hidden;
+    *overflow: inherit;
+}
+
+.ac_results .item {
+    text-align: left;
+    float: left;
+}
+
+.ac_results .num {
+    text-align: right;
+    float: right;
+    color: Green;
+}
+
+.ac_loading {
+    background: white url('http://images.vancl.com/others/2011/6/9/indicator.gif') right center no-repeat;
+}
+
+.ac_over {
+    background-color: #3399ff;
+    color: white;
+}
+
+.ks-suggest-key {
+    float: left;
+    padding-left: 5px;
+    text-align: left;
+}
+
+.ks-suggest-result {
+    color: green;
+    float: right;
+    padding-right: 5px;
+    text-align: right;
+}
+
+
+ .fixBox{ width:100%; overflow:hidden; padding:8px 0;}
+ .fixBox label{ float:left; width:63px; text-align:center; overflow:hidden;}
+ .fixBox .selCol{ line-height:54px;}
+ .fixBox .coloSel{ float:left; width:290px; overflow:hidden;}
+ .fixBox .coloSel ul li{float:left; display: inline; height:34px; width:34px; overflow:hidden; margin-right:5px;}
+ .fixBox .coloSel ul li a{display:block; width:30px; height:30px; overflow:hidden; padding:1px; border:1px solid #ccc;}
+ .fixBox .coloSel ul li a:hover,.fixBox .coloSel ul li a.cur{ padding:0; border:2px solid #c00;}
+ .fixBox .selSize{ line-height:24px;}
+ .fixBox .sizeSel{ float:left; width:290px; overflow:hidden;}
+ .fixBox .sizeSel ul li{float:left; display: inline; height:34px; overflow:hidden; margin-right:5px;}
+ .fixBox .sizeSel ul li a{ display:block;height:20px; line-height:20px; text-align:center; overflow:hidden; padding:1px; border:1px solid #ccc; color:#666;background: #ffffff;padding-left: 10px;padding-right: 10px;_width:50px}
+ .fixBox .sizeSel ul li a:hover,.fixBox .sizeSel ul li a.cur{ padding:0; border:2px solid #c00; text-decoration:none; color:#c00;background: #ffffff;padding-left: 10px;padding-right: 10px;}
+ .fixBox .sizeSel ul li a.lock{ opacity: 0.5; border-color: #CCCCCC; border-style: dotted; cursor: not-allowed;}
+ .fixBox .coloSel ul li a.lock{ opacity: 0.5; border-color: #CCCCCC; border-style: dotted; cursor: not-allowed;}

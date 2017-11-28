@@ -1,0 +1,88 @@
+.main{width: 100%; min-width: 1190px; padding: 68px 0 30px; background-color: #f8f8f8; position: relative; }
+.main .top-nav{width: 100%; min-width: 1190px; height: 58px; position: absolute; left: 0; top:0; background-color: #fff; }
+.main .top-nav .mt-cont{width: 1170px; padding:13px 0 0 20px; height: 45px; margin: 0 auto;}
+.main .top-nav .mt-cont .nav{width: 900px; height: 32px; float: left; overflow: hidden;}
+.main .top-nav .mt-cont .nav a{display: block; width: 100px; height: 32px; position: relative; line-height: 32px; text-align: center; color: #333333; font-size: 14px; float: left; }
+.main .top-nav .mt-cont .nav a:hover{color: #ff6600;}
+.main .top-nav .mt-cont .nav span{display: none; width: 0; height: 0; border-left: 3px solid transparent; border-right: 3px solid transparent; border-bottom: 3px solid #fff; position: absolute; left: 46px; bottom: 0; }
+.main .top-nav .mt-cont .nav a.cur{background-color: #ff6600; color: #fff;}
+.main .top-nav .mt-cont .nav a:hover.cur{color: #fff;}
+.main .top-nav .mt-cont .nav a.cur span{display: inline-block;}
+
+.main .top-nav .mt-cont .search{float: left; margin-left: 7px; position: relative;}
+.main .top-nav .mt-cont .search input{border: 1px solid #dbdbdb; padding-left: 28px; margin-left: 11px; width: 186px; color: #333;  height: 30px; line-height: 30px;background: #fff url("../images/list-icon.png") no-repeat 5px -29px;}
+.main .top-nav .mt-cont .search .search-btn{display: none; width: 28px; height: 30px; position: absolute; left: 1px; top:1px; }
+
+
+.main .cont{width: 1190px; margin: 0 auto; padding:15px 0 50px; background-color: #fff;}
+/*左侧文章*/
+.main .message-box{ width: 800px; max-height:904px; padding: 5px 33px 0; margin-bottom: 30px; overflow: hidden; float: left; }
+.main .message-box ul li{ width: 800px; height: 110px; border-bottom: 1px dashed #e8e8e8; padding-bottom: 10px; margin-bottom: 15px; overflow: hidden; }
+.main .message-box ul li .title{ width: 777px; height: 30px; overflow: hidden;}
+.main .message-box ul li .title a{ font-size: 18px; color: #ff6600; line-height: 30px; overflow: hidden;}
+.main .message-box ul li .title a:hover{ color: #ff6600; text-decoration: underline;}
+.main .message-box ul li .abstract-box{ width: 800px; height: 20px; margin-top: 5px; color: #999999; line-height: 20px;  overflow: hidden;}
+.main .message-box ul li .desc{ width: 777px; font-size: 14px;  height: 40px; margin-top: 10px; color: #666666; line-height: 20px;  overflow: hidden;}
+
+
+
+/*右侧推荐*/
+.main .other-message{ width: 300px; margin-right: 20px; border: 1px solid #e8e8e8; overflow: hidden; float: right; }
+.main .other-message .n-title{ color:#333333; height: 40px; line-height: 40px; width: 290px; padding-left:10px; font-size: 16px; border-bottom: 1px solid #e8e8e8; }
+.main .other-message .n-title span{display: inline-block; height: 20px; line-height: 20px; padding-left: 9px; border-left: 3px solid #ff6600;}
+.main .other-message .some-news .have-pic{ width: 280px; height: 120px; margin:9px auto;}
+.main .other-message .some-news .have-pic .pic{ width: 280px; height: 120px; overflow: hidden;}
+.main .other-message .some-news .have-pic .pic a img{ width: 280px; height: 120px;}
+.main .other-message .some-news .have-pic .desc{ width: 249px; height: 35px; color: #999999; line-height: 35px; background-color: #f9f9f9; border: 1px solid #e8e8e8; border-top: none; overflow: hidden; text-align: center;}
+.main .other-message .some-news .have-pic .desc a:hover{ color:#ea5050; text-decoration: underline;}
+.main .other-message .some-news .no-pic{ width: 280px; margin:0 auto; padding-bottom: 8px;}
+.main .other-message .some-news .no-pic ul li{ width: 280px; height: 26px; line-height: 26px; overflow: hidden;}
+.main .other-message .some-news .no-pic ul li a{ color:#333333;}
+.main .other-message .some-news .no-pic ul li a:hover{ color:#ff6600; text-decoration: underline;}
+.main .other-message .some-news .no-pic ul li a:before{content: "·"; font-family: simsun;}
+
+/*分页*/
+.main .page-box{ height: 45px; width: 600px; overflow: hidden; margin: 0 auto; position: relative; z-index: 60}
+.main .page-box .page-box-list{ position: absolute; top: 0; left: 33px;}
+.main .page-box .page-box-list a{ float: left; display: block;}
+.main .page-box .page-box-list a.prev{ width: 70px; height: 38px; line-height: 38px; font-size: 14px; text-align: center; margin-right: 20px; color: #333333; background-color: #fff; border: 1px solid #e9e9e9; box-shadow: 0 3px 3px rgba(233,233,233,0.4); border-radius: 1px; overflow: hidden;}
+.main .page-box .page-box-list a.next{ width: 70px; height: 38px; line-height: 38px; font-size: 14px; text-align: center; margin-left: 20px; color: #333333; background-color: #fff; border: 1px solid #e9e9e9; border-radius: 1px; box-shadow: 0 3px 3px rgba(233,233,233,0.4); overflow: hidden;}
+.main .page-box .page-box-list a.yes{ width: 70px; height: 38px; line-height: 38px; font-size: 14px; text-align: center; margin-left: 20px; color: #333333; background-color: #fff; border: 1px solid #e9e9e9; border-radius: 1px; box-shadow: 0 3px 3px rgba(233,233,233,0.4); overflow: hidden;}
+.main .page-box .page-box-list a.next:hover,.main .page-box .page-box-list a.prev:hover,.main .page-box .page-box-list a.yes:hover{ color: #999999; background-color: #fafafa; }
+.main .page-box .page-box-list .num{ height: 38px; width: 38px; line-height: 38px; font-size: 14px; text-align: center; color: #666666; margin-right: 8px; background-color: #fff; border: 1px solid #e9e9e9; border-radius: 1px; box-shadow: 0 3px 3px rgba(233,233,233,0.4); overflow: hidden;}
+.main .page-box .page-box-list .num:hover{ color: #fff; background-color: #ff6600; border: 1px solid #ff6600; box-shadow: none;}
+.main .page-box .page-box-list .more{ height: 38px; width: 23px; line-height: 38px; font-size: 14px; text-align: center; color: #666666; border: none; box-shadow: none; margin-right: 8px; background-color: #fff; overflow: hidden;}
+.main .page-box .page-box-list .all-page{ height: 38px; line-height: 38px; font-size: 14px; text-align: center; color: #999999; border: none; box-shadow: none; margin: 0 8px; background-color: #fff; overflow: hidden;}
+.main .page-box .page-box-list .all-page span{color: #333333;;}
+.main .page-box .page-box-list .p-num-box{ float: left; height: 38px; width: 50px;}
+.main .page-box .page-box-list .p-num-box .p-num{ height: 38px; width: 50px; border: 1px solid #e9e9e9; line-height: 38px; text-align: center;}
+.main .page-box .page-box-list .to-page{ height: 38px; line-height: 38px; font-size: 14px; text-align: center; color: #333333; border: none; box-shadow: none; margin: 0 8px; background-color: #fff; overflow: hidden;}
+
+.search.focus {position: absolute; top: -8px; left: 0px; width: 260px; height: 83px; border: 1px solid #f0f0f0; box-shadow: 0 0 1px 1px rgba(0,0,0,.1); background-color: #fff;}
+.main .top-nav .mt-cont .search.focus input[type="text"] {margin: 7px 0 10px 10px;}
+.search.focus .btn {display: block; float: right;width: 44px; height: 22px;color: #666; text-align: center; line-height: 20px;border: 1px solid #dbdbdb;}
+.search.focus a:hover.btn {background-color: #fcfcfc;}
+.search.focus .btn-submit {width: 46px;height: 22px; margin-right: 34px;margin-left: 6px; border: none; color: #fff;background-color: #2448ab;}
+.search.focus a:hover.btn-submit {background-color: #1c3e9c;}
+
+.search.focus + .condition-toggle {margin-left: 290px;}
+
+.search.focus a:hover.btn {background-color: inherit; color: #2448ab; }
+.search.focus a:hover.btn-submit {background-color: #1c3e9c; color: #fff; }
+.search .btn {display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

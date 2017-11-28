@@ -1,0 +1,20 @@
+/* CSS Document */
+.wddd_btn{width:100%; margin-bottom:10px; padding: 15px 12px;}
+.wddd_btn i{font-style:normal; float:left;}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default{background:none; border:none; border:#ccc 1px solid;}
+.jt{display:inline-block; float:right; color:#5a473d;}
+.login_btn3{margin-bottom:5px; background:url(../images/login_btn3.png); border:#cccccc 1px solid; font-weight:bold; height:32px; line-height:14px; color:#666;}
+.btn-primary:hover{background:url(../images/login_btn3.png); border:#ccc 1px solid; color:#666;}
+.zhye{color:#666; font-size:12px; line-height:22px; margin:5px 0;}
+.zhye i{font-style:normal; color:#cc0000;}
+.zhye em{font-style:normal; color:#009900;}
+.neme{color:#666666; font-size:18px; font-weight:bold; font-family:"微软雅黑"; line-height:25px; margin:5px 0;}
+.neme i{font-style:normal; font-size:12px; margin-left:5px; font-weight:normal;}
+.m_rows1{background:url(../images/m_rows1.png); height:61px; border:#ccc 1px solid; margin:10px 0;}
+.m_icon a{width:27px; height:18px; background:#999; border:#fff 1px solid; border-radius:10px 10px 10px 10px; display:block; color:#fff; text-align:center; line-height:18px; font-size:12px; margin:6px auto;}
+.m_text a{display:block; color:#666; line-height:22px; font-size:12px; text-align:center;}
+#m_rows1{padding:10px 0;}
+.btn-danger2{background:#cc3333; font-weight:bold; width:100%;}
+.glyphicon-ok2{margin-right:5px;}
+.btn-default_adr{background:url(../images/saixuan.png);}
+

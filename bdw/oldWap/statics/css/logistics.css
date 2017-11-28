@@ -1,0 +1,28 @@
+html, body {height: auto; min-height: 100%; }
+body {background: url(../images/log-bg.png) no-repeat 0 0 / 100% auto; }
+
+.head-bar {line-height: 4.4rem; position: relative; height: 4.4rem; }
+.head-bar .back {font-size: 0; position: absolute; top: .85rem; left: .5rem; width: 2.5rem; height: 2.5rem; background: url(../images/arrow-left-w.png) no-repeat center center / 1.4rem auto; }
+.head-bar .head-title {font-size: 1.6rem; line-height: inherit; text-align: center; color: #fff; }
+
+.logs-info {margin: 0 .75rem; border-radius: .35rem; background-color: #fff; box-shadow: 0 .3rem .4rem rgba(0,0,0,.1); }
+.logs-info .media {position: relative; padding: 1.75rem 1.0rem 1.75rem 8.0rem; }
+.logs-info .media-left {position: absolute; top: 1.75rem; left: 1.0rem; overflow: hidden; width: 6.0rem; height: 6.0rem; border: 1px solid #eee; border-radius: .2rem; }
+.logs-info .media-left img {width: 100%; height: auto; }
+.logs-info .media-left span {font-size: 1.1rem; line-height: 1.5rem; position: absolute; right: 0; bottom: 0; left: 0; text-align: center; color: #fff; background-color: rgba(0,0,0,.5); }
+.logs-info .media-body {min-height: 6.0rem;margin-left: -2rem; }
+.logs-info .media-body h2 {font-size: 1.4rem; color: #333; }
+.logs-info .media-body strong {font-weight: 400; color: #e7141a; }
+.logs-info .media-body p {font-size: 1.2rem; margin-top: 1.0rem; color: #999; }
+
+.logs-detail {padding: 2.0rem 1.2rem; }
+.logs-detail dt {font-size: 1.4rem; margin-bottom: 1.5rem; color: #333; }
+.logs-detail dd {position: relative; padding-bottom: 2.5rem; padding-left: 3.0rem; color: #999; }
+.logs-detail dd:before {position: absolute; top: .2rem; bottom: -.2rem; left: .95rem; content: ''; border-left: .1rem dotted #ccc; }
+.logs-detail dd:after {position: absolute; top: .2rem; left: .4rem; width: .8rem; height: .8rem; content: ''; border: .2rem solid #ccc; border-radius: 50%; background-color: #fff; }
+.logs-detail dl dd:last-child:before {visibility: hidden; }
+.logs-detail dd p {font-size: 1.4rem; line-height: 1.3; text-align: justify; }
+.logs-detail dd p + p {font-size: 1.1rem; line-height: 1; margin-top: 1.0rem; }
+.logs-detail dt + dd {color: #e7141a; }
+.logs-detail dt + dd:after {border-color: #e7141a; background-color: #e7141a; box-shadow: 0 0 0 .3rem rgba(231,20,26,.3); }
+.logs-detail dt + dd a {color: #0074e7; }

@@ -1,0 +1,67 @@
+
+img{border:none; vertical-align:middle;}
+
+.topbar{height: 29px;line-height: 29px;border-bottom: 1px solid #eee;background-color: #f5f5f5;}
+.topbar .fl .link01{display: inline-block;padding-left: 16px;margin-left: 20px; background: url(../images/col.png) left center no-repeat;}
+.topbar .fl .link02{display: inline-block; text-indent: 80px;}
+.topbar .fl .link03{display: inline-block; text-indent: 19px;}
+.topbar .fr ul{overflow: hidden;}
+.topbar .fr li{float: right;padding: 0 10px;}
+.topbar .fr li.spacer{padding: 0;width: 1px;height: 16px;margin-top: 7px; background-color: #ccc;}
+.topbar .fr li i{position: relative;top: -2px;left:0; display: inline-block;width:0;height: 0;margin-left: 5px; border-left: 4px solid transparent;border-right: 4px solid transparent;border-top: 4px solid #c8c8ca;}
+.topbar .fr li em{position: relative;top: 3px;left: 0; display: inline-block; width: 15px;height: 15px;margin-right: 5px; background: url(../images/code.png) no-repeat;}
+.topbar a:hover{color: #e60611;}
+
+.logobar{width: 1190px;height: 115px; margin: 0 auto;overflow: hidden;}
+.logobar .logo{float: left;width: 365px;height: 78px;margin-top: 23px; overflow: hidden;}
+.logobar form{float: left; width: 472px;height: 31px;margin-top: 28px;margin-left: 85px; border: 3px solid #2362af; overflow: hidden;}
+.logobar form .inp{float: left;width: 341px;height: 32px;*width:291px;padding-left: 35px;*padding-left:0; *line-height: 32px;font-size: 14px;color: #333;background: url(../images/search.png) left center no-repeat;}
+.logobar form .btn{float: left;width: 96px;height: 32px; line-height: 32px;text-align: center;color: #fff;font-size: 18px;background-color: #2362af;cursor: pointer;}
+.logobar .buycar{width:160px; height:40px; position:relative; float:right;} 
+.logobar .buycar a{background:url(../images/index_icon50.png) no-repeat; width:88px; height:40px;  color:#fff; line-height:40px; padding-left:65px; font-family:"微软雅黑"; font-size:14px; margin:30px 5px 0 0; display:block;}
+.logobar .buycar em{ padding:2px 5px; background:#ed1f23; color:#fff; text-align:center; overflow:hidden; border-radius:2px; display:block; position:absolute; top:16px; left:21px; font-family:"微软雅黑";}
+.logobar .buycar i{background:url(../images/index_icon51.png); width:4px; height:3px; overflow:hidden; position:absolute; left:21px; top:36px; display:block;}
+
+
+.navbar{height: 40px;background-color: #2362af;clear: both;}
+.navbar .category{float: left;}
+.navbar .category .dt{width: 175px; height: 40px;padding-left: 15px; line-height: 40px;color: #fff;font-size: 16px;background-color: #ed1f23;}
+.navbar .category .dt i{position: relative;top: -2px;right: 0; display: inline-block;width: 0;height: 0;margin-left: 50px;border-left: 5px solid transparent;border-right: 5px solid transparent;border-top: 5px solid #fff;}
+.navbar .category .dd{position:absolute;z-index: 99; width: 188px;height: 359px; border: 1px solid #ed1f23;border-top: 0;background-color: #fff;}
+.navbar .category .dd .tit{height: 51px;padding: 0 10px 0 20px; line-height: 51px; border-bottom: 1px solid #e5e5e5;overflow: hidden;}
+.navbar .category .dd .tit strong{float: left;font-size: 14px;color: #333;}
+.navbar .category .dd .tit span{float: right;color: #999;}
+.navbar .category .dd .tit-end{height: 48px;line-height: 48px;}
+.navbar .category .dd .cur{background-color: #ed1f23;}
+.navbar .category .dd .cur strong{color: #fff;}
+.navbar .category .dd .cur span{color: #fff;}
+.navbar .category .dd .tit:hover{background-color: #ed1f23;}
+.navbar .category .dd .tit:hover strong{color: #fff;}
+.navbar .category .dd .tit:hover span{color: #fff;}
+.navbar .category .dd .con{position: absolute;top: 0;left: 190px;z-index: 99; display: block; width: 470px;height: 329px;padding: 15px 25px;color: #999; background-color: #fff;border:1px solid #eee;box-shadow: 0 0 2px 2px rgba(204,204,204,.5);}
+.navbar .category .dd .con a{display: inline-block;padding: 0 10px; color: #333;line-height: 28px;font-family: Simsun;}
+.navbar .category .dd .con a:hover{text-decoration: underline;}
+.navbar .category .dd .con .inner{height: 56px;margin-bottom: 30px; overflow: hidden;}
+.navbar .nav{float: left;height: 40px; line-height: 40px;overflow: hidden;}
+.navbar .nav a{display: inline-block;height: 40px;padding: 0 40px;font-size: 16px;color: #fff; overflow: hidden;}
+.navbar .nav a.cur{background-color: #1a4c9b;}
+.navbar .nav a:hover{background-color: #1a4c9b;}
+
+.footer{width:1190px; margin:0 auto;clear:both;}
+.footer .footer_t{width:1190px; height:60px; overflow:hidden;}
+.footer .footer_t li{width:238px; height:60px; float:left;}
+.footer .footer_m{width:1190px; height:150px; background:#f5f5f5; overflow:hidden; margin-bottom:20px;}
+.footer .footer_m .f-info{width:120px;float:left; margin:20px 0 10px 45px;_margin:20px 0 10px 35px;}
+.footer .footer_m .f-info .title{ width:85px; padding-left:8px; border-bottom:1px solid #dcdcdc;}
+.footer .footer_m .f-info .title p{width:85px; color:#333; font-family:"微软雅黑"; line-height:28px; font-size:14px;}
+.footer .footer_m .f-info ul{margin:4px 5px 10px 8px;}
+.footer .footer_m .f-info ul li{width:105px;overflow:hidden;}
+.footer .footer_m .f-info ul li a{color:#666; line-height:22px;}
+.footer .footer_m .f-info ul li a:hover{text-decoration:underline;}
+.footer .footer_m .m_right{width:180px; float:left; padding-top:30px;}
+.footer .footer_m .m_right .kf{width:180px; height:20px; color:#333; line-height:20px; font-size:18px; font-family:"微软雅黑"; overflow:hidden;}
+.footer .footer_m .m_right .num{width:180px; height:30px; color:#333; line-height:30px; font-size:24px; font-family:"微软雅黑"; overflow:hidden;}
+.footer .footer_m .m_right .r_btn a{width:85px; height:36px; color:#fff; line-height:36px; font-size:16px; font-family:"微软雅黑"; overflow:hidden; padding-left:55px; background:url(../images/index_icon49.png) no-repeat 10px 5px #ed1f23; display:block; border-radius:3px; margin-top:2px;}
+.footer .foot_ba{color:#666; line-height:20px; text-align:center; width:1190px; height:20px; margin:0 auto 2px;}
+.footer .f-pic{width:1190px; margin:10px auto 20px; text-align:center;}
+.footer .f-pic a{margin-right:10px;}

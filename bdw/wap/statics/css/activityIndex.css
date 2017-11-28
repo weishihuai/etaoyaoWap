@@ -1,0 +1,34 @@
+.m-preferential-main {padding-top: 1.40625rem;}
+.m-preferential-main .item {font-size: 15px; line-height: 1.40625rem; overflow: hidden; position: relative; font-family: PingFangSC-Regular; background: #fff; margin-bottom: 0.3125rem;}
+[data-dpr="2"] .m-preferential-main .item {font-size: 30px;}
+[data-dpr="3"] .m-preferential-main .item {font-size: 45px;}
+.m-preferential-main .pic, .m-preferential-main .pic img {display: block; width: 100%; height: 4.21875rem;}
+.m-preferential-main .item .zhekou {display: inline; padding-left: 0.3125rem; color: #FF6B00;} 
+.m-preferential-main .item .zhekou span {padding-left: 0.0625rem; font-size: 16px;}
+[data-dpr="2"] .m-preferential-main .item .zhekou span {font-size: 32px;}
+[data-dpr="3"] .m-preferential-main .item .zhekou span {font-size: 48px;}
+.m-preferential-main .item .name {display: inline; padding-left: 0.234375rem; color: #5A6473; }
+.m-preferential-main .item .time {position: absolute; bottom: 0; right: 0; padding-right: 0.390625rem; font-size: 13px; float: right; color: #9E9EAF; }
+[data-dpr="2"] .m-preferential-main .item .time {font-size: 26px;}
+[data-dpr="3"] .m-preferential-main .item .time {font-size: 39px;}
+
+.m-preferential-main > .time {width: 5.9375rem; height: 1.09375rem; font-size: 12px; line-height: 1.09375rem; color: #00363D; text-align: center; background: rgba(255,255,255,0.70); border-radius: 0.0625rem; margin: 0.390625rem auto;}
+[data-dpr="2"] .m-preferential-main > .time {font-size: 24px;}
+[data-dpr="3"] .m-preferential-main > .time {font-size: 36px;}
+.m-preferential-main > .time span {font-size: 16px; color: #5A6576;}
+[data-dpr="2"] .m-preferential-main > .time span {font-size: 32px;}
+[data-dpr="3"] .m-preferential-main > .time span {font-size: 48px;}
+.m-preferential-main .dd {font-size: 0; padding-top: 0.15625rem;}
+.m-preferential-main .dd .dd-item {display: inline-block; margin-bottom: 0.15625rem; width: 4.921875rem; overflow: hidden; background: #fff;}
+.m-preferential-main .dd .dd-item:nth-of-type(2n) {margin-left: 0.15625rem;}
+.m-preferential-main .dd .dd-item .dd-pic, .m-preferential-main .dd .dd-item .dd-pic img {display: block; width: 4.921875rem; height: 4.921875rem;}
+.m-preferential-main .dd .dd-item .price-box {height: 0.53125rem; padding-left: 0.28125rem; padding-right: 0.28125rem; margin-top: 0.390625rem; margin-bottom: 0.390625rem; line-height: 0.53125rem;}
+.m-preferential-main .dd .dd-item .price {font-size: 16px; color: #FF6600;} 
+[data-dpr="2"] .m-preferential-main .dd .dd-item .price {font-size: 32px;}
+[data-dpr="3"] .m-preferential-main .dd .dd-item .price {font-size: 48px;}
+.m-preferential-main .dd .dd-item .zhekou {display: inline-block; float: right; width: 1.21875rem; height: 0.53125rem; font-size: 12px; border: 1px solid #FF6600; border-radius: 0.03125rem; text-align: center; color: #FF6600;}
+[data-dpr="2"] .m-preferential-main .dd .dd-item .zhekou {font-size: 24px;}
+[data-dpr="3"] .m-preferential-main .dd .dd-item .zhekou {font-size: 36px;}
+.m-preferential-main .dd .dd-item .name {margin:0 0.28125rem 0.390625rem 0.28125rem; font-size: 14px; line-height: 0.625rem; color: #333333;}
+[data-dpr="2"] .m-preferential-main .dd .dd-item .name {font-size: 28px;}
+[data-dpr="3"] .m-preferential-main .dd .dd-item .name {font-size: 42px;}

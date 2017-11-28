@@ -1,0 +1,86 @@
+/* 主体 */
+.main {width: 1190px; margin: 0 auto; padding-bottom: 40px; color: #333;}
+.main-top {height: 44px; line-height: 44px; position: relative; border-bottom: 2px solid #e5e5e5;}
+.main .main-top-link {display: inline-block; width: 140px; text-align: center; font-size: 16px; font-weight: bold;}
+.main .main-top-link a {display: block; color: #333;}
+.main .main-top-link:hover, .main .main-top-link a:hover,.main .main-top .cur {color: #ff6b00;}
+.main .main-top .icon-bg {width: 140px; height: 2px; position: absolute; bottom: -2px; left: 0; background: #ff6b00;}
+.main .main-top .icon-bg2 {left: 140px;}
+
+/* 表格 */
+.main-shopping-cart {font-size: 12px;}
+.main-shopping-cart .dt {height: 41px; line-height: 41px; border: 1px solid #e5e5e5; border-top: none; background: #f7f7f7;}
+.main-shopping-cart .dt li {display: table-cell; font-weight: bold;}
+.main-shopping-cart .select {width: 60px; padding-left: 20px;}
+.main-shopping-cart .sp-name {width: 415px; padding-left: 75px;}
+.main-shopping-cart .price {width: 140px; text-align: center;}
+.main-shopping-cart .number {width: 180px; text-align: center;}
+.main-shopping-cart .subtotal {width: 140px; text-align: center;}
+.main-shopping-cart .operation {width: 130px; text-align: center;}
+.main-shopping-cart .select span {padding-left: 8px;}
+
+.main-shopping-cart .dd-title {height: 28px; line-height: 28px; padding: 20px 0 10px 20px;}
+.main-shopping-cart .dd-title .checkbox-box {display: block; float: left; margin-top: 3px;}
+.main-shopping-cart .dd-title p {display: block; float: left; font-weight: bold; padding-left: 6px; font-size: 14px; color: #666;}
+.main-shopping-cart .dd-title p span {color: #333;}
+.main-shopping-cart .dd-title .qq-service {display: block; float: left; width: 50px; height: 26px; padding-left: 28px; margin-left: 12px; border: 1px solid #e8e8e8; color: #12aeff; background: url(../images/qq02.png) no-repeat 6px 4px;}
+.main-shopping-cart .dd-title .coupons {display: block; float: left; width: 80px; height: 28px; background: url(../images/coupons.png) no-repeat; margin-left: 10px;}
+.main-shopping-cart .dd-title .qq-service {display: block; float: left; width: 50px; height: 26px; padding-left: 28px; margin-left: 12px; border: 1px solid #e8e8e8; color: #12aeff; background: url(../images/qq02.png) no-repeat 6px 4px;}
+.main-shopping-cart .dd-title .coupons {display: block; float: left; width: 80px; height: 28px; background: url(../images/coupons.png) no-repeat; margin-left: 10px;}
+.main-shopping-cart .dd-title .service-box {float: left; position: relative; margin-left: 6px;}
+.main-shopping-cart .dd-title .service-inner {width: 88px; height: auto; background: #fff; position: absolute; top: 0; left: 0; background: #fff; box-shadow: 0 0 9px #d4d3d3;}
+.main-shopping-cart .dd-title .service-box a {display: block; height: 28px; padding-left: 30px; margin-bottom: 1px; color: #666; font-size: 12px; line-height: 28px; background: url(../images/qq-service2.png) no-repeat 7px 5px;}
+.main-shopping-cart .dd-title .service-box a:hover, .main-shopping-cart .dd-title .service-box .cur {color: #12aeff;}
+
+.main-shopping-cart .dd-table {border: 1px solid #eee; border-top: 0;}
+.main-shopping-cart .dd-table .tr {padding-top: 18px; padding-bottom: 18px; border-top: 1px solid #eee; font-weight: bold;}
+.main-shopping-cart .dd-table .tr > div {display: table-cell; vertical-align: middle;}
+.main-shopping-cart .dd-table .tr .select {width: 40px; vertical-align: top;}
+.main-shopping-cart .dd-table .sp-name {width: 510px; padding-left: 0; font-weight: 500;}
+.main-shopping-cart .dd-table .sp-name-t {width: 100%; height: 82px; overflow: hidden;}
+.main-shopping-cart .dd-table .sp-name-t img {width: 80px; height: 80px; border: 1px solid #e5e5e5; margin-right: 12px; float: left;}
+.main-shopping-cart .dd-table .sp-name-t p {width: 416px; color: #888; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+.main-shopping-cart .dd-table .sp-name-t .name {font-size: 14px; color: #333; padding-top: 8px; padding-bottom: 10px;}
+.main-shopping-cart .dd-table .sp-name-b {padding-top: 18px; color: #bbb;}
+.main-shopping-cart .dd-table .price {font-size: 13px; font-weight: bold; color: #666; }
+.main-shopping-cart .dd-table .add-subtract {width: 120px; height: 30px; font-size: 16px; line-height: 30px; margin: 0 auto; border: 1px solid #e8e8e8; text-align: center;}
+.main-shopping-cart .dd-table .add-subtract a {display: block; width: 34px; height: 30px; color: #999; float: left; background: url(../images/add-subtract.png) no-repeat 12px 14px;}
+.main-shopping-cart .dd-table .add-subtract a.no {background-color: #dddddd;}
+.main-shopping-cart .dd-table .add-subtract .subtract {background-position-y: -20px;}
+.main-shopping-cart .dd-table .add-subtract span {display: block; width: 50px; height: 30px; border-left: 1px solid #e8e8e8; border-right: 1px solid #e8e8e8; float: left; color: #666;}
+.main-shopping-cart .dd-table .add-subtract input[type="text"] {display: block; width: 50px; height: 30px; border: none; text-align: center; border-left: 1px solid #e8e8e8; border-right: 1px solid #e8e8e8; float: left; color: #666;}
+.main-shopping-cart .dd-table .subtotal{color: #ff6b00; font-size: 13px;}
+.main-shopping-cart .dd-table .operation a {display: block; height: 18px; color: #666;}
+.main-shopping-cart .dd-table .operation a:hover { color: #ff6b00;}
+.main-shopping-cart .dd-table .operation span {height: 18px; color: #666;}
+.main-shopping-cart .dd-table .order-gift {padding-left: 156px; font-size: 12px; position: relative; font-weight: 500;}
+.main-shopping-cart .dd-table .order-gift .order-gift-t {display: block; height: 19px; line-height: 19px; padding: 0 16px; position: absolute; top: 17px; left: 60px; background: #ff6b00; color: #fff;}
+.main-shopping-cart .dd-table .order-gift p {height: 26px; color: #666;}
+.main-shopping-cart .dd-table .order-gift-more {padding-left: 156px; font-size: 12px; position: relative; font-weight: 500;margin-top: -18px; padding-bottom: 18px;}
+.main-shopping-cart .dd-table .order-gift-more p {height: 26px; color: #666;}
+
+.main-shopping-cart .sc-clearing { height: 58px; line-height: 58px; padding-left: 20px; padding-right: 120px; position: relative; border: 1px solid #e5e5e5; color: #666; margin-top: 20px;}
+.main-shopping-cart .sc-clearing .fl {float: left; }
+.main-shopping-cart .sc-clearing .fl a {margin-left: 20px;}
+.main-shopping-cart .sc-clearing .checkbox-box {margin-right: 6px;}
+.main-shopping-cart .sc-clearing .fr {float: right; }
+.main-shopping-cart .sc-clearing .fr p {display: inline-block; padding-right: 20px;}
+.main-shopping-cart .sc-clearing .span-price,.main-shopping-cart .tr-reserve .span-price {padding: 0 5px; font-size: 22px; font-weight: bold; color: #ff6b00;}
+.main-shopping-cart .sc-clearing .span-price em,.main-shopping-cart .tr-reserve .span-price em{font-size: 14px; padding-right: 2px;}
+.main-shopping-cart .sc-clearing a:hover {color: #ff6b00;}
+.main-shopping-cart .sc-clearing .btn {display: block; width: 120px; height: 60px; background: #ff6b00; font-size: 20px; font-weight: 600; line-height: 60px; text-align: center; color: #fff!important; position: absolute; right: -1px; top: -1px;}
+.main-shopping-cart .sc-clearing-fixed {position: fixed; z-index: 10; left: 0; bottom: -2px; width: 100%; background: #fff; box-shadow: 0 0 10px #ddd;}
+.main-shopping-cart .sc-clearing-fixed .sc-clearing {width: 1048px; margin: 0 auto; border: none;}
+
+.main-shopping-cart .tr-reserve {height: 68px; line-height: 68px; background: #fafafa; color: #666; border-top: 1px solid #eee; padding-right: 142px; position: relative;}
+.main-shopping-cart .tr-reserve p {display: inline-block; padding-right: 20px;}
+.main-shopping-cart .tr-reserve .btn {display: block; width: 124px; height: 40px; background: #ff6b00; font-size: 20px; font-weight: 600; line-height: 40px; text-align: center; color: #fff; position: absolute; right: 20px; top: 14px;}
+
+
+/* 空购物车| 空需求单 */
+.main-shopping-cart .null-cart {height: 180px; padding: 80px 0 80px 233px;}
+.main-shopping-cart .null-cart .icon {width: 180px; height: 180px; float: left; border-radius: 50%; background: url(../images/null-cart01.png) #fafafa no-repeat center center;}
+.main-shopping-cart .null-cart .icon2 {background-image: url(../images/null-cart02.png);}
+.main-shopping-cart .null-cart-txt {width: 720px; padding-top: 46px; float: left; padding-left: 50px;}
+.main-shopping-cart .null-cart-txt p {line-height: 38px; margin-bottom: 6px; color: #666; font-size: 18px;}
+.main-shopping-cart .null-cart-txt p a {display: inline-block; color: #fff; padding: 0 34px; margin: 0 10px; background: #ff6b00;}

@@ -1,0 +1,3 @@
+.m_center{position: relative; height: 600px;width: 1190px;}
+.bg{z-index: 1; position: absolute;}
+.fg{left: 365px; z-index: 5;position: absolute;}

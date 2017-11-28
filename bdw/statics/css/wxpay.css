@@ -1,0 +1,58 @@
+body{font-size:12px; font-family:tahoma,arial,"Hiragino Sans GB","微软雅黑", "宋体", sans-serif; margin:0; padding:0; background:url(../images/bg03.png) repeat; color:#303030; font-size: 14px; line-height: 1.6;}
+ul,li,{ list-style:none;}
+div,p,ul,li,dl,dd,dt,td,tr,img,h3,a{margin:0; padding:0;}
+em,i,h3{font-style:normal; font-weight:400;}
+img{border:none; vertical-align:middle;}
+.clear{ clear:both;!important; margin:0; padding:0;}
+a{text-decoration:none;}
+
+.header{ height:48px; background:url(../images/bg02.png) repeat-x; padding-top: 18px; text-align: center;}
+.header a{display: inline-block; height: 34px; vertical-align: top; width: 120px;}
+
+.content{padding-bottom: 60px; padding-top: 7px;} 
+.content .mail_box{width:920px; margin:0 auto; background:url(../images/bg01.png) repeat-x scroll 0 -60px #fff; position:relative;}
+.content .mail_box .mail_box_inner{ background:url(../images/bg_mail_box.png) repeat-x scroll left bottom transparent; bottom: -10px; overflow: hidden; padding: 60px 170px 100px; position: relative;} 
+.content .mail_box .mail_box_inner .area{text-align:center;}
+.content .mail_box .mail_box_inner .area .qr_normal span{ display: block; height: 306px; position: relative;}
+.content .mail_box .mail_box_inner .area .qr_normal .guide{margin-left: -101px;left: 50%; position: absolute; top: 0;}
+.content .mail_box .mail_box_inner .area .qr_normal .msg_default_box{background-color: #445f85; display: inline-block; width: 258px; border: 1px solid #2b4d69; border-radius: 3px;color: #fff; letter-spacing: 6px; padding: 12px 0; text-align: center;}
+.content .mail_box .mail_box_inner .area .qr_normal .msg_default_box i{display: inline-block; background:url(../images/icon03.png) no-repeat; background-position: 0 -60px; height: 60px; vertical-align: middle; width: 60px;}
+.content .mail_box .mail_box_inner .area .qr_normal .msg_default_box p{display: inline-block;font-size: 16px; letter-spacing: normal; text-align: left; vertical-align: middle;}
+
+.content .mail_box .mail_box_inner .pay_bill{text-align:center;}
+.content .mail_box .mail_box_inner .pay_bill .bill_hd { border-bottom: 3px solid #e0e3eb; height: 60px; padding-bottom: 4px;}
+.content .mail_box .mail_box_inner .pay_bill .bill_hd span{ background-color: #fff; display: inline-block; padding-left: 12px; padding-right: 14px; position: relative; top: 34px;}
+.content .mail_box .mail_box_inner .pay_bill .bill_hd span i{display: inline-block; background:url(../images/icon02.png) no-repeat; height: 60px; vertical-align: middle;width: 60px;}
+.content .mail_box .mail_box_inner .pay_bill .bill_bd h3{border-bottom: 1px solid #d0d8e4; color: #585858; font-size: 60px; font-weight: 400; line-height: 68px; padding-bottom: 20px; padding-top: 50px;}
+.content .mail_box .mail_box_inner .pay_bill .bill_bd .pay_bill_unit{ padding: 18px 0 40px;}
+.content .mail_box .mail_box_inner .pay_bill .bill_bd .pay_bill_unit dl{border-bottom: 1px solid #e5e7ea;}
+.content .mail_box .mail_box_inner .pay_bill .bill_bd .pay_bill_unit dl dt{color: #4a4a4a;font-size: 20px; line-height: 24px;}
+.content .mail_box .mail_box_inner .pay_bill .bill_bd .pay_bill_unit dl dd {color: #666; padding-bottom: 16px; padding-top: 4px;}
+.content .mail_box .mail_box_inner .pay_bill .bill_bd .pay_bill_unit .pay_bill_info {line-height: 26px; padding-top: 10px;}
+.content .mail_box .mail_box_inner .pay_bill .bill_bd .pay_bill_unit .pay_bill_info p{overflow:hidden;}
+.content .mail_box .mail_box_inner .pay_bill .bill_bd .pay_bill_unit .pay_bill_info label{color: #8e8e8e; float: left; font-size: 14px;}
+.content .mail_box .mail_box_inner .pay_bill .bill_bd .pay_bill_unit .pay_bill_info span{float: right;}
+
+.content .mail_box .mail_box_inner .aside{border-top:3px solid #e0e3eb; clear: both; margin-top: 14px;padding-top: 20px;}
+.content .mail_box .mail_box_inner .aside .pay_widget_hd{padding-top: 0.35em;display: inline-block; vertical-align: middle;}
+.content .mail_box .mail_box_inner .aside .pay_widget_hd i{display:block; width:30px; height:30px; background:url(../images/icon01.png) no-repeat;}
+.content .mail_box .mail_box_inner .aside .pay_widget_bd{display: inline-block; vertical-align: middle;}
+.content .mail_box .mail_box_inner .aside .pay_widget_bd span{color: #6c6c6c;font-size: 12px; font-weight: 400;}
+.content .mail_box .mail_box_inner .aside .pay_widget_bd p{font-size: 14px;margin-top: -4px; color:#303030;}
+
+
+.content .mail_box .left_icon{width:6px; height:30px; background:url(../images/bg01.png) no-repeat; position:absolute; left:-5px; top:0;}
+.content .mail_box .right_icon{width:6px; height:30px; background:url(../images/bg01.png) no-repeat; background-position:0 -30px; position:absolute; right:-5px; top:0;}
+
+.footer{ background-color: #f1f1f1; border-top: 1px solid #c1c1c1; color: #8b8e98; font-size: 12px; padding-bottom: 60px; padding-top: 20px; text-align: center;}
+.footer .copyright{ padding-top: 4px;}
+.linklist a{color: #8b8e98; margin-left: 2px; margin-right: 2px; text-decoration: none;}
+
+
+
+
+
+
+
+
+

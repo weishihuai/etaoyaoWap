@@ -1,0 +1,33 @@
+/*登录弹出层*/
+.login-layer{width: 100%; height: 100%; position: fixed; z-index: 9999; background: url("../images/bg0.15.png") repeat;}
+.login-layer .d-layer{width: 448px; border-radius: 4px; box-shadow: 0 0 0 5px rgba(0,0,0,0.15); border: 1px solid #bdbdbd; background-color: #fff; position: absolute; left: 50%; margin-left: -247px; top: 155px; z-index: 9999;}
+.login-layer .d-layer .mt{width: 448px; height: 35px; background-color: #f3f3f3; overflow: hidden;}
+.login-layer .d-layer .mt span{float: left; line-height: 35px; color: #666666; font-size: 14px; margin-left: 20px;}
+.login-layer .d-layer .mt a{display: block; width: 28px; height: 28px; background: url("../images/detail-01-allbg.png") no-repeat -55px 9px; float: right; margin: 3px 5px 0 0;}
+.login-layer .d-layer .mt a:hover{background: url("../images/detail-01-allbg2.png") no-repeat -55px 9px; ;}
+
+.login-layer .login .mc{width: 320px; padding: 15px 0; margin: 0 auto;}
+.login-layer .login .mc .mc-top{width: 320px; height:50px; padding-top: 18px; overflow: hidden; }
+.login-layer .login .mc .mc-top span{line-height: 32px; color: #666666; font-size: 20px; float: left; margin-left: 8px;}
+.login-layer .login .mc .mc-top a{float: right; margin-right: 5px; color: #f85127; font-size: 14px; line-height: 32px; padding-left: 22px; background: url("../images/cart-01-icon3.png") no-repeat 0 center;}
+.login-layer .login .mc .mc-top a:hover{text-decoration: underline;}
+
+.login-layer .login .mc .item-fore1{width: 320px; height: 41px; margin-bottom: 19px; overflow: hidden;}
+.login-layer .login .mc .item-fore1 input{width: 268px; height: 38px; color: #666666; font-size: 14px; line-height: 38px; padding-left: 50px; border: 1px solid #bdbdbd; background: url("../images/login-01-user.png") no-repeat 12px center;}
+.login-layer .login .mc .item-fore2{width: 320px; height: 41px; overflow: hidden;}
+.login-layer .login .mc .item-fore2 input{width: 268px; height: 38px; color: #666666; font-size: 14px; line-height: 38px; padding-left: 50px; border: 1px solid #bdbdbd; background: url("../images/login-01-psw.png") no-repeat 14px center;}
+.login-layer .login .mc .item-fore3{width: 320px; height: 41px; overflow: hidden;margin-top: 19px;}
+.login-layer .login .mc .item-fore3 input{width: 100px; height: 38px; color: #666666; font-size: 14px; line-height: 38px; padding-left: 50px; border: 1px solid #bdbdbd;}
+.login-layer .login .mc .forget{height: 41px; text-align: right; padding-right: 5px; position: relative;}
+.login-layer .login .mc .forget a{line-height: 41px; color: #999; position: absolute; top: 0; right: 0;}
+.login-layer .login .mc .forget a:hover{text-decoration: underline; color: #2fbdc8;}
+.login-layer .login .mc .l-btn{display: block; border: 1px solid #1da5b0; border-radius: 2px; text-align: center; line-height: 38px; background-color: #2fbdc8; font-size: 20px; color: #fff;}
+.login-layer .login .mc a:hover.l-btn{background-color: #1da5b0;}
+
+.login-layer .login .mc .coagent{padding-left: 10px; margin-top: 30px; width: 310px;}
+.login-layer .login .mc .coagent h5{line-height: 22px; color: #999;}
+.login-layer .login .mc .coagent ul{width: 300px; height: 44px; margin-top: 7px; overflow: hidden;}
+.login-layer .login .mc .coagent ul li{float: left; height: 22px; margin-right: 8px;}
+.login-layer .login .mc .coagent ul li span{color: #999; padding: 0 4px; line-height: 22px;}
+.login-layer .login .mc .coagent ul li a{line-height: 22px; color: #333333;}
+.login-layer .login .mc .coagent ul li a:hover{text-decoration: underline; color: #2fbdc8;}

@@ -1,0 +1,128 @@
+/* CSS Document */
+*{box-sizing: border-box;}
+/*@media all and (min-width:721px){html{font-size:10px;}}@media all and (max-width:720px){html{font-size:10px;}}@media all and (max-width:604px){html{font-size:8px;}}@media all and (max-width:600px){html{font-size:8px;}}@media all and (max-width:540px){html{font-size:7.5px;}}@media all and (max-width:534px){html{font-size:7.5px;}}@media all and (max-width:480px){html{font-size:6.5px;}}@media all and (max-width:424px){html{font-size:5.8px;}}@media all and (max-width:400px){html{font-size:5.5px;}}@media all and (max-width:384px){html{font-size:5.3px;}}@media all and (max-width:360px){html{font-size:5px;}}@media all and (max-width:319px){html{font-size:5px;}}*/
+/*@media all and (min-width:721px){html{font-size:100%}}@media all and (max-width:720px){html{font-size:100%}}@media all and (max-width:604px){html{font-size:52.432%}}@media all and (max-width:600px){html{font-size:52.083%}}@media all and (max-width:540px){html{font-size:46.88%}}@media all and (max-width:534px){html{font-size:46.36%}}@media all and (max-width:480px){html{font-size:41.66%}}@media all and (max-width:424px){html{font-size:36.8%}}@media all and (max-width:400px){html{font-size:34.72%}}@media all and (max-width:384px){html{font-size:33.33%}}@media all and (max-width:360px){html{font-size:31.25%}}@media all and (max-width:319px){html{font-size:27.77%}}*/
+body{width: 100%; height: 100%; min-width: 320px;/* max-width: 640px;*/ margin: 0 auto; background-color: #fff;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del,
+dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label,
+legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu,
+nav, output, ruby, section, summary, time, mark, audio, video {margin: 0px;  padding: 0px;  border: 0px none;  vertical-align: baseline;  }
+body,button,input,select,textarea { font-family:"黑体-简",tahoma,arial,"Hiragino Sans GB","微软雅黑", "宋体", sans-serif;}
+h1,h2,h3,h4,h5,h6,textarea{font-weight:normal; font-size: 1.2rem;}
+b,textarea{font-style:normal; font-weight:400;}
+table{ border-collapse:collapse; border-spacing:0;}/* 去掉 table cell 的边距并让其边重合 */
+pre{white-space: pre-wrap;word-wrap: break-word;}/* pre 可以换行*/
+img{border:none; vertical-align:middle;}
+input,select,textarea {font-size:100%;}
+del{text-decoration:line-through;}/* 一致的 del 样式 */
+a{color:#666;text-decoration:none;}
+a:active,a:focus{-moz-outline:none;outline:none;}/* 去掉a链接点击过后的虚线边框 */
+ul,li,ol{ list-style:none;}
+input{font-family:inherit; margin: 0; padding: 0; border: none;}
+th {text-align:inherit;}/* ie bug：th 不继承 text-align */
+iframe{display:block;}/* ie6 7 8(q) bug 显示为行内表现 */
+em,i{font-style: normal;}
+a,em,i,button,input,select,textarea,label { -webkit-tap-highlight-color: transparent; }/*去掉a、input和button点击时的蓝色外边框和灰色半透明背景*/
+
+.fl{float:left;display:inline;}/* 设置浮动，减少浮动带来的 bug */
+.fr{float:right;display:inline;}
+.elli{overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}/* 单行多出省略号.... */
+.clear{display:block;overflow:hidden;clear:both;height:0;line-height:0;font-size:0;}/* 清除浮动 */
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{zoom:1; /* for ie6 & ie7 */}
+.hide{overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}/* 多出隐藏变... */
+
+
+/*页头*/
+.header{width: 100%;  height: 4.4rem; background-color: #ff6b00; position: relative; z-index: 10;}
+.header .back{display: block; width: 3.3rem; height: 4.4rem; position: absolute; left: 0; top: 0;background: url("../images/back-icon.png") no-repeat scroll center / 1.3rem auto;}
+.header .header-title{margin: 0 5rem; text-align: center; line-height: 4.5rem; color: #fff; font-size: 1.8rem;}
+.header .search-input{margin: 0 6rem 0 5rem; padding-top: 0.7rem; position: relative;}
+.header .search-input input{display: block; height: 3rem; padding-right: 3.3rem; border-radius: 0.4rem; padding-left: 1rem; width: 100%; line-height: 3rem; border: none; background-color: #fff; font-size: 1.2rem; color: #333;}
+.header .search-input .search-btn{display: inline-block; width: 3.3rem; height: 3rem; background: url("../images/secrch-icon.png") no-repeat scroll 0.5rem center / 1.9rem auto; position: absolute; right: 0; top: 0.7rem;}
+.header .hr-btn{display: block; width: 4rem; height: 2.4rem; border: 1px solid #ffffff; text-align: center; color: #fff; border-radius: 0.2rem; line-height: 2.4rem; font-size: 1.2rem; position: absolute; top: 1rem; right: 1rem;}
+.header .filtrate{display: block; width: 4.4rem; height: 4.4rem; background: url("../images/filtrate-icon.png") no-repeat scroll center center / 2.4rem auto;  position: absolute; top: 0; right: 0;}
+
+/*页脚*/
+.footer{width: 100%; margin-top: 0.5rem; background-color: #fff; border-top: 1px solid #d9d9d9; overflow: hidden;}
+.footer .footer-links{width: 100%; height: 5rem; overflow: hidden;}
+.footer .footer-links li{width: 20%; height: 5rem;  float: left; overflow: hidden;}
+.footer .footer-links li a{display: block; height: 5rem; text-align: center; padding-top: 0.5rem; }
+.footer .footer-links li img{display: inline-block; margin-bottom: 0.3rem; width: 2.4rem; height: 2.4rem;}
+.footer .footer-links .cur{color: #ff6b00;}
+/*.footer .footer-copyright{width: 100%; color: #999999; text-align: center; margin-top: 1.6rem;}*/
+
+
+/**12-01**/
+input {outline: none;}
+
+/**12-02**/
+.logo{width: 9rem; height: 4.4rem; text-align: center; position: absolute; left: 0; top: 0; overflow: hidden;}
+.logo img{height:4.4rem; width: auto; }
+.more-icon{background: rgba(0, 0, 0, 0) url("../images/more-icon.png") no-repeat scroll center center / auto 0.5rem;  display: block;  height: 4.5rem;  position: absolute;  right: 0;  top: 0;  width: 4.3rem;}
+.more-bg{width: 100%;  background-color:rgba(0,0,0,0.85); height: 5rem; position: absolute; left: 0; top: 4.4rem; z-index: 10;}
+.more-bg .arrows{width: 0; height: 0;  border-style: solid; border-width: 0 0.5rem 0.5rem 0.5rem; border-color: transparent transparent #262626 transparent; position: absolute; top: -0.45rem; right: 1.6rem;}
+.more-bg .more-mc{width: 100%; height: 5rem;  color: #fff;  overflow: hidden; }
+.more-bg .more-mc li{width: 20%; height: 5rem;  float: left;}
+.more-bg .more-mc li a{display:block; width: 100%; height: 5rem; padding-top: 3.3rem; text-align: center; color: #ffffff;}
+.more-bg .more-mc .m-home{background: url("../images/m-home.png") no-repeat scroll center 22% / 2.4rem auto;}
+.more-bg .more-mc .m-wjwy{background: url("../images/m-wjwy.png") no-repeat scroll center 22% / 2.3rem auto;}
+.more-bg .more-mc .m-tcs{background: url("../images/m-tcs.png") no-repeat scroll center 22% / 2.3rem auto;}
+.more-bg .more-mc .m-cart{background: url("../images/m-cart.png") no-repeat scroll center 22% / auto 2.4rem;}
+.more-bg .more-mc .m-center{background: url("../images/m-center.png") no-repeat scroll center 22% / 1.7rem auto;}
+
+.footer .footer-top{height: 4rem; border-bottom: 1px solid #e5e5e5; padding: 1.1rem 1rem 0 0.5rem; overflow: hidden;}
+.footer .footer-top ul{float: left; height: 1.7rem;}
+.footer .footer-top ul li{float: left; height: 1.7rem;}
+.footer .footer-top ul li:first-child{border-right: 1px solid #cccccc;}
+.footer .footer-top ul li a{display: inline-block; padding: 0 0.5rem; min-width: 5.5rem; max-width: 11rem; white-space: nowrap; overflow: hidden; text-align: center; line-height: 1.7rem; text-overflow: ellipsis;  font-size: 1.4rem; color: #999999;}
+.footer .footer-top .phone{float: right; line-height: 1.7rem; font-size: 1.4rem; color: #969696;}
+
+.footer .footer-platforms{padding: 1.8rem 4rem 1.2rem; border-bottom: 1px solid #e5e5e5; }
+.footer .footer-platforms ul{height: 5.4rem; overflow: hidden;}
+.footer .footer-platforms ul li{width: 33.3%; float: left; opacity: 0.6;}
+.footer .footer-platforms ul li a{display: block; height: 5.4rem; text-align: center;}
+.footer .footer-platforms ul li img{display: block; width: 3.3rem; height: auto; margin: 0 auto;}
+.footer .footer-platforms ul li span{font-size: 1.2rem; color: #333; line-height: 2rem;}
+.footer .footer-platforms .cur{opacity: 1;}
+
+.footer .footer-copyright{width: 100%; color: #969696; text-align: center; font-size: 0.9rem; margin-top: 0.5rem;}
+
+/*12-03新增*/
+.footer{padding-bottom: 5rem;}
+.footer .footer-platforms{border-bottom: none; }
+.footer .footer-links{position: fixed; left: 0; bottom: 0; background-color: #fff;border-top: 1px solid #e5e5e5; z-index: 99;}
+
+/*layer-tip*/
+.layer-tip {position: fixed; bottom: 6rem; left: 50%; z-index: 9999; width: 50%; min-height: 3rem; margin-left: -25%; padding: 0 1rem; font-size: 1.2rem; text-align: center; line-height: 3rem; color: #fff; background-color: rgba(0,0,0,.5);}
+
+.layer-tip2 {position: fixed; bottom: 6rem; left: 50%; z-index: 9999; width: 50%; min-height: 3rem; margin-left: -25%; padding: 0 1rem; font-size: 1.2rem; text-align: center; line-height: 3rem; color: #fff; background-color:#7CCD7C;}
+
+
+
+
+.msg-box {position: fixed;bottom: 10rem; left: 50%; width: 80%; height: auto; margin-left: -40%; padding: 1rem; background-color: rgba(0,0,0,.7);}
+.msg-box p { margin-bottom: 1.5rem; font-size: 1.2rem; color: #fff;line-height: 1.5rem;text-align: justify;}
+.msg-box .btn {display: inline-block; width: 48%;height: 3rem;line-height: 3rem;text-align: center;font-size: 1.3rem; border-radius: .4rem;}
+.msg-box .btn-l {color: #666; background-color: #fff;}
+.msg-box .btn-r {color: #fff; background-color: #ff6b00;}
+
+
+/*12-07新增*/
+.addr{width: 5rem; height: 4.4rem; padding-left: 2.1rem; background: url("../image/addr-icon03.png") no-repeat scroll 0 center / 1.75rem auto; font-size: 1.4rem; line-height: 4.4rem; color: #fff; overflow: hidden; position: absolute; right: 0.4rem; top: 0;}
+
+/*12-08新增*/
+.header .r-menu{display: block; width: 4.4rem; height: 4.4rem; background: url("../image/r-op.png") no-repeat scroll center center / 2.4rem auto;  position: absolute; top: 0; right: 0;}
+
+/*12-17新增*/
+.search-btn02{width: 4.5rem; height: 4.4rem; background: url("../image/search-icon02.png") no-repeat scroll center center / auto 2.5rem ; position: absolute; right: 0; top: 0;}
+.sel-order{text-align: center;}
+.sel-order span{display: inline-block; padding: 0 1.9rem; line-height: 4.4rem; color: #ffffff; font-size: 1.8rem; background: url("../image/bottom-icon02.png") no-repeat scroll 100% center / auto 0.7rem ; }
+
+
+/*弹出正在加载中的遮罩层*/
+#showLoading #loading{width: 24%; height:12%; line-height: 0.9375rem; text-align: center; border-radius: 0.2rem; background-color: #000000; position: fixed; left: 38%; top: 44%; z-index: 1000; color: #fff; font-size: 14px;}
+#showLoading #load{background: url("../images/loading.gif") no-repeat center 0.6rem/2.75rem auto;padding-top: 4.2rem; }
+#showLoading { position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 99999; background-color: rgba(0, 0, 0, 0.5); }
+
+

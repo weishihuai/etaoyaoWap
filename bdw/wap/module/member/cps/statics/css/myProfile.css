@@ -1,0 +1,177 @@
+.layer2 {
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 18rem;
+    margin-top: -9rem;
+    margin-left: -40%;
+    padding: 0 1.5rem;
+    border-radius: .5rem;
+    background-color: #f8f8f8;
+}
+
+.layer2 h2 {
+    line-height: 4.5rem;
+    font-size: 1.8rem;
+    color: #666;
+    text-align: center;
+}
+
+.layer2 input {
+    width: 92%;
+    height: 4rem;
+    padding: .5rem 1rem;
+    font-size: 1.4rem;
+    color: #333;
+    background-color: #fff;
+    border-right: none;
+}
+
+.layer2 .btn {
+    display: block;
+    height: 4rem;
+    width: 12rem;
+    margin: 2rem auto 0;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 4rem;
+    color: #fff;
+    border-radius: .4rem;
+    background-color: #ff6b00;
+}
+
+.del {
+    background: url(../images/del-login.png) no-repeat scroll center center / 1.1rem 1.1rem;
+    background-color: #fff;
+}
+
+.op-icon {
+    display: inline-block;
+    float: right;
+    width: 8%;
+    height: 4rem;
+    border-left: none;
+}
+
+.layer-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+
+.hide{
+    display: none;
+}
+
+.form-group input {
+    height: 4.5rem;
+    width: 60%;
+    padding-left: 1rem;
+    font-size: 1.4rem;
+    color: rgba(51, 51, 51, 1.0);
+    border: 1px solid rgba(229, 229, 229, 1.0);
+    background-color: rgba(255, 255, 255, 1.0);
+}
+
+.form-group input.valid-in {
+    width: 59%;
+    float: left;
+    border-right: none;
+}
+
+.op-icon-valid {
+    display: inline-block;
+    width: 8%;
+    height: 4.5rem;
+    border: 1px solid rgba(229, 229, 229, 1.0);
+    border-left: none;
+}
+
+.form-group .get-valid {
+    width: 28%;
+    float: right;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 1.4rem;
+    background: #fff;
+    border: 1px solid #E5E5E5;
+    color: #999;
+    text-align: center;
+}
+
+.form-group .get-valid {
+    width: 28%;
+    float: right;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 1.4rem;
+    background: #fff;
+    border: 1px solid #E5E5E5;
+    color: #999;
+    text-align: center;
+}
+
+.valid-div{
+    box-sizing: border-box;
+}
+
+.valid-group{
+    margin-top: 10px;
+    position: initial;
+}
+
+.modal-dialog {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 71.875%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+
+.modal-title {
+    padding-top: 1.5rem;
+    padding-bottom: 1.0rem;
+    font-size: 1.4rem;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+}
+
+.modal-body {
+    padding: 1.0rem 2.0rem;
+    max-height: 23.0rem;
+    overflow-y: auto;
+}
+
+.modal-footer {
+    text-align: center;
+    border-top: 0.05rem solid #e8e8e8;
+}
+
+.modal-footer .btn-link {
+    font-size: 1.4rem;
+    color: #ff6b00;
+    line-height: 3.5rem;
+}
+
+.modal-dropback {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.input-group .clear{
+    z-index: auto;
+}

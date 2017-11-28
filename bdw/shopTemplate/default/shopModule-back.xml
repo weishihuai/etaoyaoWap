@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageModules>
+    <!--首页-->
+    <pageModule frontendNm="首页_LOGO" innerCode="a" pageModuleTypeCode="0" pageNm="首页"/>
+    <pageModule frontendNm="首页_LOGO" innerCode="b" pageModuleTypeCode="0" pageNm="首页"/>
+    <pageModule frontendNm="首页_LOGO" innerCode="c" pageModuleTypeCode="0" pageNm="首页"/>
+
+    <pageModule frontendNm="店铺首页_LOGO" innerCode="shop_logo" pageModuleTypeCode="0" pageNm="店铺首页"/>
+
+    <pageModule frontendNm="店铺首页_导航栏链接" innerCode="shop_navbar" pageModuleTypeCode="2" pageNm="店铺首页"/>
+
+    <!--商品推荐-->
+    <pageModule frontendNm="店铺首页_左边商品推荐" innerCode="shop_left" pageModuleTypeCode="1" pageNm="店铺首页"/>
+
+    <pageModule frontendNm="店铺首页_右边商品推荐1" innerCode="shop_right1" pageModuleTypeCode="1" pageNm="店铺首页"/>
+    <pageModule frontendNm="店铺首页_右边商品推荐2" innerCode="shop_right2" pageModuleTypeCode="1" pageNm="店铺首页"/>
+    <pageModule frontendNm="店铺首页_右边商品推荐3" innerCode="shop_right3" pageModuleTypeCode="1" pageNm="店铺首页"/>
+
+    <pageModule frontendNm="店铺首页_右边链接1" innerCode="shop_link1" pageModuleTypeCode="2" pageNm="店铺首页"/>
+    <pageModule frontendNm="店铺首页_右边链接2" innerCode="shop_link2" pageModuleTypeCode="2" pageNm="店铺首页"/>
+    <pageModule frontendNm="店铺首页_右边链接3" innerCode="shop_link3" pageModuleTypeCode="2" pageNm="店铺首页"/>
+
+    <pageModule frontendNm="店铺首页_左边广告1" innerCode="shop_left_adv1" pageModuleTypeCode="0" pageNm="店铺首页"/>
+    <pageModule frontendNm="店铺首页_左边广告2" innerCode="shop_left_adv2" pageModuleTypeCode="0" pageNm="店铺首页"/>
+    <pageModule frontendNm="店铺首页_头部广告" innerCode="shop_top_adv" pageModuleTypeCode="0" pageNm="店铺首页"/>
+
+    <pageModule frontendNm="店铺首页_头部自定义模块1" innerCode="shop_top_custom1" pageModuleTypeCode="5" pageNm="店铺首页"/>
+    <pageModule frontendNm="店铺首页_头部自定义模块2" innerCode="shop_top_custom2" pageModuleTypeCode="5" pageNm="店铺首页"/>
+    <pageModule frontendNm="店铺首页_头部自定义模块3" innerCode="shop_top_custom3" pageModuleTypeCode="5" pageNm="店铺首页"/>
+
+    <pageModule frontendNm="店铺首页_底部自定义模块1" innerCode="shop_bottom_custom1" pageModuleTypeCode="5" pageNm="店铺首页"/>
+
+
+
+</pageModules>

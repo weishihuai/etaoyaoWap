@@ -1,0 +1,125 @@
+
+/*主体*/
+.main-bg{width: 100%; min-width: 1190px; background-color: #f0f0f0; }
+.main-bg .past{height: 50px; background-color: #fff;}
+.main-bg .past .cont{width: 1190px; height: 50px; line-height: 50px; margin: 0 auto; color: #e5151f; font-size: 14px;}
+.main-bg .past .cont a{color: #666666;}
+.main-bg .past .cont a:hover{color: #e5151f;}
+.main-bg .past .cont i{display: inline-block; width: 4px; height: 7px; background: url("../images/icon-after-1.png") no-repeat -17px 0; margin: 0 17px;}
+
+
+.main-bg .main{width: 1190px; margin: 0 auto; padding:20px 0 30px;}
+
+.main .mlt{width: 790px; float: left;}
+.main .mlt .mlt-top{width: 790px; height: 224px; background:#fafafa url("../images/tender-bg2.jpg") no-repeat 100% 100%;}
+.main .mlt .mlt-top .cont-lt{width: 435px; height: 200px; padding: 24px 0 0 45px; text-align: left; background-color: #fff; float: left;}
+.main .mlt .mlt-top .cont-lt h5{width: 360px; height: 64px; line-height: 32px; color: #000000; font-size: 24px; overflow: hidden;}
+.main .mlt .mlt-top .cont-lt h5 span{color: #f25f55; padding: 0 10px;}
+.main .mlt .mlt-top .lt-bot{margin-top: 36px; height: 70px; overflow: hidden;}
+.main .mlt .mlt-top .lt-bot .item{width: 145px; height: 70px; float: left; position: relative;}
+.main .mlt .mlt-top .lt-bot .item span{color: #666666; font-size: 14px;}
+.main .mlt .mlt-top .lt-bot .item p{color: #333333; font-size: 16px; margin-top: 15px;}
+.main .mlt .mlt-top .lt-bot .item:before{display: block; width: 1px; height: 20px; content: ''; position: absolute; background-color: #e8e8e8; left: -36px; top:17px;}
+.main .mlt .mlt-top .cont-rt{width: 238px; float: right; padding-top: 90px;}
+.main .mlt .mlt-top .rt-btn{display: block; width: 178px; height: 48px; border: 1px solid #f03c28; border-radius: 2px; text-align: center; line-height: 48px; background-color: #fff; color: #f03c28; font-size: 18px;}
+.main .mlt .mlt-top .rt-btn:hover{background-color: #f03c28; border: 1px solid #f03c28;  color: #fff;}
+
+.main .mlt .mlt-bot{width: 790px; margin-top: 20px;}
+.main .mlt .mlt-bot .bot-dt{width: 750px; height: 49px; line-height: 49px; padding-left: 40px; color: #666666; font-size: 18px; border-bottom: 1px solid #e8e8e8; background-color: #fafafa;}
+.main .mlt .mlt-bot .bot-dd{padding: 38px 20px 60px; background-color: #fff;}
+.main .mlt .mlt-bot .bot-dd img{max-width: 100%;}
+.main .mlt .mlt-bot .bot-dd h4{color: #000000;}
+
+.main .mrt{width: 380px;  float: right;}
+.main .mrt h5{padding-left: 20px; padding-right: 15px; height: 57px; line-height: 57px; background-color: #fff; border-bottom: 1px solid #e8e8e8; color: #666666; font-size: 18px; font-weight: bold; border-top: 2px solid #f25f55;}
+.main .mrt h5 span{float: right; color: #666; font-size: 12px; font-weight: 100;}
+.main .mrt h5 em{font-style: normal; font-size: 18px; color: #f03c28;}
+
+.main .mrt .current{width: 380px; margin-bottom: 20px; background-color: #fff;}
+.main .mrt .current ul{width: 380px;}
+.main .mrt .current li{padding: 16px 10px 14px 10px; border-bottom: 1px solid #e8e8e8;}
+.main .mrt .current .ct-mt{height: 40px; border-bottom: 1px dashed #e9e9e9; overflow: hidden;}
+.main .mrt .current .ct-mt .pic{width: 30px; height: 30px; float: left; overflow: hidden; margin-right: 15px;}
+.main .mrt .current .ct-mt .name{width: 190px; height: 30px; line-height: 30px; color: #666666; font-size: 16px; float: left;}
+.main .mrt .current .ct-mt em{float: right; width: 76px; color: #666666; font-size: 14px; line-height: 30px;}
+.main .mrt .current .ct-mc{width: 347px; height: 68px; background-color: #fafafa; padding: 8px 0 0 13px; position: relative; overflow: hidden;}
+.main .mrt .current .ct-mc .pic{width: 60px; height: 60px; overflow: hidden; margin-right: 10px; float: left;}
+.main .mrt .current .ct-mc .title{display: block; width: 150px; height: 36px; line-height: 18px; color: #666666; overflow: hidden; float: left;}
+.main .mrt .current .ct-mc .repertory{display: block; width: 150px; float: left; margin-top: 10px; color: #666666; overflow: hidden;}
+.main .mrt .current .ct-mc .price{color: #f03c28; font-size: 14px; position: absolute; top:30px; right: 10px; }
+
+.main .mrt .current .control{width: 380px; height: 39px; padding-top: 11px; background-color: #fafafa; text-align: center;}
+.main .mrt .current .control a{display: inline-block; height: 28px; line-height: 28px; vertical-align: middle; color: #999; margin: 0 3px; padding: 0 4px;}
+.main .mrt .current .control a:hover{color: #333;}
+.main .mrt .current .control a.cur{color: #333;}
+.main .mrt .current .control .control-prev{display: inline-block; width: 28px; height: 28px; padding: 0; background-color: #f0f0f0; border-radius: 50%; position: relative;}
+.main .mrt .current .control .control-prev:before{display: block; width: 6px; height: 11px; content: ''; background: url("../images/icon-before-1.png") no-repeat -31px 0; position: absolute; left: 10px; top:8px;}
+.main .mrt .current .control .control-prev:hover:before{background: url("../images/icon-after-1.png") no-repeat -22px 0; position: absolute; left: 10px; top:8px;}
+.main .mrt .current .control .control-next{display: inline-block; width: 28px; height: 28px; padding: 0; background-color: #f0f0f0; border-radius: 50%; position: relative;}
+.main .mrt .current .control .control-next:before{display: block; width: 6px; height: 11px; content: ''; background: url("../images/icon-before-1.png") no-repeat -38px 0; position: absolute; right: 10px; top:8px;}
+.main .mrt .current .control .control-next:hover:before{background: url("../images/icon-after-1.png") no-repeat -29px 0; position: absolute; right: 10px; top:8px;}
+
+.main .mrt .new{width: 380px;}
+.main .mrt .new dt{width: 360px; height: 30px; line-height: 30px; padding-left: 20px; font-size: 14px; color: #666666; background-color: #fafafa; overflow: hidden;}
+.main .mrt .new dt span{float: left;}
+.main .mrt .new dd{padding: 0 10px 33px 20px; background-color: #fff;}
+.main .mrt .new dd li{width: 100%; height: 42px; line-height: 42px; font-size: 14px; color: #666666; border-bottom: 1px dashed #e8e8e8; overflow: hidden;}
+.main .mrt .new dd li span{display: block; width: 220px; height: 42px; float: left;margin-right: 20px;}
+.main .mrt .new dd li em{display: block; width: 85px; height: 42px; float: right;}
+
+
+/*弹窗*/
+.overlay{background: rgba(0,0,0,0.4); filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000); left: 0; top:0; right: 0; bottom: 0; position: fixed; z-index: 100;}
+.overlay .lightbox{width: 990px; position: absolute; left: 50%; margin-left: -495px; top:50%; margin-top: -330px; background-color: #fff;}
+.overlay .lightbox .mt{height: 44px; line-height: 44px; border-bottom: 2px solid #e8e8e8;}
+.overlay .lightbox .mt span{float: left; font-size: 18px; padding-left: 20px; color: #333;}
+.overlay .lightbox .mt .close{display: block; width: 44px; height: 44px; font-size: 28px; text-align: center; float: right; color: #b5b5b5; margin-right: 6px;}
+.overlay .lightbox .mt .close:hover{color: #666;}
+
+
+.overlay .lightbox .mc{width: 990px;}
+.overlay .lightbox .mc-top{ padding: 30px 0 0 40px;}
+.overlay .lightbox .mc-top .top-box{height: 60px;}
+.overlay .lightbox .mc-top .top-box span{display: block; width: 70px; height: 38px; line-height: 38px; font-size: 14px; color: #333; float: left;}
+.overlay .lightbox .mc-top .top-box input{display: block; width: 288px; height: 36px; border: 1px solid #e8e8e8; margin-right: 90px; padding-left: 10px; line-height: 36px; font-size: 14px; color: #666666; float: left;}
+.overlay .lightbox .mc-top .up{height: 30px; color: #666666; font-size: 14px;}
+.overlay .lightbox .mc-top .up-btn{display: inline-block; width: 108px; height: 28px; line-height: 28px; border: 1px solid #f03c28; text-align: center; color: #f03c28; font-size: 14px; margin: 0 10px; }
+.overlay .lightbox .mc-top .mc-cont{width: 910px; margin-top: 48px;}
+.overlay .lightbox .mc-top .mc-cont .dt{height: 39px; padding-left: 20px; line-height: 39px; background-color: #fafafa; border-top: 1px solid #e8e8e8; overflow: hidden;}
+.overlay .lightbox .mc-top .mc-cont .dt span{float: left; font-size: 14px; color: #666666;}
+.overlay .lightbox .mc-top .mc-cont .dt em{color: #999999; padding-left: 10px;}
+.overlay .lightbox .mc-top .mc-cont .dt input{display: block; width: 168px; height: 26px; padding-left: 10px; color: #333; border: 1px solid #e8e8e8; background-color: #fff; float: right; margin:5px 7px 0 0;}
+.overlay .lightbox .mc-top .mc-cont .dt .btn{display: block; width: 58px; height: 26px; float: right; margin: 5px 20px 0 0; border: 1px solid #e8e8e8; background-color: #fff; text-align: center; line-height: 26px;}
+.overlay .lightbox .mc-top .mc-cont .dd-th{height: 36px; color: #999999; border-bottom: 1px solid #e8e8e8; line-height: 36px; overflow: hidden;}
+.overlay .lightbox .mc-top .mc-cont .dd-th a.sel-btn{display: block; width: 12px; height: 12px; float: left; margin: 12px 0 0 20px; background: url("../images/icon-before-1.png") no-repeat 0 -16px;}
+.overlay .lightbox .mc-top .mc-cont .dd-th a.sel-btn.selected{background: url("../images/icon-after-1.png") no-repeat 0 -18px;}
+.overlay .lightbox .mc-top .mc-cont .dd-th span{float: right;}
+
+.overlay .lightbox .mc-top .mc-cont .item{height: 50px;  padding: 15px 0 15px 50px; border-bottom: 1px dashed #e8e8e8; position: relative; overflow: hidden;}
+.overlay .lightbox .mc-top .mc-cont .item a.sel-btn{display: block; width: 12px; height: 12px; position: absolute; left: 20px; top:34px; background: url("../images/icon-before-1.png") no-repeat 0 -16px;}
+.overlay .lightbox .mc-top .mc-cont .item a.sel-btn.selected{background: url("../images/icon-after-1.png") no-repeat 0 -18px;}
+.overlay .lightbox .mc-top .mc-cont .item .pic{width: 50px; height: 50px; float: left; margin-right: 30px; overflow: hidden;}
+.overlay .lightbox .mc-top .mc-cont .item .pic img{width: 50px; height: 50px;}
+.overlay .lightbox .mc-top .mc-cont .item .title{display: block; width: 268px; height: 32px; line-height: 16px; overflow: hidden; float: left; color: #666666; font-size: 14px;}
+.overlay .lightbox .mc-top .mc-cont .item .title:hover{color: #f03c28;}
+.overlay .lightbox .mc-top .mc-cont .item .num{color: #666666; width: 88px; text-align: center; float: right;}
+.overlay .lightbox .mc-top .mc-cont .item .price{color: #f03c28; width: 120px; text-align: center; font-size: 14px; float: right; margin-right: 76px;}
+.overlay .lightbox .mc-top .mc-cont .bg-color{background-color: #fafafa;}
+
+/*分页*/
+.overlay .lightbox .mc-top .mc-cont .control{height: 50px;  padding: 15px 20px 0 0; text-align: right;}
+.overlay .lightbox .mc-top .mc-cont .control a{display: inline-block; height: 28px; line-height: 28px; vertical-align: middle; color: #999; margin: 0 3px; padding: 0 4px;cursor: pointer;}
+.overlay .lightbox .mc-top .mc-cont .control a:hover{color: #333;}
+.overlay .lightbox .mc-top .mc-cont .control a.cur{color: #333;}
+.overlay .lightbox .mc-top .mc-cont .control .control-prev{display: inline-block; width: 28px; height: 28px; padding: 0; background-color: #f0f0f0; border-radius: 50%; position: relative;}
+.overlay .lightbox .mc-top .mc-cont .control .control-prev:before{display: block; width: 6px; height: 11px; content: ''; background: url("../images/icon-before-1.png") no-repeat -31px 0; position: absolute; left: 10px; top:8px;}
+.overlay .lightbox .mc-top .mc-cont .control .control-prev:hover:before{background: url("../images/icon-after-1.png") no-repeat -22px 0; position: absolute; left: 10px; top:8px;}
+.overlay .lightbox .mc-top .mc-cont .control .control-next{display: inline-block; width: 28px; height: 28px; padding: 0; background-color: #f0f0f0; border-radius: 50%; position: relative;}
+.overlay .lightbox .mc-top .mc-cont .control .control-next:before{display: block; width: 6px; height: 11px; content: ''; background: url("../images/icon-before-1.png") no-repeat -38px 0; position: absolute; right: 10px; top:8px;}
+.overlay .lightbox .mc-top .mc-cont .control .control-next:hover:before{background: url("../images/icon-after-1.png") no-repeat -29px 0; position: absolute; right: 10px; top:8px;}
+
+
+.overlay .lightbox .mc-bot{width: 990px; height: 55px; padding-top: 24px; text-align: center; border-top: 1px solid #e8e8e8; background-color: #fafafa; }
+.overlay .lightbox .mc-bot .btn01{display: inline-block; width: 110px; height: 28px; text-align: center; line-height: 28px; background-color: #f03c28; color: #fff; margin-right: 15px;}
+.overlay .lightbox .mc-bot .btn02{color: #666666; display: inline-block; width: 108px; height: 28px; font-size: 14px; background-color: #fff; line-height: 28px; border: 1px solid #e0e0e0; text-align: center;}
+

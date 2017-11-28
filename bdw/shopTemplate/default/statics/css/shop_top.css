@@ -1,0 +1,49 @@
+
+/*主体*/
+.header .search{width: 600px;}
+.header-mc .search .form .search-btn2{display: block; font-size: 16px; color: #fff; text-align: center; width: 90px; height: 38px; line-height: 38px; background-color: #000000; position: absolute; top:-2px; left: 486px; }
+.header .shop-top{height: 35px; background-color: #fafafa;}
+.header .shop-top .sp-cont{width: 1190px; height: 35px; line-height: 35px; margin: 0 auto; }
+.header .shop-top .sp-cont span{float: right; padding-right: 10px;}
+.header .shop-top .sp-cont .sc-btn{display: block; width: 83px; height: 23px; padding-left: 15px; border-radius: 2px; text-align: center; color: #e5151f; font-size: 14px; line-height: 23px; border: 1px solid #dbdbdb; float: right; background-color: #fff; margin: 5px 15px 0 0; position: relative;}
+.header .shop-top .sp-cont .sc-btn:before{display: block; width: 13px; height: 12px; content: ''; background: url("../images/icon-before.png") no-repeat 0 -29px; position: absolute; left: 11px; top:6px;}
+.header .shop-top .sp-cont .sc-btn.cur{background-color: #e5151f; border: 1px solid #e5151f; color: #fff;}
+.header .shop-top .sp-cont .sc-btn.cur:before{ background: url("../images/icon-after.png") no-repeat 0 -31px; position: absolute; left: 18px; top:6px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

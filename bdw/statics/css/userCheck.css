@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/*验证用户*/
+#check{ width:820px; overflow:hidden; margin:40px auto;}
+#check .checkInfo{ width:810px; overflow:hidden;border: 1px solid rgb(231,231,231);}
+#check .checkInfo .l{ float:left; width:810px; padding-left:0px; margin-right:0px; overflow:hidden;}
+#check .checkInfo .l h2{ width:810px;height:55px; line-height:55px; padding-left:15px;font-size:22px; font-weight:bold; color: #000000;border-bottom: 1px solid rgb(231,231,231)}
+#check .checkInfo .l .fixBox{ width:810px; overflow:hidden; padding-top:10px;height: 27px;}
+#check .checkInfo .l .fixBox label{ margin:0 auto 0 20px;float:left; width:86px; overflow:hidden; font-size:14px; color:#666; text-align:right; line-height:24px;}
+#check .checkInfo .l .fixBox .put{ float:left; width:195px; overflow:hidden;}
+#check .checkInfo .l .fixBox .put input{ height:18px; line-height:18px; width:188px; overflow:hidden; border:1px solid #ccc; padding:2px 0 2px 2px;}
+#check .checkInfo .l .fixBox .pass{ padding-left:20px; float:left; padding-top:5px;}
+#check .checkInfo .l .fixBox .tips{ float:left; background:url(../images/register_line01.gif) repeat-x; margin-left:10px; }
+#check .checkInfo .l .fixBox .tips .l-l{ float:left; display:inline; background:url(../images/register_line03.gif) no-repeat; width:3px; overflow:hidden; height:27px;}
+#check .checkInfo .l .fixBox .tips .t-b{ float:left; display:inline; height:22px; padding-left:8px; padding-top:5px; overflow:hidden; color:#666;}
+#check .checkInfo .l .fixBox .tips .t-b img{ vertical-align:middle;}
+#check .checkInfo .l .fixBox .tips .t-b a{ color:#06c;}
+#check .checkInfo .l .fixBox .tips .r-l{ float:right; display:inline; background:url(../images/register_line02.gif) no-repeat; width:3px; overflow:hidden; height:27px;}
+#check .checkInfo .l .PasswordTipsBox{ height:18px; overflow:hidden; padding-top:10px; padding-left:86px; color:#666;}
+#check .checkInfo .l .PasswordTipsBox img{ vertical-align:middle;}
+#check .checkInfo .l .btn{ height:32px; overflow:hidden; padding:12px 0 0 86px;}
+#check .checkInfo .l .btn a{margin: auto auto auto 80px; background-color:#ff1d00; display:block; height:32px; overflow:hidden; font-size:14px; line-height:32px; text-align:center; font-weight:bold; color:#fff; width:162px;}
+#check .checkInfo .l .btn a:hover{ text-decoration:none;}
+#check .checkInfo .l .fixBox_b{ width:479px; overflow:hidden; padding-top:10px;height: 27px;margin: auto auto auto 80px}
+#check .checkInfo .l .fixBox_b a{color: rgb(255,0,0)}
+
+/*完善注册*/
+#register{ width:820px; overflow:hidden; margin:40px auto;}
+#register .newRegist{ width:810px; overflow:hidden;border: 1px solid rgb(231,231,231);}
+#register .newRegist .l{ float:left; width:810px; padding-left:0px; margin-right:0px; overflow:hidden;}
+#register .newRegist .l h2{ width:810px;height:55px; line-height:55px; padding-left:15px;font-size:22px; font-weight:bold; color: #000000;border-bottom: 1px solid rgb(231,231,231)}
+#register .newRegist .l .fixBox{ width:810px; overflow:hidden; padding-top:10px;height: 27px;}
+#register .newRegist .l .fixBox label{ margin:0 auto 0 20px;float:left; width:86px; overflow:hidden; font-size:14px; color:#666; text-align:right; line-height:24px;}
+#register .newRegist .l .fixBox .put{ float:left; width:195px; overflow:hidden;}
+#register .newRegist .l .fixBox .put input{ height:18px; line-height:18px; width:188px; overflow:hidden; border:1px solid #ccc; padding:2px 0 2px 2px;}
+#register .newRegist .l .fixBox .pass{ padding-left:20px; float:left; padding-top:5px;}
+#register .newRegist .l .fixBox .tips{ float:left; background:url(../images/register_line01.gif) repeat-x; margin-left:10px; }
+#register .newRegist .l .fixBox .tips .l-l{ float:left; display:inline; background:url(../images/register_line03.gif) no-repeat; width:3px; overflow:hidden; height:27px;}
+#register .newRegist .l .fixBox .tips .t-b{ float:left; display:inline; height:22px; padding-left:8px; padding-top:5px; overflow:hidden; color:#666;}
+#register .newRegist .l .fixBox .tips .t-b img{ vertical-align:middle;}
+#register .newRegist .l .fixBox .tips .t-b a{ color:#06c;}
+#register .newRegist .l .fixBox .tips .r-l{ float:right; display:inline; background:url(../images/register_line02.gif) no-repeat; width:3px; overflow:hidden; height:27px;}
+#register .newRegist .l .PasswordTipsBox{ height:18px; overflow:hidden; padding-top:10px; padding-left:86px; color:#666;}
+#register .newRegist .l .PasswordTipsBox img{ vertical-align:middle;}
+#register .newRegist .l .btn{ height:32px; overflow:hidden; padding:12px 0 0 86px;}
+#register .newRegist .l .btn a{margin: auto auto auto 80px; background-color:#ff1d00; display:block; height:32px; overflow:hidden; font-size:14px; line-height:32px; text-align:center; font-weight:bold; color:#fff; width:162px;}
+#register .newRegist .l .btn a:hover{ text-decoration:none;}
+#register .newRegist .l .fixBox_b{ width:479px; overflow:hidden; padding-top:10px;height: 27px;margin: auto auto auto 80px}
+#register .newRegist .l .fixBox_b a{color: rgb(255,0,0)}

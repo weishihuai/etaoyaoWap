@@ -1,0 +1,155 @@
+body {line-height: 1; background-color: #e8e8e8; min-width: 320px; max-width: 640px; margin: 0 auto; }
+button {outline: none; background: none; border: none; }
+
+/* 复选框 */
+.checkbox {color: #666; font-size: 12px; line-height: 20px; }
+.checkbox .icon {position: relative; display: inline-block; box-sizing: border-box; width: 20px; height: 20px; border: 1px solid #a6a6a6; border-radius: 50%; background-color: #fff; vertical-align: middle; }
+.checkbox .icon:before {content: ''; position: absolute; top: 50%; left: 50%; width: 10px; height: 6px; box-sizing: border-box; border-bottom: 2px solid #fff; border-left: 2px solid #fff; -webkit-transform: translate(-50%, -60%) rotate(-45deg); transform: translate(-50%, -60%) rotate(-45deg); }
+.checkbox input:checked ~ .icon {border-color: #c10c00; background-color: #c10c00; }
+
+.radio { color: #666; line-height: 20px;  }
+.radio .icon { display: inline-block; width: 16px; height: 16px; margin-right: 5px; background-color: #fff; border: 2px solid #fff; box-shadow: 0 0 0 2px #c9c9c9; border-radius: 50%; }
+.radio input:checked ~ .icon { background-color: #c10c00; border: 2px solid #fff; box-shadow: 0 0 0 2px #c10c00; }
+
+.switch .icon{ position: relative; display: inline-block; width: 35px; height: 22px; background-color: #ccc; border-radius: 16px; }
+.switch .icon:before,
+.switch .icon:after{ content: ''; position: absolute; top: 1px; width: 20px; height: 20px; border-radius: 50%; background-color: #fff;}
+
+.switch .icon:before { left: 1px; }
+.switch .icon:after { right: 1px; display: none;}
+
+.switch input:checked ~ .icon{ background-color: #c10c00; }
+.switch input:checked ~ .icon:before { right: 1px;display: none; }
+.switch input:checked ~ .icon:after { right: 1px;display: block; }
+
+.gift {overflow: hidden; padding: 5px 12px; font-size: 12px; line-height: 18px; color: #999; }
+.gift em {float: left; padding: 0 5px; border: 1px solid #d2d2d2; }
+.gift a {float: left; width: 65%; margin-left: 25px; color: inherit; }
+.gift strong {color: #c10c00; }
+.gift span {float: right; }
+
+.checkout-detail { padding: 15px 12px; background-color: #fff; }
+.checkout-detail .item { overflow: hidden; margin-bottom: 10px }
+.checkout-detail .item:last-child { margin-bottom: 0; }
+.checkout-detail .item .lab { float: left; color: #333;}
+.checkout-detail .item .val { float: right; text-align: right; color: #666;}
+.checkout-detail .item .val em { font-size: 15px; color: #c10c00; }
+
+.hide {display: none; opacity: 0; }
+.show {display: block; opacity: 1; }
+
+.bundle {margin-top: 12px; background-color: #fff; }
+.bundle .tip {padding-left: 72px; }
+.bundle .shop {height: 40px; padding: 0 12px;}
+.bundle .shop .checkbox {float: left; margin-top: 10px;}
+.bundle .shop-img {float: left; display: inline-block; width: 18px; height: 18px; margin: 11px 8px 0 10px; }
+.bundle .shop-img img {width: 100%; height: auto; }
+.bundle .shop-tit {display: block; font-size: 14px; color: #333; line-height: 44px; }
+.bundle .item {overflow: hidden; }
+.bundle .item-detail {overflow: hidden; position: relative; margin-bottom: 1px; padding: 10px 10px 10px 40px; background-color: #f3f3f3; }
+.bundle .item .checkbox {position: absolute; left: 12px; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+.bundle .item-img {float: left; width: 75px; height: 75px; overflow: hidden; }
+.bundle .item-img img {width: 100%; height: auto; }
+.bundle .item-name, .bundle .item-desc, .bundle .item-amount {display: block; margin-left: 82px; }
+.bundle .item-name {overflow: hidden; height: 3em; font-size: 12px; line-height: 1.5em; text-align: justify; }
+.bundle .item-desc {margin-bottom: 5px; font-size: 11px; color: #999; }
+.bundle .item-amount {overflow: hidden; }
+.bundle .item-price {float: left; font-size: 12px; line-height: 1.5; color: #c10c00; }
+.bundle .quantity {float: right; }
+.bundle .item .gift {margin-bottom: 10px; padding-left: 40px; }
+
+.entry-block { height: 50px; line-height: 50px; background: url(../images/icon-hint-right.png) no-repeat right 12px center / 7px auto; background-color: #fff;}
+.entry-block a { display: block; padding: 0 26px 0 12px;}
+.entry-block .val {float: right; }
+.entry-block .val em { color: #c10c00; }
+.entry-block .title { margin-bottom: 10px; line-height: normal; color: #333; }
+.entry-block .content { color: #666; line-height: 1.4; text-align: justify;}
+.entry-block .mark { display: inline-block; margin-left: 5px; padding: 2px 5px; line-height: normal; font-size: 10px; color: #fff; border-radius: 2px; background-color: #c10c00; }
+
+.form-group { height: 50px; line-height: 50px; padding: 0 12px; background-color: #fff;}
+.form-group .control-label { float: left; width: 65px }
+.form-group .input-group { margin-left: 65px; }
+.form-group .form-control { width: 100%; line-height: 24px;}
+
+.bottom-checkout {position: fixed; bottom: 0; left: 0; right: 0; padding: 10px 12px; background-color: #fff; }
+.bottom-checkout:before {content: ''; position: absolute; top: 0; left: 0; right: 0; box-shadow: 0 0 2px 2px rgba(0, 0, 0, .1); }
+.bottom-checkout .checkbox {position: absolute; left: 0.375rem; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+.bottom-checkout .action {float: right; height: 40px; font-size: 13px; color: #fff; padding: 0 1.5em; border-radius: 2px; background-color: #c10c00; }
+.bottom-checkout .detail {float: left; margin-left: 60px; line-height: 20px; font-size: 10px; color: #000; overflow: hidden; margin-right: 0.23438rem; }
+.bottom-checkout .total {display: block; font-size: 14px; }
+.bottom-checkout em {font-size: 15px; color: #ff8a00; font-style: normal; }
+.bottom-checkout small {font-size: 11px; }
+.bottom-checkout .btn {float: right; margin-left: 10px; min-width: 60px; }
+.bottom-checkout .btn {display: inline-block; box-sizing: border-box; padding: 0 10px; height: 40px; text-align: center; line-height: 40px; font-size: 14px; color: #666; border: 1px solid currentColor; border-radius: 0.125rem; background-color: #fff; }
+.bottom-checkout .btn-default {color: #fff; border-color: #c10c00; background-color: #c10c00; }
+.bottom-checkout .btn-outline {color: #c10c00; border-color: currentColor; }
+
+
+.m-order-submit { padding-bottom: 80px; }
+
+.m-order-submit .bundle .item-detail { padding-left: 12px; }
+.m-order-submit .bundle .item .gift { padding-left: 12px; }
+.m-order-submit .bundle .item-name,
+.m-order-submit .bundle .item-desc { width: 50%;}
+.m-order-submit .bundle .item-name { margin-bottom: 10px; }
+.m-order-submit .bundle .item-amount { position: absolute; margin-left: 0; right: 12px; top: 10px;text-align: right; }
+.m-order-submit .bundle .item-amount span { display: block; }
+.m-order-submit .bundle .item-price { float: none; color: #333; }
+.m-order-submit .bundle .item-count { font-size: 10px; color: #999; }
+.m-order-submit .bundle .group { border-bottom: 1px solid #e6e6e6; }
+
+.m-order-submit .entry-block {position: relative; font-size: 14px; color: #333;}
+.m-order-submit .entry-block:after { content: ''; position: absolute; bottom: 0; left: 12px; right: 12px; height:1px; background-color: #e6e6e6;}
+.m-order-submit .entry-block .val { color: #666; }
+.m-order-submit .entry-block .lab{color: #333;}
+
+
+.m-order-submit .form-group { position: relative; font-size: 14px; }
+.m-order-submit .form-group:after { content: ''; position: absolute; bottom: 0; left: 12px; right: 12px; height:1px; background-color: #e6e6e6;}
+
+.m-order-submit .total { padding: 15px 12px; text-align: right; color: #333; font-size: 12px;}
+.m-order-submit .total span:last-child { margin-left: 10px; font-size: 14px; }
+.m-order-submit .total em { color: #c10c00; font-size: 16px;}
+
+.m-order-submit .addr {position: relative; margin-top: 12px; height: auto; padding: 10px 12px; font-size: 12px; background-color: #fff4e1; }
+.m-order-submit .addr:before,
+.m-order-submit .addr:after { content: ''; position: absolute; left: 0; right: 0; height: 3px; background: url(../images/bord-img.png) repeat-x;}
+.m-order-submit .addr:before { top: -6px; }
+.m-order-submit .addr:after { bottom: -6px; }
+.m-order-submit .addr a { padding-left: 43px; background: url(../images/icon-local.png) no-repeat left 12px center / 14px auto; }
+.m-order-submit .addr .title{ font-size: 14px; }
+
+.m-order-submit .check-sec { margin-top: 10px; }
+
+.m-order-submit .select-box { position: relative; height: 50px; line-height: 50px; padding: 0 12px; font-size: 14px; background-color: #fff }
+.m-order-submit .select-box:after {content: ''; position: absolute; bottom: 0; left: 12px; right: 12px; height:1px; background-color: #e6e6e6;}
+.m-order-submit .select-box .lab { display: inline-block; width: 65px; }
+.m-order-submit .select-box .radio { margin-right: 20px; }
+.m-order-submit .select-box .radio .icon { position: relative; top: 2px; }
+.m-order-submit .invoice .switch { position: absolute; right: 12px; top: 50%; line-height: normal; -webkit-transform: translateY(-50%);transform: translateY(-50%);}
+
+.m-order-submit .checkout-detail { margin-top: 10px; font-size: 13px; }
+
+.m-order-submit .bottom-checkout .sum {float: right; margin-right: 10px; line-height: 40px; font-size: 14px;}
+.m-order-submit .bottom-checkout .sum em { color: #c10c00; font-size: 18px;}
+
+/*select去掉边框*/
+.entry-block .val{display: block; width: 60%; float: right; text-align: right;text-overflow: ellipsis;white-space: nowrap;overflow: hidden; }
+.entry-block .val .sel{border:0;border:none; background-color: inherit; text-align: right; appearance:none;-webkit-appearance:none;}
+.entry-block .val .sel option{width: 100%; background-color: #fff; text-align: right;}
+/*select里文字右对齐*/
+.entry-block .val select {direction: rtl; -webkit-direction: rtl;}
+.entry-block .val select option {direction: ltr; -webkit-direction: rtl;}
+
+.checkbox {color: #666; font-size: 12px; line-height: 20px; }
+.checkbox .icon {position: relative; display: inline-block; box-sizing: border-box; width: 20px; height: 20px; border: 1px solid #a6a6a6; border-radius: 50%; background-color: #fff; vertical-align: middle; }
+.checkbox .icon:before {content: ''; position: absolute; top: 50%; left: 50%; width: 10px; height: 6px; box-sizing: border-box; border-bottom: 2px solid #fff; border-left: 2px solid #fff; -webkit-transform: translate(-50%, -60%) rotate(-45deg); transform: translate(-50%, -60%) rotate(-45deg); }
+.checkbox input:checked ~ .icon {border-color: #c10c00; background-color: #c10c00; }
+
+.popup{width: 100%; height: 100%; position: fixed; z-index: 21; background-color: rgba(0,0,0,0.5); left: 0; top:0; bottom: 0;}
+.select-layer{padding: 20px 0 65px; width: 100%; background-color: #fff; position: absolute; left: 0; bottom: 0;}
+.select-layer .mt{width: 100%; padding: 0 12px; height: 20px; color: #0c1828; line-height: 20px; font-size: 16px; font-weight: bold;}
+.select-layer .mc{width: 100%; height: 180px; margin-top: 20px; overflow: hidden; overflow-y: auto; }
+.select-layer .mc li label{display: block; width: 100%; height: 45px; padding: 0 50px 0 12px; line-height: 45px; position: relative; color: #0c1828; font-size: 16px; overflow: hidden;}
+.select-layer .mc .icon{position: absolute; right: 15px; top:50%; margin-top: -10px;}
+.select-layer .confirm{display: block; width: 100%; height: 45px; line-height: 45px; text-align: center;  color: #fff; font-size: 16px; background-color: #c10c00; position: absolute; left: 0; bottom: 0;}

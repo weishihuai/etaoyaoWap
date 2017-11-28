@@ -1,0 +1,5 @@
+/*引导层样式*/
+.guide { position: fixed; top: 0; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.74); z-index: 1000;}
+.guide .direction { position: absolute; right: 1.625rem; top: 0; width: 6.07813rem; height: 10.34375rem; background: url(../image/guide-direct.png) no-repeat 0/100% auto; }
+[data-dpr="2"] .guide .desc { font-size: 32px; }
+.guide .desc { padding: 13rem 0.375rem 0; font-size: 16px; line-height: 2; text-align: center; color: #fff; }

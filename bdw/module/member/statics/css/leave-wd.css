@@ -1,0 +1,47 @@
+
+/*主体*/
+.rt-box{width: 940px; float: right;}
+.rt-box .rb-mt{height: 28px; line-height: 28px; background-color: #fcfcfc; border: 1px solid #dddddd; padding-left: 5px; color: #333333; font-size: 14px;}
+.rt-box .rb-mc{width: 938px; border: 1px solid #dddddd; margin-top: 10px; background-color: #fff;}
+.rt-box .mc-nav{height: 36px; background-color: #f7f7f7; border-bottom: 1px solid #dddddd;}
+.rt-box .mc-nav a{display: block; width: 120px; height: 36px; line-height: 36px; color: #333333; font-size: 14px; border-right: 1px solid #dddddd; text-align: center; float: left;}
+.rt-box .mc-nav a.cur{font-size: 16px; color: #e72c35; position: relative; line-height: 34px; border-top: 2px solid #e72c35; top:-1px;}
+
+.rt-box .mc-cont .cont-box{padding: 30px 30px 10px;}
+.rt-box .mc-cont .cont-box .form-box{margin-bottom: 20px; height: 30px; overflow: hidden;}
+.rt-box .mc-cont .cont-box .form-box input{display: block; float: left; width: 290px; height: 28px; border: 1px solid #eeeeee; padding-left: 10px; line-height: 28px; color: #333; font-size: 14px;}
+.rt-box .mc-cont .cont-box textarea{display: block; width: 854px; color: #333; font-size: 14px; height: 105px; border: 1px solid #eeeeee; padding: 5px 10px; line-height: 23px;}
+.rt-box .mc-cont .cont-box .submit-box{height: 75px; line-height: 34px; color: #bbbbbb; font-size: 14px; margin-top: 15px; text-align: right;}
+.rt-box .mc-cont .cont-box .submit-box span{padding-right: 10px;}
+.rt-box .mc-cont .cont-box .submit-box a{display: inline-block; width: 120px; height: 34px; line-height: 34px; text-align: center; color: #fff; border-radius: 2px; background-color: #e5151f;}
+.rt-box .mc-cont .cont-box .leave-box{border-top: 1px solid #eeeeee; padding: 25px 0 1px;}
+.rt-box .mc-cont .cont-box .item{margin-bottom: 18px;}
+.rt-box .mc-cont .cont-box .mb-top{height: 22px;font-size: 14px; overflow: hidden;}
+.rt-box .mc-cont .cont-box .mb-top em{float: right; color: #999999; font-style: normal;}
+.rt-box .mc-cont .cont-box .mb-top span{float: left; color: #999999;}
+.rt-box .mc-cont .cont-box .mb-top i{color: #015dbd;}
+.rt-box .mc-cont .cont-box .mb-cont{padding-top: 18px; font-size: 14px; line-height: 22px; color: #333;}
+.form-box .tipMsg{display: inline-block; height: 30px; line-height: 30px; margin-left: 10px; color: #e5151f;}
+
+.rt-box .mc-cont  .reply-box{height: 35px; line-height: 34px; color: #bbbbbb; font-size: 14px; }
+.rt-box .mc-cont  .reply-box a{display: inline-block; width: 120px; height: 34px; line-height: 34px; text-align: center; color: #fff; border-radius: 2px; background-color: #e5151f;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+body { padding: 1.71875rem 0 1.875rem; }
+
+.fill-main .mt { height: 1.5625rem; line-height: 1.40625rem; color: #52555E; font-size: 13px; padding: 0.15625rem 0 0 0.46875rem; }
+[data-dpr="2"] .fill-main .mt { font-size: 26px; }
+[data-dpr="3"] .fill-main .mt { font-size: 39px; }
+.fill-main .fill-type { background-color: #fff; padding: 0.625rem 0.46875rem 0.3125rem 0.46875rem; overflow: hidden; }
+.fill-main .fill-type a { display: inline-block; width: 2.8125rem; height: 0.9375rem; text-align: center; float: left; margin: 0 0.3125rem 0.3125rem 0; border-radius: 0.0625rem; line-height: 0.9375rem; text-align: center; border: 1px solid #8E939A; color: #333; font-size: 12px; }
+[data-dpr="2"] .fill-main .fill-type a { font-size: 24px; }
+[data-dpr="3"] .fill-main .fill-type a { font-size: 36px; }
+.fill-main .fill-type .selected { border: 0.03125rem solid #FF6B00; color: #FF6B00; }
+.fill-main .fill-box { width: 100%; background-color: #fff; color: #AAAEB9; padding: 0.34375rem 0.46875rem 0 0.46875rem; height: 3rem; line-height: 0.625rem; border: none; margin: 0; color: #333; font-size: 14px; }
+[data-dpr="2"] .fill-main .fill-box { font-size: 28px; }
+[data-dpr="3"] .fill-main .fill-box { font-size: 42px; }
+.fill-main p { text-align: right; position: relative; width: 100%; left: 0; right: 0; height: 0.8rem; line-height: 0.7rem; top: -0.2rem; background-color: #fff; padding-right: 0.46875rem; color: #AAAEB9; right: 0.46875rem; bottom: 0.3125rem; font-size: 11px; }
+[data-dpr="2"] .fill-main p { font-size: 22px; }
+[data-dpr="3"] .fill-main p { font-size: 33px; }
+.fill-main .orange { color: #E03127; }
+
+.m-sub { position: fixed; left: 0; bottom: 0; right: 0; z-index: 10; text-align: center; height: 1.5625rem; line-height: 1.5625rem; background-color: #fff; }
+.m-sub a { display: block; color: #fff; font-size: 16px; background-color: #FF6B00; height: 1.5625rem; }
+[data-dpr="2"] .m-sub a { font-size: 32px; }
+[data-dpr="3"] .m-sub a { font-size: 48px; }
+.m-sub .disable { cursor: default; color: #BFBFBF; background-color: #E0E0E1; }
+
+.fill-reminder { position: fixed; left: 50%; top: 50%; margin: -0.625rem 0 0 -2.34375rem; width: 4.6875rem; height: 1.25rem; line-height: 1.25rem; text-align: center; color: #fff; font-size: 13px; border-radius: 0.09375rem; background-color: #000; }
+[data-dpr="2"] .fill-reminder { font-size: 26px; }
+[data-dpr="3"] .fill-reminder { font-size: 39px; }
+
+/*# sourceMappingURL=pre-fill.css.map */

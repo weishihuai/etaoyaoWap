@@ -1,0 +1,400 @@
+span { font-size: 14px; color: #6E6E6E; }
+
+.submitFormSub{padding:5px; }
+
+.loginSpan { float: right;margin-right: 90px; }
+
+.loginSpan span a { color: #ff6b00; text-decoration: none; }
+
+.submitForm { width: 450px; }
+
+.mobileContainer, .passwordContainer, .passwordConfirmContainer {float: left; padding: 0px; border: 1px solid #D8D8D8;width:350px;}
+
+.mobileContainer span{ display:inline-block;padding: 7px; }
+
+.mobileContainer input{ height: 30px;line-height: 30px; }
+
+.passwordContainer span{  display:inline-block;padding: 7px;  }
+
+.passwordContainer input{ height: 30px;line-height: 30px;  }
+
+
+.passwordConfirmContainer span{ display:inline-block;padding: 7px;  }
+
+.passwordConfirmContainer input{ height: 30px;line-height: 30px;  }
+
+.code, .codeSpan, .submit { border: 1px solid #D8D8D8;}
+
+.info-item{padding-top: 13px; overflow: hidden;font-size: 14px;}
+.mobile, .password, .passwordConfirm { outline: none; border: 0; width: 246px; }
+
+/*.mobile input, .password input, .passwordConfirm input { width: 100px;}*/
+
+.code:focus { outline: none; }
+
+.code { float: left; }
+
+.codeSpan { float: left; margin-left: 20px; background: #F5F6F6; }
+
+.codeSpan span { font-size: 13px; display: inline-block;  height: 26px; line-height: 26px; padding: 2px 6px; cursor: pointer; }
+
+.clear { clear: both; }
+
+.codeContainer, .submit { margin-top: 13px; }
+
+.codeContainer input{ text-align: left; height: 26px; line-height: 26px; padding: 2px; margin-left: 110px; }
+
+#userAgreement{ cursor: pointer; font-size: 12px; }
+
+.submit { width: 30%; background: #ff6b00; height: 38px;line-height: 36px;cursor: pointer; text-align: center;}
+
+.submit a{ font-size: 16px;  color: #fff;display: inline-block;width: 100%;height: 100%;}
+
+.protocol { margin-top: 10px;}
+
+.protocol a { text-decoration: none; color: #2E7ADC; }
+
+.code::-moz-placeholder { text-align: center; }
+
+.code::-webkit-input-placeholder { text-align: center; }
+
+.tips{padding:5px 0 0 7px; clear: both; }
+
+.tips img{float: left; margin: 2px 5px 0 0;}
+
+.tips span{float: left;color:#ff6b00;
+    font-size: 13px;}
+
+.pass{ float:left; margin: 10px 0 0 10px; }
+
+.submitFormContainer{float: right;}
+
+/*新增的样式*/
+
+.h-title {
+    /*background: url("../images/login-01-title-bg.png") no-repeat scroll 0 center rgba(0, 0, 0, 0);*/
+    border-left: solid 1px #999;
+    color: #333333;
+    float: left;
+    font-size: 24px;
+    height: 72px;
+    line-height: 72px;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+.PasswordTipsBox{ height:18px; overflow:hidden; padding-top:10px; padding-left:96px; color:#666;}
+.reg-bg {
+    padding-top: 10px;
+    background-color: #F8F8F8;
+    padding-bottom: 10px;
+}
+.reg-bg .w {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1188px;
+    padding-top:20px;
+}
+.reg-bg .lt {
+    float: left;
+    overflow: hidden;
+    padding: 33px 0 0 150px;
+    width: 770px;
+}
+.reg-bg h4 {
+    color: #ff6b00;
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    padding-left: 50px;
+}
+.reg-bg .item {
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 5px 0;
+    width: 768px;
+}
+.reg-bg .item .label {
+    color: #666666;
+    display: block;
+    float: left;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 18px;
+    text-align: right;
+    width: 92px;
+}
+.reg-bg .item .highlight1 {
+    border: 1px solid #ff6b00;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.reg-bg .item .highlight2 {
+    border: 1px solid #ff6b00;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.reg-bg .fore1 {
+    position: relative;
+}
+.reg-bg .fore1 input {
+    border: 1px solid #BDBDBD;
+    color: #333333;
+    float: left;
+    font-size: 18px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 18px;
+    width: 300px;
+}
+/*.reg-bg .fore1 .name-succeed {
+    background: url("../images/reg-01-icon01.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 12px;
+    left: 405px;
+    position: absolute;
+    top: 19px;
+    width: 12px;
+}
+.reg-bg .fore1 .name-error {
+    background: url("../images/reg-01-icon02.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 12px;
+    left: 405px;
+    position: absolute;
+    top: 19px;
+    width: 12px;
+}*/
+.reg-bg .fore2 input {
+    border: 1px solid #BDBDBD;
+    color: #333333;
+    float: left;
+    font-size: 14px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 18px;
+    width: 300px;
+}
+.reg-bg .fore3 input {
+    border: 1px solid #BDBDBD;
+    color: #333333;
+    float: left;
+    font-size: 14px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 18px;
+    width: 143px;
+}
+.reg-bg .fore3 img {
+    float: left;
+    margin: 0 6px;
+}
+.reg-bg .fore3 a {
+    color: #0099FF;
+    float: left;
+    font-size: 14px;
+    line-height: 40px;
+}
+.reg-bg .fore3 a:hover {
+    text-decoration: underline;
+}
+.reg-bg .fore4 input {
+    border: 1px solid #BDBDBD;
+    color: #333333;
+    float: left;
+    font-size: 14px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 18px;
+    width: 143px;
+}
+/*.reg-bg .fore4 a {
+    background: url("../images/reg-01-bg01.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #BDBDBD;
+    color: #333333;
+    display: block;
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    margin-left: 6px;
+    text-align: center;
+    width: 150px;
+}*/
+.reg-bg .fore4 a:hover {
+    text-decoration: underline;
+}
+.reg-bg .protocol {
+    color: #999999;
+    line-height: 24px;
+    padding-bottom: 0;
+    margin-top:50px;
+    margin-left:110px;
+}
+.reg-bg .fore5 .label {
+    height: 24px;
+    line-height: 24px;
+}
+.reg-bg .fore5 label {
+    float: left;
+}
+.reg-bg .fore5 input {
+    vertical-align: text-top;
+}
+.reg-bg .fore5 a {
+    color: #0099F1;
+    float: left;
+}
+.reg-bg .fore5 a:hover {
+    text-decoration: underline;
+}
+.reg-bg .agree-btn {
+    background-color: #ff6b00;
+    border: 1px solid #ff6b00;
+    border-radius: 2px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 20px;
+    line-height: 38px;
+    margin: 20px 0 0 110px;
+    text-align: center;
+    width: 318px;
+}
+.reg-bg a.agree-btn:hover {
+    background-color: #ff6b00;
+}
+.reg-bg .coagent {
+    margin: 25px 0 0 110px;
+    padding-left: 10px;
+    width: 310px;
+}
+.reg-bg .coagent h5 {
+    color: #999999;
+    line-height: 22px;
+}
+.reg-bg .coagent ul {
+    height: 44px;
+    margin-top: 7px;
+    overflow: hidden;
+    width: 300px;
+}
+.reg-bg .coagent ul li {
+    float: left;
+    height: 22px;
+    margin-right: 8px;
+}
+.reg-bg .coagent ul li span {
+    color: #999999;
+    line-height: 22px;
+    padding: 0 4px;
+}
+.reg-bg .coagent ul li a {
+    color: #333333;
+    line-height: 22px;
+}
+.reg-bg .coagent ul li a:hover {
+    color: #ff6b00;
+    text-decoration: underline;
+}
+.reg-bg .rt {
+    /*background: url("../images/reg-01-bg02.png") no-repeat scroll center 145px #FDFDFD;*/
+    border-left: 1px solid #EBEBEB;
+    float: right;
+    height: 310px;
+    padding-top: 360px;
+    text-align: center;
+    width: 260px;
+}
+.reg-bg .rt span {
+    color: #000000;
+    font-size: 18px;
+}
+.reg-bg .rt a {
+    background-color: #F8F8F8;
+    border: 1px solid #BDBDBD;
+    border-radius: 2px;
+    color: #333333;
+    display: block;
+    font-size: 18px;
+    height: 38px;
+    line-height: 38px;
+    margin: 20px auto 0;
+    text-align: center;
+    width: 178px;
+}
+.reg-bg .rt a:hover {
+    text-decoration: underline;
+}
+.reg-bg .success {
+    /*background: url("../images/reg-01-icon03.png") no-repeat scroll 285px 42px rgba(0, 0, 0, 0);*/
+    padding: 47px 0 0 375px;
+}
+.reg-bg .success h5 {
+    color: #333333;
+    font-size: 24px;
+    line-height: 40px;
+}
+.reg-bg .success p {
+    color: #666666;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 12px 0 14px;
+}
+.reg-bg .success p span {
+    color: #ff6b00;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 3px;
+}
+.reg-bg .success p a {
+    color: #ff6b00;
+}
+.reg-bg .success p a:hover {
+    text-decoration: underline;
+}
+.reg-bg .tips {
+    background: url("../images/register_line01.gif") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    margin-left: 450px;
+    margin-top: -35px;
+}
+.reg-bg .l-l {
+    background: url("../images/register_line03.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline;
+    float: left;
+    height: 27px;
+    margin-left: -10px;
+    margin-top: -5px;
+    overflow: hidden;
+    width: 3px;
+}
+.reg-bg .t-b {
+    color: #666666;
+    display: inline;
+    float: left;
+    height: 22px;
+    overflow: hidden;
+    padding-left: 0px;
+    padding-bottom: 5px;
+}
+.reg-bg .t-b img {
+    vertical-align: middle;
+}
+.reg-bg .t-b a {
+    color: #0066CC;
+}
+.reg-bg .r-l {
+    background: url("../images/register_line02.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline;
+    float: right;
+    height: 27px;
+    margin-left: -10px;
+    margin-top: -5px;
+    overflow: hidden;
+    width: 3px;
+}
+.reg-bg .pass {
+    float: left;
+    padding-left: 20px;
+    padding-top: 5px;
+}

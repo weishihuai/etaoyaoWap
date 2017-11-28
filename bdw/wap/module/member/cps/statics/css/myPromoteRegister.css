@@ -1,0 +1,12 @@
+/*myPromoteRegisterSecondStep.jsp 页面样式开始*/
+/*.div-bank-card{display: block}*/
+/*.div-alipay{display: none}*/
+/*myPromoteRegisterSecondStep.jsp 页面样式结束*/
+
+.layer-bg {position: fixed; z-index: 100; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,.5); }
+.layer {position: relative; width: 80%; height: 70%; margin: 10rem auto; border-radius: .4rem; background-color: #fff; }
+.layer-t {height: 4rem; line-height: 4rem; text-align: center; border-radius: .4rem .4rem 0 0; background-color: #ff6b00; }
+.layer-t h3 {font-size: 1.6rem; color: #fff; }
+.layer-b {overflow: hidden; height: 88%; padding: 1rem; }
+.layer-b p {overflow-y: auto; height: 100%; font-size: 1.2rem; line-height: 2rem; color: #333; }
+.layer .close-btn {position: absolute; top: -7.5rem; right: 1rem; width: 2.5rem; height: 7.5rem; background: url(../images/close-btn.png) no-repeat scroll center center / 100% 100%; }

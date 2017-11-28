@@ -1,0 +1,66 @@
+/*banner*/
+.banner{width: 100%; min-width: 1190px; height: 300px; position: relative; overflow: hidden;}
+.banner .cont{width: 1190px; height: 300px; margin: 0 auto; position: relative;}
+.banner .cont li{width: 1920px; height: 300px; position: absolute; left: 50%; margin-left: -960px; top:0; z-index: 0; opacity: 0;filter:alpha(opacity=0); ZOOM: 1;}
+.banner .cont .lb-prev{display: block; width: 31px; height: 49px; background: url("../images/detail-01-arrow2.png") no-repeat; position: absolute; left: 0; top:100px; border-radius: 3px 0 0 3px; z-index: 10;}
+.banner .cont .lb-next{display: block; width: 31px; height: 49px; background: url("../images/detail-01-arrow2.png") no-repeat -32px 0; position: absolute; right: 0; top:100px; border-radius: 0 3px 3px 0; z-index: 10;}
+
+
+.main{width: 100%; min-width: 1190px; background-color: #fafafa; }
+.main .mt{width: 100%; min-width: 1190px; border-top: 2px solid #ff6600; padding-top: 11px; background-color: #fff; overflow: hidden;}
+.main .mt .cont{width: 1190px; margin: 0 auto; overflow: hidden;}
+.main .mt .cont ul{width: 870px; float: left; margin-left: 15px; overflow: hidden;}
+.main .mt .cont ul li{width: 120px; height: 36px; margin-right: 2px; margin-bottom: 11px; float: left;}
+.main .mt .cont ul li a{display: block; width: 120px; height: 36px; border-radius: 2px; text-align: center; line-height: 36px; color: #666666; font-size: 16px; overflow: hidden; transition:background 120ms, color 0ms; }
+.main .mt .cont ul li a:hover{color: #ff6600; }
+.main .mt .cont .cur a{color: #fff; background-color: #ff6600;}
+.main .mt .cont .cur a:hover{color: #fff;}
+
+
+.main .mt .cont .more{display: inline-block; background: url("../images/arrows.png") no-repeat 100% -54px; width: 55px; padding-left: 10px; color: #666666; font-size: 16px; margin-left: 70px; float: left; height: 36px; line-height: 36px;}
+.main .mt .cont a:hover.more{color: #ff6600;}
+.main .mt .cont .up{background: url("../images/arrows.png") no-repeat 100% -76px;}
+
+.main .mt .cont .btn01{display: block; width: 102px; height: 36px; padding-left: 18px; font-size: 16px; color: #fff; line-height: 36px; background: #2d415a url("../images/arrows.png") no-repeat 97px -98px; border-radius: 2px; float: right; margin-right: 10px;}
+.main .mt .cont a:hover.btn01{background: #25364c url("../images/arrows.png") no-repeat 97px -98px;}
+.main .mt .cont .btn02{display: block; width: 102px; height: 36px; padding-left: 18px; font-size: 16px; color: #fff; line-height: 36px; background: #ff6600 url("../images/arrows.png") no-repeat 97px -98px; border-radius: 2px; float: right; margin-right: 10px;}
+.main .mt .cont a:hover.btn02{background: #f16101 url("../images/arrows.png") no-repeat 97px -98px;}
+
+.main .mc{width: 1190px; margin: 0 auto;overflow: hidden;}
+.main .mc .item{width: 1190px; padding:30px 0 1px; overflow: hidden;}
+.main .mc .item li{width: 360px; margin: 0 18px 30px 18px; height: 454px; position: relative; background-color: #fff;  float: left;}
+.main .mc .item li a{display: block; width: 360px; height: 455px; overflow: hidden;}
+.main .mc .item .sell-out{display: none; width: 115px; height: 115px; background: url("../images/sell-out.png") no-repeat; position: absolute; left: 123px; top:78px; z-index: 1; }
+.main .mc .item .pic{width: 360px; height: 270px; overflow: hidden;}
+.main .mc .item .bot{width: 346px; padding-left: 12px; height:183px; border: 1px solid #e8e8e8; overflow: hidden; }
+.main .mc .item .title{width: 335px; height: 20px; line-height: 20px; margin-top: 15px; color: #2d415a; font-size: 16px; font-weight: bold;}
+.main .mc .item .title span{display: inline-block; padding: 0 6px; font-weight: 400; line-height: 20px; border-radius: 2px; background-color: #ff4400; font-size: 14px; color: #fff; margin-right: 5px;}
+.main .mc .item .p-ad{width: 337px; height: 36px; line-height: 18px; margin-top: 10px; color: #666; overflow: hidden;}
+.main .mc .item .summary{width: 335px; overflow: hidden; margin-top: 15px;}
+.main .mc .item .price{float: left; width: 230px; overflow: hidden; white-space: nowrap;}
+.main .mc .item .price i{color: #ff6600; font-size: 18px; margin-top: 8px; float: left;}
+.main .mc .item .price span{color: #ff6600; font-size: 30px; padding-right: 10px; float: left;}
+.main .mc .item .price del{color: #666666; font-size: 14px; margin-top: 10px; float: left;}
+.main .mc .item .sell{float: right; color: #666; padding-top: 12px; }
+.main .mc .item .sell span{color: #ff4400; font-size: 14px;}
+
+.main .mc .item .end-t{width: 335px; height: 18px; line-height: 18px; margin-top: 15px; color: #666; overflow: hidden;}
+.main .mc .item .end-t label{float: left;}
+.main .mc .item .end-t span{float: left; width: 155px;  white-space: nowrap; height: 23px; overflow: hidden;}
+.main .mc .item .end-t .time{width: 160px; height: 18px; float: left; line-height: 18px; color: #000000; font-size: 14px; overflow: hidden;}
+.main .mc .item .end-t .time span{display: inline-block; width: 16px; text-align: center; height: 18px; background-color: #2d415a; color: #fff; font-size: 14px; margin-right: 1px; float: left; }
+.main .mc .item .end-t .time i{float: left; padding: 0 2px;}
+
+.main .mc .item a:hover{ box-shadow: 0 0 10px rgba(0,0,0,0.1);}
+.main .mc .item a:hover .title{color: #ff6600;}
+
+.main .mc .item .disabled .sell-out{display: block;}
+.main .mc .item .disabled a{cursor: default;}
+
+
+
+
+
+
+
+

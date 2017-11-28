@@ -1,0 +1,176 @@
+button,input,optgroup,select,textarea{-webkit-appearance:none; }/*去掉webkit默认的表单样式*/
+a,button,input,optgroup,select,textarea{-webkit-tap-highlight-color:rgba(0,0,0,0);} /*去掉a、input和button点击时的蓝色外边框和灰色半透明背景*/
+
+input::-webkit-input-placeholder{color:#999; }
+input:focus::-webkit-input-placeholder{color:#999; }
+
+.icon {display: inline-block; vertical-align: middle; }
+.icon-home {background: url(../images/cps-home.png) no-repeat center center / 100% auto; }
+.icon-mine {background: url(../images/cps-mine.png) no-repeat center center / 100% auto; }
+.icon-angle-right { width: 0.6rem; height: 1.1rem; background: url(../images/icon-angle-right.png) no-repeat 0 / 100% auto }
+
+
+.mar-top { margin-top: 1.0rem; }
+
+.entry-block { position: relative; display: block; width: 100%; padding: 0 1.2rem; line-height: 4.5rem; height: 4.5rem; overflow: hidden; background-color: #fff;}
+.entry-block .lab { float: left; font-size: 1.4rem; color: #333;}
+.entry-block .icon-angle-right { float: right; margin-top: 1.7rem;}
+.entry-block .val { float: right; margin-right: 1.0rem; font-size: 1.4rem; color: #333;}
+.entry-block .val.stress { color: #ff6b00; }
+.entry-block .img { float: left; width: 3.0rem; height: 3.0rem; margin-top: 0.75rem; margin-right: 1.0rem; overflow: hidden;box-shadow: 0 0 0.4rem 0.2rem rgba(0,0,0,0.2); border-radius: 50%; }
+.entry-block .img img { width: 100%; height: auto; vertical-align: top;}
+
+.form-horizontal { margin-top: 1.0rem;}
+.form-group { position: relative; height: 4.5rem; padding: 0 1.2rem; background-color: #fff;}
+.form-group:after { content: ''; position: absolute; bottom: 0; left: 1.2rem; right: 0; height: 0.05rem; background-color: #e8e8e8; }
+
+.form-horizontal .control-label { float: left; line-height: 4.5rem; font-size: 1.4rem; color: #666;}
+.form-horizontal .input-group {position: relative; height: 4.4rem; margin-left: 6em; font-size: 1.4rem;}
+
+.form-horizontal .validate-btn { float: right; line-height: 4.5rem; font-size: 1.4rem; color: #666;}
+.form-horizontal .validate-btn.count {color: #ACB3BE;  cursor: default;}
+.form-horizontal .validate-code {float: left;position: relative; height: 4.4rem; width: 17rem;margin-left: 2em; font-size: 1.4rem;}
+
+.form-horizontal .form-control { width: 100%; height: 2.0rem; margin-top: 1.25rem; border: none; font-size: 1.4rem; line-height: 2.0rem; color: #333; background-color: transparent; }
+.input-group .clear { position: absolute; right: -0.5rem; top: 50%; z-index: 9; width: 2rem; height: 2rem; -webkit-transform: translateY(-50%);transform: translateY(-50%); background-color: #fff;}
+.input-group .clear:before { content: ''; position: absolute; top: 50%; left: 50%; width: 0.9rem; height: 0.9rem; -webkit-transform: translate(-50%,-50%);transform: translate(-50%,-50%); background: url(../images/clear_18x18.png) no-repeat center center / 100% auto; }
+
+.form-horizontal .toggle { position: absolute; right: -0.5rem; top: 50%; width: 2.0rem; height: 2.0rem; transform: translateY(-50%);}
+.form-horizontal .toggle:after { content: ''; position: absolute; top: 50%; left: 50%; width: 0.6rem; height: 1.1rem; -webkit-transform: translate(-50%,-50%) rotate(90deg);transform: translate(-50%,-50%) rotate(90deg); background: url(../images/icon-angle-right.png) no-repeat 0 / 100% auto; }
+
+.form-horizontal .btn-block { display: block; height: 3.6rem; margin: 2.0rem 1.2rem; font-size: 1.4rem; line-height: 3.6rem; color: #fff; text-align: center; border-radius: 0.1rem; background-color: #ff6b00;}
+
+.tip-layer { position: fixed; top: 50%; left: 50%; max-width: 80%; padding: 0.75rem 1.5rem; font-size: 1.4rem; text-align: justify; line-height: 1; color: #fff; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%); border-radius: 0.4rem; background-color: rgba(0,0,0,0.8); }
+
+body {line-height: 1.5; background-color: #fff; -webkit-text-size-adjust:100%!important;}
+
+.main { padding-bottom: 6.0rem; }
+
+.bottom-bar {position: fixed; bottom: 0; left: 0; right: 0; height: 5.0rem; background-color: #fff; box-shadow: 0 0 0.2rem 0.15rem rgba(0,0,0,0.06); }
+.bottom-bar li {float: left; width: 33.3%; height: 5.0rem; font-size: 1.0rem; text-align: center; color: #ada8a8;}
+.bottom-bar li a {color: inherit; }
+.bottom-bar li .icon {display: block; width: 2.0rem; height: 2.0rem; margin: 0.9rem auto 0.5rem; }
+.bottom-bar .active {color: #ff6b00; }
+.bottom-bar .active.home .icon-home {background-image: url(../images/cps-home-active.png); }
+.bottom-bar .active.mine .icon-mine {background-image: url(../images/cps-mine-active.png); }
+
+/* 首页 */
+.m-mine-index .my-info {position: relative; padding: 2.5rem 1.2rem 3.5rem; font-size: 1.0rem; color: #fff; background: #ff6b00 url(../images/cps-my-bg.png) no-repeat bottom left / 100% auto; }
+.m-mine-index .my-info em { margin-top: 0.25rem; margin-bottom: 0.5rem; font-size: 2.5rem; }
+.m-mine-index .my-img { position: absolute; left: 1.2rem; top: 2.5rem; width: 5.4rem; height: 5.4rem; border-radius: 50%;overflow: hidden;}
+.m-mine-index .my-img img { width: 100%; height: 100%; }
+.m-mine-index .my-property { margin-left: 8.0rem; margin-right: 6.5rem;}
+.m-mine-index .my-info a { position: absolute; right: 1.2rem; top: 5.2rem; padding-right: 1.2rem; font-size: 1.2rem; line-height: 1; color: #fff; background: url(../images/icon-angle-right-white.png) no-repeat right center / 0.6rem auto;}
+
+
+/* 我的线下会员 */
+.m-my-member .entry-block .img {width: 2.4rem; height: 2.4rem; margin-top: 1.05rem;}
+.m-my-member .entry-block .val { font-size: 1.2rem; color: #666; }
+.m-my-member li.disabled .entry-block { background-color: #fafafa; pointer-events: none;}
+.m-my-member li.disabled .lab,
+.m-my-member li.disabled .val { color: #999; }
+
+.m-my-member li.new .lab { position: relative; }
+.m-my-member li.new .lab:after { content: ''; position: absolute; right: -3.5rem; top: 50%; width: 2.5rem; height: 1.4rem; -webkit-transform: translateY(-50%); transform: translateY(-50%); background: url(../images/new_label.png) 0 0 no-repeat / 100% auto; }
+
+.m-my-member .amount {overflow: hidden; height: 9.0rem; margin-bottom: 0.5rem; padding-top: 2.5rem; line-height: 1; background-color: #ff6b00;}
+.m-my-member .amount dl { float: left; width: 50%; padding-left: 1.2rem; color: #fff; font-size: 1.0rem; }
+.m-my-member .amount dd { font-size: 2.5rem; margin-top: 1.0rem;}
+
+
+/* 线下会员-待返现 */
+.m-my-member-drawal .my-info {position: relative; height: 10.5rem; padding-top: 2.0rem; font-size: 1.0rem; color: #fff; background-color: #ff6b00; }
+.m-my-member-drawal .my-info em { margin-bottom: 0.5rem; font-size: 1.3rem; }
+.m-my-member-drawal .my-info p { margin-bottom: 0.5rem; font-size: 1.3rem;}
+.m-my-member-drawal .my-img { position: absolute; left: 1.2rem; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); width: 5.4rem; height: 5.4rem; box-shadow: 0 0 0.4rem 0.2rem rgba(0,0,0,0.2); border-radius: 50%;overflow:hidden;}
+.m-my-member-drawal .my-img img { width: 100%; height: 100%; }
+.m-my-member-drawal .my-property { margin-left: 8.0rem; margin-right: 6.5rem;}
+.m-my-member-drawal dt { padding-left: 1.2rem; font-size: 1.2rem; line-height: 3.5rem; color: #ff6b00; background-color: #fff; }
+.m-my-member-drawal dt.stress { color: #fa6e0a; }
+.m-my-member-drawal dd { margin-bottom: 1.0rem; padding: 0 1.2rem; background-color: #fafafa;}
+.m-my-member-drawal dd ul { overflow: hidden; padding: 1.0rem 0; font-size: 1.0rem; color: #666; border-bottom: 1px solid #e8e8e8;}
+.m-my-member-drawal dd li { float: left; width: 50%; }
+.m-my-member-drawal .val { margin-top: 0.7rem; font-size: 1.8rem; color: #333; line-height: 1;}
+.m-my-member-drawal .val.stress { color: #fa6e0a; }
+.m-my-member-drawal .val small { font-size: 1.2rem; }
+.m-my-member-drawal .order-info { overflow: hidden; line-height: 3.9rem; font-size: 1.0rem; color: #333; }
+.m-my-member-drawal .order-info span { padding-left: 1.75rem; color: #666; background: url(../images/time-gray-light.png) 0 center no-repeat / 1.2rem auto; }
+
+/*  */
+.m-pay-pwd .form-horizontal{ padding-top: 0rem; }
+
+
+/* 推广 */
+.m-expand .tab-nav { height: 4.0rem; background-color: #fff; }
+.m-expand .tab-nav:after { content: ''; display: table; clear: both;}
+.m-expand .tab-nav li { float: left; width: 100%; font-size: 1.2rem; text-align: center; color: #666;}
+.m-expand .tab-nav a { display: inline-block; padding: 0 0.5rem; line-height: 3.85rem; color: inherit; }
+.m-expand .tab-nav .active { color: #ff6b00; }
+.m-expand .tab-nav .active a { border-bottom: 0.15rem solid #ff6b00; }
+.m-expand .agreement { margin-top: 2.0rem; padding: 0 1.2rem; line-height: 2.0rem; }
+.m-expand .agreement .checkbox { display: inline-block; }
+.m-expand .agreement .checkbox input { display: none; }
+.m-expand .agreement .icon-chk { display: inline-block; width: 1.0rem; height: 1.0rem; margin-right: 0.5rem; vertical-align: middle; margin-top: -0.2rem; border: 1px solid #e8e8e8; background-color: #fff; }
+.m-expand .agreement input:checked ~ label .icon-chk { border: none; background: url(../images/checkbox-active_20x20.png) no-repeat 0 / 100% auto;}
+.m-expand .agreement .deal-toggle { margin-left: 0.5rem; color: #ff6b00; }
+.m-expand .form-horizontal { position: relative; }
+.m-expand .form-horizontal .form-group.last:before { content: ''; position: absolute; bottom: -1.0rem;left: 0; right: 0; height: 1.0rem; background-color: #fff; }
+.m-expand .btn-block { margin-top: 1.0rem; }
+
+
+/* 账户明细 */
+.m-account-detail .tab-nav { height: 4.0rem; background-color: #fff; }
+.m-account-detail .tab-nav:after { content: ''; display: table; clear: both;}
+.m-account-detail .tab-nav li { float: left; width: 50%; font-size: 1.2rem; text-align: center; color: #666;}
+.m-account-detail .tab-nav a { display: inline-block; padding: 0 0.5rem; line-height: 3.85rem; color: inherit; }
+.m-account-detail .tab-nav .active { color: #ff6b00; }
+.m-account-detail .tab-nav .active a { border-bottom: 0.15rem solid #ff6b00; }
+.m-account-detail dl { font-size: 1.2rem; }
+.m-account-detail dt,
+.m-account-detail dd { padding: 0 1.2rem; background-color: #fff; }
+.m-account-detail dt { margin-top: 0.5rem; line-height: 3.5rem;  color: #666;}
+.m-account-detail dd {overflow: hidden; padding-top: 0.5rem; padding-bottom: 1.5rem; }
+.m-account-detail dd .lab { float: left; color: #999;}
+.m-account-detail dd .lab small { display: block; font-size: 1.0rem; }
+.m-account-detail dd p { margin-left: 5.0rem; }
+.m-account-detail .record { margin-top: 0.5rem; padding: 0 1.2rem; font-size: 1.2rem; color: #999; background-color: #fff;}
+.m-account-detail .record li { padding-top: 1.0rem; padding-bottom: 1.0rem;}
+.m-account-detail .record li p { overflow: hidden; }
+.m-account-detail .record li p:first-child { margin-bottom: 0.75rem; }
+.m-account-detail .record .lab { color: #666; }
+.m-account-detail .record .lab.stress { color: #fa6e0a;}
+.m-account-detail .record .val { font-size: 1.4rem; color: #333; }
+
+/* 申请提现 */
+.m-withdrawal .my-balance {height: 9.0rem; padding: 2.5rem 1.2rem 0; font-size: 1.0rem; color: #fff; line-height: 1; background-color: #ff6b00; }
+.m-withdrawal .my-balance strong {display: block; font-size: 2.5rem; margin-top: 1.0rem; font-weight: 400;}
+.m-withdrawal .entry-block { margin-top: 1.0rem; }
+.m-withdrawal .entry-block:after { content: ''; position: absolute; bottom: 0; left: 1.2rem; right: 0; height: 0.05rem; background-color: #e8e8e8; }
+.m-withdrawal .drawal-amount {position: relative; padding: 3.0rem 1.2rem 3.0rem 2.75rem; background-color: #fafafa; }
+.m-withdrawal .drawal-amount:before { content: '\FFE5'; position: absolute; left: 1.2rem; top: 50%; transform: translateY(-50%); font-size: 1.6rem;}
+.m-withdrawal .drawal-amount a {position: absolute; right: 1.2rem; top: 50%; transform: translateY(-50%); font-size: 1.2rem; color: #ff6b00;}
+.m-withdrawal .drawal-amount input {width: 77%; font-size: 2.5rem; line-height: 2.5rem; background-color: transparent;}
+.m-withdrawal .drawal-amount input::-webkit-input-placeholder,
+.m-withdrawal .drawal-amount input:focus::-webkit-input-placeholder { color: #ccc; }
+.m-withdrawal .btn-block { display: block; margin: 2.5rem 1.2rem; line-height: 3.6rem; text-align: center; font-size: 1.4rem; color: #fff; background-color: #ff6b00; border-radius: 0.1rem;}
+
+.m-withdrawal-way { padding-top: 2.0rem; }
+.m-withdrawal-way .pay-item { height: 5.0rem; margin: 1.0rem 1.2rem; padding: 0 1.2rem; font-size: 1.2rem; background-color: #fff;}
+.m-withdrawal-way .pay-item .img { float: left; width: 3.0rem; height: 3.0rem; margin-top: 1.0rem; margin-right: 1.0rem; overflow: hidden; }
+.m-withdrawal-way .pay-item .img img { width: 100%; height: auto; }
+.m-withdrawal-way .pay-item .lab { line-height: 5.0rem; }
+.m-withdrawal-way .pay-item .toggle { float: right; line-height: 5.0rem; color: #ff6b00; }
+.m-withdrawal-way .pay-item.active { position: relative;}
+.m-withdrawal-way .pay-item.active:after { content: ''; position: absolute; top: 50%; right: 1.2rem; width: 1.6rem; height: 1.2rem; -webkit-transform: translateY(-50%); transform: translateY(-50%); background-image: url(../images/tick_32x24.png); background-repeat: no-repeat; -webkit-background-size: 100% auto; background-size: 100% auto; }
+.m-withdrawal-way .btn-block { display: block; margin: 2.5rem 1.2rem; line-height: 3.6rem; text-align: center; font-size: 1.4rem; color: #fff; background-color: #ff6b00; border-radius: 0.1rem;}
+
+
+/* 申请状态 */
+.m-apply-state .state {position: relative; height: 8.5rem; margin-bottom: 4.5rem; font-size: 1.4rem; text-align: center; color: #fff; background-color: #ff6b00; }
+.m-apply-state .state:after { content: ''; position: absolute; left: 0; bottom: -1.0rem; right: 0; height: 1.0rem; background: url(../images/apply-state-bg.png) 0 0 no-repeat; -webkit-background-size: 100% auto; background-size: 100% auto;}
+.m-apply-state .state-img { display: inline-block; width: 3.1rem; margin-top: 2.0rem; margin-bottom: 1.0rem; }
+.m-apply-state .state-img img { width: 100%; height: auto; }
+.m-apply-state .service {position: relative; padding-left: 5.5rem; font-size: 1.0rem; color: #666; line-height: 1.7rem; }
+.m-apply-state .service:before { content: ''; position: absolute; top: 50%; left: 1.2rem; width: 2.8rem; height: 3.2rem; -webkit-transform: translateY(-50%); transform: translateY(-50%); background-image: url(../images/service.png); background-repeat: no-repeat; -webkit-background-size: 100% auto; background-size: 100% auto;}
+.m-apply-state .service em { color: #333; font-size: 1.2rem; }
+.m-apply-state .btn-block {  display: block; margin:4.5rem 1.2rem 0; line-height: 3.6rem; text-align: center; font-size: 1.4rem; color: #fff; background-color: #ff6b00; border-radius: 0.1rem;}

@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+
+body{font-family:"宋体";margin:0; padding:0;font-size:12px;word-wrap:break-word;color:#333; }
+ul,li,dl,dt,dd{ padding:0px; margin:0px; list-style-type:none;}
+p,input,form{ margin:0px; padding:0px;}
+h1,h2,h3,h4,h5,h6{ margin:0px; padding:0px; font-weight:normal; font-size:12px;}
+img{border:0;}
+a{ text-decoration:none; color:#333;}
+a:hover{ text-decoration:underline; color:#C81D15;}
+.clear{ clear:both; height:0; line-height:0; font-size:0; }
+
+#position{ width:970px; overflow:hidden; margin:0 auto; height:20px; padding-left:10px; padding-top:8px; margin-bottom:2px;}
+#position a{ color:#333;}
+#position a:hover{ color:#C81D15;}
+
+/*共用背景*/#header .top_h,#header .menu_Area,#header .b_Area .searchBox .search .put input,#header .b_Area .searchBox .search .btn a,#header .menu_Area .nav .l_btn .a1,#header .menu_Area .nav .c_menu ul li a:hover,#header .menu_Area .nav .c_menu ul li a.cur,#header .menu_Area .nav .MybuyCar,#footer .t,#footer .b{ background:url(../images/header_bg.png) no-repeat;}
+
+/*----------页头页脚-------*/
+#header{ width:100%; overflow:hidden; background:#F7F3E7;}
+#header .top_h{ height:33px; overflow:hidden; background-position:0 -218px; background-repeat:repeat-x; border-bottom:1px solid #E4E4E4;}
+#header .top_h .marg{ width:980px; overflow:hidden; margin:0px auto; padding-top:11px;}
+#header .top_h .marg .l{ float:left; color:#5D5D5D;}
+#header .top_h .marg .l a{ color:#5D5D5D;}
+#header .top_h .marg .l .color{ color:#CC3333;}
+#header .top_h .marg .r{ float: right; color:#999;}
+#header .top_h .marg .r a{color:#5D5D5D;}
+#header .top_h .marg .r a:hover{color:#C81D15;}
+#header .b_Area{ width:980px; overflow:hidden; margin:16px auto 4px;}
+#header .b_Area .logo{ float:left; width:341px; height:85px; overflow:hidden;}
+#header .b_Area .searchBox{ float:left; width:377px; padding-left:69px; padding-top:19px; overflow:hidden; margin-right:24px;}
+#header .b_Area .searchBox .search{ width:361px; padding:7px; overflow:hidden; border:1px solid #DED5BA; background:#FFFBED; margin-bottom:7px;}
+#header .b_Area .searchBox .search .put{ width:280px; overflow:hidden; float:left;}
+#header .b_Area .searchBox .search .put input{ width:276px; border:1px solid #ccc; border-right:0;background-position:0 -253px; background-repeat:repeat-x; height:23px; line-height:22px; padding:3px 0 3px 3px;}
+#header .b_Area .searchBox .search .btn{ float:left; width:81px; overflow:hidden; height:31px; _padding-top:1px;}
+#header .b_Area .searchBox .search .btn a{ display:block; width:44px; padding-left:37px; height:31px; font-size:14px; color:#fff; line-height:31px;background-position:-80px -131px;}
+#header .b_Area .searchBox .search .btn a:hover{ text-decoration:none;}
+#header .b_Area .searchBox .hotFont{ width:377px; overflow:hidden; height:18px; line-height:18px; overflow:hidden; color:#C81D15;}
+#header .b_Area .searchBox .hotFont a{ color:#C81D15;}
+#header .b_Area .minAdv{ float:left; width:150px; height:100px; overflow:hidden;}
+
+#header .menu_Area{ height:44px; overflow:hidden;background-position:0 -37px; background-repeat:repeat-x; }
+#header .menu_Area .nav{ width:980px; overflow:hidden; height:49px; margin:0 auto;}
+#header .menu_Area .nav .l_btn{ float:left; width:205px; height:40px; overflow:hidden; padding-top:4px;}
+#header .menu_Area .nav .l_btn .a1{ display:block;background-position:0 -88px; height:39px; width:180px; padding-left:25px; line-height:41px; overflow:hidden; font-size:14px; color:#333; font-weight:bold;}
+#header .menu_Area .nav .l_btn .a1:hover{ text-decoration:none;}
+#header .menu_Area .nav .l_btn .t1{position:absolute;z-index: 10001;left: 1;top: 188px;}
+
+#header .menu_Area .nav .c_menu{ float:left; width:530px; overflow:hidden;}
+#header .menu_Area .nav .c_menu ul{ padding-left:18px; padding-top:6px;}
+#header .menu_Area .nav .c_menu ul li{ float:left; display:inline; width:78px; margin-right:22px; overflow:hidden; height:34px;}
+#header .menu_Area .nav .c_menu ul li a{ display:block; width:78px; height:34px; overflow:hidden; color:#FFFCF2; font-size:14px; text-align:center; line-height:34px;}
+#header .menu_Area .nav .c_menu ul li a:hover,#header .menu_Area .nav .c_menu ul li a.cur{background-position:0 -131px; color:#333; text-decoration:none;}
+#header .menu_Area .nav .MybuyCar{float: right;background-position:0 0; width:230px; height:35px; margin-top:5px; }
+#header .menu_Area .nav .MybuyCar .l{ float:left; width:105px; height:18px; overflow:hidden; padding-top:12px; padding-left:49px; margin-right:2px;}
+#header .menu_Area .nav .MybuyCar .l b{ color:#06c; font-family:Arial;}
+#header .menu_Area .nav .MybuyCar .r{ float:left; padding-top:12px; padding-left:9px;}
+#header .menu_Area .nav .MybuyCar .r a{ color:#fff;}
+#header .menu_Area .nav .MybuyCar .r a:hover{ text-decoration:none;}
+
+#header .menu_Area .t1 p,#header .menu_Area .t1 .item span,#header .menu_Area .t1 .hover span{background:url(../images/index_norePeat.png) no-repeat;}
+#header .menu_Area .t1{ width:203px; border:1px solid #D63824;background:#fff;}
+#header .menu_Area .t1 p{ background-position:-260px -35px; padding-left:32px; line-height:21px; height:21px; overflow:hidden; border-top:1px solid #F5ECDA;}
+#header .menu_Area .t1 p a{ color:#666;}
+#header .menu_Area .t1 p a:hover{ text-decoration: none;}
+#header .menu_Area .t1 .item{ height:35px; width:203px;}
+#header .menu_Area .t1 .item span{ display:block; line-height:33px; padding-left:25px; height:33px; overflow:hidden; width:178px; border-top:1px solid #FDEDB8; background-position:0 -307px; font-size:14px;position:relative; z-index:1; cursor:pointer;}
+#header .menu_Area .t1 .hover span{ padding-left:23px; line-height:31px; width:165px; height:31px; border:2px solid #D63824; border-right:0; background-position:-205px -307px;z-index:10; cursor:pointer;  }
+#header .menu_Area .t1 .item span a{color:#8C392A; }
+#header .menu_Area .t1 .item span a:hover{color:#8C392A; text-decoration:none; }
+#header .menu_Area .t1 .hover span a{color:#8C392A; }
+#header .menu_Area .t1 .hover span a:hover{ text-decoration:none; }
+#header .menu_Area .t1 .item .i-m{ min-height:349px;  position:absolute; display:none;top:35px;}
+#header .menu_Area .t1 .hover .i-m{ z-index:9; display:block;}
+
+/*-导航弹出层-*/
+
+#header .menu_Area .t1 .i-m{margin-top:-35px; margin-left:188px;background:#fff; border:2px solid #D63824; width:547px; overflow:hidden; padding-bottom:20px;}
+#header .menu_Area .t1 .i-m .l{ float:left; width:315px; overflow:hidden; border-right:1px dashed #999; padding-bottom:3000px; margin-bottom:-3000px;}
+#header .menu_Area .t1 .i-m .l .fixBox{ width:315px; overflow:hidden; padding-top:20px;}
+#header .menu_Area .t1 .i-m .l .fixBox label{ float:left; width:82px; padding-right:18px; line-height:20px; text-align:right; font-weight:bold;}
+#header .menu_Area .t1 .i-m .l .fixBox .linkList{ float:left; width:215px; overflow:hidden; line-height:20px; overflow:hidden; color:#c2c2c2;}
+#header .menu_Area .t1 .i-m .l .fixBox .linkList a{ color:#666;}
+#header .menu_Area .t1 .i-m .l .fixBox .linkList a:hover{ color:#C81D15;}
+
+#header .menu_Area .t1 .i-m .r{ float:left; width:231px; overflow:hidden; background:#FEFBE8;  padding-bottom:3000px; margin-bottom:-3000px;}
+#header .menu_Area .t1 .i-m .r h1{ height:20px; line-height:20px; padding-left:12px; overflow:hidden; font-weight:bold; padding-top:18px;}
+#header .menu_Area .t1 .i-m .r .k1{width:231px; overflow:hidden;}
+#header .menu_Area .t1 .i-m .r .k1 .box{width:231px; overflow:hidden;}
+#header .menu_Area .t1 .i-m .r .k1 .box ul{ padding-left:10px;}
+#header .menu_Area .t1 .i-m .r .k1 .box ul li{ float:left; display:inline; padding-top:5px; width:100px; height:50px; overflow:hidden; margin-right:10px;}
+#header .menu_Area .t1 .i-m .r .k1 .box ul li a{ display:block; width:96px; overflow:hidden; height:46px; border:2px solid #fff;}
+#header .menu_Area .t1 .i-m .r .k1 .box ul li a.cur,#header .menu_Area .t1 .i-m .r .k1 .box ul li a:hover{ border:2px solid #D63824;}
+#header .menu_Area .t1 .i-m .r .k2{width:231px; overflow:hidden;}
+#header .menu_Area .t1 .i-m .r .k2 .box{width:220px; overflow:hidden; padding-left:11px;}
+#header .menu_Area .t1 .i-m .r .k2 .box ul li{ height:18px; line-height:18px; padding-top:3px; overflow:hidden;}
+#header .menu_Area .t1 .i-m .r .k2 .box ul li a{ color:#666;}
+#header .menu_Area .t1 .i-m .r .k2 .box ul li a:hover{ color:#C81D15;}
+
+#footer{ width:100%; overflow:hidden;padding-bottom:8px; margin-top:10px;}
+#footer .t{width:100%; overflow:hidden;background-position:0 -167px; background-repeat:repeat-x; height:49px; overflow:hidden;}
+/*#footer .t .IcoList{ width:980px; overflow:hidden; height:44px; margin:0 auto;}*/
+#footer .b{width:100%; overflow:hidden;background-position:0 -284px; background-repeat:repeat-x;}
+#footer .b .doList{ width:976px; overflow:hidden; border:2px solid #fff; margin:0 auto; background:#fff url(../images/header_line.gif) repeat-x; height:185px;}
+#footer .b .doList dl{display: inline;
+    float: left;
+    overflow: hidden;
+    padding-left: 80px;
+    width: 104px;}
+#footer .b .doList dl dt{ color: #333333; font-family: "微软雅黑";font-size: 16px;height: 30px;line-height: 30px;padding-top: 20px;}
+#footer .b .doList dl dd{color: #0172D0;font-size: 12px;height: 19px; overflow: hidden;padding-left: 2px;padding-top: 2px;}
+#footer .b .doList dl dd a{    color: #0172D0;font-size: 12px;overflow: hidden;}
+#footer .b .porduF{ width:980px; overflow:hidden; margin:0 auto; text-align:center; }
+#footer .b .porduF .ico{ height:37px; margin:18px 0;}
+#footer .b .porduF p{ height:18px; line-height:18px; padding-top:2px; overflow:hidden;}
+
+
+#footer .t .IcoList{ width:980px; overflow:hidden; height:44px; margin:0 auto; line-height:44px; font-family:"微软雅黑"; color:#fff;}
+#footer .t .IcoList .ico01{ float:left; background:url(../images/footer_ico04.gif) 0 4px no-repeat; width:220px; padding-left:50px; font-size:26px; font-weight:bold;}
+#footer .t .IcoList .ico02{ float:left;background:url(../images/footer_ico05.gif) 0 10px no-repeat; width:180px; padding-left:40px; overflow:hidden; font-weight:bold; font-size:12px;}
+#footer .t .IcoList .p_s01{ float:left; width:160px; overflow:hidden; text-align: center; font-weight:bold; font-size:14px;}
+#footer .t .IcoList .p_s02{ float:left;width:160px; overflow:hidden; text-align: center;font-weight:bold;font-size:14px;}
+#footer .t .IcoList .p_s03{ float:left;width:160px; overflow:hidden; text-align: center;font-weight:bold;font-size:14px;}
+/*-------end---页头页脚-------*/
+
+/*分页*/
+#infoPage{width:auto;}
+#infoPage ul{margin:0px;}
+#infoPage ul li{float:left;line-height:18px;list-style:none;color:#333;margin-right: 1px}
+#infoPage .upPage{width:80px;height:36px;display:block;background:url(../images/list_page_back.gif) no-repeat center left;}
+#infoPage .downPage{width:80px;height:36px;display:block;background:url(../images/list_page_next.gif) no-repeat center center;}
+#infoPage .everyPage{color:#ccc;border:#e5e5e5 1px solid;text-decoration:none;width:34px;height:34px;line-height: 33px;font-weight:bold;display:block ;text-align:center;float:left;font-size:13px;}
+#infoPage .everyPage:hover{color:#3a979f;background: #efefef;}
+#infoPage .nowPage{border:#e5e5e5 1px solid;color:#3a979f;background: #efefef;width:34px;height:34px;line-height: 33px;font-weight:bold;display:block ;text-align:center;float:left;font-size:13px;}
+#infoPage select{height:18px;color:#333;}
+#inputPage{
+    border:#b3b5bd 1px solid;
+    width:25px;
+    height: 36px
+}
+
+
+#ajaxPage{width:auto;}
+#ajaxPage ul{margin:0px;}
+#ajaxPage ul li{float:left;line-height:18px;list-style:none;color:#333;margin-right: 1px}
+#ajaxPage .upPage{width:26px;height:20px;display:block;background:url(../images/list_page_back.gif) no-repeat center left;}
+#ajaxPage .downPage{width:26px;height:20px;display:block;background:url(../images/list_page_next.gif) no-repeat -54px -8px ;}
+#ajaxPage .everyPage{text-decoration:none;width:24px;height:19px;font-weight:bold;display:block ;text-align:center;float:left;font-size:13px;}
+#ajaxPage .everyPage:hover{color:#3a979f;background: #efefef;}
+#ajaxPage .nowPage{border:#e5e5e5 1px solid;color:#333;background: #ffffff;width:24px;height:19px;font-weight:bold;display:block ;text-align:center;float:left;}
+#ajaxPage select{height:18px;color:#333;}
+
+
+
+/*头部购物车弹出层*/
+#header .menu_Area .buyLayer{ position:absolute; width:336px; padding:0 10px; overflow:hidden; background:#fff; border:2px solid #E25138; z-index:3;}
+#header .menu_Area .buyLayer .each{ width:100%; overflow:hidden; padding:8px 0; border-bottom:1px dashed #ccc;}
+#header .menu_Area .buyLayer .pic{ float: left; width:60px; height:60px; overflow:hidden; padding:1px; border:1px solid #E4E4E4;}
+#header .menu_Area .buyLayer .tit{ float:left; width:156px; overflow:hidden; margin-left:10px; padding-top:5px;}
+#header .menu_Area .buyLayer .tit a{ color:#666;}
+#header .menu_Area .buyLayer .tit a:hover{ color:#ed1651;}
+#header .menu_Area .buyLayer .priceadd{ float:left; width:100px; overflow:hidden; margin-left:5px; text-align:right;}
+#header .menu_Area .buyLayer .priceadd b{ font-size:14px; font-family:Arial; color:#f00;}
+#header .menu_Area .buyLayer .priceadd a{ color:#999;}
+#header .menu_Area .buyLayer .priceadd a:hover{ color:#ed1651;z-index: 101;}
+#header .menu_Area .buyLayer .addMuber{ text-align:right; height:20px; overflow:hidden; padding-top:8px; color:#999;}
+#header .menu_Area .buyLayer .addMuber b{ font-size:14px; font-family:Arial; color:#f00;}
+#header .menu_Area .buyLayer .addMuber span{ font-family:Tahoma; font-weight:bold; color:#c00;}
+#header .menu_Area .buyLayer .btn{height:23px; overflow:hidden; padding:10px 0;}
+#header .menu_Area .buyLayer .btn a{ float:right; background: url(../images/index_buybtn.gif) no-repeat; display:block; width:126px; height:23px; line-height:23px; font-weight:bold; color:#fff; text-align:center;}
+#header .menu_Area .buyLayer .btn a:hover{ text-decoration:none;}
+
+pre{white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word}

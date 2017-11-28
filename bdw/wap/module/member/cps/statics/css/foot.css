@@ -1,0 +1,25 @@
+.bottom-bar {position: fixed; bottom: 0; left: 0; right: 0; height: 5.0rem; background-color: #fff; box-shadow: 0 0 0.2rem 0.15rem rgba(0,0,0,0.06); }
+.bottom-bar li {float: left; width: 25%; height: 5.0rem; font-size: 1.0rem; text-align: center; color: #ada8a8;}
+.bottom-bar li a {color: inherit; }
+.bottom-bar li .icon {display: block; width: 2.0rem; height: 2.0rem; margin: 0.9rem auto 0.5rem; }
+.bottom-bar .active {color: #ff6b00; }
+.bottom-bar .active.home .icon-home {background-image: url(../images/cps-home-active.png); }
+.bottom-bar .active.mine .icon-mine {background-image: url(../images/cps-mine-active.png); }
+.icon-makeMoney {background: url(../images/woyaozuanqian@2x.png) no-repeat center center / 100% auto; }
+.icon-makeMoney_s {background: url(../images/woyaozuanqian_s@2x.png) no-repeat center center / 100% auto; }
+.icon-erweima {background: url(../images/erweima@2x.png) no-repeat center center / 100% auto; }
+.icon-erweima_s {background: url(../images/erweima_s@2x.png) no-repeat center center / 100% auto; }
+.icon-tixian {background: url(../images/tixian@2x.png) no-repeat center center / 100% auto; }
+.icon-tixian_s {background: url(../images/tixian_s@2x.png) no-repeat center center / 100% auto; }
+.icon-mine {background: url(../images/cps-mine.png) no-repeat center center / 100% auto; }
+.layer-bg { position: fixed; top: 0; bottom: 0; right: 0; left: 0; z-index: 9999; background-color: rgba(0,0,0,0.7); width: 100%; height: 100%; }
+.share-code { position: absolute; top: 50%; left: 50%; width: 27.0rem; margin-left: -13.5rem; margin-top: -20.7rem; }
+.share-code .cont { background-color: #fff; padding: 1.5rem; margin-bottom: 1.0rem; z-index: 11;}
+.share-code .shop-info { height: 2rem; }
+.share-code .shop-name { margin-left: 2rem; line-height: 2.0rem; font-size: 1.4rem; color: black; }
+.elli { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.share-code .code { width: 20.75rem; height: 20.75rem; margin: 3rem auto 1.75rem; overflow: hidden; }
+.share-code .code img { width: 100%; height: auto; }
+.share-code .cont .tip { line-height: 2.0rem; text-align: center; font-size: 1.1rem; color: #999; }
+.qr{display: block; float: right; }
+.qr img { width: 2.4rem; height: 2.4rem; }

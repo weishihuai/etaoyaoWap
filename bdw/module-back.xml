@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<moudle>
+    <templateNm>乐商网</templateNm>
+    <designer>邓君</designer>
+    <templateBrief>乐商软件乐商网模板，乐商网商城</templateBrief>
+    <pictSizeSpec>480x320,360x360,320x320,300x200,220x220,200x220,220x140,200x200,180x120,160x160,130x130,120x120,100x100,150x150,80x80,60x60,58x58,52x52,50x50,200x120</pictSizeSpec>
+    <marketingActivityAdvt>980x100,980x290,230x360</marketingActivityAdvt>
+    <mainProductPictSpec>600x600</mainProductPictSpec>
+    <pageModules>
+
+
+
+        <!--首页-->
+        <pageModule frontendNm="首页_LOGO" innerCode="jvan_logo" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_轮换广告" innerCode="jvan_roteAdv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="安心购物图标1" innerCode="jvan_safeBuy1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="安心购物图标2" innerCode="jvan_safeBuy2" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="安心购物图标3" innerCode="jvan_safeBuy3" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_公告下方广告" innerCode="jvan_noticeAdv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_疯狂抢购" innerCode="jvan_qianggou1" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_限时抢购" innerCode="jvan_qianggou2" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_热卖商品" innerCode="jvan_qianggou3" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="首页_新品上架" innerCode="jvan_qianggou4" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="品牌展示" innerCode="jvan_brand_show" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="分类下方广告" innerCode="jvan_min_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="分类下方广告" innerCode="jvan_min_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_底部广告" innerCode="jvan_bottom_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_头部banner" innerCode="jvan_top_banner" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_底部banner" innerCode="jvan_bottom_banner" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_头部广告" innerCode="jvan_top_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="首页_热门活动" innerCode="jvan_hot_activity" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="首页_导航_热线" innerCode="jvan_hot_link" pageModuleTypeCode="0" pageNm="首页"/>
+
+        <!--<pageModule frontendNm="首页_F1广告" innerCode="adv2" pageModuleTypeCode="0" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="首页_F2广告" innerCode="adv3" pageModuleTypeCode="0" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="首页_F3广告" innerCode="adv4" pageModuleTypeCode="0" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="首页_F4广告" innerCode="adv5" pageModuleTypeCode="0" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="首页_F5广告" innerCode="adv32" pageModuleTypeCode="0" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="首页_banner1" innerCode="adv6" pageModuleTypeCode="0" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="首页_banner2" innerCode="adv7" pageModuleTypeCode="0" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="首页_头部_广告" innerCode="adv9" pageModuleTypeCode="0" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="首页_底部_logo1" innerCode="adv10" pageModuleTypeCode="0" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="首页_底部_logo2" innerCode="adv11" pageModuleTypeCode="0" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="首页_底部_logo3" innerCode="adv12" pageModuleTypeCode="0" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="页头_分类树广告" innerCode="adv100" pageModuleTypeCode="0" pageNm="首页"/>-->
+        <!--页面链接-->
+        <!--<pageModule frontendNm="首页_品牌推荐" innerCode="link1" pageModuleTypeCode="2" pageNm="首页"/>-->
+        <pageModule frontendNm="页脚链接" innerCode="jvan_link2" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="页脚LOGO" innerCode="jvan_link3" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F1链接" innerCode="jvan_F1_link" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F1分类" innerCode="jvan_F1_catrgory" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F1左边广告" innerCode="jvan_F1_left_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F1分类推荐" innerCode="jvan_F1_category_recommend" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F1商品推荐1" innerCode="jvan_F1_prd_recommend1" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="F1特惠精选广告1" innerCode="jvan_F1_tehui_adv1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F1特惠精选广告2" innerCode="jvan_F1_tehui_adv2" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F1特惠精选广告3" innerCode="jvan_F1_tehui_adv3" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F1特惠精选广告4" innerCode="jvan_F1_tehui_adv4" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F1特惠精选广告5" innerCode="jvan_F1_tehui_adv5" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F1特惠精选广告6" innerCode="jvan_F1_tehui_adv6" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F1右边推荐品牌" innerCode="jvan_F1_right_brank_advs" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F1右边广告1" innerCode="jvan_F1_right_adv1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F1右边广告2" innerCode="jvan_F1_right_adv2" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F1右边广告3" innerCode="jvan_F1_right_adv3" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F1下方banner1" innerCode="jvan_F1_banner1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F1下方banner2" innerCode="jvan_F1_banner2" pageModuleTypeCode="0" pageNm="首页"/>
+
+        <pageModule frontendNm="F3链接" innerCode="jvan_F3_link" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F3分类" innerCode="jvan_F3_catrgory" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F3左边广告" innerCode="jvan_F3_left_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F3分类推荐" innerCode="jvan_F3_category_recommend" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F3商品推荐1" innerCode="jvan_F3_prd_recommend1" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="F3特惠精选广告1" innerCode="jvan_F3_tehui_adv1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F3特惠精选广告2" innerCode="jvan_F3_tehui_adv2" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F3特惠精选广告3" innerCode="jvan_F3_tehui_adv3" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F3特惠精选广告4" innerCode="jvan_F3_tehui_adv4" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F3特惠精选广告5" innerCode="jvan_F3_tehui_adv5" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F3特惠精选广告6" innerCode="jvan_F3_tehui_adv6" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F3右边推荐品牌" innerCode="jvan_F3_right_brank_advs" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F3右边广告1" innerCode="jvan_F3_right_adv1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F3右边广告2" innerCode="jvan_F3_right_adv2" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F3右边广告3" innerCode="jvan_F3_right_adv3" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F3下方banner1" innerCode="jvan_F3_banner1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F3下方banner2" innerCode="jvan_F3_banner2" pageModuleTypeCode="0" pageNm="首页"/>
+
+        <pageModule frontendNm="F5链接" innerCode="jvan_F5_link" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F5分类" innerCode="jvan_F5_catrgory" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F5左边广告" innerCode="jvan_F5_left_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F5分类推荐" innerCode="jvan_F5_category_recommend" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F5商品推荐1" innerCode="jvan_F5_prd_recommend1" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="F5特惠精选广告1" innerCode="jvan_F5_tehui_adv1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F5特惠精选广告2" innerCode="jvan_F5_tehui_adv2" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F5特惠精选广告3" innerCode="jvan_F5_tehui_adv3" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F5特惠精选广告4" innerCode="jvan_F5_tehui_adv4" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F5特惠精选广告5" innerCode="jvan_F5_tehui_adv5" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F5特惠精选广告6" innerCode="jvan_F5_tehui_adv6" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F5右边推荐品牌" innerCode="jvan_F5_right_brank_advs" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F5右边广告1" innerCode="jvan_F5_right_adv1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F5右边广告2" innerCode="jvan_F5_right_adv2" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F5右边广告3" innerCode="jvan_F5_right_adv3" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F5下方banner1" innerCode="jvan_F5_banner1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F5下方banner2" innerCode="jvan_F5_banner2" pageModuleTypeCode="0" pageNm="首页"/>
+
+
+        <pageModule frontendNm="F2链接" innerCode="jvan_F2_link" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F2分类" innerCode="jvan_F2_catrgory" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F2左边广告" innerCode="jvan_F2_left_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F2分类推荐" innerCode="jvan_F2_category_recommend" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F2商品推荐1" innerCode="jvan_F2_prd_recommend1" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="F2特惠精选广告1" innerCode="jvan_F2_tehui_adv1" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F2特惠精选广告2" innerCode="jvan_F2_tehui_adv2" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F2特惠精选广告3" innerCode="jvan_F2_tehui_adv3" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F2特惠精选轮换广告" innerCode="jvan_F2_tehui_roteAdv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F2特惠精选广告4" innerCode="jvan_F2_tehui_adv4" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F2特惠精选广告5" innerCode="jvan_F2_tehui_adv5" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F2特惠精选广告6" innerCode="jvan_F2_tehui_adv6" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F2特惠精选广告7" innerCode="jvan_F2_tehui_adv7" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F2特惠精选广告8" innerCode="jvan_F2_tehui_adv8" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F2右边推荐品牌" innerCode="jvan_F2_right_brank_advs" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F2右边广告1" innerCode="jvan_F2_right_adv1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F2右边广告2" innerCode="jvan_F2_right_adv2" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F2右边广告3" innerCode="jvan_F2_right_adv3" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F2下方banner1" innerCode="jvan_F2_banner1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F2下方banner2" innerCode="jvan_F2_banner2" pageModuleTypeCode="0" pageNm="首页"/>
+
+
+        <pageModule frontendNm="F4链接" innerCode="jvan_F4_link" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F4分类" innerCode="jvan_F4_catrgory" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F4左边广告" innerCode="jvan_F4_left_adv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F4分类推荐" innerCode="jvan_F4_category_recommend" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F4商品推荐1" innerCode="jvan_F4_prd_recommend1" pageModuleTypeCode="1" pageNm="首页"/>
+        <pageModule frontendNm="F4特惠精选广告1" innerCode="jvan_F4_tehui_adv1" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F4特惠精选广告2" innerCode="jvan_F4_tehui_adv2" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F4特惠精选广告3" innerCode="jvan_F4_tehui_adv3" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F4特惠精选轮换广告" innerCode="jvan_F4_tehui_roteAdv" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F4特惠精选广告4" innerCode="jvan_F4_tehui_adv4" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F4特惠精选广告5" innerCode="jvan_F4_tehui_adv5" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F4特惠精选广告6" innerCode="jvan_F4_tehui_adv6" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F4特惠精选广告7" innerCode="jvan_F4_tehui_adv7" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F4特惠精选广告8" innerCode="jvan_F4_tehui_adv8" pageModuleTypeCode="2" pageNm="首页"/>
+        <pageModule frontendNm="F4右边推荐品牌" innerCode="jvan_F4_right_brank_advs" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F4右边广告1" innerCode="jvan_F4_right_adv1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F4右边广告2" innerCode="jvan_F4_right_adv2" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F4右边广告3" innerCode="jvan_F4_right_adv3" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F4下方banner1" innerCode="jvan_F4_banner1" pageModuleTypeCode="0" pageNm="首页"/>
+        <pageModule frontendNm="F4下方banner2" innerCode="jvan_F4_banner2" pageModuleTypeCode="0" pageNm="首页"/>
+
+
+        <!--<pageModule frontendNm="F2链接" innerCode="link5" pageModuleTypeCode="2" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="F2标题链接" innerCode="titleLink2" pageModuleTypeCode="2" pageNm="首页"/>-->
+
+        <!--<pageModule frontendNm="F3链接" innerCode="link6" pageModuleTypeCode="2" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="F3标题链接" innerCode="titleLink3" pageModuleTypeCode="2" pageNm="首页"/>-->
+
+        <!--<pageModule frontendNm="F4链接" innerCode="link7" pageModuleTypeCode="2" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="F4标题链接" innerCode="titleLink4" pageModuleTypeCode="2" pageNm="首页"/>-->
+
+        <!--<pageModule frontendNm="F5_链接" innerCode="link8" pageModuleTypeCode="2" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="F5_标题链接" innerCode="titleLink9" pageModuleTypeCode="2" pageNm="首页"/>-->
+
+        <!--<pageModule frontendNm="限时折扣" innerCode="titleLink5" pageModuleTypeCode="2" pageNm="首页"/>-->
+
+        <!--<pageModule frontendNm="新品上架" innerCode="titleLink6" pageModuleTypeCode="2" pageNm="首页"/>-->
+
+        <!--<pageModule frontendNm="品牌推荐" innerCode="titleLink7" pageModuleTypeCode="2" pageNm="首页"/>-->
+
+        <!--&lt;!&ndash;商品推荐&ndash;&gt;-->
+        <!--<pageModule frontendNm="首页_新品上架" innerCode="newPro" pageModuleTypeCode="1" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="首页_限时抢购" innerCode="qianggou" pageModuleTypeCode="1" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="首页_F1" innerCode="F1" pageModuleTypeCode="1" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="首页_F2" innerCode="F2" pageModuleTypeCode="1" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="首页_F3" innerCode="F3" pageModuleTypeCode="1" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="首页_F4" innerCode="F4" pageModuleTypeCode="1" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="首页_F5" innerCode="F5" pageModuleTypeCode="1" pageNm="首页"/>-->
+
+        <!--&lt;!&ndash;商品推荐&ndash;&gt;-->
+        <!--<pageModule frontendNm="热卖商品" innerCode="hotSaleProduct" pageModuleTypeCode="1" pageNm="首页"/>-->
+
+
+        <!--&lt;!&ndash;自定义模块&ndash;&gt;-->
+        <!--<pageModule frontendNm="自定义模块1" innerCode="custom01" pageModuleTypeCode="5" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="自定义模块2" innerCode="custom02" pageModuleTypeCode="5" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="自定义模块3" innerCode="custom03" pageModuleTypeCode="5" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="自定义模块4" innerCode="custom04" pageModuleTypeCode="5" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="自定义模块5" innerCode="custom05" pageModuleTypeCode="5" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="自定义模块6" innerCode="custom06" pageModuleTypeCode="5" pageNm="首页"/>-->
+        <pageModule frontendNm="好友推荐" innerCode="myInvite" pageModuleTypeCode="5" pageNm="会员中心"/>
+        <pageModule frontendNm="自定义模块7" innerCode="custom07" pageModuleTypeCode="5" pageNm="团购详细页"/>
+
+        <!--列表页-->
+        <pageModule frontendNm="列表页_banner2" innerCode="adv8" pageModuleTypeCode="0" pageNm="列表页"/>
+        <pageModule frontendNm="列表页_banner3" innerCode="adv9" pageModuleTypeCode="0" pageNm="列表页"/>
+        <pageModule frontendNm="列表页_banner4" innerCode="adv10" pageModuleTypeCode="0" pageNm="列表页"/>
+
+        <!--团购-->
+        <pageModule frontendNm="团购列表_上方广告" innerCode="tuanlistAdv" pageModuleTypeCode="0" pageNm="团购列表页"/>
+        <pageModule frontendNm="团购详细_左下广告" innerCode="tuanAdv" pageModuleTypeCode="0" pageNm="团购详细页"/>
+
+        <!--活动 首页  列表-->
+        <pageModule frontendNm="活动首页_banner" innerCode="activityIndexBannerAdv" pageModuleTypeCode="0" pageNm="抢购首页"/>
+        <pageModule frontendNm="活动首页_轮换广告" innerCode="activityIndexRoteAdv" pageModuleTypeCode="0" pageNm="抢购首页"/>
+<!--        <pageModule frontendNm="活动列表_banner" innerCode="activityListBannerAdv" pageModuleTypeCode="0" pageNm="活动列表"/>
+        <pageModule frontendNm="活动列表_bigBanner" innerCode="activityListRoteAdv" pageModuleTypeCode="0" pageNm="活动列表"/>-->
+
+        <!--积分-->
+        <pageModule frontendNm="积分商品首页广告" innerCode="integralAdv" pageModuleTypeCode="0" pageNm="积分商品首页"/>
+        <pageModule frontendNm="积分商品列表页广告" innerCode="integralListAdv" pageModuleTypeCode="0" pageNm="积分商品列表页"/>
+
+        <!--登陆页面-->
+        <pageModule frontendNm="登陆页面广告" innerCode="loginAdv" pageModuleTypeCode="0" pageNm="登陆页"/>
+
+        <!--帮助中心-->
+        <pageModule frontendNm="帮助中心广告" innerCode="helpAdv" pageModuleTypeCode="0" pageNm="帮助中心"/>
+
+        <pageModule frontendNm="版权" innerCode="custom20" pageModuleTypeCode="5" pageNm="首页"/>
+
+        <pageModule frontendNm="乐商入驻" innerCode="custom21" pageModuleTypeCode="5" pageNm="首页"/>
+
+        <pageModule frontendNm="会员中心_banner" innerCode="memberBanner" pageModuleTypeCode="0" pageNm="首页"/>
+
+        <!--新增广告位-->
+        <pageModule frontendNm="登录logo" innerCode="jvan_logo" pageModuleTypeCode="0" pageNm="登录页"/>
+        <pageModule frontendNm="登录广告" innerCode="jvan_loginAdv" pageModuleTypeCode="0" pageNm="登录页"/>
+        <!--<pageModule frontendNm="首页_F1_左下广告3" innerCode="adv22" pageModuleTypeCode="0" pageNm="首页"/>-->
+
+        <!--<pageModule frontendNm="首页_F2_左下广告1" innerCode="adv23" pageModuleTypeCode="0" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="首页_F2_左下广告2" innerCode="adv24" pageModuleTypeCode="0" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="首页_F2_左下广告3" innerCode="adv25" pageModuleTypeCode="0" pageNm="首页"/>-->
+
+        <!--<pageModule frontendNm="首页_F3_左下广告1" innerCode="adv26" pageModuleTypeCode="0" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="首页_F3_左下广告2" innerCode="adv27" pageModuleTypeCode="0" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="首页_F3_左下广告3" innerCode="adv28" pageModuleTypeCode="0" pageNm="首页"/>-->
+
+        <!--<pageModule frontendNm="首页_F5_左下广告1" innerCode="adv29" pageModuleTypeCode="0" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="首页_F5_左下广告2" innerCode="adv30" pageModuleTypeCode="0" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="首页_F5_左下广告3" innerCode="adv31" pageModuleTypeCode="0" pageNm="首页"/>-->
+
+        <!--新增页面链接-->
+        <!--<pageModule frontendNm="F1品牌标题链接" innerCode="brankTitleLink1" pageModuleTypeCode="2" pageNm="首页"/>-->
+           <!--<pageModule frontendNm="F1品牌链接" innerCode="brankLink1" pageModuleTypeCode="2" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="F2品牌标题链接" innerCode="brankTitleLink2" pageModuleTypeCode="2" pageNm="首页"/>-->
+           <!--<pageModule frontendNm="F2品牌链接" innerCode="brankLink2" pageModuleTypeCode="2" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="F3品牌标题链接" innerCode="brankTitleLink3" pageModuleTypeCode="2" pageNm="首页"/>-->
+           <!--<pageModule frontendNm="F3品牌链接" innerCode="brankLink3" pageModuleTypeCode="2" pageNm="首页"/>-->
+        <!--<pageModule frontendNm="F5品牌标题链接" innerCode="brankTitleLink4" pageModuleTypeCode="2" pageNm="首页"/>-->
+           <!--<pageModule frontendNm="F5品牌链接" innerCode="brankLink4" pageModuleTypeCode="2" pageNm="首页"/>-->
+
+        <!--活动专栏-->
+        <pageModule frontendNm="热门品牌广告1" innerCode="jvan_activity_remen_adv1" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="热门品牌广告2" innerCode="jvan_activity_remen_adv2" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="热门品牌广告3" innerCode="jvan_activity_remen_adv3" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="热门品牌广告4" innerCode="jvan_activity_remen_adv4" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="热门品牌广告5" innerCode="jvan_activity_remen_adv5" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="热门品牌广告6" innerCode="jvan_activity_remen_adv6" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="热门品牌广告7" innerCode="jvan_activity_remen_adv7" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="热门品牌广告8" innerCode="jvan_activity_remen_adv8" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="热门品牌广告9" innerCode="jvan_activity_remen_adv9" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="热门品牌广告10" innerCode="jvan_activity_remen_adv10" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="热门品牌广告11" innerCode="jvan_activity_remen_adv11" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="热门品牌广告12" innerCode="jvan_activity_remen_adv12" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="轮换广告" innerCode="jvan_activity_lunhuan_adv" pageModuleTypeCode="0" pageNm="活动专区"/>
+
+        <!--F1-->
+        <pageModule frontendNm="自定义楼层1" innerCode="jvan_activity_custom_tab1" pageModuleTypeCode="2" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F1_左边广告" innerCode="jvan_activity_F1_left_adv" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F1_右边广告1" innerCode="jvan_activity_F1_right_adv1" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F1_右边广告2" innerCode="jvan_activity_F1_right_adv2" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F1_右边广告3" innerCode="jvan_activity_F1_right_adv3" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F1_右边广告4" innerCode="jvan_activity_F1_right_adv_c_1" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F1_右边广告5" innerCode="jvan_activity_F1_right_adv_c_2" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F1_右边广告6" innerCode="jvan_activity_F1_right_adv_r_1" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F1_右边广告7" innerCode="jvan_activity_F1_right_adv_r_2" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F1_长幅广告" innerCode="jvan_activity_F1_long_adv" pageModuleTypeCode="0" pageNm="活动专区"/>
+
+        <!--F2-->
+        <pageModule frontendNm="自定义楼层2" innerCode="jvan_activity_custom_tab2" pageModuleTypeCode="2" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F2_左边广告" innerCode="jvan_activity_F2_left_adv" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F2_右边广告1" innerCode="jvan_activity_F2_right_adv1" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F2_右边广告2" innerCode="jvan_activity_F2_right_adv2" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F2_右边广告3" innerCode="jvan_activity_F2_right_adv3" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F2_右边广告4" innerCode="jvan_activity_F2_right_adv4" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F2_右边广告5" innerCode="jvan_activity_F2_right_adv5" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F2_右边广告6" innerCode="jvan_activity_F2_right_adv6" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F2_右边广告7" innerCode="jvan_activity_F2_right_adv_r_1" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F2_右边广告8" innerCode="jvan_activity_F2_right_adv_r_2" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F2_右边广告9" innerCode="jvan_activity_F2_right_adv_r_3" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F2_长幅广告" innerCode="jvan_activity_F2_long_adv" pageModuleTypeCode="0" pageNm="活动专区"/>
+
+        <!--F3-->
+        <pageModule frontendNm="自定义楼层3" innerCode="jvan_activity_custom_tab3" pageModuleTypeCode="2" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F3_左边广告" innerCode="jvan_activity_F3_left_adv" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F3_右边广告1" innerCode="jvan_activity_F3_right_adv1" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F3_右边广告2" innerCode="jvan_activity_F3_right_adv2" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F3_右边广告3" innerCode="jvan_activity_F3_right_adv_c_1" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F3_右边广告4" innerCode="jvan_activity_F3_right_adv_c_2" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F3_右边广告5" innerCode="jvan_activity_F3_right_adv_r_1" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F3_右边广告6" innerCode="jvan_activity_F3_right_adv_r_2" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F3_长幅广告" innerCode="jvan_activity_F3_long_adv" pageModuleTypeCode="0" pageNm="活动专区"/>
+
+        <!--F4-->
+        <pageModule frontendNm="自定义楼层4" innerCode="jvan_activity_custom_tab4" pageModuleTypeCode="2" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F4_左边广告" innerCode="jvan_activity_F4_left_adv" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F4_右边广告1" innerCode="jvan_activity_F4_right_adv1" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F4_右边广告2" innerCode="jvan_activity_F4_right_adv2" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F4_右边广告3" innerCode="jvan_activity_F4_right_adv3" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F4_右边广告4" innerCode="jvan_activity_F4_right_adv4" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F4_右边广告5" innerCode="jvan_activity_F4_right_adv5" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F4_右边广告6" innerCode="jvan_activity_F4_right_adv_b_1" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F4_右边广告7" innerCode="jvan_activity_F4_right_adv_b_2" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F4_右边广告8" innerCode="jvan_activity_F4_right_adv_b_3" pageModuleTypeCode="0" pageNm="活动专区"/>
+        <pageModule frontendNm="活动专区_F4_长幅广告" innerCode="jvan_activity_F4_long_adv" pageModuleTypeCode="0" pageNm="活动专区"/>
+
+        <!--积分兑换-->
+        <pageModule frontendNm="积分默认页_轮换广告" innerCode="integral_roteAdv" pageModuleTypeCode="0" pageNm="积分兑换"/>
+        <pageModule frontendNm="积分默认页_左边广告1" innerCode="integral_adv1" pageModuleTypeCode="0" pageNm="积分兑换"/>
+        <pageModule frontendNm="积分默认页_左边广告2" innerCode="integral_adv2" pageModuleTypeCode="0" pageNm="积分兑换"/>
+        <pageModule frontendNm="积分默认页_右边广告1" innerCode="integral_right1" pageModuleTypeCode="0" pageNm="积分兑换"/>
+        <pageModule frontendNm="积分列表页_左边广告1" innerCode="jvan_integral_left_adv1" pageModuleTypeCode="0" pageNm="积分兑换"/>
+        <pageModule frontendNm="积分列表页_左边广告2" innerCode="jvan_integral_left_adv2" pageModuleTypeCode="0" pageNm="积分兑换"/>
+         <!--页头-->
+        <pageModule frontendNm="顶部_页面连接" innerCode="top_right_link" pageModuleTypeCode="2" pageNm="页头"/>
+    </pageModules>
+</moudle>

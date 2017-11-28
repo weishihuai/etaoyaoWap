@@ -1,0 +1,421 @@
+@charset "utf-8";
+
+
+#detail .pro-item-part1 .l .b .trunL a,#detail .pro-item-part1 .l .b .trunR a,#detail .pro-item-part1 .r .t2 .sureBox .addTobuyCar a,#detail .pro-item-part1 .r .t2 .sureBox .AddTomyLike a,#detail .pro-item-part1 .r .tipsBox h3,#detail .m2 .showDutr .r .btn a,#detail .pro-item-part2 .r .m3 .box_pl .plList .item .messg .b_are .btn1 a,#detail .pro-item-part2 .r .m3 .box_pl .plList .item .messg .b_are .btn2 a,#detail .m6 .box .btn a{ background:url(../images/new_detail_bg.png) no-repeat;}
+
+
+
+#detail{ width:1200px; /*overflow:hidden; */margin:0 auto;}
+
+.toolabsolute{
+    position:fixed;
+    z-index:100;
+    top:0px;
+    width: 1199px;
+    display: none;
+}
+.toolabsolute{
+_position:absolute;
+_left:expression(eval(document.documentElement.scrollLeft));_top:expression(eval(document.documentElement.scrollTop))
+}
+#detail .pro-item-part1{ width:1200px; /*overflow:hidden;*/}
+#detail .pro-item-part1 .l{ float:left; width:362px; /*overflow:hidden;*/}
+#detail .pro-item-part1 .l .photo{ width:360px; height:360px; border:1px solid #cdcdcd; /*overflow:hidden;*/}
+/*#detail .pro-item-part1 .l .photo img{width:360px; height:360px; }*/
+#detail .pro-item-part1 .l .b{ width:362px; height:57px; overflow:hidden; padding-top:10px;}
+#detail .pro-item-part1 .l .b .trunL{ float:left; width:25px; overflow:hidden;}
+#detail .pro-item-part1 .l .b .trunL a{ background-position:-122px -139px; display:block; width:17px; height:57px; overflow:hidden;}
+#detail .pro-item-part1 .l .b .trunR{ float:left; width:25px; overflow:hidden;}
+#detail .pro-item-part1 .l .b .trunR a{ float:right; background-position:-154px -139px; display:block; width:17px; height:57px; overflow:hidden;}
+#detail .pro-item-part1 .l .b .sorllBox{ float:left; width:311px; height:54px; overflow:hidden; margin-top:2px;}
+#detail .pro-item-part1 .l .b .sorllBox .sorll{ height:54px; overflow:hidden;}
+#detail .pro-item-part1 .l .b .sorllBox ul{height:54px;}
+#detail .pro-item-part1 .l .b .sorllBox ul li{ float:left; display:inline; height:54px; width:63px; overflow:hidden; /*margin-right:10px;*/position: relative;}
+#detail .pro-item-part1 .l .b .sorllBox ul li a{ display:block; width:50px; height:50px; overflow:hidden; padding:1px; border:1px solid #ccc;}
+#detail .pro-item-part1 .l .b .sorllBox ul li a:hover,#detail .pro-item-part1 .l .b .sorllBox ul li a.cur{ padding:0; border:2px solid #c00;}
+#detail .pro-item-part1 .l .getTo{ height:30px; overflow:hidden; padding-top:10px; text-align: left; padding-right:20px;}
+#detail .pro-item-part1 .l .getTo img{ vertical-align:middle; margin:0 1px;}
+/*#detail .pro-item-part1 .l .getTo span{ display:inline; line-height:16px; padding:2px 15px; background:url(../images/detail_ico02.gif) no-repeat; font-family:Arial; font-weight:bold; vertical-align:middle;}*/
+#detail .pro-item-part1 .l .getTo a{ color:#2953A6;}
+#detail .pro-item-part1 .l .getTo a:hover{ text-decoration:none;}
+#detail .pro-item-part1 .r{ float:left; width:578px; padding-left:10px;background:#fff; overflow:hidden; margin-right:10px; display:inline;}
+#detail .pro-item-part1 .r h2{ font-size:16px; font-weight:bold; line-height:26px; width:563px; overflow:hidden; padding-left:15px;}
+#detail .pro-item-part1 .r h1{width:525px; overflow:hidden; padding-left:15px; font-size:14px; font-weight:bold; color:#c00; margin-top:4px; border-bottom:1px dashed #d1d1d1; padding-bottom:15px;}
+#detail .pro-item-part1 .r .t1{ width:578px; overflow:hidden;font: 12px "宋体"}
+#detail .pro-item-part1 .r .t1 .fixBox{ width:578px; overflow:hidden; padding:8px 0;}
+#detail .pro-item-part1 .r .t1 .fixBox label{ float:left; width:78px; overflow:hidden; text-align:right; color:#333; line-height:20px;}
+#detail .pro-item-part1 .r .t1 .fixBox .text{ float:left; line-height:20px; width:380px; overflow:hidden;}
+#detail .pro-item-part1 .r .t1 .fixBox .text b{ text-decoration: line-through; color:#999; font-size:12px; font-weight:normal;}
+#detail .pro-item-part1 .r .t1 .fixBox .text em{ font-style:normal; color:#c00;}
+#detail .pro-item-part1 .r .t1 .fixBox .text a{ color:#005aa0;}
+#detail .pro-item-part1 .r .t1 .fixBox .price{ float:left; color:#666; }
+#detail .pro-item-part1 .r .t1 .fixBox .price b{ font-size:22px; color:#c00;font-weight:bold; line-height:20px; font-family:Tahoma;}
+#detail .pro-item-part1 .r .t1 .fixBox .lesTime{ float:left; width:330px; overflow:hidden;}
+#detail .pro-item-part1 .r .t1 .fixBox .lesTime ul{ width:205px; overflow:hidden; border:1px solid #FD5C0B; border-right:0;}
+#detail .pro-item-part1 .r .t1 .fixBox .lesTime ul li{ float:left; display:inline; width:40px; height:18px; line-height:18px; text-align:center; border-right:1px solid #FD5C0B; color:#c00;}
+#detail .pro-item-part1 .r .t1 .fixBox .lesTime ul .fist{ background:#FD5C0B; font-weight:bold; color:#fff;}
+#detail .pro-item-part1 .r .t1 .fixBox .toTalk{ float:left; width:360px; overflow:hidden;}
+#detail .pro-item-part1 .r .t1 .fixBox .toTalk a{ color:#005aa0;}
+#detail .pro-item-part1 .r .t1 .fixBox .addThing{ float:left; width:450px; overflow:hidden; line-height:20px;}
+#detail .pro-item-part1 .r .t1 .fixBox .addThing a{ display:inline; line-height:22px;padding:2px 5px 2px; background:#F5F5F5; border-bottom:1px dashed #E1E1E1; color:#666;}
+#detail .pro-item-part1 .r .t1 .fixBox .addThing a:hover{ text-decoration:none;}
+#detail .pro-item-part1 .r .t2{ width:565px; border:1px solid #e3e3e3; overflow:hidden; background:#f6f6f6; margin-top:15px; padding-top:15px; border-left:0; border-right:0;border-left:1px solid #e3e3e3;border-right:1px solid #e3e3e3; }
+/*#detail .pro-item-part1 .r .t2:hover{ border: 1px solid#DF9A07;}*/
+#detail .pro-item-part1 .r .t2 .fixBox{ width:100%; overflow:hidden; padding:8px 0;}
+
+/*#detail .pro-item-part1 .r .t2 .fixBox label{ float:left; width:76px; color:#333; text-align:right; padding-right:4px; overflow:hidden;}*/
+/*#detail .pro-item-part1 .r .t2 .fixBox .selCol{ line-height:54px;}*/
+/*#detail .pro-item-part1 .r .t2 .fixBox .selSize{ line-height:24px;}*/
+#detail .pro-item-part1 .r .t2 .fixBox .selSize2{ line-height:32px;}
+/*#detail .pro-item-part1 .r .t2 .fixBox .sizeSel{ float:left; width:360px; overflow:hidden;}*/
+/*#detail .pro-item-part1 .r .t2 .fixBox .sizeSel ul li{ float:left; display: inline; margin-right:15px; height:30px;}*/
+/*#detail .pro-item-part1 .r .t2 .fixBox .sizeSel ul li.hover{ border-bottom:1px solid #dad9db;}*/
+/*#detail .pro-item-part1 .r .t2 .fixBox .sizeSel ul li a{ display:inline-block;line-height:24px; height:24px;overflow:hidden; padding:1px 5px; border:1px solid #ccc; color:#666; background:#fff;}*/
+/*#detail .pro-item-part1 .r .t2 .fixBox .sizeSel ul li a:hover,#detail .pro-item-part1 .r .t2 .fixBox .sizeSel ul li a.cur{border:2px solid #c00; text-decoration:none; color:#c00; line-height:22px;}*/
+
+#detail .pro-item-part1 .r .t2 .fixBox label{ float:left; width:90px; text-align:right; padding-right:4px; overflow:hidden;}
+#detail .pro-item-part1 .r .t2 .fixBox .selCol{ line-height:54px;}
+#detail .pro-item-part1 .r .t2 .fixBox .coloSel{ float:left; width:340px; overflow:hidden;}
+#detail .pro-item-part1 .r .t2 .fixBox .coloSel ul li{float:left; display: inline; height:34px; width:34px; overflow:hidden; margin-right:5px;}
+#detail .pro-item-part1 .r .t2 .fixBox .coloSel ul li a{display:block; width:30px; height:30px; overflow:hidden; padding:1px; border:1px solid #ccc;}
+#detail .pro-item-part1 .r .t2 .fixBox .coloSel ul li a:hover,#detail .pro-item-part1 .r .t2 .fixBox .coloSel ul li a.cur{ padding:0; border:2px solid #c00;}
+#detail .pro-item-part1 .r .t2 .fixBox .selSize{ line-height:24px;}
+#detail .pro-item-part1 .r .t2 .fixBox .sizeSel{ float:left; width:360px; overflow:hidden;}
+#detail .pro-item-part1 .r .t2 .fixBox .sizeSel ul li{float:left; display: inline; height:26px; overflow:hidden; margin-right:5px;_width:60px;}
+#detail .pro-item-part1 .r .t2 .fixBox .sizeSel ul li a{ display:block;height:20px; line-height:20px; text-align:center; overflow:hidden; padding:2px 10px; border:1px solid #ccc; color:#666;background: #ffffff;}
+#detail .pro-item-part1 .r .t2 .fixBox .sizeSel ul li a:hover,#detail .pro-item-part1 .r .t2 .fixBox .sizeSel ul li a.cur{ padding:1px 9px; border:2px solid #c00; text-decoration:none; color:#c00;background: #ffffff;}
+#detail .pro-item-part1 .r .t2 .fixBox .sizeSel ul li a.lock{ opacity: 0.5; border-color: #CCCCCC; border-style: dotted; cursor: not-allowed;}
+#detail .pro-item-part1 .r .t2 .fixBox .coloSel ul li a.lock{ opacity: 0.5; border-color: #CCCCCC; border-style: dotted; cursor: not-allowed;}
+
+#detail .pro-item-part1 .r .t2 .fixBox .muber{ float:left; height:33px; width:360px; overflow:hidden;}
+#detail .pro-item-part1 .r .t2 .fixBox .muber img{ vertical-align:middle;}
+#detail .pro-item-part1 .r .t2 .fixBox .muber input{ vertical-align:middle; width:60px; height:30px; overflow:hidden; text-align:center; font-family:Arial; font-weight:bold; font-weight:bold; line-height:30px; border:1px solid #DFDFDF;}
+#detail .pro-item-part1 .r .t2 .fixBox .muber .put{ float:left; width:64px;}
+#detail .pro-item-part1 .r .t2 .fixBox .muber .up{  padding-top:1px; _padding-top:2px;}
+#detail .pro-item-part1 .r .t2 .fixBox .muber .down{padding-top:2px;}
+#detail .pro-item-part1 .r .t2 .sureBox{ width:500px; overflow:hidden; padding:0px 0 14px 79px; border-top:1px dashed #d1d1d1;}
+#detail .pro-item-part1 .r .t2 .sureBox p{ line-height:22px; height:22px; overflow:hidden; color:#B94708;}
+#detail .pro-item-part1 .r .t2 .addTobuyCarLayer{ width:440px; overflow:hidden; position:absolute;z-index: 1000;}
+#detail .pro-item-part1 .r .t2 .addTobuyCarLayer .rShaw{ float:left; width:4px; overflow:hidden; margin:4px 0 -1000px; padding:0 0 1000px;background:#777;FILTER: alpha(opacity=20); moz-opacity: 0.2; opacity: 0.2;}
+#detail .pro-item-part1 .r .t2 .addTobuyCarLayer .bShaw{ height:4px; width:430px; overflow:hidden; margin:0 0 -1000px 4px; padding:0 0 1000px;background:#777;FILTER: alpha(opacity=20); moz-opacity: 0.2; opacity: 0.2}
+#detail .pro-item-part1 .r .t2 .addTobuyCarLayer .showTip{ float:left; width:432px; overflow:hidden; border:1px solid #DDDDDD; background:#fff;}
+#detail .pro-item-part1 .r .t2 .addTobuyCarLayer .showTip .close{ height:20px; overflow:hidden; text-align:right; padding-right:10px; padding-top:8px;}
+#detail .pro-item-part1 .r .t2 .addTobuyCarLayer .showTip .close a{ color:#999;}
+#detail .pro-item-part1 .r .t2 .addTobuyCarLayer .showTip .close a:hover{ text-decoration:none;}
+#detail .pro-item-part1 .r .t2 .addTobuyCarLayer .showTip .succe{ width:357px; padding-left:75px; overflow:hidden; background:url(../images/detail_layerSuecc.gif) 18px 0px no-repeat; padding-bottom:20px;}
+#detail .pro-item-part1 .r .t2 .addTobuyCarLayer .showTip .succe h3{ height:28px; line-height:28px; overflow:hidden; font-size:14px; font-weight:bold;}
+#detail .pro-item-part1 .r .t2 .addTobuyCarLayer .showTip .succe .tips{ width:350px; overflow:hidden; line-height:24px; height:24px; color:#666;}
+#detail .pro-item-part1 .r .t2 .addTobuyCarLayer .showTip .succe .tips b{ font-size:16px; color:#f30;}
+#detail .pro-item-part1 .r .t2 .addTobuyCarLayer .showTip .succe .toBuy{ height:33px; overflow:hidden; padding-top:8px;}
+#detail .pro-item-part1 .r .t2 .addTobuyCarLayer .showTip .succe .toBuy img{ vertical-align:middle;}
+#detail .pro-item-part1 .r .t2 .addTobuyCarLayer .showTip .succe .toBuy a{color:#3266CB;}
+#detail .pro-item-part1 .r .t2 .AddTomyLikeLayer{ width:408px; overflow:hidden; position:absolute;}
+#detail .pro-item-part1 .r .t2 .AddTomyLikeLayer .rShaw{ float:left; width:4px; overflow:hidden; margin:4px 0 -1000px; padding:0 0 1000px;background:#777;FILTER: alpha(opacity=20); moz-opacity: 0.2; opacity: 0.2;}
+#detail .pro-item-part1 .r .t2 .AddTomyLikeLayer .bShaw{ height:4px; width:400px; overflow:hidden; margin:0 0 -1000px 4px; padding:0 0 1000px;background:#777;FILTER: alpha(opacity=20); moz-opacity: 0.2; opacity: 0.2}
+#detail .pro-item-part1 .r .t2 .AddTomyLikeLayer .showTip{ float:left; width:402px; overflow:hidden; border:1px solid #DDDDDD; background:#fff;}
+#detail .pro-item-part1 .r .t2 .AddTomyLikeLayer .showTip .close{ height:20px; overflow:hidden; text-align:right; padding-right:10px; padding-top:8px;}
+#detail .pro-item-part1 .r .t2 .AddTomyLikeLayer .showTip .close a{ color:#999;}
+#detail .pro-item-part1 .r .t2 .AddTomyLikeLayer .showTip .close a:hover{ text-decoration:none;}
+#detail .pro-item-part1 .r .t2 .AddTomyLikeLayer .showTip .succe{ width:327px; padding-left:75px; overflow:hidden; background:url(../images/detail_layerSuecc.gif) 18px 0px no-repeat; padding-bottom:20px;}
+#detail .pro-item-part1 .r .t2 .AddTomyLikeLayer .showTip .succe h3{ height:28px; line-height:28px; overflow:hidden; font-size:14px; font-weight:bold;}
+#detail .pro-item-part1 .r .t2 .AddTomyLikeLayer .showTip .succe .tips{ width:320px; overflow:hidden; line-height:24px; height:24px; color:#666;}
+#detail .pro-item-part1 .r .t2 .AddTomyLikeLayer .showTip .succe .tips b{ font-size:16px; color:#f30;}
+#detail .pro-item-part1 .r .t2 .AddTomyLikeLayer .showTip .succe .tips a{color:#3266CB;}
+#detail .pro-item-part1 .r .t2 .sureBox .addTobuyCar{ float:left; padding-top:8px;}
+#detail .pro-item-part1 .r .t2 .sureBox .addTobuyCar a{ display:block; background-position:0 -32px; width:153px; height:40px;  overflow:hidden;}
+#detail .pro-item-part1 .r .t2 .sureBox .AddTomyLike{ float:left; padding-left:5px; padding-top:8px;}
+#detail .pro-item-part1 .r .t2 .sureBox .AddTomyLike a{ display:block; background-position:0 -74px; width:153px; height:40px; overflow:hidden; text-align:center; line-height:38px; color:#333;}
+#detail .pro-item-part1 .r .t2 .sureBox .AddTomyLike a:hover{ text-decoration:none;}
+#detail .pro-item-part1 .r .t2 .sureBox .quehuo{ float:left; padding-top:8px;}
+#detail .pro-item-part1 .r .t3{ width:576px; overflow:hidden; background:#f6f6f6; padding-top:15px; border:1px solid #e3e3e3; border-top:0; padding-bottom:18px;}
+#detail .pro-item-part1 .r .t3 label{ float:left; width:74px; color:#999; text-align:right; padding-right:4px; overflow:hidden; line-height:22px;}
+#detail .pro-item-part1 .r .t3 .text{ float:left; width:480px; overflow:hidden;}
+#detail .pro-item-part1 .r .t3 .text p{ line-height:18px; color:#c00;}
+#detail .pro-item-part1 .r_info{ float:left; width:238px; overflow:hidden; border:1px solid #dedfde; margin-top:30px;}
+#detail .pro-item-part1 .r_info .title{ height:38px; line-height:38px; overflow:hidden; text-align:center; color:#666; font-weight:bold; font-size:14px;}
+#detail .pro-item-part1 .r_info .safText{ width:238px; overflow:hidden;}
+#detail .pro-item-part1 .r_info .safText ul li{ float:left; display:inline-block; font-style:normal; width:79px; overflow:hidden; text-align:center; color:#666; line-height:18px;}
+#detail .pro-item-part1 .r_info .safText ul li img{ margin-bottom:9px;}
+#detail .pro-item-part1 .r_info .seEr{ width:220px; overflow:hidden; padding:0px 9px 9px; border-top:1px solid #DEDFDE; border-bottom:1px solid #DEDFDE; margin-top:8px;}
+#detail .pro-item-part1 .r_info .seEr p{ line-height:20px; margin-top:8px;}
+#detail .pro-item-part1 .r_info .seEr p a{ color:#005AA0;}
+#detail .pro-item-part1 .r_info .seEr p img{ vertical-align:middle;}
+#detail .pro-item-part1 .r_info .seEr p span{color:#005AA0}
+#detail .pro-item-part1 .r_info .contact{ width:238px; overflow:hidden; text-align: center; padding:15px 0;}
+#detail .pro-item-part1 .r_info .contact a{ display:inline-block; height:32px;}
+#detail .pro-item-part1 .r_info .contact .inTo{}
+#detail .pro-item-part1 .r_info .contact img{vertical-align: middle; _vertical-align: baseline;}
+
+
+
+
+#detail .pro-item-part2 .l .m3 h1,#detail .pro-item-part2 .l .m4 h3,#detail .pro-item-part2 .r .m3 .box_pl .plList h2,#detail .part2 h2{ background:url(../images/list_bg_tal.gif) no-repeat;}
+
+#detail .pro-item-part2{ width:1200px; /*overflow:hidden;*/ margin-top:10px;}
+#detail .pro-item-part2 .l{ float:left; width:200px; margin-right:10px;}
+#detail .pro-item-part2 .l .m1{ width:200px; overflow:hidden;}
+#detail .pro-item-part2 .l .m1 .box{ width:196px; overflow:hidden; padding-top:0px; border:2px solid #D6D6D6;}
+#detail .pro-item-part2 .l .m1 .box h4{ margin-top:1px; height:28px; border-bottom:1px dashed #dddddd;}
+#detail .pro-item-part2 .l .m1 .box h4 .tit{ float:left; padding-left:10px; padding-top:5px; font-size:14px; font-weight:bold;}
+#detail .pro-item-part2 .l .m1 .box h4 .tit a{ color:#333;}
+#detail .pro-item-part2 .l .m1 .box h4 .tit a:hover{ text-decoration:none; color:#c00;}
+#detail .pro-item-part2 .l .m1 .box h4 .ico{ float:right; padding-right:10px; padding-top:7px;}
+#detail .pro-item-part2 .l .m1 .box ul{ width:196px; overflow:hidden; padding-bottom:5px;border-bottom:1px dashed #dddddd;}
+#detail .pro-item-part2 .l .m1 .box ul li{ float:left; display: inline; width:88px; overflow:hidden; padding-left:10px; height:20px; line-height:20px; margin-top:5px;}
+
+#detail .pro-item-part2 .l .m2{ width:200px; overflow:hidden; margin-top:10px;}
+#detail .pro-item-part2 .l .m2 h1{  height:33px; overflow:hidden; line-height:32px; border:1px solid #ddd; border-bottom:0; padding-left:10px; font-size:14px; font-weight:bold; color:#333;}
+#detail .pro-item-part2 .l .m2 .box{ width:198px; overflow:hidden; border:1px solid #D4D4D4; padding-bottom:10px;}
+#detail .pro-item-part2 .l .m2 .box ul li{  width:186px; overflow: hidden; height:59px; padding-left:6px; margin-top:12px;}
+
+#detail .pro-item-part2 .l .m3{ width:200px; overflow:hidden; margin-top:10px;}
+#detail .pro-item-part2 .l .m3 h1{ height:33px; overflow:hidden;border:1px solid #ddd; border-bottom:0; line-height:32px; padding-left:10px; font-size:14px; font-weight:bold; color:#333; background-position:0 -22px; background-repeat:repeat-x;}
+#detail .pro-item-part2 .l .m3 .box{ width:198px; overflow:hidden; border:1px solid #ddd; border-bottom:0;}
+#detail .pro-item-part2 .l .m3 .box ul li{ width:198px; overflow:hidden; border-bottom:1px solid #ddd; padding:5px 0;}
+#detail .pro-item-part2 .l .m3 .box ul li .mB{ float:left; width:34px; overflow:hidden; text-align:center; font-family:Arial; font-size:14px; font-weight:bold; color:#c00; line-height:20px;}
+#detail .pro-item-part2 .l .m3 .box ul li .tit{ float:left; width:160px; overflow:hidden; height:20px; line-height:20px;}
+#detail .pro-item-part2 .l .m3 .box ul .hover{}
+#detail .pro-item-part2 .l .m3 .box ul .hover .detaiF{ float:left; width:164px; overflow:hidden;}
+#detail .pro-item-part2 .l .m3 .box ul .hover .detaiF .pic{ float:left; width:52px; height:52px; overflow:hidden; border:1px solid #ccc;}
+#detail .pro-item-part2 .l .m3 .box ul .hover .detaiF .title{ float:left; padding-left:5px; width:100px; overflow:hidden; height:36px; line-height:18px;}
+#detail .pro-item-part2 .l .m3 .box ul .hover .detaiF .price{ float:left; padding-left:5px; width:100px;height:18px; line-height:18px; overflow:hidden; font-weight:bold; color:#c00;}
+#detail .pro-item-part2 .l .m4{ width:200px; overflow:hidden; margin-top:10px;}
+#detail .pro-item-part2 .l .m4 h3{ height:33px; overflow:hidden;border:1px solid #ddd; border-bottom:0; background-position:0 -22px; background-repeat:repeat-x;}
+#detail .pro-item-part2 .l .m4 h3 .tit{ float:left; padding-left:10px; font-size:14px; font-weight:bold; font-size:14px; line-height:32px;}
+#detail .pro-item-part2 .l .m4 h3 .deleHistory{ float:right; padding-right:8px; padding-top:9px;}
+#detail .pro-item-part2 .l .m4 h3 .deleHistory a{ color:#005AA0;}
+#detail .pro-item-part2 .l .m4 .box{ width:198px; overflow: hidden; border:1px solid #ddd; padding-bottom:8px;}
+#detail .pro-item-part2 .l .m4 .box ul{ margin-top:-1px;}
+#detail .pro-item-part2 .l .m4 .box ul li{ width:190px; overflow:hidden; border-top:1px solid #EFEFEF; padding:8px 4px;}
+#detail .pro-item-part2 .l .m4 .box ul li .pic{ float:left; width:50px; height:50px; overflow:hidden; border:1px solid #EFEFEF;}
+#detail .pro-item-part2 .l .m4 .box ul li .title{ float: left; width:130px; overflow:hidden; padding-left:8px; line-height:18px; padding-top:5px; height:36px;}
+#detail .pro-item-part2 .r{ float:left; width:990px; overflow:hidden;}
+#detail .pro-item-part2 .r .Combination{ width:990px; overflow:hidden;}
+#detail .pro-item-part2 .r .Combination .t_menu{ background:url(../images/detail_menu_line01.gif) repeat-x; height:35px; overflow:hidden; border-right:1px solid #DDD;}
+#detail .pro-item-part2 .r .Combination .t_menu span{text-decoration: none;  display:block; width:89px; height:35px; overflow:hidden; text-align:center; color:#c00; line-height:34px; font-size:14px; font-weight:bold; background:url(../images/detail_menu_bg.gif) 0 0px no-repeat;}
+#detail .pro-item-part2 .r .Combination .t_menu span a:hover{text-decoration: none;}
+#detail .pro-item-part2 .r .Combination .t_menu .cur{ text-decoration: none; display:block; width:89px; height:35px; overflow:hidden; text-align:center; color:#c00; line-height:34px; font-size:14px; font-weight:bold; background:url(../images/detail_menu_bg.gif) 0 -37px no-repeat;}
+#detail .pro-item-part2 .r .Combination .lList{ float:left; width:988px; overflow:hidden; background:#F8F9F8; border:1px solid #D4D4D4; border-top:0;}
+#detail .pro-item-part2 .r .Combination .lList .keyPortant{ float:left; padding-left:20px; width:220px; overflow:hidden; padding-top:15px; padding-bottom:8px;}
+#detail .pro-item-part2 .r .Combination .lList .keyPortant .pic{ width:120px; height:120px; overflow:hidden;}
+#detail .pro-item-part2 .r .Combination .lList .keyPortant .title{ width:180px; margin-top:5px; overflow:hidden; height:40px; line-height:20px;}
+#detail .pro-item-part2 .r .Combination .lList .keyPortant .title a{ color:#666;}
+#detail .pro-item-part2 .r .Combination .lList .keyPortant .title a:hover{ color:#c00;}
+#detail .pro-item-part2 .r .Combination .lList .keyPortant .price{ height:22px; line-height:22px; overflow:hidden;}
+#detail .pro-item-part2 .r .Combination .lList .keyPortant .price b{ font-family:Tahoma; color:#c00; font-size:14px;}
+#detail .pro-item-part2 .r .Combination .lList .keyPortant p{ line-height:18px; height:18px; overflow:hidden; margin-top:5px;}
+#detail .pro-item-part2 .r .Combination .lList .keyPortant p a{ color:#c00;}
+#detail .pro-item-part2 .r .Combination .lList .ico{ float:left; width:32px; height:33px; overflow:hidden; margin:0 20px; padding-top:53px;}
+#detail .pro-item-part2 .r .Combination .lList .addListSel{ float:left; background:#fff; border-left:1px solid #D4D4D4; width:675px; height:270px; overflow-y:hidden; overflow-x:scroll;}
+#detail .pro-item-part2 .r .Combination .lList .addListSel ul{ overflow:hidden;}
+#detail .pro-item-part2 .r .Combination .lList .addListSel ul li{ float: left; display:inline;padding-top:15px; width:170px; overflow:hidden;}
+#detail .pro-item-part2 .r .Combination .lList .addListSel ul li .pic{ width:120px; height:120px; overflow:hidden; margin:0 auto;}
+#detail .pro-item-part2 .r .Combination .lList .addListSel ul li .pic a{ display:block; width:120px;height:120px; overflow:hidden;}
+
+#detail .pro-item-part2 .r .Combination .lList .addListSel ul li .title{ width:120px; overflow:hidden; margin:4px auto 0; height:40px; line-height:20px;} 
+#detail .pro-item-part2 .r .Combination .lList .addListSel ul li .title a{ color:#666;}
+#detail .pro-item-part2 .r .Combination .lList .addListSel ul li .title a:hover{ color:#c00;}
+#detail .pro-item-part2 .r .Combination .lList .addListSel ul li .price{ height:20px; width:150px; overflow:hidden; line-height:20px; margin:0 auto;}
+#detail .pro-item-part2 .r .Combination .lList .addListSel ul li .price b{ font-family:Tahoma; color:#c00; font-size:14px;}
+#detail .pro-item-part2 .r .Combination .lList .addListSel ul li p{ text-align:center; padding-top:8px;}
+#detail .pro-item-part2 .r .Combination .lList .addListSel ul li p b{ color:#c00;}
+#detail .pro-item-part2 .r .sub_all{ width:988px; overflow:hidden; border:1px solid #ddd; background:#F5F4F5; height:40px; padding:15px 0; text-indent:30px; border-top:0;margin-bottom: 16px;}
+#detail .pro-item-part2 .r .sub_all span{ color:#c00;}
+#detail .pro-item-part2 .r .sub_all b{color:#c00; font-family:Tahoma; font-size:14px;}
+#detail .pro-item-part2 .r .sub_all img{ vertical-align:middle;}
+#detail .pro-item-part2 .r .m3{ width:990px;/* overflow:hidden; */margin-top:10px; position:relative;z-index: 5;}
+#goTopBtn22 {z-index: 999;}
+#goTopBtn22 .goTopBtn22{_position:absolute;_top: expression(documentElement.scrollTop + documentElement.clientHeight-this.offsetHeight);z-index: 999;}
+#goTopBtn22 .goTopBtn22 a{ position: fixed;float: right;padding-top: 100px;width:0px; color:#FFF; font-size:14px; font-weight:bold;display:inline-block;bottom:20px;right:10px;z-index: 999;}
+
+#detail .pro-item-part2 .r .m3 .addBuyCar{ position:absolute; z-index:3; width:149px; height:34px; overflow:hidden; right:15px; top:1px;}
+#detail .pro-item-part2 .r .m3 .layout_BuyCar{ position:absolute; z-index:2; width:268px; overflow:hidden; border:1px solid #ddd; right:15px; top:0; background:#fff; padding:9px;}
+#detail .pro-item-part2 .r .m3 .layout_BuyCar .pic{ float:left; width:120px; height:155px; overflow:hidden;margin-top: 25px;}
+#detail .pro-item-part2 .r .m3 .layout_BuyCar .title{ float:left; width:130px; height:54px; line-height:18px; overflow:hidden; padding-left:10px; margin-top:60px;}
+#detail .pro-item-part2 .r .m3 .layout_BuyCar .price{ float:left; width:130px; margin-top:6px; height:20px; overflow:hidden; padding-left:10px;}
+#detail .pro-item-part2 .r .m3 .layout_BuyCar .price b{ font-family:Tahoma; color:#c00; font-size:14px;}
+#detail .pro-item-part2 .r .m3 .t_Menu{ height:35px; /*overflow:hidden;*/ background:url(../images/detail_menu_line01.gif) left bottom repeat-x; border-right:1px solid #ddd;}
+#detail .pro-item-part2 .r .m3 .t_Menu ul li{ float:left; display:inline; width:89px; height:35px; overflow:hidden;}
+#detail .pro-item-part2 .r .m3 .t_Menu ul li a{ display:block; width:89px; height:35px; line-height:34px; overflow:hidden; text-align:center; color:#666; font-size:14px; font-weight:bold; background:url(../images/detail_menu_bg.gif) 0 0px no-repeat; }
+#detail .pro-item-part2 .r .m3 .t_Menu ul li a:hover,#detail .pro-item-part2 .r .m3 .t_Menu ul li a.cur{background-position:0 -37px;text-decoration:none;}
+#detail .pro-item-part2 .r .m3 .t_Menu ul li a.cur{color:#c00; }
+#detail .pro-item-part2 .r .m3 .t_Menu ul li span{ font-weight:normal;}
+#detail .pro-item-part2 .r .m3 .t_Menu ul .w{ width:124px;}
+#detail .pro-item-part2 .r .m3 .t_Menu ul .w a{ width:124px; background-position:0 -114px;}
+#detail .pro-item-part2 .r .m3 .t_Menu ul .w a:hover,#detail .pro-item-part2 .r .m3 .t_Menu ul .w a.cur{ background-position:-126px -114px;}
+#detail .pro-item-part2 .r .m3 .t_Menu ul .w span{ color:#c00;}
+#detail .pro-item-part2 .r .m3 .t_Menu ul .w a:hover span,#detail .pro-item-part2 .r .m3 .t_Menu ul .w a.cur span{ color:#c00;}
+#detail .pro-item-part2 .r .m3 .t_Menu em{ font-style:normal;  display:block; width:89px; height:35px; overflow:hidden; text-align:center; color:#c00; line-height:34px; font-size:14px; font-weight:bold; background:url(../images/detail_menu_bg.gif) 0 -37px no-repeat;}
+
+#productMenu .addBuyCar{ position:absolute; z-index:3; width:149px; height:34px; overflow:hidden; right:15px; top:1px;}
+#productMenu .layout_BuyCar{ position:absolute; z-index:2; width:268px; overflow:hidden; border:1px solid #ddd; right:15px; top:0; background:#fff; padding:9px;height: 155px;}
+#productMenu .layout_BuyCar .pic{ float:left; width:120px; height:155px; overflow:hidden;margin-top: 25px;}
+#productMenu .layout_BuyCar .title{ float:left; width:130px; height:54px; line-height:18px; overflow:hidden; padding-left:10px; margin-top:60px;}
+#productMenu .layout_BuyCar .price{ float:left; width:130px; margin-top:6px; height:20px; overflow:hidden; padding-left:10px;}
+#productMenu .layout_BuyCar .price b{ font-family:Tahoma; color:#c00; font-size:14px;}
+#productMenu .t_Menu{ height:35px; /*overflow:hidden;*/ background:url(../images/detail_menu_line01.gif) left bottom repeat-x; border-right:1px solid #ddd;}
+#productMenu .t_Menu ul li{ float:left; display:inline; width:89px; height:35px; overflow:hidden;}
+#productMenu .t_Menu ul li a{ display:block; width:89px; height:35px; line-height:34px; overflow:hidden; text-align:center; color:#666; font-size:14px; font-weight:bold; background:url(../images/detail_menu_bg.gif) 0 0px no-repeat; }
+#productMenu .t_Menu ul li a:hover,#productMenu .t_Menu ul li a.cur{background-position:0 -37px;color:#c00; text-decoration:none;}
+#productMenu .t_Menu ul li span{ font-weight:normal;}
+#productMenu .t_Menu ul .w{ width:124px;}
+#productMenu .t_Menu ul .w a{ width:124px; background-position:0 -114px;}
+#productMenu .t_Menu ul .w a:hover,#productMenu .t_Menu ul .w a.cur{ background-position:-126px -114px;}
+#productMenu .t_Menu ul .w span{ color:#c00;}
+#productMenu .t_Menu ul .w a:hover span,#productMenu .t_Menu ul .w a.cur span{ color:#c00;}
+#productMenu .t_Menu em{ font-style:normal;  display:block; width:89px; height:35px; overflow:hidden; text-align:center; color:#c00; line-height:34px; font-size:14px; font-weight:bold; background:url(../images/detail_menu_bg.gif) 0 -37px no-repeat;}
+
+#detail .pro-item-part2 .r .m3 .box1{ width:967px; border:1px solid #ddd; border-top:0; overflow:hidden; padding:10px;}
+#detail .pro-item-part2 .r .m3 .box1 table{ border-left:1px solid #ddd; border-top:1px solid #ddd;}
+#detail .pro-item-part2 .r .m3 .box1 table tr td{ padding:0; line-height:30px; border-bottom:1px solid #ddd; border-right:1px solid #ddd; padding-left:10px; width:280px;}
+#detail .pro-item-part2 .r .m3 .box1 table tr .tit{ background:#F2F2F2; padding-left:50px; font-weight:bold;}
+#detail .pro-item-part2 .r .m3 .box1 table tr .labl{ background:#F2F2F2; width:60px; padding-left:50px;}
+#detail .pro-item-part2 .r .m3 .box2{ width:988px; border:1px solid #ddd; border-top:0; overflow:hidden; padding-top:10px;}
+#detail .pro-item-part2 .r .m3 .box2 table{ border-left:1px solid #ddd; border-top:1px solid #ddd;}
+#detail .pro-item-part2 .r .m3 .box2 table tr td{ padding:0; line-height:30px; border-bottom:1px solid #ddd; border-right:1px solid #ddd; padding-left:10px; width:570px;}
+#detail .pro-item-part2 .r .m3 .box2 table tr .tit{ background:#F2F2F2; padding-left:50px; font-weight:bold;}
+#detail .pro-item-part2 .r .m3 .box2 table tr .labl{ background:#F2F2F2; width:60px; padding-left:50px;}
+#detail .pro-item-part2 .r .m3 .box3{ width:740px; overflow:hidden; padding:20px 5px 20px 15px;}
+#detail .pro-item-part2 .r .m3 .box3 h3{ line-height:22px; overflow:hidden;}
+#detail .pro-item-part2 .r .m3 .box3 h2{ height:30px; line-height:30px; overflow:hidden; font-weight:bold; padding-top:12px;}
+#detail .pro-item-part2 .r .m3 .box3 .mucRead{ width:740px; overflow:hidden; line-height:20px; color:#c00;}
+#detail .pro-item-part2 .r .m3 .box3 p{ line-height:22px;}
+
+
+#detail .pro-item-part2 .r .m3 .box_pl{ width:990px; overflow:hidden;}
+#detail .pro-item-part2 .r .m3 .box_pl .datShowBox{ width:990px; overflow:hidden; margin-top:10px;}
+#detail .pro-item-part2 .r .m3 .box_pl .datShowBox .shar{ width:988px; overflow:hidden; border:1px solid #ddd; background:#fff; padding:8px 0;}
+#detail .pro-item-part2 .r .m3 .box_pl .datShowBox .shar .hornot{ float:left; width:134px; padding-left:20px; overflow:hidden; height:110px; padding-top:12px;}
+#detail .pro-item-part2 .r .m3 .box_pl .datShowBox .shar .hornot .prod{ height:48px; line-height:48px; font-size:22px; font-weight:bold; font-family:"微软雅黑"; color:#ccc;}
+#detail .pro-item-part2 .r .m3 .box_pl .datShowBox .shar .hornot .prod2{ height:48px; line-height:48px; font-family:"微软雅黑"; color:#000;}
+#detail .pro-item-part2 .r .m3 .box_pl .datShowBox .shar .hornot .prod2 b{ font-size:32px; color:#c00; font-family:Arial;}
+#detail .pro-item-part2 .r .m3 .box_pl .datShowBox .shar .hornot p{ padding-top:11px;}
+#detail .pro-item-part2 .r .m3 .box_pl .datShowBox .shar .starShow{ float:left; width:300px; border-left:1px solid #E4E4E4; border-right:1px solid #E4E4E4;padding: 10px 20px 0px 20px; overflow:hidden; background:#fff; height:130px;}
+#detail .pro-item-part2 .r .m3 .box_pl .datShowBox .shar .starShow ul li{ height:21px; overflow:hidden; padding-top:5px;}
+#detail .pro-item-part2 .r .m3 .box_pl .datShowBox .shar .starShow ul li .star{ float:left; width:70px; /*text-align:right;*/ line-height:16px; /*padding-right:3px;*/ overflow:hidden;}
+#detail .pro-item-part2 .r .m3 .box_pl .datShowBox .shar .starShow ul li .sorll{ float: left; width:200px; padding:1px; overflow:hidden; border:1px solid #CDCDCD;height: 12px;}
+#detail .pro-item-part2 .r .m3 .box_pl .datShowBox .shar .starShow ul li .sorll .bg{ background:#c00; height:10px; overflow:hidden;}
+#detail .pro-item-part2 .r .m3 .box_pl .datShowBox .shar .starShow ul li .mub{ float:left; padding-left:8px; color:#333; padding-left:5px;}
+#detail .pro-item-part2 .r .m3 .box_pl .datShowBox .shar .tips{ float:left; /*background:url(../images/detail_line01.gif) no-repeat;*/ width:250px; overflow:hidden; padding-left:29px; padding-top:30px;}
+#detail .pro-item-part2 .r .m3 .box_pl .datShowBox .shar .tips p{ line-height:22px;}
+#detail .pro-item-part2 .r .m3 .box_pl .datShowBox .shar .tips .btn{ height:33px; overflow:hidden; padding-top:11px;}
+#detail .pro-item-part2 .r .m3 .box_pl .datShowBox .shar .tips .btn a{ color:#005AA0;	}
+#detail .pro-item-part2 .r .m3 .box_pl .datShowBox .shar .tips .btn img{ vertical-align:middle;}
+#detail .pro-item-part2 .r .m3 .box_pl .plList{ width:988px; border:1px solid #ddd; overflow:hidden; margin-top:10px; border-bottom:0;}
+#detail .pro-item-part2 .r .m3 .box_pl .plList h2{ height:33px; overflow:hidden;border-bottom:1px solid #ddd;background-position:0 -22px; background-repeat:repeat-x; line-height:32px; text-indent:15px; font-weight:bold; font-size:14px;}
+#detail .pro-item-part2 .r .m3 .box_pl .plList .box{ width:988px; overflow:hidden;}
+#detail .pro-item-part2 .r .m3 .box_pl .plList .item{ width:100%; overflow:hidden; padding-top:18px; padding-bottom:8px; border-bottom:1px solid #ddd;}
+#detail .pro-item-part2 .r .m3 .box_pl .plList .item .messg{ padding:0 20px; width:948px; overflow:hidden;}
+#detail .pro-item-part2 .r .m3 .box_pl .plList .item .messg .t_are{  height:26px; overflow:hidden; color:#666;}
+#detail .pro-item-part2 .r .m3 .box_pl .plList .item .messg .t_are span{ float:left; padding-top:9px; padding-left:10px;}
+#detail .pro-item-part2 .r .m3 .box_pl .plList .item .messg .t_are span img{ vertical-align:middle;}
+#detail .pro-item-part2 .r .m3 .box_pl .plList .item .messg .t_are em{ float:right; font-style:normal; text-align:right; padding-right:10px; line-height:32px; color:#999;}
+#detail .pro-item-part2 .r .m3 .box_pl .plList .item .messg .c_are{ width:843px; overflow:hidden; padding-left:10px;}
+#detail .pro-item-part2 .r .m3 .box_pl .plList .item .messg .c_are p{ width:843px; line-height:20px;overflow:hidden; padding-top:2px; padding-bottom:3px;}
+#detail .pro-item-part2 .r .m3 .box_pl .plList .item .messg .c_are .rePut{ color:#999; border-top:1px dashed #E8E8E8;}
+#detail .pro-item-part2 .r .m3 .box_pl .plList .item .messg .b_are{ height:24px; overflow:hidden;}
+#detail .pro-item-part2 .r .m3 .box_pl .plList .item .messg .b_are label{ float:left; width:72px; line-height:24px; overflow:hidden; padding-left:10px; color:#999;}
+#detail .pro-item-part2 .r .m3 .box_pl .plList .item .messg .b_are .btn1{ float:left;}
+#detail .pro-item-part2 .r .m3 .box_pl .plList .item .messg .b_are .btn1 a{ background-position:-104px -116px; display:block; width:65px; height:21px; line-height:20px; text-align:center; overflow:hidden;color:#36c;}
+#detail .pro-item-part2 .r .m3 .box_pl .plList .item .messg .b_are .btn1 a:hover{ text-decoration:none;}
+#detail .pro-item-part2 .r .m3 .box_pl .plList .item .messg .b_are .btn2{ float:left; padding-left:10px;}
+#detail .pro-item-part2 .r .m3 .box_pl .plList .item .messg .b_are .btn2 a{ background-position:-104px -116px; display:block; width:65px; height:21px; line-height:20px; text-align:center; overflow:hidden; color:#36c;}
+#detail .pro-item-part2 .r .m3 .box_pl .plList .item .messg .b_are .btn2 a:hover{ text-decoration:none;}
+#detail .pro-item-part2 .r .m3 .box_pl .page{ height:20px; overflow:hidden; text-align:right; padding:18px 0;}
+
+#detail .pro-item-part2 .r .menuBox{min-height: 180px;}
+#detail .pro-item-part2 .r .menuBox .box_zx{ width:990px; overflow:hidden;}
+#detail .pro-item-part2 .r .menuBox .box_zx .tip{ width:975px; overflow:hidden; padding:8px 5px 8px 10px; background:#EFEFEF; line-height:20px; color:#666; margin-top:10px; }
+#detail .pro-item-part2 .r .menuBox .box_zx .askList{ width:990px; overflow:hidden;}
+#detail .pro-item-part2 .r .menuBox .box_zx .askList .each{ width:950px; overflow:hidden; padding:10px 20px; border-bottom:1px solid #EFEFEF;}
+#detail .pro-item-part2 .r .menuBox .box_zx .askList .each .fixBox{ width:950px; overflow:hidden; padding-top:6px;}
+#detail .pro-item-part2 .r .menuBox .box_zx .askList .each .fixBox .question{ float:left; line-height:20px; width:735px; padding-left:25px; overflow: hidden; background:url(../images/detail_quetionIco.gif) 0 3px no-repeat; color:#005AA0;}
+#detail .pro-item-part2 .r .menuBox .box_zx .askList .each .fixBox .answer{ float:left; line-height:20px; width:735px; padding-left:25px; overflow: hidden; background:url(../images/detail_answerIco.gif) 0 3px no-repeat;color:#666;}
+#detail .pro-item-part2 .r .menuBox .box_zx .askList .each .fixBox .time{ float:right; line-height:20px; width:110px; text-align:right; color:#36c;}
+#detail .pro-item-part2 .r .menuBox .box_zx .page{ height:20px; overflow:hidden; text-align:right; padding:22px 0 15px;}
+
+#detail .m6{ width:990px; overflow:hidden;}
+#detail .m6 h2{ background:url(../images/new_detail_line02.gif) repeat-x; height:33px; overflow:hidden; border:1px solid #ddd; line-height:32px; padding-left:20px; font-weight:bold; font-size:14px;}
+#detail .m6 .box{ width:990px; overflow:hidden; padding-bottom:15px;}
+#detail .m6 .box .fixBox{ width:990px; overflow:hidden; padding-top:10px;}
+#detail .m6 .box .fixBox label{float:left; width:100px; padding-right:6px; overflow:hidden; text-align:right; line-height:22px;}
+#detail .m6 .box .fixBox label span{color:#f30;}
+#detail .m6 .box .fixBox .put{ float:left; padding-top:5px;}
+#detail .m6 .box .fixBox .put input{ vertical-align:middle;}
+#detail .m6 .box .fixBox .put2{ float:left; width:839px; overflow:hidden; height:105px;}
+#detail .m6 .box .fixBox .put2 textarea{ width:832px; overflow:hidden; height:90px; overflow-x:hidden; border:1px solid #E8E8E8; font-size:12px; padding:5px 0 5px 5px;}
+#detail .m6 .box .fixBox .text{ float:left; padding-top:2px; width:600px; height:22px;}
+#detail .m6 .box .fixBox .text img{ vertical-align:middle;}
+#detail .m6 .box .btn{ height:34px; overflow:hidden; padding-left:106px; padding-top:12px;}
+#detail .m6 .box .btn a{ background-position:0 -215px; overflow:hidden; display: block; width:85px; height:32px; text-align:center; line-height:32px; color:#fff;}
+#detail .m6 .box .btn a:hover{ text-decoration:none;}
+
+#detail .r .m1 .rdata .t2 .addTobuyCarLayer{ width:438px; overflow:hidden; position:absolute;}
+#detail .r .m1 .rdata .t2 .addTobuyCarLayer .rShaw{ float:left; width:4px; overflow:hidden; margin:4px 0 -1000px; padding:0 0 1000px;background:#777;FILTER: alpha(opacity=20); moz-opacity: 0.2; opacity: 0.2;}
+#detail .r .m1 .rdata .t2 .addTobuyCarLayer .bShaw{ height:4px; width:430px; overflow:hidden; margin:0 0 -1000px 4px; padding:0 0 1000px;background:#777;FILTER: alpha(opacity=20); moz-opacity: 0.2; opacity: 0.2}
+#detail .r .m1 .rdata .t2 .addTobuyCarLayer .showTip{ float:left; width:432px; overflow:hidden; border:1px solid #DDDDDD; background:#fff;}
+#detail .r .m1 .rdata .t2 .addTobuyCarLayer .showTip .close{ height:20px; overflow:hidden; text-align:right; padding-right:10px; padding-top:8px;}
+#detail .r .m1 .rdata .t2 .addTobuyCarLayer .showTip .close a{ color:#999;}
+#detail .r .m1 .rdata .t2 .addTobuyCarLayer .showTip .close a:hover{ text-decoration:none;}
+#detail .r .m1 .rdata .t2 .addTobuyCarLayer .showTip .succe{ width:357px; padding-left:75px; overflow:hidden; background:url(../images/detail_layerSuecc.gif) 18px 0px no-repeat; padding-bottom:20px;}
+#detail .r .m1 .rdata .t2 .addTobuyCarLayer .showTip .succe h3{ height:28px; line-height:28px; overflow:hidden; font-size:14px; font-weight:bold;}
+#detail .r .m1 .rdata .t2 .addTobuyCarLayer .showTip .succe .tips{ width:350px; overflow:hidden; line-height:24px; height:24px; color:#666;}
+#detail .r .m1 .rdata .t2 .addTobuyCarLayer .showTip .succe .tips b{ font-size:16px; color:#f30;}
+#detail .r .m1 .rdata .t2 .addTobuyCarLayer .showTip .succe .toBuy{ height:33px; overflow:hidden; padding-top:8px;}
+#detail .r .m1 .rdata .t2 .addTobuyCarLayer .showTip .succe .toBuy img{ vertical-align:middle;}
+#detail .r .m1 .rdata .t2 .addTobuyCarLayer .showTip .succe .toBuy a{color:#3266CB;}
+#detail .r .m1 .rdata .t2 .AddTomyLikeLayer{ width:438px; overflow:hidden; position:absolute;}
+#detail .r .m1 .rdata .t2 .AddTomyLikeLayer .rShaw{ float:left; width:4px; overflow:hidden; margin:4px 0 -1000px; padding:0 0 1000px;background:#777;FILTER: alpha(opacity=20); moz-opacity: 0.2; opacity: 0.2;}
+#detail .r .m1 .rdata .t2 .AddTomyLikeLayer .bShaw{ height:4px; width:430px; overflow:hidden; margin:0 0 -1000px 4px; padding:0 0 1000px;background:#777;FILTER: alpha(opacity=20); moz-opacity: 0.2; opacity: 0.2}
+#detail .r .m1 .rdata .t2 .AddTomyLikeLayer .showTip{ float:left; width:432px; overflow:hidden; border:1px solid #DDDDDD; background:#fff;}
+#detail .r .m1 .rdata .t2 .AddTomyLikeLayer .showTip .close{ height:20px; overflow:hidden; text-align:right; padding-right:10px; padding-top:8px;}
+#detail .r .m1 .rdata .t2 .AddTomyLikeLayer .showTip .close a{ color:#999;}
+#detail .r .m1 .rdata .t2 .AddTomyLikeLayer .showTip .close a:hover{ text-decoration:none;}
+#detail .r .m1 .rdata .t2 .AddTomyLikeLayer .showTip .succe{ width:357px; padding-left:75px; overflow:hidden; background:url(../images/detail_layerSuecc.gif) 18px 0px no-repeat; padding-bottom:20px;}
+#detail .r .m1 .rdata .t2 .AddTomyLikeLayer .showTip .succe h3{ height:28px; line-height:28px; overflow:hidden; font-size:14px; font-weight:bold;}
+#detail .r .m1 .rdata .t2 .AddTomyLikeLayer .showTip .succe .tips{ width:350px; overflow:hidden; line-height:24px; height:24px; color:#666;}
+#detail .r .m1 .rdata .t2 .AddTomyLikeLayer .showTip .succe .tips b{ font-size:16px; color:#f30;}
+#detail .r .m1 .rdata .t2 .AddTomyLikeLayer .showTip .succe .tips a{color:#3266CB;}
+
+#detail .part2{ width:1198px; overflow:hidden; margin-top:10px; border:1px solid #dedfde;}
+#detail .part2 h2{ height:33px; overflow:hidden;border-bottom:1px solid #ddd; line-height:32px; padding:0 10px; font-size:14px; font-weight:bold; color:#333; background-position:0 -22px; background-repeat:repeat-x;}
+#detail .part2 h2 .tit{ float:left;}
+#detail .part2 h2 .clearOut{ float:right; font-weight:normal;}
+#detail .part2 h2 .clearOut a{ color:#005aa0;}
+#detail .part2 .box{ width:1198px; overflow:hidden; height:260px; overflow:hidden; position:relative;}
+#detail .part2 .box .turn_left{ position:absolute; left:31px; top:46px;}
+#detail .part2 .box .turn_left a{ background-position:-81px -57px; display:block; width:11px; height:21px; overflow:hidden;}
+#detail .part2 .box .turn_right{ position:absolute;right:31px; top:46px;}
+#detail .part2 .box .turn_right a{ background-position:-94px -57px; display:block; width:11px; height:21px; overflow:hidden;}
+#detail .part2 .box .sorll_Box{ width:1100px; overflow:hidden; margin:0 auto; height:260px; position:relative;}
+#detail .part2 .box .sorll_Box ul li{ float:left; display:inline; width:220px; overflow:hidden; padding-top:5px;}
+#detail .part2 .box .sorll_Box ul li .pic{ width:180px; height:150px; overflow:hidden; margin:0 auto; text-align:center;}
+#detail .part2 .box .sorll_Box ul li .title{ width:180px; height:36px; overflow:hidden; line-height:18px; margin:4px auto; text-align:center;}
+#detail .part2 .box .sorll_Box ul li p{ width:180px; height:150px; height:18px; overflow:hidden; margin:0 auto; text-align:center; color:#005aa0;}
+#detail .part2 .box .sorll_Box ul li .price{ width:180px; height:20px; line-height:20px; overflow:hidden; margin:0 auto; text-align:center;font-weight:bold; color:#c00; font-family:Tahoma;}
+
+.w #detail{width:960px}
+.w #detail .pro-item-part1{width:960px}
+.w #detail .pro-item-part1 .r_info{display: none}
+.w #detail #detail .pro-item-part2{width:960px}
+.w #detail .pro-item-part2 .r{width: 750px;}
+.w #detail #detail .pro-item-part2 .r{width:750px}
+.w #detail .pro-item-part2 .r .m3{width:750px}
+.w #detail .pro-item-part2 .r .m3 .box1{width:728px}
+.w #detail .part2{width:958px}
+.w #detail .part2 .box{width:958px}
+.w #detail .part2 .box .sorll_Box{width:860px}
+.w #detail .pro-item-part2 .r .m3 .box_pl{width:750px}
+.w #detail .pro-item-part2 .r .m3 .box_pl .datShowBox{width:750px}
+.w #detail .pro-item-part2 .r .m3 .box_pl .datShowBox .shar{width:748px}
+.w #detail .pro-item-part2 .r .m3 .box_pl .datShowBox .shar .tips{width:215px}
+.w .toolabsolute{width:959px}
+.w #detail .pro-item-part2 .r .m3 .box2{width:748px}
+.w #detail .pro-item-part2 .r .m3 .box_pl .plList{width:748px}
+.w #detail .pro-item-part2 .r .m3 .box_pl .plList .box{width:748px}
+.w #detail .pro-item-part2 .r .m3 .box_pl .plList .item{width:748px}
+.w #detail .pro-item-part2 .r .Combination{width:750px}
+.w #detail .pro-item-part2 .r .Combination .lList{width:748px}
+.w #detail .pro-item-part2 .r .Combination .lList .addListSel{width:435px}
+.w #detail .pro-item-part2 .r .sub_all{width:748px}
+.w #detail .pro-item-part2{width:960px}

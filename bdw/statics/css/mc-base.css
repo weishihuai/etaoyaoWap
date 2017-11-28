@@ -1,0 +1,50 @@
+/* CSS Document */
+
+.past{width: 1190px; padding: 19px 0 13px; height: 26px; margin: 0 auto;}
+.past .crumbs-arrow{display: block; width: 6px; height: 12px; float:left; background: url("../images/past-icon01.png") no-repeat; margin: 7px 10px 0 10px; overflow: hidden;}
+.past .first{float: left; padding-left: 20px; height: 26px; }
+.past span{float: left; line-height: 26px; color: #000000;}
+.past .cata{float: left; line-height: 26px; color: #000000;}
+.past a:hover.cata{color: #f03c28;}
+.past .nav-item{float: left; height: 26px; }
+.past .nav-item .menu-drop{float: left; height: 26px; position: relative; z-index: 10;}
+.past .nav-item .menu-drop .trigger{display: inline-block; padding: 0 26px 0 10px; height: 24px; line-height: 24px; border: 1px dashed #dcdcdc; color: #000000;}
+.past .nav-item .menu-drop .trigger i{display: inline-block; width: 9px; height: 5px; background: url("../images/past-icon01.png") no-repeat -19px 0; position: absolute; top: 10px; right: 10px; overflow: hidden;}
+.past .nav-item .menu-drop a:hover.trigger{border: 1px dashed #2fbdc8; color: #2fbdc8;}
+.past .nav-item .menu-drop a:hover.trigger i{background: url("../images/past-icon02.png") no-repeat;}
+.past .nav-item .menu-drop .drop-main-bd{display: none; width: 280px; background-color: #fff; padding-top: 2px; position: absolute; left: 0; top: 26px;}
+.past .nav-item .menu-drop .drop-main-bd .drop-main{width: 266px; padding: 6px 0 6px 8px; border: 3px solid #eee; overflow: hidden;}
+.past .nav-item .menu-drop .drop-main-bd .drop-main a{display: inline-block; width: 80px; float: left; margin-left: 8px; height: 30px; line-height: 30px; color: #666;}
+.past .nav-item .menu-drop .drop-main-bd .drop-main a:hover{color: #2fbdc8;}
+
+.past a{font-size:13px;}
+.past .nav-item .hover .drop-main-bd{display: block;}
+.past .nav-item .hover .trigger{border: 1px dashed #2fbdc8; color: #2fbdc8;}
+.past .nav-item .hover .trigger i{background: url("../images/past-icon02.png") no-repeat;}
+
+.m-center{background-color: #f8f8f8;}
+.mc-main{width: 1190px; margin: 0 auto; padding-bottom: 10px; overflow: hidden;}
+.mc-main .mc-fl{width: 190px; padding-bottom: 15px; background-color: #fff; float: left;}
+.mc-main .mc-fl ul{width: 190px;}
+.mc-main .mc-fl ul li{width: 190px; border-bottom: 1px solid #eff2f9; padding: 5px 0; overflow: hidden;}
+.mc-main .mc-fl ul li dl{width: 190px;}
+.mc-main .mc-fl ul li dl dt{width: 190px; height: 38px; overflow: hidden;}
+.mc-main .mc-fl ul li dl dt a{padding-left: 40px;  color: #999; line-height: 38px;background:url("../images/mc-icon.png") no-repeat 24px -11px;  overflow: hidden;}
+.mc-main .mc-fl a.sel{background: url("../images/mc-icon.png") no-repeat 24px 3px;}
+
+.mc-main .mc-fl ul li dl dd{width: 190px; overflow: hidden;}
+.mc-main .mc-fl ul li dl dd a{ display:block; font-size: 14px; color: #333; width: 150px; line-height: 38px; padding-left: 40px; height: 38px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.mc-main .mc-fl ul li dl dd a:hover{background-color: #2fbdc8; color: #fff;}
+.mc-main .mc-fl a.cur{background-color: #2fbdc8; color: #fff;}
+
+.mc-main .mc-fl .quit{display: block; width: 160px; height: 40px; text-align: center; line-height: 40px; background-color: #666666; margin:15px auto 0; font-size: 16px; color: #fff;}
+.mc-main .mc-fl a:hover.quit{background-color: #444;}
+
+
+
+/*分页*/
+
+
+
+
+

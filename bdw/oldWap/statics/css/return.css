@@ -1,0 +1,84 @@
+body {background-color: #f9f9f9; }
+
+/*复选框*/
+.hide {display: none; }
+.chk {line-height: 2.0rem; position: relative; display: block; height: 2.0rem; padding-left: 2.0rem; vertical-align: middle; }
+.chk:before {position: absolute; top: 50%; left: 0; box-sizing: border-box; width: 1.8rem; height: 1.8rem; margin-top: -.9rem; content: ''; border: 1px solid #ddd; border-radius: 50%; }
+.chk-label {font-size: 1.4rem; padding-left: 2.7rem; color: #666; }
+.chk.active:before {border: 0 none; background: url(../images/select-active.png) no-repeat 0 0 / 100% auto; }
+
+/* 修改数量 */
+.choose-quantity {font-size: 0; overflow: hidden; height: 2.5rem; border: 1px solid #999; border-radius: .25rem; background-color: #fff; }
+.choose-quantity .inp {font-size: 1.5rem; line-height: 100%; float: left; width: 3.9rem; height: 100%; text-align: center; color: #333; border-right: 1px solid #999; border-left: 1px solid #999; }
+.choose-quantity .op {line-height: normal; position: relative; display: inline-block; float: left; width: 2.5rem; height: 100%; }
+.choose-quantity .op-dec:before {position: absolute; top: 50%; left: 50%; width: 1.2rem; height: .15rem; content: ''; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%); background-color: #333; }
+.choose-quantity .op-add:before {position: absolute; top: 50%; left: 50%; width: 1.2rem; height: .15rem; content: ''; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%); background-color: #333; }
+.choose-quantity .op-add:after {position: absolute; top: 50%; left: 50%; width: .15rem; height: 1.2rem; content: ''; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%); background-color: #333; }
+
+/* 选择售后商品 */
+.m-choose {overflow: hidden; padding-bottom: 6.0rem; }
+.m-choose .good-list li {margin-bottom: .5rem; }
+.m-choose .good {position: relative; padding: 1.5rem 1.2rem 1.5rem 12.0rem; background-color: #fff; }
+.m-choose .good .chk {position: absolute; top: 50%; left: 1.2rem; -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+.m-choose .good-img {position: absolute; top: 1.5rem; left: 4.0rem; overflow: hidden; width: 7.0rem; height: 7.0rem; border-radius: .25rem; }
+.m-choose .good-img img {width: 100%; height: auto; }
+.m-choose .good-body {min-height: 7.0rem; }
+.m-choose .good-name {font-size: 1.1rem; line-height: 2.0rem; display: -webkit-box; overflow: hidden; max-height: 4.0rem; margin-bottom: .6rem; text-align: justify; text-overflow: ellipsis; word-break: break-all; color: #0c1828; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
+.m-choose .good-price {font-size: 0.9rem; line-height: 2.5rem; overflow: hidden; }
+.m-choose .good-price span:first-child {color: #999; }
+.m-choose .good .choose-quantity {display: none; }
+.m-choose .good.checked .choose-quantity {display: block; }
+.m-choose .good.checked .amount {display: none; }
+.m-choose .checkout-bar {font-size: 1.2rem; line-height: 5.0rem; position: fixed; right: 0; bottom: 0; left: 0; height: 5.0rem; color: #333; border-top: 1px solid #eee; background-color: #fff; }
+.m-choose .checkout-bar b {margin: 0 .5rem; color: #e7141a; }
+.m-choose .checkout-bar .chk {margin-top: 1.5rem; margin-left: 1.2rem; }
+    .m-choose .checkout-bar .goto {font-size: 1.4rem; margin-left: 1.0rem; padding: 0 1.5rem; color: #fff; background-color: #e7141a; }
+.m-choose .no-good {font-size: 1.4rem; margin-top: 10.0rem; text-align: center; color: #999; }
+.m-choose .no-good .img {display: inline-block; width: 55%; height: auto; margin-bottom: 2.0rem; }
+.m-choose .no-good .img img {width: 100%; height: auto; }
+
+/* 填写退货单 */
+.m-fill .addr-box {font-size: 1.0rem; margin-bottom: 1.0rem; color: #333; background-color: #fff; }
+.m-fill .addr-box dt {position: relative; }
+.m-fill .addr-box dt:before {position: absolute; top: 1.0rem; right: 0; width: 2.5rem; height: 2.5rem; content: ''; background: url(../images/store-icons.png) no-repeat -5.0rem -15.0rem / 7.5rem 22.5rem; }
+.m-fill .addr-box dt a {font-size: 1.4rem; font-weight: 700; display: block; padding: 1.7rem 1.2rem .5rem; color: #333; }
+.m-fill .addr-box dd {overflow: hidden; padding: 1.2rem 1.2rem .5rem; }
+.m-fill .addr-box dd p {line-height: 1.5; margin-bottom: .5rem; text-align: justify; }
+
+.m-fill .good-list {margin-bottom: 1.0rem; }
+.m-fill .good {position: relative; padding: 1.25rem 1.2rem 1.25rem 9.0rem; background-color: #fff; }
+.m-fill .good-img {position: absolute; top: 1.25rem; left: 1.2rem; overflow: hidden; width: 7.0rem; height: 7.0rem; border-radius: .25rem; }
+.m-fill .good-img img {width: 100%; height: auto; }
+.m-fill .good-body {min-height: 7.0rem; }
+.m-fill .good-name {font-size: 1.1rem; line-height: 2.0rem; display: -webkit-box; overflow: hidden; max-height: 4.0rem; margin-bottom: 1.5rem; text-align: justify; text-overflow: ellipsis; word-break: break-all; color: #0c1828; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
+.m-fill .good-amount {font-size: 0.9rem; color: #333; }
+
+.m-fill .question-box {margin-bottom: 1.0rem; padding: 0 1.2rem; background-color: #fff; }
+.m-fill .question-box dt {font-size: 1.4rem; line-height: 4.0rem; color: #333; border-bottom: 1px solid #eee; }
+.m-fill .question-box dd {padding: 1.0rem 0; }
+.m-fill .question-box textarea {font-size: 1.3rem; line-height: 1.4; width: 100%; height: 10.0rem; resize: none; text-align: justify; color: #333; border: 0 none; outline: none; }
+
+.m-fill .img-box {padding: 1.5rem 1.2rem; background-color: #fff; }
+.m-fill .img-box dt {font-size: 1.4rem; margin-bottom: 1.4rem; color: #333; }
+.m-fill .img-box dd {overflow: hidden; }
+.m-fill .img-box dd .add, .m-fill .img-box dd .img {position: relative; float: left; overflow: hidden; width: 6.0rem; height: 6.0rem; margin-right: 1.0rem; border: .1rem solid #ddd; border-radius: .25rem; }
+.m-fill .img-box dd .add {font-size: 0; }
+.m-fill .img-box .add:before, .m-fill .img-box .add:after {position: absolute; top: 50%; left: 50%; width: 2.5rem; height: .25rem; content: ''; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%); transform-origin: center center; border-radius: .1rem; background-color: #bfbfbf; }
+.m-fill .img-box .add:after {-webkit-transform: translate(-50%,-50%) rotate(90deg); transform: translate(-50%,-50%) rotate(90deg); }
+.m-fill .img-box .img img {width: 100%; height: auto; }
+.m-fill .img-box .img .del {font-size: 0; position: absolute; top: 50%; left: 50%; width: 2.1rem; height: 2.1rem; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%); border-radius: 50%; background: url(../images/del.png) no-repeat 0 0 / 100% auto; }
+
+.m-fill .submit-box {padding: 2.5rem 3.0rem 1.25rem; }
+.m-fill .submit-box .btn-block {font-size: 1.4rem; width: 100%; height: 4.0rem; color: #fff; border: aliceblue;border-radius: .15rem; background-color: #e7141a; }
+
+
+.overlay{background: rgba(0,0,0,0.4); filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000); left: 0; top:0; right: 0; bottom: 0; position: fixed; z-index: 100;}
+.overlay .lightbox{width: 26rem; height: 16rem; position: absolute; left: 50%; margin-left: -13rem; top:50%; margin-top: -11.5rem; background-color: #fff; box-shadow: 0 2px 10px rgba(0,0,0,0.2);}
+.overlay .lightbox .mt{height: 5.4rem; line-height: 5.4rem; text-align: center;}
+.overlay .lightbox .mt span{color: #000000; font-size: 1.5rem;}
+.overlay .lightbox .mt .close{display: block; width: 4rem; height: 4rem; background: url("../images/close24x24.png") no-repeat center / 1.2rem auto; position: absolute; top:0.6rem; right:0; }
+
+.overlay .lightbox .mc{padding: 0 1.5rem;}
+.overlay .lightbox .mc input{display: block; width: 100%; box-sizing: border-box; padding-left: 1rem; height: 4rem; line-height: 4rem; border: none; color: #333333; margin-bottom: 1.5rem; background-color: #fafafa; font-size: 1.4rem;}
+.overlay .lightbox .mc .confirm{display: block; margin-top: 2rem; color: #cccccc; cursor: default; font-size: 1.4rem; text-align: center; height: 4rem; line-height: 4rem; background-color: #eeeeee; border-radius: 0.2rem;}
+.overlay .lightbox .mc .color{background-color: #e7141a; color: #fff; cursor: pointer;}

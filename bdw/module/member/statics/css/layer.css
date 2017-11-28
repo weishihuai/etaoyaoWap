@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/*删除层*/
+#lay_Dele{ width:280px; overflow:hidden; background:#fff;}
+#lay_Dele h1{ background:url(../images/member_layerBg.gif) no-repeat; height:35px; overflow:hidden;}
+#lay_Dele h1 .tit{ float:left; color:#fff; font-weight:bold; line-height:35px; padding-left:18px;}
+#lay_Dele h1 .close{ float:right; padding-top:10px; padding-right:17px;}
+#lay_Dele h1 .close a{ background:url(../images/member_layerClose.gif) no-repeat; display:block; width:30px; height:14px; padding-top:2px; font-weight:bold; color:#c33; padding-left:18px;}
+#lay_Dele h1 .close a:hover{ text-decoration:none;}
+#lay_Dele .box{ width:278px; overflow:hidden; border:1px solid #DED5BA; border-top:0; padding:28px 0;}
+#lay_Dele .box p{ height:20px; padding-left:28px; line-height:20px; overflow:hidden; font-weight:bold; color:#666;}
+#lay_Dele .box .btn{ height:22px; overflow:hidden; padding-left:70px; padding-top:18px;}
+#lay_Dele .box .btn a{ height:22px; display:block; width:58px; float:left; line-height:22px; text-align:center; margin-right:8px;}
+#lay_Dele .box .btn .btn01{ background:url(../images/member_layer_Btn01.gif) no-repeat; color:#fff;}
+#lay_Dele .box .btn .btn02{ background:url(../images/member_layer_Btn02.gif) no-repeat; color:#333;}
+#lay_Dele .box .btn a:hover{ text-decoration:none;}
+/*end 删除层*/
+
+/*支付方式层*/
+
+#lay_goPay{ width:481px; overflow:hidden; border:1px solid #D70040; background:#fff; padding:0 5px 18px;}
+#lay_goPay h1{ height:36px; overflow:hidden; padding-left:10px; line-height:36px; padding-top:8px; font-size:14px; border-bottom:1px dashed #CFD2D7;}
+#lay_goPay .fixBox{ width:481px; overflow:hidden;border-bottom:1px dashed #CFD2D7; padding-top:18px; padding-bottom:18px;}
+#lay_goPay .fixBox label{ float:left; width:165px; text-align:right; line-height:30px; overflow:hidden; padding-top:8px; font-size:14px;}
+#lay_goPay .fixBox .sel{ float:left; width:150px; overflow:hidden;}
+#lay_goPay .fixBox .sel .put{ float:left; width:25px; text-align:center; padding-top:15px;_padding-top:11px;}
+#lay_goPay .fixBox .sel .Ico{ float:left; width:125px; overflow:hidden; height:38px;}
+#lay_goPay .fixBox .more{ float:left; padding-left:38px; padding-top:11px;}
+#lay_goPay .fixBox .more a{ background:url(../images/member_layer_btn04.gif) center bottom no-repeat; display:block; width:50px; height:20px; color:#36c;}
+#lay_goPay .fixBox .more a:hover{ text-decoration:none;}
+#lay_goPay .btn{ height:32px; overflow:hidden; padding-top:18px;}
+#lay_goPay .btn a{ background:url(../images/member_layer_btn03.gif) no-repeat; display:block; width:87px; height:32px; font-size:14px; color:#fff; line-height:32px; text-align:center; font-weight:bold; margin:0 auto;}
+#lay_goPay .btn a:hover{ text-decoration:none;}
+
+
+
+
+
+
+
+/* end 支付方式层*/

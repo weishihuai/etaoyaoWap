@@ -1,0 +1,110 @@
+body {line-height: 1; background-color: #f0f0f0; min-width: 320px; max-width: 640px; margin: 0 auto; }
+button {outline: none; background: none; border: none; padding: 0;}
+
+
+.main{ background-color: #f0f0f0; width: 100%; min-width: 320px; max-width: 640px; margin: 0 auto; }
+.main .add-card{ position: relative; z-index: 44; background-color: #fff; width: 100%; padding: 0 12px; height: 45px; line-height: 45px; margin-top: 13px; font-size: 14px; color: #333; overflow: hidden; }
+.main .card-list{ background-color: #f0f0f0; width: 100%; min-width: 320px; max-width: 640px; margin: 0 auto; overflow: hidden;}
+.main .card-list .card-one{ display: block; width: 100%; height: 100px; margin: 15px auto; padding: 0 8px; overflow: hidden;}
+.main .card-list .card-one .cou-text{ position: relative; z-index: 44; width: 100%; padding-left: 114px; height: 100px; overflow: hidden;}
+.main .card-list .card-one .cou-text .cou-l{ position: absolute; top: 0; left: 0; z-index: 44; width: 98px; height: 100px; background: url("../images/bg-coupon.png") no-repeat 0 0 / 110px auto; overflow: hidden;}
+.main .card-list .card-one .cou-text .cou-l .cou-num{ width: 100%; height: 100px; line-height: 100px; padding: 0 10px; text-align: center; color: #57b5f1; font-size: 30px; overflow: hidden;}
+.main .card-list .card-one .cou-text .cou-l .cou-num span{ height: 88px; line-height: 88px; color: #57b5f1; font-size: 12px; overflow: hidden;}
+
+.main .card-list .card-one .cou-text .cou-l .cou-num-past{ width: 100%; height: 88px; line-height: 88px; padding: 0 10px; text-align: center; color: #c3bfbf; font-size: 35px; overflow: hidden;}
+.main .card-list .card-one .cou-text .cou-l .cou-num-past span{ height: 88px; line-height: 88px; color: #c3bfbf; font-size: 12px; overflow: hidden;}
+
+.main .card-list .card-one .cou-text .cou-m{ position: absolute; top: 0; left: 98px; z-index: 44; width: 16px; height: 88px; background: url("../images/bg-coupon2.png") no-repeat 0 0 / 16px 88px; overflow: hidden;}
+.main .card-list .card-one .cou-text .cou-r{ width: 100%; padding: 8px 5px; height: 100px; background: url("../images/bg-coupon1.png") repeat-x 0 0 / 1px 100px; overflow: hidden;}
+.main .card-list .card-one .cou-text .cou-r .text1{ width: 100%; height: 15px; line-height: 15px; font-size: 12px; color: #777; margin-top: 8px; overflow: hidden;}
+.main .card-list .card-one .cou-text .cou-r .text1 a{ font-size: 12px; color: #57b5f1; margin-top: 15px; overflow: hidden;font-weight: 500;}
+.main .card-list .card-one .cou-text .cou-r .text2{ width: 100%; height: 30px; line-height: 15px; font-size: 10px; color: #777; margin-top: 10px; overflow: hidden;}
+.main .card-list .card-one .cou-text .cou-r .text2-past{ width: 100%; height: 30px; line-height: 15px; font-size: 10px; color: #c3bfbf; margin-top: 19px; overflow: hidden;}
+
+.main .card-list .card-one .cou-text .cou-r .text3{ position: relative; z-index: 33; width: 100%; height: 30px; line-height: 15px; font-size: 10px; color: #999; margin-top: 0px; overflow: hidden;}
+.main .card-list .card-one .cou-text .cou-r .text3 a{ position: absolute; top: 0; left: 0; z-index: 33; overflow: hidden;font-size: 14px;font-weight: 500;color: #c31f20;}
+.main .card-list .card-one .cou-text .cou-r .text3 a:hover{text-decoration: underline;color: #FF5044;}
+
+/*添加购物券样式*/
+
+.select-box { position: relative; height: 50px; line-height: 50px; padding: 0 12px; font-size: 14px; background-color: #fff }
+.select-box:after {content: ''; position: absolute; bottom: 0; left: 12px; right: 12px; height:1px; background-color: #e6e6e6;}
+.select-box .lab { display: inline-block; width: 85%;color: #c31f20; }
+.select-box .radio { margin-right: 20px; }
+.select-box .radio .icon { position: relative; top: 2px; }
+
+.switch .icon{background-color: #c31f20;  position: relative; display: inline-block; width: 35px; height: 22px;  border-radius: 16px; }
+.switch .icon:before,
+.switch .icon:after{ content: ''; position: absolute; top: 1px; width: 20px; height: 20px; border-radius: 50%; background-color: #fff;}
+
+.switch .icon:before { right: 1px; }
+.switch .icon:after { right: 1px; display: none;}
+
+.switch input:checked ~ .icon{ background-color: #ccc; }
+
+.switch input:checked ~ .icon:before { right: 1px;display: none; }
+.switch input:checked ~ .icon:after { left: 1px;display: block; }
+
+.add_row {
+    background-color: #fff;
+}
+.add_row:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.add_row:first-child {
+    margin-top: 15px;
+}
+.add_row .select-box:after {
+    visibility: hidden;
+}
+.add_row .lab {
+    float: left;
+    line-height: 50px;
+}
+.add_row .input-g {
+    margin-left: 0px;
+}
+#addCard .add_row {
+    margin-top: 0;
+    padding: 0 12px;
+    border-top: 1px solid #e5e5e5;
+}
+#addCard  .add_row:last-child {
+    border-top: none;
+    background-color: #f7f7f7;
+    padding-top: 12px;
+    margin-bottom: 12px;
+}
+.add_text {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+}
+
+.add_row .switch {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.add_btn{
+    background: #cc3333;
+    border: #cc3333 1px solid;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    border-radius: 6px;
+    margin: 0px auto 5px;
+    line-height: 30px;
+    height: 35px;
+    color: #fff;
+}

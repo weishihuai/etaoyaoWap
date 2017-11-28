@@ -1,0 +1,13 @@
+/* CSS Document */
+html{background-color: #e8e8e8; height: 100%;}
+body{background-color: #fff; min-width: 320px; max-width: 640px; margin: 0 auto; height: 100%;}
+
+.main{padding-top: 105px; height: 100%; overflow: hidden;}
+.main .cont{width: 63%; margin: 0 auto; border-radius: 3px; box-shadow: 0 0 20px 2px rgba(0,123,230,0.3); overflow: hidden; }
+.main .cont .pic{text-align: center; padding: 50px 0; }
+.main .cont .pic img{width: 110px;}
+.main .cont .confirm-btn{display: block; width: 100%; height: 38px; background-color: #007be6; line-height: 38px; font-size:16px; color: #fff; text-align: center; }
+
+
+
+

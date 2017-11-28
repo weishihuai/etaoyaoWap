@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+
+
+
+#list .l .m1 h1,#list .l .m1 .box h4,#list .l .m2 h1,#list .l .m3 h1,#list .l .m4 h3,#list .r .searchIf p a,#list .r h6 .Sort .inset a,#list .r h6 .Sort .inPrice a,#list .r h6 .Sort .s_Time a{ background:url(../images/list_bg.png) repeat-x;}
+
+
+
+
+/*列表页*/
+
+#list{ width:980px; overflow:hidden; margin:0 auto;}
+#list .l{ float:left; width:200px; margin-right:10px;}
+#list .l .m1{ width:200px; overflow:hidden;}
+#list .l .m1 h1{ background-position:0 0; height:35px; overflow:hidden; line-height:34px; padding-left:10px; font-size:14px; font-weight:bold; color:#fff;}
+#list .l .m1 h1 a{color:#fff;text-decoration:none;}
+#list .l .m1 .box{ width:196px; overflow:hidden; padding:1px; padding-top:0px; border:1px solid #D4D4D4;}
+#list .l .m1 .box h4{ margin-top:1px; height:28px; background-position:0 -37px; border:1px solid #ddd;}
+#list .l .m1 .box h4 .tit{ float:left; padding-left:10px; padding-top:5px; font-size:14px; font-weight:bold;}
+#list .l .m1 .box h4 .tit span{color:#cd0000;font-size: 10px;line-height: 20px;}
+#list .l .m1 .box h4 .tit a:hover{ text-decoration:none;}
+#list .l .m1 .box h4 .ico{ float:right; padding-right:10px; padding-top:7px;}
+#list .l .m1 .box ul{ width:196px; overflow:hidden; padding-bottom:5px;}
+#list .l .m1 .box ul li{ float:left; display: inline; width:88px; overflow:hidden; padding-left:10px; height:20px; line-height:20px; margin-top:5px;}
+
+#list .l .m2{ width:200px; overflow:hidden; margin-top:10px;}
+#list .l .m2 h1{ background-position:0 0; height:35px; overflow:hidden; line-height:34px; padding-left:10px; font-size:14px; font-weight:bold; color:#fff}
+#list .l .m2 .box{ width:198px; overflow:hidden; border:1px solid #D4D4D4; padding-bottom:10px;}
+#list .l .m2 .box ul li{ float:left; display:inline; width:82px; overflow: hidden; padding-left:8px; margin-top:12px;}
+#list .l .m2 .box ul li .pic{ width:80px; height:40px; overflow:hidden; border:1px solid #ccc;}
+#list .l .m2 .box ul li .title{ width:82px; overflow:hidden; height:20px; line-height:20px; text-align:center;}
+#list .l .m2 .box ul li .title a{ color:#999;}
+#list .l .m2 .box ul li .title a:hover{ color:#cd0000;}
+#list .l .m3{ width:200px; overflow:hidden; margin-top:10px;}
+#list .l .m3 h1{ height:33px; overflow:hidden; background-position:0 -67px; border:1px solid #ddd; border-bottom:0; line-height:32px; padding-left:10px; font-size:14px; font-weight:bold;}
+#list .l .m3 .box{ width:198px; overflow:hidden; border:1px solid #ddd; border-bottom:0;}
+#list .l .m3 .box ul li{ width:198px; overflow:hidden; border-bottom:1px solid #ddd; padding:5px 0;}
+#list .l .m3 .box ul li .mB{ float:left; width:34px; overflow:hidden; text-align:center; font-family:Arial; font-size:14px; font-weight:bold; color:#c00; line-height:20px;}
+#list .l .m3 .box ul li .tit{ float:left; width:160px; overflow:hidden; height:20px; line-height:20px;}
+#list .l .m3 .box ul .hover{}
+#list .l .m3 .box ul .hover .detaiF{ float:left; width:164px; overflow:hidden;}
+#list .l .m3 .box ul .hover .detaiF .pic{ float:left; width:52px; height:52px; overflow:hidden; border:1px solid #ccc;}
+#list .l .m3 .box ul .hover .detaiF .title{ float:left; padding-left:5px; width:100px; overflow:hidden; height:36px; line-height:18px;}
+#list .l .m3 .box ul .hover .detaiF .price{ float:left; padding-left:5px; width:100px;height:18px; line-height:18px; overflow:hidden; font-weight:bold; color:#c00;}
+#list .l .m4{ width:200px; overflow:hidden; margin-top:10px;}
+#list .l .m4 h3{ height:33px; overflow:hidden; background-position:0 -67px; border:1px solid #ddd; border-bottom:0;}
+#list .l .m4 h3 .tit{ float:left; padding-left:10px; font-size:14px; font-weight:bold; font-size:14px; line-height:32px;}
+#list .l .m4 h3 .dele{ float:right; padding-right:8px; padding-top:9px;}
+#list .l .m4 h3 .dele a{ color:#005AA0;}
+#list .l .m4 .box{ width:198px; overflow: hidden; border:1px solid #ddd; padding-bottom:8px;}
+#list .l .m4 .box ul{ margin-top:-1px;}
+#list .l .m4 .box ul li{ width:190px; overflow:hidden; border-top:1px solid #ddd; padding:8px 4px;}
+#list .l .m4 .box ul li .pic{ float:left; width:50px; height:50px; overflow:hidden; border:1px solid #EFEFEF;}
+#list .l .m4 .box ul li .title{ float: left; width:130px; overflow:hidden; padding-left:8px; line-height:18px; padding-top:5px;}
+
+#list .r{ float:left; width:770px; overflow:hidden; padding-bottom:15px;}
+#list .r .benner{ width:770px; overflow:hidden; height:160px;}
+#list .r .searchIf{ width:768px; overflow:hidden; margin-top:10px; border:1px solid #D4D4D4; border-top:3px solid #c00; background:#fff url(../images/list_line01.gif) repeat-x; padding-bottom:12px;}
+#list .r .searchIf h5{ height:32px; overflow:hidden;}
+#list .r .searchIf h5 .tit{ float:left; line-height:32px; font-size:14px; font-weight:bold; padding-left:18px;}
+#list .r .searchIf h5 .reSel{ float:right; padding-top:8px; padding-right:15px;}
+#list .r .searchIf h5 .reSel a{ color:#c00;}
+#list .r .searchIf .callShow{ width:710px; overflow:hidden; padding:0 29px;}
+#list .r .searchIf .callShow .fixBox{ width:725px; overflow:hidden; border-bottom:1px dashed #E7CDAE; padding:5px 0 5px;}
+#list .r .searchIf .callShow .fixBox label{ float:left; width:85px; overflow:hidden; line-height:22px;text-align: right;}
+#list .r .searchIf .callShow .fixBox ul{ float:left; width:638px; overflow:hidden;}
+#list .r .searchIf .callShow .fixBox ul li{overflow: hidden; float:left; height:24px; display:block; padding-left:15px;width:118px;}
+#list .r .searchIf .callShow .fixBox ul li a{ display:inline; padding:3px; line-height:20px; color:#005AA0;}
+#list .r .searchIf .callShow .fixBox ul li a:hover,#list .r .searchIf .callShow .fixBox ul li a.cur{ color:#fff; text-decoration:none; background:#005AA0;}
+#list .r .searchIf .callShow .fixBox ul li a span{color: #aaaaaa;}
+
+#list .r .searchIf .callShow .fixBox .titList{float:left; width:580px; overflow:hidden;}
+#list .r .searchIf .callShow .fixBox .titList ul li{ float:left; display:inline; height:18px;  padding-top:3px; padding-left:5px;}
+#list .r .searchIf .callShow .fixBox .titList a{ display:inline; padding:2px 8px 2px 2px; color:#D63824; line-height:18px;float: left;width:auto;/*_width:160px;*/}
+#list .r .searchIf .callShow .fixBox .titList a.cur,#list .rBox .m2 .box .fixBox .titList a:hover{ background:#D63824; color:#F2F2F2; text-decoration:none;}
+#list .r .searchIf .callShow .fixBox .titList a span{margin-left:5px;background: none repeat scroll 0 0 #FFFFFF;float:left; display:block; height:18px; border: 1px solid #00A1CF;color: #00A1CF;font-weight: normal;line-height: 18px;_height:18px;overflow: hidden;}
+#list .r .searchIf .callShow .fixBox .titList a:hover span{border: 1px solid #FF6600; color: #FF6600;cursor:pointer}
+#list .r .searchIf .callShow .fixBox .titList a span span{background: url("../../../../commons/images/facetTools.jpg") no-repeat scroll right -72px transparent;padding: 0 16px 0 0;/*float: right;*/border: none;}
+#list .r .searchIf .callShow .fixBox .titList a:hover span span{background: url("../../../../commons/images/facetTools.jpg") no-repeat scroll right -90px transparent;padding: 0 16px 0 0; /*float: right;*/border: none}
+#list .r .searchIf p{ padding-left:29px; padding-top:10px;}
+#list .r .searchIf p a{ background-position:0 -102px; display:block; width:80px; height:20px; line-height:20px; padding-left:25px;}
+#list .r .searchIf p a:hover{ text-decoration:none;}
+#list .r h6{ width:768px; overflow:hidden; margin-top:10px; border:1px solid #E7E7E7; height:36px; border-top:2px solid #c00;}
+#list .r h6 .tipData{ float:left; /*width:240px;*/ padding-left:18px;padding-right: 18px; overflow:hidden; line-height:36px;}
+#list .r h6 .tipData span{ color:#c00;}
+#list .r h6 .Sort{ float:left; width:224px; overflow:hidden;}
+#list .r h6 .Sort label{ float:left; width:42px; line-height:36px; overflow:hidden;}
+#list .r h6 .Sort .inset{ float:left; width:52px; margin-right:5px; overflow:hidden; padding-top:6px;}
+#list .r h6 .Sort .inPrice{ float:left;width:52px; margin-right:5px; overflow:hidden; padding-top:6px;}
+#list .r h6 .Sort .inset a,#list .r h6 .Sort .inPrice a{ display:block; width:46px; padding-left:6px; overflow:hidden; background-position: -123px -155px; height:24px; line-height:24px; color:#000;}
+#list .r h6 .Sort .inset a:hover,#list .r h6 .Sort .inPrice a:hover{ text-decoration:none;}
+#list .r h6 .Sort .inset .i_i,#list .r h6 .Sort .inPrice .i_p{ display:block; width:46px; padding-left:6px; overflow:hidden; background-position:-68px -125px; height:24px; line-height:24px; color:#fff;}
+#list .r h6 .Sort .inset .i_i:hover,#list .r h6 .Sort .inPrice .i_p:hover{ text-decoration:none;}
+#list .r h6 .Sort .inset .s_d{ background-position:-68px -155px;color:#FFF;}
+#list .r h6 .Sort .inPrice .s_d{ background-position:-68px -155px;color:#FFF;}
+#list .r h6 .Sort .s_Time{ float:left; width:65px; overflow:hidden; padding-top:6px;}
+#list .r h6 .Sort .s_Time a{ display:block; width:65px; height:24px; overflow:hidden; text-align:center; color:#000; line-height:24px; background-position:0 -183px;}
+#list .r h6 .Sort .s_Time a:hover{ text-decoration:none;}
+#list .r h6 .Sort .s_Time a.cur{ background-position:0 -155px;color:#FFF;}
+#list .r h6 .trunPage{ float:right; padding-right:8px; padding-top:7px;}
+#list .r h6 .trunPage img{ vertical-align:middle;}
+#list .r .showList{ width:770px; overflow:hidden; margin-top:10px; padding-top:5px; padding-bottom:28px;}
+#list .r .showList ul li{ float:left; display:inline; width:192px; overflow:hidden; padding:12px 0 8px; border-top:1px solid #fff;}
+#list .r .showList ul .hover{ background:#F2F2F2;}
+#list .r .showList ul li .pic{ width:150px; height:150px; overflow:hidden; margin:0 auto;border: 1px solid #e0e3e1;}
+#list .r .showList ul li .title{ width:150px; height:60px; line-height:20px; overflow:hidden; text-align:center; margin:0 auto;}
+#list .r .showList ul li .title span{ color:#FF5A00;}
+#list .r .showList ul li .title a{ color:#666;}
+#list .r .showList ul li .title a:hover{ color:#FF5A00;}
+#list .r .showList ul li .price{ width:150px; height:20px; line-height:20px; overflow:hidden; margin:0 auto; text-align:center; color:#666;}
+#list .r .showList ul li .price b{ color:#FF5A00;}
+#list .r .page{ overflow:hidden; text-align:right; padding-right:28px;}
+/*end 列表页*/
+#list .r .searchIf p #showUnSelections{background-position:0 -102px;}
+#list .r .searchIf p #hideUnSelections{background-position:-68px -183px;}
+
+/*
+列表页 热销产品*/
+#list .r .bennerPro{width:768px; overflow:hidden; height:224px; border:1px solid #D4D4D4; border-top:3px solid #c00; background:#fff url(../images/list_line01.gif) repeat-x;}
+
+#list .r .bennerPro h5{ height:32px; overflow:hidden;}
+#list .r .bennerPro h5 .tit{ float:left; line-height:32px; font-size:14px; font-weight:bold; padding-left:18px;}
+#list .r .bennerPro h5 .reSel{ float:right; padding-top:8px; padding-right:15px;}
+#list .r .bennerPro h5 .reSel a{ color:#c00;}
+#list .r .bennerPro ul{width:768px; overflow:hidden; height:160px;margin-top: 14px;}
+#list .r .bennerPro ul li{float:left; display:inline; width:192px; overflow:hidden; padding:0 0 8px; }
+#list .r .bennerPro ul li .pic{ width:100px; height:100px; overflow:hidden; margin:0 auto;border: 1px solid #e0e3e1;}
+#list .r .bennerPro ul li .title{ width:150px; height:42px; line-height:20px; overflow:hidden; text-align:center; margin:0 auto;}
+#list .r .bennerPro ul li .title span{ color:#FF5A00;}
+#list .r .bennerPro ul li .title a{ color:#666;}
+#list .r .bennerPro ul li .title a:hover{ color:#FF5A00;}
+#list .r .bennerPro ul li .price{ width:150px; height:20px; line-height:20px; overflow:hidden; margin:0 auto; text-align:center; color:#666;}
+#list .r .bennerPro ul li .price b{ color:#FF5A00;}

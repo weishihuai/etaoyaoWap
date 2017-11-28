@@ -1,0 +1,135 @@
+/* CSS Document */
+body{background-color: #e8e8e8; min-width: 320px; max-width: 640px; margin: 0 auto;}
+
+.main{ min-width: 320px; max-width: 640px; margin: 0 auto; padding-bottom: 0px; background-color: #e8e8e8;}
+/*.main{ min-width: 320px; max-width: 640px; margin: 0 auto; padding-bottom: 57px; background-color: #e8e8e8;}*/
+
+/*焦点图*/
+.main .focus-wrapper{ width: 100%; overflow: hidden; background-color: #fff; position: relative;}
+.main .focus-wrapper .focus{  position: relative;}
+.main .focus-wrapper .focus li.slide-li{ /*visibility: visible;*/ background-color: #fff; float: left; }
+.main .focus-wrapper .focus li.slide-li a img{ display: block; overflow: hidden; width: 100%; }
+
+.main .focus-wrapper .focus-slider{ bottom: 5px; }
+.main .focus-wrapper .focus-slider span{ background-color: #ffffff; opacity: 1;}
+.main .focus-wrapper .focus-slider span.swiper-pagination-bullet-active{ background: #bcbcbc;}
+
+/*快捷入口*/
+.main .nav-item{ width: 100%; overflow: hidden; background-color: #f4f4f4; position: relative;}
+.main .nav-item .quick-entry-nav{ padding-top: 10px; border-top: 2px solid #e8e8e8; position: relative}
+.main .nav-item .quick-entry-nav a.quick-entry-link{ width: 20%; float: left; font-size: 12px; text-decoration: none; color: #7a7a7a; text-align: center; display: block; padding-bottom: 15px;}
+.main .nav-item .quick-entry-nav a.quick-entry-link img{ display: block; width: 55px; height: 55px; margin: 0 auto 10px auto; overflow: hidden; }
+.main .nav-item .quick-entry-nav a.quick-entry-link span{ display: inline-block; width: 100%; height: 16px; overflow: hidden; }
+
+.ggBlock{width: 100%; min-height: 10px;}
+.ggBlock img{width: 100%; height: auto;}
+
+/*快讯*/
+.main .fast-news{ width: 100%; height: 30px; background: #ffffff; overflow: hidden; }
+.main .fast-news span.fast-icon{ display: inline-block; width: 60px; height: 13px; background: url(../images/icon-tao.png) no-repeat 0 0 / 60px 13px; margin: 8px 0 0 8px; overflow: hidden; }
+
+/*楼层*/
+.main .floor{ position: relative; width: 100%; overflow: hidden; }
+
+/*楼层1*/
+.main .floor .floor-01{  margin-bottom: 7px; }
+.main .floor .floor-01 .floor01-title{ width: 100%; height: auto; overflow: hidden; }
+.main .floor .floor-01 .floor01-title img{width: 100%; height: auto;}
+.main .floor .floor-01 .floor01-cont{  width: 100%; overflow: hidden; }
+.main .floor .floor-01 .floor01-cont .floor01-list{  width: 100%; overflow: hidden;  }
+.main .floor .floor-01 .floor01-cont .floor01-list li{  width: 33.33%; height: 100%; float: left; background-color: #ffffff; position: relative; }
+.main .floor .floor-01 .floor01-cont .floor01-list li:after{ height: 100%; content: ''; width: 1px; border-right: 1px solid #e8e8e8; position: absolute; top: 0; right: -1px; z-index: 10; }
+.main .floor .floor-01 .floor01-cont .floor01-list li .g-pic{  max-width: 210px;min-width:100px; max-height:210px;min-height:100px;overflow: hidden; }
+.main .floor .floor-01 .floor01-cont .floor01-list li .g-pic img{  width: 100%; height:100%;overflow: hidden;}
+.main .floor .floor-01 .floor01-cont .floor01-list li .g-title{  width: 100%; height: 30px; line-height: 15px; margin-top: 3px; padding: 0 5px; font-size: 11px; color: #333333; overflow: hidden; }
+.main .floor .floor-01 .floor01-cont .floor01-list li .g-price{ display: inline-block; float: left; margin-top: 6px; margin-bottom: 6px; padding: 0 5px; font-size: 11px; color: #df0000; overflow: hidden; }
+.main .floor .floor-01 .floor01-cont .floor01-list li .g-old-price{  float: left; color: #999; font-size: 12px; padding: 8px 5px 0 5px; }
+.main .floor .floor-01 .floor01-cont .floor01-list li .g-price span{  font-size: 14px; }
+
+
+
+/*楼层广告*/
+.main .floor .focus-ad-wrapper{ width: 100%; overflow: hidden; background-color: #fff; position: relative;}
+.main .floor .focus-ad-wrapper .focus-ad{  position: relative;}
+.main .floor .focus-ad-wrapper .focus-ad li.slide-li{ /*visibility: visible;*/ background-color: #fff; float: left; }
+.main .floor .focus-ad-wrapper .focus-ad li.slide-li a img{ display: block; overflow: hidden; width: 100%; }
+
+.main .floor .focus-ad-wrapper .ad-slider{ bottom: 5px; }
+.main .floor .focus-ad-wrapper .ad-slider span{ background-color: #ffffff; opacity: 1;}
+.main .floor .focus-ad-wrapper .ad-slider span.swiper-pagination-bullet-active{ background: #bcbcbc;}
+
+/*楼层2*/
+.main .floor .floor-02 .floor02-title{ width: 100%; height: auto; overflow: hidden; }
+.main .floor .floor-02 .floor02-title img{width: 100%; height: auto;}
+.main .floor .floor-02 .floor02-cont{ width: 100%; overflow: hidden; }
+.main .floor .floor-02 .floor02-cont .floor02-list1{ width: 100%; overflow: hidden;  }
+.main .floor .floor-02 .floor02-cont .floor02-list1 li{  width: 50%; height: 100%; float: left; background-color: #ffffff; position: relative; }
+.main .floor .floor-02 .floor02-cont .floor02-list1 li:after{ height: 100%; content: ''; width: 1px; border-right: 1px solid #e8e8e8; position: absolute; top: 0; right: -1px; z-index: 10; }
+.main .floor .floor-02 .floor02-cont .floor02-list1 li .g-pic{ width: 100%; overflow: hidden; }
+.main .floor .floor-02 .floor02-cont .floor02-list1 li .g-pic img{  width: 100%; overflow: hidden; }
+
+.main .floor .floor-02 .floor02-cont .floor02-list2{ width: 100%; border-top: 1px solid #e8e8e8; overflow: hidden;  }
+.main .floor .floor-02 .floor02-cont .floor02-list2 li{ width: 33.33%; height: 100%; float: left; background-color: #ffffff; border-bottom: 1px solid #f0f0f0; position: relative; }
+.main .floor .floor-02 .floor02-cont .floor02-list2 li:after{ height: 100%; content: ''; width: 1px; border-right: 1px solid #e8e8e8; position: absolute; top: 0; right: -1px; z-index: 10; }
+.main .floor .floor-02 .floor02-cont .floor02-list2 li .g-pic{ width: 100%; overflow: hidden; }
+.main .floor .floor-02 .floor02-cont .floor02-list2 li .g-pic img{ width: 100%; overflow: hidden; }
+
+/*楼层3*/
+.main .floor .floor-03 .floor03-title{ width: 100%; height: auto; overflow: hidden; }
+.main .floor .floor-03 .floor03-title img{width: 100%; height: auto;}
+.main .floor .floor-03 .floor03-cont{ width: 100%; overflow: hidden; }
+.main .floor .floor-03 .floor03-cont .floor03-list1{ width: 100%; overflow: hidden;  border-bottom: 1px solid #e8e8e8;}
+.main .floor .floor-03 .floor03-cont .floor03-item{width: 100%; overflow: hidden;}
+.main .floor .floor-03 .floor03-cont .item-col01{width: 50%; float: left; position: relative; }
+.main .floor .floor-03 .floor03-cont .item-col01 img{width: 100%; height: auto;}
+
+.main .floor .floor-03 .floor03-cont .item-col02{position: relative; }
+.main .floor .floor-03 .floor03-cont .item-col02:before{display:block; content: ''; width: 100%; height: 1px; background-color: #e8e8e8; position: absolute; bottom:0; right: 0;}
+.main .floor .floor-03 .floor03-cont .item-col02 img{width: 100%; height: auto;}
+
+.main .floor .floor-03 .floor03-cont .item-col02-1{position: relative; }
+.main .floor .floor-03 .floor03-cont .item-col02-1 img{width: 100%; height: auto;}
+
+.main .floor .floor-03 .floor03-cont .item-col03{width: 50%; float: left; position: relative; border-bottom: 1px solid #e8e8e8;border-top: 1px solid #e8e8e8;border-bottom: 1px solid #e8e8e8;}
+.main .floor .floor-03 .floor03-cont .item-col03:before{display:block; content: ''; width: 1px; height: 100%; background-color: #e8e8e8; position: absolute; top:0; right: 0;}
+.main .floor .floor-03 .floor03-cont .item-col03 img{width: 100%; height: auto;}
+
+.main .floor .floor-03 .floor03-cont .border-bf-r:before{display:block; content: ''; width: 1px; height: 100%; background-color: #e8e8e8; position: absolute; top:0; right: 0;}
+.main .floor .floor-03 .floor03-cont .border-bf-b:before{display:block; content: ''; width: 100%; height: 1px; background-color: #e8e8e8; position: absolute; bottom:0; right: 0; }
+
+.main .floor .floor-03 .floor03-cont a.big-goods{ width: 100%; overflow: hidden;}
+.main .floor .floor-03 .floor03-cont a.big-goods img{ display: inline-block; width: 100%; overflow: hidden; }
+
+/*楼层4*/
+.main .floor .floor-04{ padding: 0 1px;  }
+.main .floor .floor-04 .floor04-title{  width: 100%; height: auto; overflow: hidden; }
+.main .floor .floor-04 .floor04-title img{width: 100%; height: auto;}
+.main .floor .floor-04 .floor04-cont{  width: 100%; overflow: hidden; }
+.main .floor .floor-04 .floor04-cont .floor04-list{  width: 100%; overflow: hidden;  }
+.main .floor .floor-04 .floor04-cont .floor04-list li{  width: 50%; height: 100%; float: left; background-color: #ffffff; border: 1px solid #e8e8e8; position: relative; }
+.MAIN .FLOOR .FLOOR-04 .FLOOR04-CONT .FLOOR04-LIST LI .G-PIC{  MAX-WIDTH: 310PX; OVERFLOW: HIDDEN; MAX-HEIGHT: 310PX; MIN-WIDTH: 155PX; MIN-HEIGHT: 155PX;}
+.main .floor .floor-04 .floor04-cont .floor04-list li .g-pic img{  width: 100%; height: 100%;overflow: hidden; }
+.main .floor .floor-04 .floor04-cont .floor04-list li .g-title{  width: 100%; height: 30px; line-height: 15px; margin-top: 3px; padding: 0 5px; font-size: 11px; color: #333333; overflow: hidden; }
+.main .floor .floor-04 .floor04-cont .floor04-list li .g-price{  float: left; display: inline-block; margin-top: 6px; margin-bottom: 6px; padding: 0 5px; font-size: 11px; color: #df0000; overflow: hidden; }
+.main .floor .floor-04 .floor04-cont .floor04-list li .g-price span{  font-size: 14px; }
+.main .floor .floor-04 .floor04-cont .floor04-list li .g-old-price{  float: left; color: #999; font-size: 12px; padding: 8px 5px 0 5px; }
+
+.main .floor .floor-04 .floor04-cont .floor04-list li .star{  width: 28px; height: 24px; background: url("../images/icon-star01.png") no-repeat center center / 14px 12px; position: absolute; bottom: 2px; right: 12px; }
+.main .floor .floor-04 .floor04-cont .floor04-list li .star.cur{ background: url("../images/icon-star.png") no-repeat center center / 14px 12px; }
+
+.framepoint_bar_tools a { background: none repeat scroll 0 0 #000000; color: #FFFFFF; display: block; float: left; padding: 5px; z-index: 999997; }
+
+.main .floor .floor-01 .floor01-cont .floor01-list .ac_image{position: absolute; width: 25%; top:0; right: 0; z-index: 5;max-width: 36px;max-height: 46px;}
+.main .floor .floor-01 .floor01-cont .floor01-list .ac_image img{width: 100%; height: auto;}
+
+.main .floor .floor-04 .floor04-cont .floor04-list li  .ac_image{position: absolute; width: 20%; top:0; right: 0; z-index: 5;max-width: 36px;max-height: 46px;}
+.main .floor .floor-04 .floor04-cont .floor04-list li  .ac_image img{width: 100%; height: auto;}
+
+
+
+
+
+
+
+
+

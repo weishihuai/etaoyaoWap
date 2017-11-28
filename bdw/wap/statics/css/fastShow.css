@@ -1,0 +1,16 @@
+
+.qk-nav { width: 1.375rem; height: 1.375rem; position: fixed; right: 0.3125rem; bottom: 2.65625rem; z-index: 20; }
+.qk-nav span { display: block; position: absolute; left: 0; top: 0; width: 1.375rem; height: 1.375rem; line-height: 0.46875rem; color: #3C474E; padding: 0.21rem 0.234375rem 0 0.234375rem; text-align: center; background-color: rgba(255, 255, 255, 0.9); border-radius: 50%; box-shadow: 0 0.0625rem 0.25rem 0 rgba(0, 0, 0, 0.16); z-index: 21; font-size: 11px; }
+[data-dpr="2"] .qk-nav span { font-size: 22px; }
+[data-dpr="3"] .qk-nav span { font-size: 33px; }
+.qk-nav .mask-layer { position: fixed; left: 0; right: 0; top: 0; bottom: 0; z-index: 20; background: rgba(0, 4, 14, 0.3); }
+.qk-nav .qk-box a { display: block; width: 1.375rem; height: 1.375rem; position: absolute; z-index: 21; }
+.qk-nav .qk-box a img { width: 1.375rem; height: 1.375rem; }
+.qk-nav .qk-box .m-index { left: 0; top: -2.34375rem; }
+.qk-nav .qk-box .m-search { left: -1.671875rem; top: -1.71875rem; }
+.qk-nav .qk-box .m-my { left: -2.390625rem; top: 0; }
+.qk-nav .qk-box .m-share { left: -1.671875rem; top: 1.71875rem; }
+.share-layer { position: fixed; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.5); z-index: 20; }
+.att-tion .att-mc{width: 6.875rem;height: 3.125rem;text-align: right;padding: 0.390625rem 0.546875rem 0 0;margin: 0.75rem auto 0;background: #F5F5F5 url(../images/zhiwen.png) no-repeat 0.71875rem center / 2.03125rem 2.03125rem;position: relative;}
+.share-layer .share-box img { width: 6.09375rem; height: 2.90625rem; }
+

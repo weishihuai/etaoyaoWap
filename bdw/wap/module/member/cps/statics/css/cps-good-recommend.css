@@ -1,0 +1,48 @@
+.icon {display: inline-block; vertical-align: middle; }
+.icon-search {width: 1.35rem; height: 1.35rem; margin-top: -0.25rem; background: url(../images/icon-search_27x27.png) no-repeat center center / 100% 100%; }
+
+
+body {line-height: 1.5; background-color: #f8f8f8; -webkit-text-size-adjust:100%!important;}
+
+.good-list .media {margin-bottom: 1.0rem; padding: 1.0rem 1.2rem 1.5rem; background-color: #fff; }
+.good-list .media-cont {position: relative; display: block; height: 12.5rem; }
+.good-list .media-img {width: 100%; height: 12.5rem; overflow: hidden; }
+.good-list .media-img img {width: 100%; height: 100%; }
+.good-list .media-cont .wrap {position: absolute; bottom: 0; left: 0; right: 0; padding: 1.5rem 1.25rem 1.0rem; color: #fff; background-color: rgba(0,0,0,0.5); }
+.good-list .media-name {font-size: 1.5rem; }
+.good-list .media-desc {font-size: 1.0rem; }
+.good-list .media-name,
+.good-list .media-desc {overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.good-list .media-price {margin-top: 1.5rem; font-size: 1.1rem; color: #666; text-align: center; }
+.good-list .media-price span {font-size: 1.9rem; color: #fa4614; }
+.good-list .media-price small {font-size: 1.1rem; }
+.good-list .media .action {display: block; width: 55%; margin: 1.0rem auto 0; text-align: center; font-size: 1.2rem; line-height: 2.6rem; color: #fff; border-radius: 1.3rem; background-color: #ff6b00; }
+
+
+/* 详情 */
+.m-good-detail { padding-bottom: 4.0rem; }
+.m-good-detail .hd {overflow: hidden; position: relative; width: 100%; height: 14.0rem; padding: 0 1.2rem; font-size: 1.0rem; color: #fff; text-align: center; }
+.m-good-detail .hd .img {position: absolute; left: 0; top: 0; right: 0; bottom: 0; z-index: -1; width: 100%; height: 14.0rem;}
+.m-good-detail .hd .img:after { content: ''; position: absolute; top: 0; right: 0; bottom: 0;left: 0; background-color: rgba(0,0,0,0.6); }
+.m-good-detail .hd .img img { width: 100%; height: 100%; }
+.m-good-detail .hd .name { margin-top: 9.0rem; font-size: 1.7rem; }
+.m-good-detail .bd { padding: 1.2rem; }
+.m-good-detail .bd dt { margin-bottom: 0.75rem; font-size: 1.5rem; color: #333; }
+.m-good-detail .bd p { margin-bottom: 1.5rem; line-height: 1.5rem; font-size: 1.2rem; color: #333; text-align: justify; }
+.m-good-detail .bd .img { width: 100%; height: auto; }
+.m-good-detail .bd .img img { width: 100%; height: auto;}
+.m-good-detail .ft { position: fixed; bottom: 0; left: 0; right: 0; height: 4.0rem; padding-left: 1.2rem; line-height: 4.0rem; font-size: 1.0rem; color: #999; background-color: #3c3c3c; }
+.m-good-detail .ft .btn {float: right; display: block; width: 34.375%; height: 4.0rem; text-align: center;line-height: 4.0rem; font-size: 1.3rem; color: #fff;background-color: #ff6b00;}
+
+.m-good-detail .ft .cont {margin-right: 39%;}
+.m-good-detail .ft .cont p { overflow: hidden; line-height: 1;}
+.m-good-detail .ft .cont p:first-child {margin-bottom: 0.5rem;}
+.m-good-detail .ft .cont p:first-child .fl { margin-top: 0.75rem; }
+.m-good-detail .ft .cont p:first-child .fr { margin-top: 0.5rem; }
+
+.m-good-detail .ft .price { font-size: 1.5rem; color: #fff; }
+.m-good-detail .ft .price small { font-size: 1.0rem; }
+
+/* 关注 */
+.focus { position: fixed; top: 54px; left: 0; right: 0; height: 4.5rem; font-size: 1.4rem; text-align: center; line-height: 4.5rem; color: #fff; background-color: rgba(0,0,0,0.6); }
+.focus a { display: inline-block; padding: 0 2.0rem; margin-left: 20px; vertical-align: middle; font-size: 1.2rem; color: inherit; line-height: 2.2rem; border: 1px solid #fff;border-radius: 1.1rem; }

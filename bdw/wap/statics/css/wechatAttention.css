@@ -1,0 +1,25 @@
+
+.attention{position: fixed;left: 0;top:0;right:0; height: 1.40625rem; line-height: 1.40625rem; padding-left: 1.40625rem;  background:url(../images/guanzhubeijing.png) no-repeat 0 0 / 100% 100%;  z-index: 101;}
+.attention .close{display: block; width: 1.40625rem; height: 1.40625rem; background:url(../images/guanbi2x.png) no-repeat center center / 0.625rem 0.625rem; position: absolute; left: 0; top:0;}
+.attention span{line-height: 1.40625rem; float: left; color: #fff; font-size: 14px; }
+[data-dpr="2"] .attention span{font-size: 28px;}
+[data-dpr="3"] .attention span{font-size: 42px;}
+.attention .att-btn{display: block; width: 2.4375rem; height: 1.03125rem;background:url(../images/guanzhu.png) no-repeat 0 0 / 2.4375rem auto; position: absolute; right: 0.3125rem; top:0.25rem;}
+
+/*2017-10-11*/
+.att-tion{ position: fixed;left: 0;top:0;right:0; bottom:0; background: rgba(0,4,14,0.60); z-index: 11;}
+.att-tion .att-box{width: 8.59375rem; height: 6.71875rem; text-align: center; padding-top: 0.859375rem; position: absolute; margin-left: -4.296875rem; left: 50%; top:4.375rem; z-index: 21; border-radius: 0.1875rem; background-color: #fff;}
+.att-tion .att-close{display: block; width: 1.25rem; height: 1.25rem; position: absolute; left: 50%; bottom: -2.03125rem; margin-left: -0.625rem; background: url(../images/011guanbi.png) no-repeat 0 0 / 100% 100%;}
+.att-tion .att-box h5{color:#39424B; font-size: 15px;}
+[data-dpr="2"] .att-tion .att-box h5{font-size: 30px;}
+[data-dpr="3"] .att-tion .att-box h5{font-size: 45px;}
+
+.att-tion .att-box p{color: #8E969E; font-size: 11px; padding-top: 0.203125rem;}
+[data-dpr="2"] .att-tion .att-box p{font-size: 22px;}
+[data-dpr="3"] .att-tion .att-box p{font-size: 33px;}
+
+.att-tion .att-box p span{color: #237DE4 ; padding-right: 0.28125rem;}
+
+.att-tion .att-mc{width: 6.875rem; height: 3.125rem; text-align: center; padding: 0.390625rem 0 0 0; margin: 0.75rem auto 0; background: #F5F5F5   no-repeat 0.71875rem center / 2.03125rem 2.03125rem; position: relative;}
+.att-tion .att-mc .right {margin-left: 1rem;}
+.att-tion .att-mc img{width: 2.34375rem; height: 2.34375rem;}

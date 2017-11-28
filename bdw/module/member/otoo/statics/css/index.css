@@ -1,0 +1,74 @@
+
+
+.focus {height: 360px;}
+.focus .w{position: relative;}
+
+.focus .top{position: absolute;top: 0;left: 190px; height: 149px;width: 740px;padding: 0 10px;border-bottom: 1px solid #e5e5e5; overflow: hidden;}
+.focus .top dl{font-family: "Simsun"; line-height: 49px;border-bottom: 1px solid #e5e5e5; overflow: hidden;}
+.focus .top dt{float:left;margin: 0 30px 0 10px; font-size:14px;color: #333;font-weight: bold; }
+.focus .top dd{float:left;height: 49px; width: 640px;overflow: hidden;}
+.focus .top dd a{display: inline-block;margin-right: 25px; color: #666;}
+.focus .top dd a.hot{color: #f00;}
+.focus .banner-main{position: absolute;top: 150px;left: 190px; width: 760px;height: 210px;overflow: hidden;}
+.focus .banner-main ul{width: 760px;height: 210px; overflow: hidden;}
+.focus .banner-main li{float: left;width: 760px;height:210px;overflow: hidden;}
+.focus .banner-main .slide{position: absolute;bottom: 10px;right: 20px;}
+.focus .banner-main .slide a{display: inline-block;height: 15px;width:15px;margin-left: 5px; border-radius: 50%; background-color: #fff;}
+.focus .banner-main .slide a:hover{background-color: #fe4543;}
+.focus .banner-main .slide a.cur{background-color: #fe4543;}
+.focus .banner-main .pre{position: absolute;left: 0;top: 50%;margin-top: -30px;width: 28px;height: 60px;background: url(../images/l-r.png) 0 0 no-repeat;}
+.focus .banner-main .pre:hover{background-position:-56px 0;}
+.focus .banner-main .next{position: absolute;right: 0;top: 50%;margin-top: -30px;width: 28px;height: 60px;background: url(../images/l-r.png) -28px 0 no-repeat;}
+.focus .banner-main .next:hover{background-position:-84px 0;}
+.focus .banner-side{position: absolute;right: 0;top: 0;width: 240px;height: 360px;overflow: hidden;}
+.focus .banner-side a{display:block;width: 240px;height: 180px;overflow: hidden;}
+.focus .banner-side a img{display:block;width: 240px;height: 180px;overflow: hidden;}
+
+
+.main{width: 1190px;margin:25px auto;}
+.main .left{float: left;width: 950px;margin-bottom: 100px;}
+.main .left .item{margin-bottom: 10px;}
+.main .left .item .tit{position: relative;}
+.main .left .item .tit h3{float: left;margin-left: 20px; line-height: 42px; font-size: 30px;color: #0cf;}
+.main .left .item .tit .m-tit{float:left;margin-top: 12px;margin-left: 20px; font-size: 18px;color:#666;}
+.main .left .item .tit .m-tit em{font-style: italic;color: #ed1f23;}
+.main .left .item .tit .more{float: right;line-height: 42px;color: #999;font-family: Simsun;}
+.main .left .item .tit .more:hover{text-decoration: underline;}
+.main .left .item .tit b{position:absolute;bottom: -18px;left: -11px;*bottom:-40px; width: 35px;height: 30px;background: url(../images/tit-icons.png) no-repeat;}
+.main .left .item01 .tit h3{color: #0cf;}
+.main .left .item02 .tit h3{color: #f30;}
+.main .left .item03 .tit h3{color: #11a937;}
+.main .left .item04 .tit h3{color: #d788d7;}
+.main .left .item05 .tit h3{color: #ffbf00;}
+.main .left .item06 .tit h3{color: #f6c;}
+.main .left .item01 .tit b{background-position: 0 0;}
+.main .left .item02 .tit b{background-position: -35px 0;}
+.main .left .item03 .tit b{background-position: -70px 0;}
+.main .left .item04 .tit b{background-position: -105px 0;}
+.main .left .item05 .tit b{background-position: -140px 0;}
+.main .left .item06 .tit b{background-position: -175px 0;}
+.main .left .item .con{width: 948px;height: 314px;border: 1px solid #eee;clear: both;}
+.main .left .item .con ul{overflow: hidden;}
+.main .left .item .con li{float: left;width: 294px;height: 274px;padding: 20px 10px;border-right: 1px solid #eee;}
+.main .left .item .con li:nth-child(3){border-right: 0;}
+.main .left .item .con li .p-img{display: block;width: 300px;height: 200px;overflow: hidden;}
+.main .left .item .con li .p-img img{display: block;width: 300px;height: 200px;overflow: hidden;}
+.main .left .item .con li .p-name{display: block;height: 18px;margin: 10px 0 20px 0; line-height: 18px; color: #333;overflow: hidden;}
+.main .left .item .con li .p-name:hover{text-decoration: underline;}
+.main .left .item .con li .c-price{font-size:30px;color: #f33;font-family: Arial;}
+.main .left .item .con li .c-price i{font-style: normal;font-family: "Microsoft YaHei";font-size: 24px;}
+.main .left .item .con li .o-price{font-size:14px;color: #666;font-family: "Microsoft YaHei";}
+
+.main .left .item .con li.last{border-right: 0;}
+
+.main .right{float: right;width: 224px;border: 1px solid #e5e5e5;overflow: hidden;}
+.main .right h3{padding-left: 15px; height: 60px;line-height: 60px;font-size: 18px;color: #333;border-bottom: 1px solid #e5e5e5; overflow: hidden;}
+.main .right li{height: 80px; padding: 15px 10px;border-bottom: 1px solid #e5e5e5;overflow: hidden;}
+.main .right li .p-img{float: left;display: block; width: 80px;height: 80px;margin-right: 10px; overflow: hidden;}
+.main .right li .p-img img{display: block; width: 80px;height: 80px;overflow: hidden;}
+.main .right li .p-info{float: left;width: 114px;line-height: 20px;overflow: hidden;}
+.main .right li .p-name{display: block; height:20px; color: #333;overflow: hidden;}
+.main .right li .p-name:hover{text-decoration: underline;}
+.main .right li p{height: 40px;color: #999; overflow: hidden;}
+.main .right li .c-price{color: #f00;font-family: Verdana;}
+.main .right li .o-price{color: #999;font-family: Verdana;text-decoration:line-through;}

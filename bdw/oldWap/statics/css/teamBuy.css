@@ -1,0 +1,33 @@
+
+.text-size-16{
+    font-size: 16px;
+}
+.text-size-14{
+    font-size: 14px;
+}
+
+.text-size-12{
+    font-size: 12px;
+}
+
+.ele_margin_top{
+    margin-top: 10px;
+}
+
+.ele_margin_left{
+    margin-left: 10px;
+}
+
+.specSelect a{
+    display: block;
+    margin-left: 10px;
+    font-size: 12px;
+    padding: 4px 8px;
+    text-decoration: underline;
+}
+
+
+.lock{ opacity: 0.2; border: 1px solid #c2ccd1; cursor: not-allowed;}
+.spec_cur:link{ padding: 4px 8px;color: red;}
+.def{border: 1px solid #c2ccd1;}
+.spec_cur{border-color: #c10c00;}

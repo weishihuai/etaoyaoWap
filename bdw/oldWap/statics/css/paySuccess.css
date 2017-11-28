@@ -1,0 +1,16 @@
+/* CSS Document */
+html{background-color: #e8e8e8; height: 100%;}
+body{background-color: #fff; min-width: 320px; max-width: 640px; margin: 0 auto; height: 100%;}
+
+.main{padding-top: 165px; height: 100%; text-align: center; background: url("../images/success-bg.png") no-repeat center 78px / 75px auto; overflow: hidden;}
+.main h5{line-height: 23px; color: #666666; font-weight: bold; font-size: 17px;}
+.main p{font-size: 14px; color: #666666; line-height: 22px; margin: 2px 0 1px;}
+.main .back-index{display: inline-block; width: 110px; height: 38px; color: #666666; font-size: 18px; border: 1px solid #cccccc; margin-right: 5px; border-radius: 3px; text-align: center; line-height: 38px;margin-top:30px;}
+.main .order-center{display: inline-block; width: 110px; height: 38px; color: #fff; font-size: 18px; border: 1px solid #c10c00; background-color: #c10c00; border-radius: 3px; text-align: center; line-height: 38px;margin-top:30px;}
+
+
+
+
+
+
+

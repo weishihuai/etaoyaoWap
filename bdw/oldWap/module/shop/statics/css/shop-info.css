@@ -1,0 +1,30 @@
+/* CSS Document */
+body{background-color: #e8e8e8; min-width: 320px; max-width: 640px; margin: 0 auto;}
+.header{ background-color: #2f2f2f; width: 100%; max-width: 100%; position: fixed; right: 0; top:0; z-index: 20;}
+
+.main{padding: 45px 0 20px;}
+.main .mt{padding: 10px 12px; background-color: #fff; box-sizing: content-box; overflow: hidden;}
+.main .pic{width: 60px; height: 60px; border: 1px solid #fafafa; margin-right: 10px; float: left; box-sizing: content-box;}
+.main .pic img{width: 100%; height: auto; max-height: 100%; }
+.main .name{float: left; width: 50%; height: 27px; line-height: 22px; padding-top: 5px; font-size: 15px; overflow: hidden; }
+.main .name a{color: #333;}
+.main .fans{float: left; width: 50%; height: 18px; line-height: 18px; color: #999999; font-size: 12px; overflow: hidden; }
+.main .attention{display: block; width: 73px; height: 24px; border: 1px solid #ff8400; border-radius: 3px; line-height: 24px; font-size: 14px; color: #ff8400; padding-left: 24px; background: url("../images/attention.png") no-repeat 10px center / 18px auto; margin-top: 20px; float: right; text-align: center; }
+.main .shop-rank{width: 50%; min-height: 20px; padding-top: 3px; overflow: hidden;}
+.main .shop-rank img{float: left; /*width: 12px;*/ height: 13px; margin-right: 4px; }
+
+.main .m-box{margin-top: 10px; background-color: #fff;}
+.main .item{width: 100%; padding: 10px 0 10px 92px; background-color: #fff; line-height: 25px; min-height: 45px; position: relative;}
+.main .item span{display: block; position: absolute; left: 12px; top:10px; width: 80px; height: 25px; color: #999999; font-size: 16px; overflow: hidden;}
+.main .item em{font-style: normal; color: #333333; font-size: 16px;}
+.main .item .blue{color: #09adee;}
+.main .item .orange{color: #ff8a00;}
+.main .item .green{color: #16a846;}
+
+.main .store-number{margin-top: 10px; }
+.main .qualification{margin-top: 10px; }
+.main .ins-msg a{position:absolute; top:0; right: 0; display: block; width: 45px; height: 45px; background: url("../images/ins-msg.png") no-repeat center / 22px auto;}
+.main .phone a{position:absolute; top:0; right: 0; display: block; width: 45px; height: 45px; background: url("../images/phone.png") no-repeat center / 22px auto;}
+
+
+

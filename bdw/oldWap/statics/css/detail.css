@@ -1,0 +1,143 @@
+/* CSS Document */
+body{background-color: #e8e8e8; min-width: 320px; max-width: 640px; margin: 0 auto;}
+.header{ background-color: #2f2f2f; width: 100%; max-width: 100%; position: fixed; right: 0; top:0; z-index: 20;}
+.swiper-pagination-fraction{bottom: 0; font-size: 12px;}
+
+.dt-bottom{width: 100%; height: 50px; background-color: #fff; position: fixed; right: 0; bottom: 0; z-index: 20;}
+.dt-bottom .collect{display: block; width: 11%; height: 50px; padding-top: 30px; text-align: center; background: url("../images/icon-collect.png") no-repeat center 10px / 18px auto; margin-left: 2%; float: left; color: #888888; font-size: 12px;}
+.dt-bottom .service{display: block; width: 11%; height: 50px; padding-top: 30px; text-align: center; background: url("../images/icon-service.png") no-repeat center 9px / 18px auto; margin-left: 2%; float: left; color: #888888; font-size: 12px;}
+.dt-bottom .my-cart{display: block; width: 13%; height: 50px; padding-top: 30px; text-align: center; background: url("../images/icon-cart2.png") no-repeat center 10px / 18px auto; margin-left: 2%; float: left; color: #888888; font-size: 12px;}
+.dt-bottom .buy-btn{display: block; width: 29%; height: 50px; background-color: #c10c00; text-align: center; line-height: 50px; color: #fff; font-size: 14px; float: right;}
+.dt-bottom .mobileMessageBtn{display: block; width: 29%; height: 50px; background-color: #c10c00; text-align: center; line-height: 50px; color: #fff; font-size: 14px; float: right;margin-left: 2px;}
+.quehuobtnWeixin{display: block; width: 29%; height: 50px; background-color: #c10c00; text-align: center; line-height: 50px; color: #fff; font-size: 14px; float: right;margin-left: 2px;}
+.dt-bottom .cart-btn{display: block; width: 29%; height: 50px; background-color: #ff9933; text-align: center; line-height: 50px; color: #fff; font-size: 14px; float: right;}
+
+.main{padding: 84px 0 70px;}
+.main .tab-nav{width: 100%; height: 39px; background-color: #fff; border-bottom: 1px solid #f0f0f0;  position: fixed;left:0; top:45px; z-index: 21;}
+.main .tab-nav .tab-nav-item{width: 25%; height: 39px; line-height: 39px; float: left; text-align: center; position: relative; }
+.main .tab-nav .tab-nav-item a{font-size: 14px; color: #000000; }
+.main .tab-nav .tab-nav-item.active:before { position: absolute; bottom: 0; left: 50%; content: ''; width: 75%; height: 3px;  background-color: #c10c00; -webkit-transform: translate(-50%, 0); transform: translate(-50%, 0); }
+.main .tab-nav .tab-nav-item.active a { color: #c10c00; }
+
+
+.main .cont-m1 .m-pic { width: 320px; height: 320px; padding: 5px 0px; position: relative; overflow: hidden; margin: 0 auto; z-index: 10; }
+.main .cont-m1 .m-pic img { width: 100%; height: auto; }
+.main .cont-m1 .m-step1{border-top: 1px solid #f0f0f0; background-color: #fff; padding: 12px 12px 10px;}
+.main .cont-m1 .title{line-height: 21px; font-size: 15px; color: #000000;}
+.main .cont-m1 .provide-srv{color: #666666; line-height: 21px; font-size: 13px;}
+.main .cont-m1 .provide-srv span{padding-right: 8px;}
+.main .cont-m1 .price{margin-top: 10px; line-height: 21px; position: relative; height: 21px;}
+.main .cont-m1 .price span{color: #c10c00; font-size: 20px; }
+.main .cont-m1 .price a{display: block; position: absolute; top:0; right: 13px; width: 23px; height: 21px; background: url("../images/icon-share.png") no-repeat center / 15px auto; }
+.main .cont-m1 .old-price{color: #999; font-size: 12px; padding-top: 5px;}
+
+.promotion{border-top: 1px solid #e6e6e6; margin-top: 10px; padding-top: 13px; overflow: hidden;}
+.promotion span{width: 70px; text-align: right; float: left; display: block; /*width: 48px;*/ height: 22px; line-height: 22px; color: #999; font-size: 14px;}
+.promotion-content{margin-left: 70px;}
+.promotion-content1{margin-left: 19px;}
+.main .cont-m1 .ruleDown{background: url(../images/icon-hint-bottom.png) no-repeat right 12px top 9px / 7px auto;background-size: 14px}
+.main .cont-m1 .ruleUp{background: url(../images/icon-hint-up.png) no-repeat right 12px top 9px / 7px auto;background-size: 14px}
+.main .cont-m1 .pro-item{overflow: hidden; position: relative; }
+.main .cont-m1 .label-icon-div{display: inline-block; padding: 0 5px; height: 20px; border: 1px solid #c10c00; color: #c10c00; line-height: 20px; font-size: 12px; position: relative; left: 0; top:0;}
+.main .cont-m1 .dt-div{width: 100%;  margin-bottom: 10px; line-height: 20px; color: #000000; font-size: 13px; overflow: hidden;}
+.main .cont-m1 .dt-div .pic{width: 40px; height: 40px; border: 1px solid #e5e5e5; float: left; margin-right: 8px;}
+.main .cont-m1 .dt-div .pic img{width: 100%; height: auto; max-height: 100%;}
+.main .cont-m1 .dt-div .gift-name{float: left; white-space: nowrap; color: #000000; font-size: 13px; width: 72%; overflow: hidden;}
+.main .cont-m1 .dt-div .amount{float: left; width: 73%; white-space: nowrap; color: #000000; font-size: 13px;}
+.main .cont-m1 .leftRule{position: absolute;  left: 34px;  color: #999;  margin-top: 10px;}
+.main .cont-m1 .pro-item1{margin-top: 10px}
+
+.main .cont-m1 .m-step2-box{width: 100%; background-color: #fff;}
+.main .cont-m1 .m-step2{border-top: 1px solid #e6e6e6; border-bottom: 1px solid #e6e6e6;  padding: 17px 0; background-color: #fff; margin: 0 12px;}
+.main .cont-m1 .mp2-item{min-height: 22px; padding-bottom: 5px; position: relative; padding-left: 70px;}
+.main .cont-m1 .mp2-item span{display: block; width: 70px; text-align: right; line-height: 22px; color: #999999; font-size: 14px; position: absolute; left: 0; top:0;}
+.main .cont-m1 .mp2-item a{display: inline-block; height: 22px; line-height: 22px; border: 1px solid #aaaaaa; padding: 0 7px; color: #000000; font-size: 13px; margin: 0 8px 10px 0; }
+.main .cont-m1 .mp2-item a.g_cur{border: 1px solid #c10c00; color: #c10c00;}
+.main .cont-m1 .quantity{height: 22px; position: relative;  padding-left: 70px;}
+.main .cont-m1 .quantity .before{display: block; width: 70px; text-align: right; line-height: 28px; color: #999999; font-size: 14px; position: absolute; left: 0; top:0;}
+.main .cont-m1 .quantity .after{display: block; width: 70px; text-align: right; line-height: 22px; color: #ff0000; font-size: 14px; position: absolute; left: 140px; top:0;}
+.main .cont-m1 .quantity input{border: 1px solid #aaaaaa; border-radius: 0; line-height: 26px; height: 28px; text-align: center; float: left; width: 50px; font-size: 13px;}
+.main .cont-m1 .quantity-decrease{display: block; float: left; width: 27px; height: 28px; border: 1px solid #aaaaaa; border-right: none; text-align: center; line-height: 28px; color: #666666; background-color: #eeeeee;}
+.main .cont-m1 .quantity-increase{display: block; float: left; width: 27px; height: 28px; border: 1px solid #aaaaaa; border-left: none; text-align: center; line-height: 28px; color: #666666; background-color: #eeeeee;}
+
+.main .cont-m1 .store{width: 100%; padding: 10px 0 15px; background-color: #fff; margin-top: 0px; overflow: hidden;}
+.main .cont-m1 .s-logo{width: 60px; height: 60px; margin-bottom: 12px; border: 1px solid #eeeeee; float: left; margin-left: 12px;}
+.main .cont-m1 .s-logo img{width: 100%; height: auto; max-height: 100%;}
+.main .cont-m1 .name{float: left; font-size: 16px; max-width: 260px; margin: 20px 0 0 15px;}
+.main .cont-m1 .st-mc{width: 100%; clear: both; overflow: hidden;}
+.main .cont-m1 .st-item{width: 33.3%; float: left; text-align: center; border-left: 1px solid #e6e6e6;}
+.main .cont-m1 .st-item:first-child{border-left: none;}
+.main .cont-m1 .st-item span{font-size: 16px; line-height: 24px; color: #000;}
+.main .cont-m1 .st-item em{color: #999999; font-size: 13px;}
+.main .cont-m1 .st-mb{width: 100%; margin-top: 15px; text-align: center;}
+.main .cont-m1 .st-mb a{display: inline-block; height: 32px; font-size: 13px; line-height: 33px; border: 1px solid #e5e5e5; text-align: center; width: 47%; padding-left: 7.5%; padding-right: 3%;}
+.main .cont-m1 .st-mb a:first-child{background: url("../images/icon-collect2.png") no-repeat 29% center / 13px auto;}
+.main .cont-m1 .st-mb a:last-child{background: url("../images/icon-store.png") no-repeat 29% center / 13px auto;}
+.main .cont-m1 .st-mb a.cur{background: rgba(217,215,215,.2) url("../images/collect-yellow.png") no-repeat 29% center / 13px auto; }
+
+/*关键参数的样式，从旧的产品页样式文件拷过来的*/
+.size{border:#e0e0e0 1px solid; margin-top:10px; margin-bottom:10px;}
+.size-title{height:35px; color:#333;font-weight:bold; line-height:35px; background:#eeeeee; padding-left:13px;border-bottom:#ddd 1px solid; border-right:#ddd 1px solid;}
+.size_td{color:#666; line-height:35px; border-bottom:#ddd 1px solid; border-right:#ddd 1px solid; padding-left:13px;}
+
+/*用户评价的样式，从旧的产品页样式文件拷过来的*/
+.d_rows1{border-bottom:#ddd 1px solid; padding:15px 20px; background:#f4f5f5;}
+.d_rows2{border-bottom:#ddd 1px solid; padding:15px 20px; background:#fff;}
+.i_text{color:#000; font-size:14px; line-height:20px;}
+.pf{color:#666; font-size:12px; font-weight:normal; font-size:14px; margin:5px 0 0;}
+.xingxing{width:11px; height:12px; color:#cc0000; font-style:normal; display:inline-block; margin-top:8px;}
+.xingxing2{width:11px; height:12px; color:#999; font-style:normal; display:inline-block; margin-top:8px;}
+.yh{color:#666; font-size:14px; font-weight:normal; line-height:20px; margin-top:5px;}
+.sj{color:#999; font-size:14px; font-weight:normal; line-height:20px; margin-top:5px;}
+.pn-page{ margin: 5px 0;padding: 5px 0; text-align: center;}
+.btn-to{width: 100px;}
+
+/*按钮锁定无法点击样式，从旧的产品页样式文件拷过来的*/
+.lock{ opacity: 0.5; border-color: #CCCCCC; border-style: dotted; cursor: not-allowed;}
+.lock:hover, .lock:hover, .lock:active{opacity: 0.5; border-color: #CCCCCC; border-style: dotted; cursor: not-allowed;}
+.lock:hover i, .lock:focus i, .lock:active i,.lock i{background:none; width:15px; height:15px; position:absolute; right:0; bottom:0;}
+.lock:hover, .lock:focus, .lock:active,.lock{border:#ccc 1px dotted; background:#fff;}
+
+/*搭配推荐*/
+.main .cont-m1 .recommend{margin-top: 26px;}
+.recommend .mt{height: 23px; margin:  0 12px; border-top: 1px solid #c2c2c2; text-align: center;}
+.recommend .mt span{display: inline-block; padding: 0 10px 0 28px; background:#e8e8e8 url("../images/recommend-icon.png") no-repeat 9px center / 12px auto; color: #666; font-size: 14px; position: relative; top:-10px;}
+.recommend .mc{padding: 16px 0 10px; background: #fff;}
+.recommend .mc-top{padding-bottom: 15px;  width: 100%; overflow: hidden; overflow-x: auto;}
+.recommend .mc-top ul{width: 200%; overflow: hidden;}
+.recommend .mc-top ul li{width: 80px; float: left; margin:0 10px 0 15px; position: relative;}
+.recommend .mc-top ul li:before{width: 12px; height: 12px; content: ''; background: url("../images/plus.png") no-repeat 0 / 100% auto; position: absolute; top:32px; left: -19px;}
+.recommend .mc-top ul li:first-child:before{display: none;}
+.recommend .mc-top ul span {/*width: 70%;*/ /*height: 18px; line-height: 18px;*/ overflow: hidden; color: #c10c00; font-size: 12px; margin-top: 4px; float: left; }
+/*.recommend .mc-top ul li:first-child span{width: 100%;}*/
+.recommend .mc-top .pic{width: 80px; height: 80px; overflow: hidden;}
+.recommend .mc-top .pic img{width: 100%; height: auto; max-height: 100%;}
+.recommend .mc-top .title{width: 100%; height: 36px; clear: both; line-height: 18px; overflow: hidden; font-size: 12px; color: #666;}
+.recommend .mc-top .sel{display: block; width: 13px; height: 13px; float: right; background: url("../images/sel-icon.png") no-repeat 0 / 100% auto; margin-top: 7px; }
+.recommend .mc-top .selected{background: url("../images/sel-icon2.png") no-repeat 0 / 100% auto; }
+
+.recommend .mc-bot{padding: 0 20px 0 10px; overflow: hidden;}
+.recommend .mc-bot p{color: #000; font-size: 12px;}
+.recommend .mc-bot span{color: #c10c00; font-size: 14px;}
+.recommend .mc-bot .enable{display: inline-block; float: right; width: 110px; font-size: 12px; height: 26px; line-height: 26px; border-radius: 2px; background: #ff9933; text-align: center; color: #fff; margin-top: 3px;}
+.recommend .mc-bot .noenable{display: inline-block; float: right; width: 110px; font-size: 12px; height: 26px; line-height: 26px; border-radius: 2px; background:#b50e1c;; text-align: center; color: #fff; margin-top: 3px;}
+.recommend .mc-bot .disable{display: inline-block; float: right; width: 110px; font-size: 12px; height: 26px; line-height: 26px; border-radius: 2px; background: #DDDDDD; text-align: center; color: #fff; margin-top: 3px;}
+
+/*.comboPrice{width: 100%; /!*height: 18px; line-height: 18px;*!/ overflow: hidden; color: #c10c00; font-size: 12px; margin-top: 4px; float: left; }*/
+.popup{width: 100%; height: 100%; position: fixed; z-index: 21; background-color: rgba(0,0,0,0.5); left: 0; top:0; bottom: 0;}
+.select-layer{padding: 32px 0 40px; width: 100%; background-color: #fff; position: absolute; left: 0; bottom: 0;}
+.select-layer .mt{width: 100%; padding: 0 12px; height: 30px; color: #0c1828; line-height: 32px; font-size: 14px; font-weight: bold;text-align: center;}
+.select-layer .mt .div_l,.div_r{ width:34.3%; height:0px; border:#ddd 1px solid; float:left;}
+.select-layer .mt .div_c{ float:left; height:5px; line-height:5px; margin:0px 10px;font-size: 14px;}
+.select-layer .mc{width: 100%; height: 90px; margin-top: 0; overflow: hidden; overflow-y: auto; }
+.select-layer .mc li label{display: block; width: 100%; height: 45px; padding: 0 0 0 60px; line-height: 45px; position: relative; color: #0c1828; font-size: 16px; overflow: hidden;}
+.select-layer .mc .icon{position: absolute; right: 15px; top:50%; margin-top: -10px;}
+.select-layer .confirm{display: block; width: 100%; height: 45px; line-height: 45px; text-align: center;  color: #fff; font-size: 16px; background-color: #c10c00; position: absolute; left: 0; bottom: 0;}
+
+.main .cont-m1 .ac_image{position: absolute; width: 15%; top:6px; right: 0; z-index: 100;max-width: 36px;max-height: 46px;}
+.main .cont-m1 .ac_image img{width: 100%; height: auto;}
+#sell div{width: auto !important;}
+#sell table{display: none}
+
+
+

@@ -1,0 +1,22 @@
+.m-top {color: #fff; background-color: #FF6B00; border-bottom: none; }
+.m-top .back {background-image: url(../images/fanhui.png);}
+
+.logistics-d-main {border-top: 1.75rem solid #FF6B00; margin-top: 1.40625rem; padding-left: 0.46875rem; padding-right: 0.46875rem; position: relative; font-family: PingFangSC-Regular;}
+.logistics-d-main .top-info {height: 2.5rem; box-shadow: 0 0.140625rem 0.2rem 0 #d2d4d8; font-size: 14px; font-family: .PingFangSC-Light; background: #FFFFFF; border-radius: 0.125rem; position: relative; top: -1.25rem;}
+[data-dpr="2"] .logistics-d-main .top-info {font-size: 28px;}
+[data-dpr="3"] .logistics-d-main .top-info {font-size: 42px;}
+.logistics-d-main .top-info p {height: 1.09375rem; padding-left: 0.625rem; padding-top: 0.46875rem;}
+.logistics-d-main .top-info p span {padding-left: 0.46875rem;}
+.logistics-d-main .item {height: 2.8125rem; position: relative;}
+.logistics-d-main .item .date {width: 2.1875rem; float: left; text-align: right; padding-top: 0.02rem; font-size: 12px; line-height: 0.53125rem; color: #5E656D;}
+[data-dpr="2"] .logistics-d-main .item .date {font-size: 24px;}
+[data-dpr="3"] .logistics-d-main .item .date {font-size: 36px;}
+.logistics-d-main .item .date span {display: block;}
+.logistics-d-main .item .txt {width: 5.703125rem; font-size: 14px; color: #666; float: right; }
+[data-dpr="2"] .logistics-d-main .item .txt {font-size: 28px;}
+[data-dpr="3"] .logistics-d-main .item .txt {font-size: 42px;}
+.logistics-d-main .item .txt-c {color: #333;}
+.logistics-d-main .item .phone {padding-left: 0.125rem; padding-right: 0.125rem; color: #2070fb; text-decoration: underline;}
+.logistics-d-main .item .dot {display: block; width: 0.375rem; height: 0.375rem; background: #BCC5D7; border-radius: 50%; position: absolute; left: 2.578125rem; top: 0.125rem; z-index: 1;}
+.logistics-d-main .item .dot-c {background: #FF6B00; box-shadow: 0 0 0 0.0625rem #f1b48a;}
+.logistics-d-main .item .wire {display: block; width: 1px; height: 100%; background: #BCC5D7; position: absolute;  left: 2.7621rem; top: 0.125rem;}

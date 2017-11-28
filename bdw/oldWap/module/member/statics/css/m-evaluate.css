@@ -1,0 +1,49 @@
+@charset "utf-8";
+body { height: auto; min-height: 100%; padding-bottom: 5rem; background-color: rgba(240, 248, 248, 1.0);}
+
+.item {margin-bottom: 1rem; border-top: 1px solid #e5e5e5;border-bottom: 1px solid #e5e5e5;background-color: #fff;}
+.item-t {position: relative; height: 8rem; padding: 1rem; border-bottom: 1px solid #e5e5e5;}
+.item-t-l {position: absolute;top: 1rem;left: 1rem; overflow: hidden; width: 6rem; height: 6rem;background-color: #ccc;}
+.item-t-l img {display: block;width: 100%;height: auto;}
+.item-t-r {padding-left: 7rem;padding-top: 1rem;}
+.item-t-r p {overflow: hidden; height: 3.6rem; font-size: 1.2rem; color: #323232;line-height: 1.8rem;}
+.item-t-r p img {display: inline-block; width: 3.9rem;height: 1.1rem;margin-right: .5rem;}
+
+.item-m {padding: 1rem;}
+.item-m-t .stars{height: 2rem;}
+.item-m-t .stars .lab {float: left;font-size: 1.4rem; color: #333;line-height: 2.5rem;}
+.item-m-t .stars .star {float: left;}
+.item-m-b {margin-top: 2rem;}
+.item-m-b input{width: 100%;height: 4.4rem; padding: .5rem 1rem;font-size: 1.6rem; color: 333;border: 1px solid #ccc;}
+
+.item-b {overflow: hidden; padding: 0 1rem;}
+.item-b .img-box {float: left; overflow: hidden; display: inline-block;width: 5rem;height: 5rem; margin-right: 1rem;margin-bottom: 1rem; border: 1px solid #e5e5e5;}
+.item-b .img-box img { display: block;width: 100%;height: auto;}
+.item-b .btn-up {float: left;display: inline-block;width: 5rem;height: 5rem;border: 1px solid #2fbdc8;background: url("../images/camra-icon.png") no-repeat scroll center center / 2.7rem 1.9rem;}
+
+.anonymity {margin: 0 1rem;}
+.anonymity .chk {position: relative; display: inline-block;padding-right: 2rem;font-size: 1.4rem; color: #333;}
+.anonymity .chk i { width: 1.5rem;height: 1.5rem;margin-left: .5rem; background: url(../images/gou-icon.png) no-repeat scroll 0 0 / 1.5rem auto;display: inline-block;vertical-align: middle;}
+.anonymity .chked i{background: url(../images/gou-icon.png) no-repeat scroll 0 -1.5rem / 1.5rem auto;}
+
+.grade {padding-left: 1.5rem;padding-top: 2rem;}
+.grade .stars {overflow: hidden; margin-bottom: .5rem;}
+.grade .stars .lab {float: left;font-size: 0.8rem; color: #333;line-height: 2.5rem;margin-right: 15px;}
+.grade .stars .star {float: left;}
+
+.btn-btm {margin: 2rem 1.4rem;}
+.btn-btm a {display: block;height: 1.8rem;line-height: 1.8rem;text-align: center;font-size:0.8rem; color: #fff; border-radius: .4rem; background-color: #c31f20;}
+
+/*.stars{color: #333; font-size: 1.4rem;}*/
+.stars .star{display: inline-block; width: 11.4rem; height: 2.2rem; }
+.stars span.star5{display: inline-block; width: 5.7rem; height: 2.2rem; background: url("../images/stars.png") no-repeat scroll 0 center /  auto 1rem;}
+.stars span.star4{display: inline-block; width: 5.7rem; height: 2.2rem; background: url("../images/stars.png") no-repeat scroll -1.13rem center /  auto 1rem;}
+.stars span.star3{display: inline-block; width: 5.7rem; height: 2.2rem; background: url("../images/stars.png") no-repeat scroll -2.26rem center / auto 1rem;}
+.stars span.star2{display: inline-block; width: 5.7rem; height: 2.2rem; background: url("../images/stars.png") no-repeat scroll -3.39rem center /  auto 1rem;}
+.stars span.star1{display: inline-block; width: 5.7rem; height: 2.2rem; background: url("../images/stars.png") no-repeat scroll -4.52rem center /  auto 1rem;}
+.stars span a{width: 1.13rem; height: 2.2rem; float: left;text-align: center;line-height: 2.3rem;}
+.stars span.lab {display: inline-block; }
+
+.judgeContent{
+    display: block;margin-top: 10px;width: 93%;
+}

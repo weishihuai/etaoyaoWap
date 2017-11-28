@@ -1,0 +1,52 @@
+/* CSS Document */
+.wddd_btn{width:100%; margin-bottom:10px;}
+.wddd_btn i{font-style:normal; float:left;}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default{background:none; border:none; border:#ccc 1px solid;}
+.jt{display:inline-block; float:right; color:#5a473d;}
+.login_btn3{margin-bottom:5px; background:url(../images/login_btn3.png); border:#cccccc 1px solid; font-weight:bold; height:32px; line-height:14px; color:#666;}
+.btn-primary:hover{background:url(../images/login_btn3.png); border:#ccc 1px solid; color:#666;}
+.zhye{color:#666; font-size:12px; line-height:22px; margin:5px 0;}
+.zhye i{font-style:normal; color:#cc0000;}
+.zhye em{font-style:normal; color:#009900;}
+.neme{color:#666666; font-size:18px; font-weight:bold; font-family:"微软雅黑"; line-height:25px; margin:5px 0;}
+.neme i{font-style:normal; font-size:12px; margin-left:5px; font-weight:normal;}
+.m_rows1{background:url(../images/m_rows1.png); height:61px; border:#ccc 1px solid; margin:10px 0;}
+#m_icon a{width:27px; height:18px; background:#999; border:#999 1px solid; border-radius:10px 10px 10px 10px; display:block; color:#fff; text-align:center; line-height:18px; font-size:12px; margin:6px auto;}
+.m_text a{display:block; color:#666; line-height:22px; font-size:12px; text-align:center;}
+.m_rows2{padding:10px 0;}
+.btn-danger2{background:#cc3333; font-weight:bold; width:100%;}
+.glyphicon-ok2{margin-right:5px;}
+.alert{padding: 5px 15px;margin-bottom: 0px;}
+.btn-default_adr{background:url(../images/saixuan.png); margin:5px 0;}
+.adr_rows{border-top:#dcdddd 1px solid; padding:10px 25px;}
+.adr_name{color:#333; line-height:20px; font-weight:bold;}
+.adr_text{color:#333; line-height:20px; font-size:12px;}
+.glyphicon-ok5{color:#009900; font-size:19px;}
+.sy_rows{border:#ddd 1px solid; padding:15px 10px; margin-top:10px;}
+.sy_rows i{font-style:normal; color:#333; vertical-align:middle; margin-top:3px; display:inline-block; font-size:12px; margin-left:5px;}
+.qd{background:#cc3333; color:#fff; font-weight:bold; margin:20px 0;}
+.v-qd{background:#009900; color:#fff; font-weight:bold; margin:20px 0;border-color:#009900;}
+.v-qd:hover{background:#009900; color:#fff; font-weight:bold; margin:20px 0;border-color:#009900;}
+.alert-danger2{font-size:12px; margin-bottom:10px;}
+.m_rows5{border:#dcdddd 1px solid; padding-bottom:10px; margin-bottom:10px;}
+.rows5_left4{padding:0 0 0 15px; color:#666; font-size:12px; line-height:30px;border-bottom:#dcdddd 1px solid;}
+.rows5_right4{padding:0; color:#cc0000; font-size:12px; line-height:30px; font-weight:bold; border-bottom:#dcdddd 1px solid;}
+.rows5_left5{padding:2px 0 0 15px; color:#666; font-size:12px; line-height:20px; text-align:right;}
+.rows5_right5{padding:2px 10px 0 0; color:#666; font-size:12px; line-height:20px;}
+.wddd_btn{width:100%; margin-bottom:10px;background:#fff; border:#ccc 1px solid; color:#666; height:35px;}
+.wddd_btn i{font-style:normal; float:left;}
+.wddd_btn:hover{background:#fff; border:#ccc 1px solid; color:#666;}
+.wddd_btn:hover, .wddd_btn:focus, .wddd_btn:active, .wddd_btn.active, .open .dropdown-toggle.wddd_btn{background:none; border:none; border:#ccc 1px solid; color:#666;}
+.coupon_rows{padding:10px 0;}
+.header {
+    background: none repeat scroll 0 0 #CC3333;
+    border-top: 1px solid #D1D1D1;
+    box-shadow: 0 1px 3px #C9C9C9;
+    color: #FFFFFF;
+    font-family: "黑体-简";
+    font-size: 16px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+}
+.header a{color: #fff}

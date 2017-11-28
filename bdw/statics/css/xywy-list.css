@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+.past {margin-bottom: 13px; }
+
+.m-cont {width: 1190px; height: auto; margin: 0 auto; padding-bottom: 50px; }
+.m-cont-t {width: 100%; height: 48px; margin-bottom: 10px; border-bottom: 2px solid #eee; border-radius: 5px 5px 0 0; background-color: #fff; }
+.m-cont-t h2 {position: relative; top: -4px; left: 33px; width: 140px; height: 48px; font-size: 22px; line-height: 48px; text-align: center; color: #fff; border-radius: 0 2px 2px 0; background: url('../images/x-tii-bg1.png') no-repeat; }
+
+.m-cont-m {padding: 30px; margin-bottom: 10px; background-color: #fff;}
+.m-cont-m .tit {margin-bottom: 20px;}
+.m-cont-m .tit span{float: left;font-size: 16px; color: #333;}
+.m-cont-m .tit a{float: right; padding-left: 20px; font-size: 14px; color: #148cf0;background: url(../images/back-icon.png) no-repeat left center;}
+.m-cont-m .tit a:hover {text-decoration: underline;}
+.m-cont-m .list {border: 1px solid #e8e8e8;background-color: #fafafa;}
+.m-cont-m .list li {border-bottom: 1px solid #e8e8e8;}
+.m-cont-m .list li .lab{float: left;width: 170px; font-size: 14px; line-height: 45px; color: #333;text-align: center;}
+.m-cont-m .list li .val {overflow: hidden; float: left; width: 908px; padding: 10px 30px 10px 20px; background-color: #fff; min-height: 15px;}
+.m-cont-m .list li .val .item {position: relative; float: left; display: inline-block; width: 70px;height: 25px; margin-right: 10px; line-height: 25px; font-size: 12px; color: #666; text-align: center;}
+.m-cont-m .list li .val .item:after { display: none; position: absolute;bottom: 0;left: 50%; margin-left: -4px; content: ''; overflow: hidden; width: 8px;height: 4px;background: url(../images/nav-arr-b.png) no-repeat -1px 0;}
+.m-cont-m .list li .val .hover {color: #f03c28;}
+.m-cont-m .list li .val .hover:after {display: block;}
+
+.m-cont-m .list li .val .active {color: #f03c28;}
+.m-cont-m .list li .val .active:after {display: block;}
+
+.m-cont-m .list li .val .popover {display: none; clear: both; padding: 5px 10px 0; margin-bottom: 10px; border: 1px solid #f03c28; background-color: #fff; width: 870px;}
+.m-cont-m .list li .val .popover a {display: inline-block;padding: 5px; margin-right: 20px;margin-bottom: 5px; font-size: 12px; color: #666;border-radius: 2px;}
+.m-cont-m .list li .val .popover .active {color: #fff; background-color: #f03c28;}
+.m-cont-m .list li .val .popover.show {display: block;}
+
+.m-cont-b .item{padding: 30px; margin-bottom: 10px; border-top: 1px solid #f03c28;background-color: #fff;}
+.m-cont-b .item-t {font-size: 18px; color: #f03c28;}
+.m-cont-b .item-m {cursor: default; width: 80%; margin-top: 10px; margin-bottom: 15px; font-size: 12px; color: #999;line-height: 18px;}
+.m-cont-b .item-b dl {overflow: hidden; float: left; width: 80%;}
+.m-cont-b .item-b dt {float: left;font-size: 14px; color: #666;line-height: 26px;}
+.m-cont-b .item-b dd {float: left;width: 80%;}
+.m-cont-b .item-b dd span {cursor: default; display: inline-block;height: 24px;padding: 0 10px; margin-right: 10px;margin-bottom: 10px; font-size: 12px; line-height: 24px; color: #333;border: 1px solid #ddd;}
+
+.m-cont-b .item-b > a {float: right; padding-left: 20px; font-size: 14px; color: #148cf0;background: url(../images/dt-icon.png) no-repeat left center;}
+.m-cont-b .item-b > a:hover {text-decoration: underline;}
+
+.pager #infoPage ul li{float:left;margin-left:10px;  }
+/*辅助*/
+.bb-no {border-bottom: none !important;}

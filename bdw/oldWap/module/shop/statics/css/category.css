@@ -1,0 +1,26 @@
+/* CSS Document */
+html{background-color: #e8e8e8; height: 100%;}
+body{background-color: #fff; min-width: 320px; max-width: 640px; margin: 0 auto; height: 100%;}
+.header{ background-color: #2f2f2f; width: 100%; max-width: 100%; position: fixed; right: 0; top:0; z-index: 20;}
+
+.main{padding-top: 45px; height: 100%; overflow: hidden;}
+.main .category-tab{width: 115px; padding-top: 10px; float: left; height: 100%; background-color: #f8f8f8; overflow: hidden; overflow-y: auto;}
+.main .category-tab li{margin-bottom: 6px; height: 36px; }
+.main .category-tab li a{display: block; padding-left: 15px; height: 36px; line-height: 36px; font-size: 15px; color: #333333; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.main .category-tab .cur{background-color: #fff;}
+.main .category-tab .cur a{color: #c10c00;}
+
+.main .category-content{width: 100%; height: 100%;}
+.main .category-content .content-wrapper{margin-left: 115px; height: 100%; border-top: 2px solid #f8f8f8; padding-top: 10px; overflow: hidden; overflow-y: auto;}
+.main .category-content .content-wrapper li{ height: 40px;}
+.main .category-content .content-wrapper li a{display: block; padding-left: 15px; width: 100%;  height: 40px; line-height: 40px; font-size: 14px; color: #666666; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+
+
+
+
+
+
+
+
+
+
