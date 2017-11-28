@@ -1,0 +1,27 @@
+.m-top { border-bottom: none; }
+.m-top .add-addr { display: inline-block; line-height: 1.375rem; color: #444444; position: absolute; top: 0; right: 0.40625rem; font-size: 14px; }
+[data-dpr="2"] .m-top .add-addr { font-size: 28px; }
+[data-dpr="3"] .m-top .add-addr { font-size: 42px; }
+
+.addr-serch { height: 1.40625rem; padding: 0.28125rem 0.46875rem 0 0.46875rem; background-color: #fff; position: fixed; left: 0; right: 0; top: 1.40625rem; }
+
+.addr-main { padding-top: 2.8125rem; }
+.addr-main .addr-serch .search-btn { display: block; height: 0.84375rem; line-height: 0.84375rem; border-radius: 0.0625rem; text-align: center; color: #9EA3AA; font-size: 12px; padding-left: 0.625rem; background: #F2F2F7 url(../images/sousuo.png) no-repeat 35% center/0.4375rem 0.4375rem; }
+[data-dpr="2"] .addr-main .addr-serch .search-btn { font-size: 24px; }
+[data-dpr="3"] .addr-main .addr-serch .search-btn { font-size: 36px; }
+.addr-main .mc .item h5 { color: #6E7681; height: 1.09375rem; line-height: 1.09375rem; padding-left: 0.4375rem; border: 1px solid #eeeeee; font-size: 12px; }
+[data-dpr="2"] .addr-main .mc .item h5 { font-size: 24px; }
+[data-dpr="3"] .addr-main .mc .item h5 { font-size: 36px; }
+.addr-main .mc .item li { border-bottom: 1px solid #eee; background-color: #fff; position: relative; padding: 0.46875rem 0.4375rem; }
+.addr-main .mc .item li p { padding-bottom: 0.15625rem; color: #293033; line-height: 0.59375rem; font-size: 14px; }
+[data-dpr="2"] .addr-main .mc .item li p { font-size: 28px; }
+[data-dpr="3"] .addr-main .mc .item li p { font-size: 42px; }
+.addr-main .mc .item li span { color: #5B6169; padding-right: 0.5625rem; font-size: 13px; }
+[data-dpr="2"] .addr-main .mc .item li span { font-size: 26px; }
+[data-dpr="3"] .addr-main .mc .item li span { font-size: 39px; }
+.addr-main .mc .item .present { padding-right: 3.125rem; }
+.addr-main .mc .item .present .re-location { display: inline-block; width: 2.65625rem; height: 0.59375rem; line-height: 0.59375rem; color: #0186FF; position: absolute; right: 0; top: 0.46875rem; padding-left: 0.75rem; font-size: 13px; background: url(../images/dingwei.png) no-repeat 0 center/0.5625rem auto; }
+[data-dpr="2"] .addr-main .mc .item .present .re-location { font-size: 26px; }
+[data-dpr="3"] .addr-main .mc .item .present .re-location { font-size: 39px; }
+
+/*# sourceMappingURL=sub-order.css.map */

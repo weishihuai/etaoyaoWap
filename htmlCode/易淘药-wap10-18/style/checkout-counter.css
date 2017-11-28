@@ -1,0 +1,5 @@
+.checkout-counter-main {background: #eceef1;}
+
+.share-layer{position: fixed; left: 0; top:0; right: 0; bottom: 0; background:rgba(0,0,0,0.5); z-index: 20;}
+.share-layer .share-box{display: block; width: 9.0625rem; height: 2.90625rem; position: absolute;top:0.15625rem; right: 0.46875rem; z-index:22;}
+.share-layer .share-box img{width: 9.0625rem; height: 2.90625rem;}

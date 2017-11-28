@@ -1,0 +1,66 @@
+.m-top .bianyi { width: 1.875rem; height: 1.375rem; font-size: 15px; color: #444; line-height: 1.40625rem; text-align: center; color: #444444; position: absolute; right: 0; top: 0;}
+[data-dpr="2"] .m-top .bianyi {font-size: 30px;}
+[data-dpr="3"] .m-top .bianyi {font-size: 45px;}
+
+.checkbox {display: block; width: 0.625rem; height: 100%; border-radius: 50%; background: url(../images/gouxuan.png) no-repeat center center / 0.59375rem 0.59375rem;}
+.checkbox-active {background-image: url(../images/gouxuan_s.png);}
+
+.coupons-main {padding-top: 1.40625rem; padding-bottom: 2.03125rem; font-family: PingFangSC-Regular; background: #eceef1;}
+.coupons-main .item {height: 3.4375rem; margin: 0.46875rem 0.46875rem 0 0.46875rem; background: #fff; position: relative;}
+.coupons-main .item .item-l {width: 3.75rem; height: 100%; padding-top: 0.546875rem; color: #fff; text-align: center; background: url(../images/quanbeijing.png) no-repeat 0 0 / 100% 100%; float: left;}
+.coupons-main .item .item-l .price {height: 1.5625rem; font-size: 20px; line-height: 1.5625rem; color: #fff;}
+[data-dpr="2"] .coupons-main .item .item-l .price {font-size: 40px;}
+[data-dpr="3"] .coupons-main .item .item-l .price {font-size: 60px;}
+.coupons-main .item .item-l .price span {padding-right: 0.03125rem; font-size: 9px;}
+[data-dpr="2"] .coupons-main .item .item-l .price span {font-size: 18px;}
+[data-dpr="2"] .coupons-main .item .item-l .price span {font-size: 27px;}
+.coupons-main .item .item-l .precondition-price {font-family: PingFangSC-Regular; font-size: 13px;}
+[data-dpr="2"] .coupons-main .item .item-l .precondition-price {font-size: 26px;}
+[data-dpr="3"] .coupons-main .item .item-l .precondition-price {font-size: 39px;}
+.coupons-main .item .item-r {width: 5.3125rem; height: 100%; float: left; position: relative; padding: 0.46875rem 0.46875rem 0 0.46875rem;}
+.coupons-main .item .item-r .precondition-name {min-height: 1.0625rem; margin-bottom: 0.125rem; font-family: .PingFang-SC-Medium; font-size: 14px; line-height: 0.53125rem; color: #545F6C;}
+[data-dpr="2"] .coupons-main .item .item-r .precondition-name {font-size: 28px;}
+[data-dpr="3"] .coupons-main .item .item-r .precondition-name {font-size: 42px;}
+.coupons-main .item .item-r .date {font-size: 12px; line-height: 0.5625rem; margin-bottom: 0.25rem; color: #A4ACB6;}
+[data-dpr="2"] .coupons-main .item .item-r .date {font-size: 24px;}
+[data-dpr="3"] .coupons-main .item .item-r .date {font-size: 36px;}
+.coupons-main .item .item-r .checkbox {height: 0.59375rem; position: absolute; right: 0.46875rem; bottom: 0.3125rem;}
+.coupons-main .item .item-r .user-btn { height: 0.75rem; padding-left: 0.3125rem; padding-right: 0.3125rem; background: #FFFFFF; border: 1px solid #FF6B00; box-shadow: 0 0 0.15625rem 0 rgba(255,107,0,0.20); border-radius: 0.796875rem; color: #FF6B00;}
+.coupons-main .item .item-tips {display: block; width: 1.3125rem; height: 1.3125rem; background: url(../images/kuaiguoqi.png) no-repeat center center / 1.3125rem 1.3125rem; position: absolute; right: 0; top: 0;}
+.coupons-main .coupons-btn {display: block; width: 100%; height: 1.5625rem; background: #FF6B00; position: fixed; bottom: 0; left: 0; z-index: 20; font-size: 16px; line-height: 1.5625rem; text-align: center; color: #fff;}
+[data-dpr="2"] .coupons-main .coupons-btn {font-size: 32px;}
+[data-dpr="3"] .coupons-main .coupons-btn {font-size: 48px;}
+.coupons-main .coupons-btn2 {display: block; width: 9.0625rem; height: 1.25rem; margin: 0.46875rem auto 0.78125rem; font-size: 14px; line-height: 1.25rem; text-align: center; background: #FEFEFE; border: 1px solid #FF6B00; color: #FF6B00;}
+[data-dpr="2"] .coupons-main .coupons-btn2 {font-size: 28px;}
+[data-dpr="3"] .coupons-main .coupons-btn2 {font-size: 42px;}
+.coupons-main .coupons-btn3 {display: block; color: #8396A4; text-align: center; margin-bottom: 0.78125rem;}
+
+.lapse-coupons .item .item-l {background-image: url(../images/quanbeijing-2.png);}
+.lapse-coupons .item .item-r .precondition-name,.lapse-coupons .item .item-r .date {color: #CCCCD1;}
+.lapse-coupons .item .item-r .precondition-name {margin-top: 0.2rem; margin-bottom: 0.4rem;}
+.lapse-coupons .item .guoqi, .lapse-coupons .item .yishiyong {display: block; width: 1.921875rem; height: 1.703125rem; background: url(../images/yiguoqi.png) no-repeat center center / 1.921875rem 1.703125rem; position: absolute; right: 0.15625rem; bottom: 0.15625rem;}
+.lapse-coupons .item .yishiyong {background-image: url(../images/yishiyong.png);}
+
+.user-coupons-layer {position: fixed; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0,4,14,0.50); z-index: 104;}
+.user-coupons-layer .user-coupons-box {width: 8.75rem; height: 6.5625rem; border-radius: 0.125rem; font-size: 18px; text-align: center; background: #fff; position: absolute; top: 50%; left: 50%; margin-top: -3.28125rem; margin-left: -4.375rem;}
+[data-dpr="2"] .user-coupons-layer .user-coupons-box {font-size: 36px;}
+[data-dpr="3"] .user-coupons-layer .user-coupons-box {font-size: 54px;}
+.user-coupons-layer .user-coupons-box .dt {line-height: 2.03125rem; text-align: center;}
+.user-coupons-layer .user-coupons-box .dd input { display: block; width: 7.65625rem; height: 1.03125rem; margin: 0 auto 0.3125rem; font-size: 14px; line-height: 1.03125rem; padding-left: 0.25rem; background: #F1F2F6; border: 1px solid #E6E7EC; border-radius: 4px;}
+[data-dpr="2"] .user-coupons-layer .user-coupons-box .dd input {font-size: 28px;}
+[data-dpr="3"] .user-coupons-layer .user-coupons-box .dd input {font-size: 42px;}
+.user-coupons-layer .user-coupons-box .dd input::-webkit-input-placeholder {color: #C7C7CD;}
+.user-coupons-layer .user-coupons-box .dd input::-moz-placeholder {color: #C7C7CD;}
+.user-coupons-layer .user-coupons-box .dd input::-ms-input-placeholder {color: #C7C7CD;}
+.user-coupons-layer .user-coupons-box .btn-box {width: 100%; height: 1.5625rem; line-height: 1.5625rem; border-top: 1px solid #e5e5e5; position: absolute; bottom: 0; left: 0;}
+.user-coupons-layer .user-coupons-box .btn-box a {width: 50%; float: left; color: #000;}
+.user-coupons-layer .user-coupons-box .btn-box a:last-child {color: #02BB00; border-left: 1px solid #e5e5e5;} 
+
+/* 空购物车 新增2017-11-06 */
+.coupons-main {min-height: 100%; position: relative;}
+.coupons-main .none-box {width: 100%; height: 100%; background: #fff; position: fixed; font-family: PingFangSC-Regular; font-size: 14px; padding-top: 2.65625rem;}
+[data-dpr="2"] .coupons-main .none-box {font-size: 28px;}
+[data-dpr="3"] .coupons-main .none-box {font-size: 42px;}
+.coupons-main .none-box .none-icon {display: block; width: 4.0625rem; height: 4.0625rem;  margin: 0 auto;}
+.coupons-main .none-box p {color: #586172; text-align: center; padding-top: 0.46875rem;}
+.coupons-main .none-box .none-btn {display: block; width: 3.125rem; height: 1.0rem; line-height: 1.0rem; color: #FF6B00; background: #FFFFFF; border: 1px solid #FF6B00; border-radius: 0.0625rem; text-align: center; margin: 0.4375rem auto 0;}

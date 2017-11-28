@@ -1,0 +1,57 @@
+.vip-index-main {padding-bottom: 1.5625rem; font-family: PingFangSC-Regular; font-size: 12px;}
+[data-dpr="2"] .vip-index-main {font-size: 24px;}
+[data-dpr="3"] .vip-index-main {font-size: 36px;}
+
+.vip-index-main .vip-index-head {height: 4.6875rem; background: url(../images/beijing-1.png) no-repeat center center / 100% 100%; position: relative;}
+.vip-index-main .vip-index-head .info-link {width: 1.03125rem; height: 1.03125rem; position: absolute; top: 0; right: 0;}
+.vip-index-main .vip-index-head .info-link::before {display: block; content: ''; width: 0.5625rem; height: 0.546875rem; background: url(../images/xiaoxi-1.png) no-repeat center center / 100% 100%; position: absolute; left: 0; bottom: 0;}
+.vip-index-main .vip-index-head .info-link em {display: block; width: 0.21875rem; height: 0.21875rem; border-radius: 50%; border: 0.03125rem solid #fff; background: #FF6B00; position: absolute; top: 0.375rem; right: 0.21875rem;}
+.vip-index-main .vip-index-head .vip-logo {display: block; width: 2.03125rem; height: 2.03125rem; border-radius: 50%; overflow: hidden; position: absolute; left: 0.546875rem; top: 1.796875rem;}
+.vip-index-main .vip-index-head .vip-number {font-size: 16px; color: #FFFFFF; position: absolute; top: 2.05rem; left: 2.96875rem;}
+[data-dpr="2"] .vip-index-main .vip-index-head .vip-number {font-size: 32px;}
+[data-dpr="3"] .vip-index-main .vip-index-head .vip-number {font-size: 48px;}
+.vip-index-main .vip-index-head .vip-grade {height: 0.625rem; padding-left: 0.25rem; padding-right: 0.25rem; color: #fff; font-size: 11px; line-height: 0.625rem; background: rgba(0,0,0,0.2); border-radius: 1.5625rem; position: absolute; top: 2.9rem; left: 2.96875rem;}
+[data-dpr="2"] .vip-index-main .vip-index-head .vip-grade {font-size: 22px;}
+[data-dpr="3"] .vip-index-main .vip-index-head .vip-grade {font-size: 33px;}
+.vip-index-main .vip-index-head .integral {width: 3.125rem; height: 0.96875rem; color: #fff; line-height: 0.96875rem; text-align: center; background-image: linear-gradient(-90deg, #FFC51E 0%, #FD9000 100%); border-radius: 1.5625rem 0 0 1.5625rem; position: absolute; top: 2.28125rem; right: 0;}
+
+.vip-index-main .collect-box {height: 2.15625rem; overflow: hidden; background: #FFFFFF;}
+.vip-index-main .collect-box p {width: 33.3333%; float: left; color: #666666; text-align: center;}
+.vip-index-main .collect-box p span {display: block;  font-size: 16px; line-height: 1.25rem; color: #656D7A;}
+[data-dpr="2"] .vip-index-main .collect-box p span {font-size: 32px;}
+[data-dpr="3"] .vip-index-main .collect-box p span {font-size: 48px;}
+
+.vip-index-main .order-box, .vip-index-main .assets-box {margin-top: 0.3125rem; background: #fff;}
+.vip-index-main .order-box .dt, .vip-index-main .assets-box .dt {height: 1.40625rem; margin-left: 0.3125rem; margin-right: 0.3125rem; font-size: 15px; line-height: 1.40625rem; color: #051B28; border-bottom: 1px solid #eee;}
+[data-dpr="2"] .vip-index-main .order-box .dt, [data-dpr="2"] .vip-index-main .assets-box .dt {font-size: 30px;}
+[data-dpr="3"] .vip-index-main .order-box .dt, [data-dpr="3"] .vip-index-main .assets-box .dt {font-size: 45px;}
+
+.vip-index-main .order-box .dd, .vip-index-main .assets-box .dd {display: flex;}
+.vip-index-main .order-box .dd p {flex: 1; height: 2.65625rem; overflow: hidden; color: #666666; text-align: center; padding-top: 1.6rem; position: relative;}
+.vip-index-main .order-box .dd p::before {display: block; content: ''; width: 0.6875rem; height: 0.65625rem; background: url(../images/daifukuan-2.png) no-repeat center center / 100% 100%; position: absolute; top: 0.53125rem; left: 50%; margin-left: -0.34375rem;}
+.vip-index-main .order-box .dd p:nth-child(2)::before {background-image: url(../images/daifahuo-2.png);}
+.vip-index-main .order-box .dd p:nth-child(3)::before {background-image: url(../images/daishouhuo-2.png);}
+.vip-index-main .order-box .dd p:nth-child(4)::before {background-image: url(../images/daipingjia-2.png);}
+.vip-index-main .order-box .dd p:nth-child(5)::before {background-image: url(../images/shouhou-2.png);}
+.vip-index-main .order-box .dd p span {display: block; width: 0.5625rem; height: 0.5625rem; font-size: 11px; line-height: 0.5625rem; text-align: center; background: #FFFFFF; border: 0.03125rem solid #FF6B00; border-radius: 50%; position: absolute; color: #FF6B00; top: 0.28125rem; left: 50%;}
+[data-dpr="2"] .vip-index-main .order-box .dd p span {font-size: 22px;}
+[data-dpr="3"] .vip-index-main .order-box .dd p span {font-size: 33px;}
+
+.vip-index-main .assets-box .dd p {flex: 1; height: 2.34375rem; float: left; color: #666666; text-align: center;}
+.vip-index-main .assets-box .dd p span {display: block; font-size: 16px; line-height: 1.40625rem; color: #656D7A;}
+[data-dpr="2"] .vip-index-main .assets-box .dd p span {font-size: 32px;}
+[data-dpr="3"] .vip-index-main .assets-box .dd p span {font-size: 48px;}
+
+.vip-index-main .item-link-box {margin-top: 0.3125rem; background: #fff;}
+.vip-index-main .item-link-box p {height: 1.5625rem; padding-left: 1.40625rem; padding-right: 0.78125rem; color: #051B28; font-size: 15px; line-height: 1.5625rem; position: relative;}
+[data-dpr="2"] .vip-index-main .item-link-box p {font-size: 30px;}
+[data-dpr="3"] .vip-index-main .item-link-box p {font-size: 45px;}
+.vip-index-main .item-link-box p::before {display: block; content: ''; width: 0.5625rem; height: 0.5625rem; background: #D8D8D8; position: absolute; left: 0.390625rem; top: 50%; margin-top: -0.28125rem;}
+.vip-index-main .item-link-box p::after {display: block; content: ''; width: 0.1875rem; height: 100%; background: url(../images/youjiantou.png) no-repeat center center / 0.1875rem 0.359375rem; position: absolute; right: 0.3125rem; top: 0;}
+.vip-index-main .item-link-box p span {font-size: 14px; color: #959FA7; float: right;}
+[data-dpr="2"] .vip-index-main .item-link-box p span {font-size: 28px;}
+[data-dpr="3"] .vip-index-main .item-link-box p span {font-size: 42px;}
+
+.vip-index-main .bottom-logo { height: 2.34375rem; background: url(../images/yejiao.png) no-repeat center center/2.39063rem 0.78125rem; }
+
+.footer .cur span {color: #FF6B00;}

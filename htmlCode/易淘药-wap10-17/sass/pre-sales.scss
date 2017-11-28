@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+@import "compass/css3";
+@import "compass/typography";
+@import "mixin";
+
+// @include font-dpr(13px);
+
+body{
+    padding:1.71875rem 0 1.875rem;
+}
+.pre-main{
+    .item{
+        background-color: #fff;
+        margin-bottom: 0.3125rem;
+        .mt{
+            height:1.09375rem;
+            padding:0.46875rem 0.46875rem 0 0.46875rem;
+            overflow: hidden;
+            em{
+                float: right;
+                color: #999999;
+                @include font-dpr(11px);
+            }
+            span{
+                float: left;
+                line-height:0.625rem;
+                color:#4D5053;
+                @include font-dpr(12px);
+            }
+            .pic{
+                width: 0.625rem;
+                height:0.625rem;
+                border-radius: 50%;
+                overflow: hidden;
+                float: left;
+                margin-right: 0.234375rem;
+                img{
+                    width: 0.625rem;
+                    height:0.625rem;
+                }
+            }
+        }
+        .question{
+            padding:0.46875rem 0.4375rem 0.46875rem 1.29rem;
+            position: relative;
+            border-bottom: 1px solid #eee;
+            span{
+                display: block;
+                width:0.5rem;
+                height:0.5rem;
+                text-align: center;
+                color:#fff;
+                position:absolute;
+                left:0.54rem;
+                top:0.4rem;
+                line-height:0.5rem;
+                border-radius:0.03125rem;
+                background-color: #0082FF;
+                @include font-dpr(10px);
+            }
+            p{
+                color:#4B5963;
+                font-weight: bold;
+                @include font-dpr(14px);
+            }
+        }
+        .answer{
+            padding:0.46875rem 0.4375rem 0.46875rem 1.29rem;
+            position: relative;
+            border-bottom: 1px solid #eee;
+            span{
+                display: block;
+                width:0.5rem;
+                height:0.5rem;
+                text-align: center;
+                color:#fff;
+                position:absolute;
+                left:0.54rem;
+                top:0.52rem;
+                line-height:0.5rem;
+                border-radius:0.03125rem;
+                background-color: #FF6B00;
+                @include font-dpr(10px);
+            }
+            p{
+                color:#0C1828;
+                line-height: 0.625rem;
+                @include font-dpr(14px);
+            }
+        }
+    }
+}
+.m-bot{
+    position: fixed;
+    left: 0;
+    bottom:0;
+    right:0;
+    z-index: 10;
+    text-align: center;
+    height: 1.5625rem;
+    line-height: 1.5625rem;
+    background-color: #fff;
+    a{
+        display: block;
+        height: 1.5625rem;
+    }
+    span{
+        display: inline-block;
+        height:100%;
+        padding:0 1rem 0 1.65625rem;
+        background:#FFF url(../images/woyaozixun.png) no-repeat 1rem center / 0.46875rem auto;
+    }
+}
+
+
+

@@ -1,0 +1,44 @@
+@charset "UTF-8";
+.store-detail { margin-top: 1.71875rem; padding-bottom: 1.71875rem; }
+.store-detail .store-dt { height: 2.5rem; padding: 0.46875rem 2.8rem 0 2.1875rem; background-color: #fff; border-bottom: 1px dashed #eee; position: relative; overflow: hidden; }
+.store-detail .store-dt .class { padding-top: 0.15625rem; color: #6A6D73; vertical-align: middle; font-size: 10px; }
+[data-dpr="2"] .store-detail .store-dt .class { font-size: 20px; }
+[data-dpr="3"] .store-detail .store-dt .class { font-size: 30px; }
+.store-detail .store-dt .class img { display: inline-block; margin-right: 2px; width: 0.375rem; height: 0.34375rem; }
+.store-detail .store-dt .title { color: #0C1828; font-size: 13px; line-height: 0.65625rem; }
+[data-dpr="2"] .store-detail .store-dt .title { font-size: 26px; }
+[data-dpr="3"] .store-detail .store-dt .title { font-size: 39px; }
+.store-detail .store-dt .pic { width: 1.5625rem; height: 1.5625rem; border: 1px solid #E5E5E5; overflow: hidden; position: absolute; left: 0.34375rem; top: 0.46875rem; }
+.store-detail .store-dt .pic img { width: 100%; height: 100% ；; }
+.store-detail .store-dt .sd-rt { width: 2.46875rem; position: absolute; top: 0.53125rem; right: 0; }
+.store-detail .store-dt .sd-rt a { display: block; color: #fff; font-size: 13px; padding-left: 0.9rem; width: 2.03125rem; height: 0.78125rem; line-height: 0.78125rem; border-radius: 0.0625rem 0.0625rem 0 0; margin-bottom: 0.078125rem; background: #FF6B00 url(../images/shoucang2x.png) no-repeat 0.38rem center/0.375rem auto; }
+[data-dpr="2"] .store-detail .store-dt .sd-rt a { font-size: 26px; }
+[data-dpr="3"] .store-detail .store-dt .sd-rt a { font-size: 39px; }
+.store-detail .store-dt .sd-rt .selected { border: 1px solid #E5E5E5; color: #FF6B00; cursor: default; background: url(../images/shoucang3x.png) no-repeat 0.38rem center/0.375rem auto; }
+.store-detail .store-dt .sd-rt span { display: inline-block; text-align: center; min-width: 2.03125rem; color: #333; font-size: 13px; }
+[data-dpr="2"] .store-detail .store-dt .sd-rt span { font-size: 26px; }
+[data-dpr="3"] .store-detail .store-dt .sd-rt span { font-size: 39px; }
+.store-detail .score { padding: 0.3125rem 0; background-color: #fff; }
+.store-detail .score .item { height: 0.75rem; line-height: 0.75rem; padding-left: 2.65625rem; position: relative; color: #FF5B53; font-size: 13px; overflow: hidden; }
+[data-dpr="2"] .store-detail .score .item { font-size: 26px; }
+[data-dpr="3"] .store-detail .score .item { font-size: 39px; }
+.store-detail .score .item span { display: inline-block; line-height: 0.75rem; position: absolute; left: 0.46875rem; top: 0; color: #545863; }
+.store-detail .op-time { margin-top: 0.3125rem; background-color: #fff; }
+.store-detail .op-time .item { height: 1.5625rem; line-height: 1.5625rem; padding-left: 2.65625rem; position: relative; color: #43474C; font-size: 13px; overflow: hidden; }
+[data-dpr="2"] .store-detail .op-time .item { font-size: 26px; }
+[data-dpr="3"] .store-detail .op-time .item { font-size: 39px; }
+.store-detail .op-time .item span { display: inline-block; line-height: 1.5625rem; position: absolute; left: 0.46875rem; top: 0; color: #545863; }
+.store-detail .op-time .item:first-child { border-bottom: 1px solid #eee; }
+.store-detail .attestation { margin-top: 0.3125rem; background-color: #fff; padding: 0.578125rem 0.46875rem 0.375rem 2.65625rem; position: relative; min-height: 1.5625rem; }
+.store-detail .attestation span { display: inline-block; line-height: 1.5625rem; position: absolute; left: 0.46875rem; top: 0; color: #545863; font-size: 13px; }
+[data-dpr="2"] .store-detail .attestation span { font-size: 26px; }
+[data-dpr="3"] .store-detail .attestation span { font-size: 39px; }
+.store-detail .attestation .att-box img { height: 0.40625rem; width: auto; display: inline-block; margin: 0 0.15625rem 0.15625rem 0; }
+.store-detail .sto-bot { position: fixed; left: 0; right: 0; bottom: 0; height: 1.5625rem; z-index: 21; overflow: hidden; }
+.store-detail .sto-bot a { display: block; float: left; width: 50%; height: 1.5625rem; line-height: 1.5625rem; text-align: center; color: #fff; text-align: center; font-size: 16px; }
+[data-dpr="2"] .store-detail .sto-bot a { font-size: 32px; }
+[data-dpr="3"] .store-detail .sto-bot a { font-size: 48px; }
+.store-detail .sto-bot .call-service { background-color: #FF8F00; }
+.store-detail .sto-bot .call-seller { background-color: #FF6B00; }
+
+/*# sourceMappingURL=store-detail.css.map */

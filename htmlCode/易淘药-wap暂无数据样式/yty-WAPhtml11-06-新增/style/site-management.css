@@ -1,0 +1,27 @@
+.checkbox {display: block; width: 0.625rem; height: 100%; border-radius: 50%; background: url(../images/gouxuan.png) no-repeat center center / 0.59375rem 0.59375rem;}
+.checkbox-active {background-image: url(../images/gouxuan_s.png);}
+
+.site-management-main {padding-top: 1.40625rem; padding-bottom: 1.5625rem; font-family: PingFangSC-Regular; font-size: 13px;}
+[data-dpr="2"] .site-management-main {font-size: 26px;}
+[data-dpr="3"] .site-management-main {font-size: 39px;}
+.site-management-main .item {background: #fff; margin-bottom: 0.3125rem; padding-top: 0.15625rem; padding-left: 0.3125rem; padding-right: 0.3125rem; border-bottom: 1px solid #E5E5E5;}
+.site-management-main .item .name-phone {height: 1.25rem; font-size: 16px; line-height: 1.25rem; color: #0C1828;}
+[data-dpr="2"] .site-management-main .item .name-phone {font-size: 32px;}
+[data-dpr="3"] .site-management-main .item .name-phone {font-size: 48px;}
+.site-management-main .item .name-phone span {padding-right: 0.3125rem;}
+.site-management-main .item .site {color: #353C3F; padding-bottom: 0.46875rem; border-bottom: 1px solid #e5e5e5;}
+.site-management-main .item .btn-box {height: 1.5625rem; padding-left: 0.859375rem; line-height: 1.5625rem; color: #73777F; position: relative;}
+.site-management-main .item .btn-box .checkbox {position: absolute; top: 0; left: 0;}
+.site-management-main .item .btn-box a {display: block; width: 1.875rem; height: 0.8125rem; line-height: 0.8125rem; margin-top: 0.34375rem; text-align: center; border: 1px solid #73777F; border-radius: 0.0625rem; color: #73777F; float: right; margin-left: 0.3125rem;}
+
+.site-management-main .site-management-btn {display: block; width: 100%; height: 1.5625rem; font-size: 16px; line-height: 1.5625rem; text-align: center; color: #fff; background: #FF6B00; position: fixed; bottom: 0; left: 0; z-index: 11;}
+[data-dpr="2"] .site-management-main .site-management-btn {font-size: 32px;}
+[data-dpr="3"] .site-management-main .site-management-btn {font-size: 48px;}
+
+/* 暂无收货地址 新增2017-11-06 */
+.site-management-main {min-height: 100%; position: relative;}
+.site-management-main .none-box {width: 100%; height: 100%; position: fixed; background: #fff; font-family: PingFangSC-Regular; font-size: 14px; padding-top: 2.65625rem;}
+[data-dpr="2"] .site-management-main .none-box {font-size: 28px;}
+[data-dpr="3"] .site-management-main .none-box {font-size: 42px;}
+.site-management-main .none-box .none-icon {display: block; width: 4.0625rem; height: 4.0625rem;  margin: 0 auto;}
+.site-management-main .none-box p {color: #586172; text-align: center; padding-top: 0.46875rem;}

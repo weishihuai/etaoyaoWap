@@ -1,0 +1,460 @@
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <title>商品列表</title>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <script src="js/flexible.js"></script>
+    <link href="style/swiper.min.css" type="text/css" rel="stylesheet"  />
+    <link href="style/base.css" type="text/css" rel="stylesheet" />
+    <link href="style/header.css" type="text/css" rel="stylesheet" />
+    <link href="style/list.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+	<div class="list-main">
+		<div class="list-head">
+			<div class="list-head-t">
+				<div class="return"></div>
+				<div class="search"><input type="text" value="中西药"></div>
+				<div class="toggle" data-list="true"></div>
+			</div>
+			<div class="list-head-b">
+				<ul class="sp-sort clearfix">
+					<li class="sp-sort-zh cur">
+						<div class="dt">综合</div>
+						<ul class="dd">
+							<li><a data-active="true" href="javascript:;">综合</a></li>
+							<li><a href="javascript:;">价格从低到高</a></li>
+							<li><a href="javascript:;">价格从高到低</a></li>
+						</ul>
+					</li>
+					<li>销量</li>
+					<li>新品</li>
+					<li class="sp-sort-sx">
+						<div class="dt">筛选</div>
+						<div class="dd">
+							<ul class="dd-inner">
+								<li class="sx-show">
+									<a href="#">仅显示有货</a>
+									<a class="cur" href="#">仅显示有货</a>
+									<a href="#">仅显示有货</a>
+								</li>
+								<li class="price-range">
+									<p>价格范围</p>
+									<input type="text" placeholder="最低价">
+									<span>-</span>
+									<input type="text" placeholder="最高价">
+								</li>
+								<li class="sx-class">
+									<div class="li-dt">分类<span>全部</span></div>
+									<div class="li-dd">
+										<div class="li-dd-title"><a class="btn-return" href="javascript:;"></a>分类</div>
+										<ul class="li-dd-inner">
+											<li class="all-class" data-active="true">全部分类</li>
+											<li>
+												<div class="class-name">五官科</div>
+												<div class="class-item-box">
+													<p data-active="true">牙周疾病</p>
+													<p data-active="true">口腔溃疡</p>
+													<p data-active="true">耳聋耳鸣</p>
+												</div>
+											</li>
+											<li>
+												<div class="class-name">五官科</div>
+												<div class="class-item-box">
+													<p data-active="true">牙周疾病</p>
+													<p data-active="true">口腔溃疡</p>
+													<p data-active="true">耳聋耳鸣</p>
+												</div>
+											</li>
+											<li>
+												<div class="class-name">五官科</div>
+												<div class="class-item-box">
+													<p data-active="true">牙周疾病</p>
+													<p data-active="true">口腔溃疡</p>
+													<p data-active="true">耳聋耳鸣</p>
+												</div>
+											</li>
+											<li>
+												<div class="class-name">五官科</div>
+												<div class="class-item-box">
+													<p data-active="true">牙周疾病</p>
+													<p data-active="true">口腔溃疡</p>
+													<p data-active="true">耳聋耳鸣</p>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li class="sx-brand">
+									<div class="li-dt">品牌</div>
+									<div class="li-dd">
+										<div class="li-dd-title"><a class="btn-return" href="javascript:;"></a>全部品牌<a class="btn-qued" href="javascript:;">确定</a></div>
+										<ul class="li-dd-inner">
+											<li>
+												<div class="brand-name">A</div>
+												<div class="brand-item-box">
+													<p>艾丽</p>
+													<p data-active="true">艾丽</p>
+													<p data-active="true">艾丽</p>
+													<p>艾丽</p>
+													<p>艾丽</p>
+													<p>艾丽</p>
+													<p>艾丽</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">B</div>
+												<div class="brand-item-box">
+													<p>白云山</p>
+													<p>白云山</p>
+													<p>白云山</p>
+													<p>白云山</p>
+													<p>白云山</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">C</div>
+												<div class="brand-item-box">
+													<p>c</p>
+													<p>c</p>
+													<p>c</p>
+													<p>c</p>
+													<p>c</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">D</div>
+												<div class="brand-item-box">
+													<p>d</p>
+													<p>d</p>
+													<p>d</p>
+													<p>d</p>
+													<p>d</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">E</div>
+												<div class="brand-item-box">
+													<p>e</p>
+													<p>e</p>
+													<p>e</p>
+													<p>e</p>
+													<p>e</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">F</div>
+												<div class="brand-item-box">
+													<p>f</p>
+													<p>f</p>
+													<p>f</p>
+													<p>f</p>
+													<p>f</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">G</div>
+												<div class="brand-item-box">
+													<p>g</p>
+													<p>g</p>
+													<p>g</p>
+													<p>g</p>
+													<p>g</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">H</div>
+												<div class="brand-item-box">
+													<p>h</p>
+													<p>h</p>
+													<p>h</p>
+													<p>h</p>
+													<p>h</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">I</div>
+												<div class="brand-item-box">
+													<p>i</p>
+													<p>i</p>
+													<p>i</p>
+													<p>i</p>
+													<p>i</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">J</div>
+												<div class="brand-item-box">
+													<p>j</p>
+													<p>j</p>
+													<p>j</p>
+													<p>j</p>
+													<p>j</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">K</div>
+												<div class="brand-item-box">
+													<p>k</p>
+													<p>k</p>
+													<p>k</p>
+													<p>k</p>
+													<p>k</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">L</div>
+												<div class="brand-item-box">
+													<p>l</p>
+													<p>l</p>
+													<p>l</p>
+													<p>l</p>
+													<p>l</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">M</div>
+												<div class="brand-item-box">
+													<p>m</p>
+													<p>m</p>
+													<p>m</p>
+													<p>m</p>
+													<p>m</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">N</div>
+												<div class="brand-item-box">
+													<p>n</p>
+													<p>n</p>
+													<p>n</p>
+													<p>n</p>
+													<p>n</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">O</div>
+												<div class="brand-item-box">
+													<p>o</p>
+													<p>o</p>
+													<p>o</p>
+													<p>o</p>
+													<p>o</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">P</div>
+												<div class="brand-item-box">
+													<p>p</p>
+													<p>p</p>
+													<p>p</p>
+													<p>p</p>
+													<p>p</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">Q</div>
+												<div class="brand-item-box">
+													<p>q</p>
+													<p>q</p>
+													<p>q</p>
+													<p>q</p>
+													<p>q</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">R</div>
+												<div class="brand-item-box">
+													<p>r</p>
+													<p>r</p>
+													<p>r</p>
+													<p>r</p>
+													<p>r</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">S</div>
+												<div class="brand-item-box">
+													<p>s</p>
+													<p>s</p>
+													<p>s</p>
+													<p>s</p>
+													<p>s</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">T</div>
+												<div class="brand-item-box">
+													<p>t</p>
+													<p>t</p>
+													<p>t</p>
+													<p>t</p>
+													<p>t</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">U</div>
+												<div class="brand-item-box">
+													<p>u</p>
+													<p>u</p>
+													<p>u</p>
+													<p>u</p>
+													<p>u</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">V</div>
+												<div class="brand-item-box">
+													<p>v</p>
+													<p>v</p>
+													<p>v</p>
+													<p>v</p>
+													<p>v</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">W</div>
+												<div class="brand-item-box">
+													<p>w</p>
+													<p>w</p>
+													<p>w</p>
+													<p>w</p>
+													<p>w</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">X</div>
+												<div class="brand-item-box">
+													<p>x</p>
+													<p>x</p>
+													<p>x</p>
+													<p>x</p>
+													<p>x</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">Y</div>
+												<div class="brand-item-box">
+													<p>y</p>
+													<p>y</p>
+													<p>y</p>
+													<p>y</p>
+													<p>y</p>
+												</div>
+											</li>
+											<li>
+												<div class="brand-name">Z</div>
+												<div class="brand-item-box">
+													<p>z</p>
+													<p>z</p>
+													<p>z</p>
+													<p>z</p>
+													<p>z</p>
+												</div>
+											</li>
+										</ul>
+										<div class="initial-side"><span>A</span><span>B</span><span>C</span><span>D</span><span>E</span><span>F</span><span>G</span><span>H</span><span>I</span><span>J</span><span>K</span><span>L</span><span>M</span><span>N</span><span>O</span><span>P</span><span>Q</span><span>R</span><span>S</span><span>T</span><span>U</span><span>V</span><span>W</span><span>X</span><span>Y</span><span>Z</span></div>
+										<div class="initial-tips">A</div>
+									</div>
+								</li>
+								<li class="sx-jx">
+									<div class="li-dt">剂型</div>
+									<div class="li-dd">
+										<div class="li-dd-title"><a class="btn-return" href="javascript:;"></a>剂型<a class="btn-qued" href="javascript:;">确定</a></div>
+										<div class="li-dd-inner">
+											<p>片剂</p>
+											<p data-active="true">片剂</p>
+											<p data-active="true">片剂</p>
+											<p>片剂</p>
+											<p>片剂</p>
+											<p>片剂</p>
+											<p>片剂</p>
+											<p>片剂</p>
+											<p>片剂</p>
+											<p>片剂</p>
+											<p>片剂</p>
+											<p>片剂</p>
+											<p>片剂</p>
+											<p>片剂</p>
+											<p>片剂</p>
+											<p>片剂</p>
+											<p>片剂</p>
+											<p>片剂</p>
+											<p>片剂</p>
+											<p>片剂</p>
+											<p>片剂</p>
+											<p>片剂</p>
+										</div>
+									</div>
+								</li>
+								<li class="btn-box"><a class="btn-reset" href="#">重置</a><a class="btn-confirm" href="#">确定<span>(197件商品)</span></a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="list_inner" class="list-inner clearfix">
+			<div class="item">
+				<a class="item-l" href="#"><img src="images/wutupian_460x460.png" alt=""></a>
+				<div class="item-r">
+					<a class="name" href="#">999 鸦胆子油软胶囊 12粒*2板/盒</a>
+					<div class="product-character"><span>RX</span><span>折扣</span><span>送券</span><span>赠品</span></div>
+					<div class="price-yaofang">
+						<p class="price">￥<span>45</span>.60</p>
+						<a class="yaofang" href="#">阿康大药房</a>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<a class="item-l" href="#"><img src="case/pic200x200.jpg" alt=""></a>
+				<div class="item-r">
+					<a class="name" href="#">加衡 左甲状腺素钠片<br>25ug*60片/盒</a>
+					<div class="product-character"><span>RX</span><span>折扣</span><span>送券</span><span>赠品</span></div>
+					<div class="price-yaofang">
+						<p class="price">￥<span>10</span>.45</p>
+						<a class="yaofang" href="#">阿康大药房</a>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<a class="item-l" href="#"><img src="case/pic200x200.jpg" alt=""></a>
+				<div class="item-r">
+					<a class="name" href="#">百士欣 乌苯美司 10mg*15片</a>
+					<div class="product-character"><span>RX</span><span>折扣</span><span>送券</span><span>赠品</span></div>
+					<div class="price-yaofang">
+						<p class="price">￥<span>10</span>.45</p>
+						<a class="yaofang" href="#">阿康大药房</a>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<a class="item-l" href="#"><img src="case/pic200x200.jpg" alt=""></a>
+				<div class="item-r">
+					<a class="name" href="#">加衡 左甲状腺素钠片<br>25ug*60片/盒</a>
+					<div class="product-character"><span>RX</span><span>折扣</span><span>送券</span><span>赠品</span></div>
+					<div class="price-yaofang">
+						<p class="price">￥<span>10</span>.45</p>
+						<a class="yaofang" href="#">阿康大药房</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom-logo"></div>
+	</div>
+	<div class="qk-nav" >
+        <div class="mask-layer" style="display: none;"></div>
+        <span>快速<br>导航</span>
+        <div class="qk-box" style="display: none;">
+            <a href="##" class="m-index"><img src="images/shouye.png" alt=""></a>
+            <a href="##" class="m-search"><img src="images/sousuo2.png" alt=""></a>
+            <a href="##" class="m-my"><img src="images/wode.png" alt=""></a>
+            <a href="##" class="m-share"><img src="images/fenxiang.png" alt=""></a>
+        </div>
+    </div>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/list.js"></script>
+</body>
+</html>

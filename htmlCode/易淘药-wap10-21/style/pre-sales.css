@@ -1,0 +1,32 @@
+body { padding: 1.71875rem 0 1.875rem; }
+
+.pre-main .item { background-color: #fff; margin-bottom: 0.3125rem; }
+.pre-main .item .mt { height: 1.09375rem; padding: 0.46875rem 0.46875rem 0 0.46875rem; overflow: hidden; }
+.pre-main .item .mt em { float: right; color: #999999; font-size: 11px; }
+[data-dpr="2"] .pre-main .item .mt em { font-size: 22px; }
+[data-dpr="3"] .pre-main .item .mt em { font-size: 33px; }
+.pre-main .item .mt span { float: left; line-height: 0.625rem; color: #4D5053; font-size: 12px; }
+[data-dpr="2"] .pre-main .item .mt span { font-size: 24px; }
+[data-dpr="3"] .pre-main .item .mt span { font-size: 36px; }
+.pre-main .item .mt .pic { width: 0.625rem; height: 0.625rem; border-radius: 50%; overflow: hidden; float: left; margin-right: 0.234375rem; }
+.pre-main .item .mt .pic img { width: 0.625rem; height: 0.625rem; }
+.pre-main .item .question { padding: 0.46875rem 0.4375rem 0.46875rem 1.29rem; position: relative; border-bottom: 1px solid #eee; }
+.pre-main .item .question span { display: block; width: 0.5rem; height: 0.5rem; text-align: center; color: #fff; position: absolute; left: 0.54rem; top: 0.4rem; line-height: 0.5rem; border-radius: 0.03125rem; background-color: #0082FF; font-size: 10px; }
+[data-dpr="2"] .pre-main .item .question span { font-size: 20px; }
+[data-dpr="3"] .pre-main .item .question span { font-size: 30px; }
+.pre-main .item .question p { color: #4B5963; font-weight: bold; font-size: 14px; }
+[data-dpr="2"] .pre-main .item .question p { font-size: 28px; }
+[data-dpr="3"] .pre-main .item .question p { font-size: 42px; }
+.pre-main .item .answer { padding: 0.46875rem 0.4375rem 0.46875rem 1.29rem; position: relative; border-bottom: 1px solid #eee; }
+.pre-main .item .answer span { display: block; width: 0.5rem; height: 0.5rem; text-align: center; color: #fff; position: absolute; left: 0.54rem; top: 0.52rem; line-height: 0.5rem; border-radius: 0.03125rem; background-color: #FF6B00; font-size: 10px; }
+[data-dpr="2"] .pre-main .item .answer span { font-size: 20px; }
+[data-dpr="3"] .pre-main .item .answer span { font-size: 30px; }
+.pre-main .item .answer p { color: #0C1828; line-height: 0.625rem; font-size: 14px; }
+[data-dpr="2"] .pre-main .item .answer p { font-size: 28px; }
+[data-dpr="3"] .pre-main .item .answer p { font-size: 42px; }
+
+.m-bot { position: fixed; left: 0; bottom: 0; right: 0; z-index: 10; text-align: center; height: 1.5625rem; line-height: 1.5625rem; background-color: #fff; }
+.m-bot a { display: block; height: 1.5625rem; }
+.m-bot span { display: inline-block; height: 100%; padding: 0 1rem 0 1.65625rem; background: #FFF url(../images/woyaozixun.png) no-repeat 1rem center/0.46875rem auto; }
+
+/*# sourceMappingURL=pre-sales.css.map */

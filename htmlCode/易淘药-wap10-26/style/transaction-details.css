@@ -1,0 +1,9 @@
+.transaction-details-main {padding-left: 0.4375rem; margin-top: 1.6875rem; background: #fff; font-family: PingFangSC-Regular; font-size: 15px;}
+[data-dpr="2"] .transaction-details-main {font-size: 30px;}
+[data-dpr="3"] .transaction-details-main {font-size: 45px;}
+.transaction-details-main .item {height: 1.65625rem; padding-right: 0.390625rem; color: #0C1828; border-bottom: 1px solid #eee; line-height: 1.65625rem;}
+.transaction-details-main .item span {float: right; font-size: 14px; color: #959FA7;}
+[data-dpr="2"] .transaction-details-main .item span {font-size: 28px;}
+[data-dpr="3"] .transaction-details-main .item span {font-size: 42px;}
+.transaction-details-main .spending-price span {color: #333333;}
+.transaction-details-main .income-price span {color: #02BB00;}

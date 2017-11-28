@@ -1,0 +1,16 @@
+.af-main { padding-top: 1.40625rem; }
+.af-main .mt { background-color: #fff; height: 2.8125rem; padding: 0.3125rem 0.46875rem 0 2.9375rem; position: relative; }
+.af-main .mt .pic { width: 2.1875rem; height: 2.1875rem; position: absolute; left: 0.46875rem; top: 0.3125rem; overflow: hidden; }
+.af-main .mt .pic img { width: 2.1875rem; height: 2.1875rem; }
+.af-main .mt .title { display: block; color: #0C1828; line-height: 0.5625rem; max-height: 1.125rem; font-size: 13px; overflow: hidden; }
+[data-dpr="2"] .af-main .mt .title { font-size: 26px; }
+[data-dpr="3"] .af-main .mt .title { font-size: 39px; }
+.af-main .mc { margin-top: 0.3125rem; padding: 0 0.46875rem; background-color: #fff; }
+.af-main .mc .item { height: 1.875rem; overflow: hidden; }
+.af-main .mc .item a { display: block; height: 1.875rem; color: #0C1828; font-size: 13px; line-height: 1.875rem; padding-left: 1.171875rem; background: url(../images/youjiantou.png) no-repeat 100% center/0.1875rem auto; }
+[data-dpr="2"] .af-main .mc .item a { font-size: 26px; }
+[data-dpr="3"] .af-main .mc .item a { font-size: 39px; }
+.af-main .mc .exchange { border-bottom: 1px solid #EEEEEE; background: #fff url(../images/jinhuanhuo.png) no-repeat 0 center/0.84375rem auto; }
+.af-main .mc .return { background: #fff url(../images/tuihuotuikuan.png) no-repeat 0 center/0.84375rem auto; }
+
+/*# sourceMappingURL=after-sale.css.map */

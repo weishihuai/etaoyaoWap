@@ -1,0 +1,40 @@
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <title>发票信息</title>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <script src="js/flexible.js"></script>
+    <link href="style/swiper.min.css" type="text/css" rel="stylesheet"  />
+    <link href="style/base.css" type="text/css" rel="stylesheet" />
+    <link href="style/header.css" type="text/css" rel="stylesheet" />
+    <link href="style/invoice-info.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div class="m-top">
+        <a class="back" href="##"></a>
+        <div class="toggle-box">发票信息</div>
+    </div>
+
+    <div class="invoice-info-main">
+        <div class="invoice-title">开具发票</div>
+        <div class="invoice-toggle"><a class="cur" href="javascript:;">不开发票</a><a href="javascript:;">开发票</a></div>
+        <div class="invoice-info-inner">
+            <div class="invoice-title">发票抬头</div>
+            <div class="dt">
+                <p class="cur"><em class="checkbox checkbox-active"></em>个人</p>
+                <p><em class="checkbox"></em>公司</p>
+            </div>
+            <div class="dd">
+                <div class="dd-item"><input type="text" placeholder="请输入发票抬头"></div>
+                <div class="dd-item"><input type="text" placeholder="请输入发票抬头"><input type="text" placeholder="请输入发票税号"></div>
+            </div>
+            <div class="invoice-btn-box"><a class="invoice-btn" href="javascript:;">确定</a></div>
+        </div>
+    </div>
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/invoice-info.js"></script>
+</body>
+</html>

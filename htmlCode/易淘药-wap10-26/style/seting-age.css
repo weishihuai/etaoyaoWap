@@ -1,0 +1,5 @@
+.seting-age-main {padding-left: 0.4375rem; margin-top: 1.6875rem; background: #fff; font-family: PingFangSC-Light;}
+.seting-age-main .item {height: 1.40625rem; font-size: 15px; color: #0C1828; line-height: 1.40625rem; border-bottom: 1px solid #eee; position: relative;}
+[data-dpr="2"] .seting-age-main .item {font-size: 30px;}
+[data-dpr="2"] .seting-age-main .item {font-size: 45px;}
+.seting-age-main .cur::before {display: block; content: ''; width: 0.484375rem; height: 100%; background: url(../images/xuanzhong.png) no-repeat center center / 0.484375rem 0.3125rem; position: absolute; top: 0; right: 0.625rem;}

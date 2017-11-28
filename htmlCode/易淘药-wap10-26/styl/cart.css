@@ -1,0 +1,29 @@
+.m-top .bianyi {
+  width: 1.875rem;
+  height: 1.40625rem;
+  font-size: 15px;
+  line-height: 1.40625rem;
+  text-align: center;
+  color: #444444;
+  position: absolute;
+  right: 0;
+  top: 0; }
+  [data-dpr="2"] .m-top .bianyi {
+    font-size: 30px; }
+  [data-dpr="3"] .m-top .bianyi {
+    font-size: 45px; }
+.m-top .toggle-box {
+  width: 5.9375rem;
+  height: 0.90625rem;
+  border: 0.03125rem solid #FF6B00;
+  border-radius: 0.125rem;
+  margin: 0.25rem auto 0; }
+  .m-top .toggle-box p {
+    width: 50%;
+    height: 100%;
+    line-height: 0.90625rem;
+    text-align: center;
+    float: left;
+    color: #FF6B00; }
+
+/*# sourceMappingURL=cart.css.map */

@@ -1,0 +1,25 @@
+.account-balance-main {padding-top: 1.40625rem; font-family: PingFangSC-Regular; font-size: 14px;}
+[data-dpr="2"] .account-balance-main {font-size: 28px;}
+[data-dpr="3"] .account-balance-main {font-size: 42px;}
+.account-balance-main .current-balance {height: 3.71875rem; padding-left: 0.46875rem; font-family: .PingFangSC-Light; font-size: 13px; line-height: 1.5625rem; color: rgba(255, 255, 255, 0.8); background-image: linear-gradient(-135deg, #FF6600 0%, #FF9200 100%);}
+[data-dpr="2"] .account-balance-main .current-balance {font-size: 26px;}
+[data-dpr="3"] .account-balance-main .current-balance {font-size: 39px;}
+.account-balance-main .current-balance span {display: block; font-size: 40px; line-height: 1.25rem; color: #fff;}
+[data-dpr="2"] .account-balance-main .current-balance span {font-size: 80px;}
+[data-dpr="3"] .account-balance-main .current-balance span {font-size: 120px;}
+.account-balance-main .dt {height: 1.1875rem; padding-left: 0.46875rem; font-size: 13px; line-height: 1.1875rem; color: #666666;}
+[data-dpr="2"] .account-balance-main .dt {font-size: 26px;}
+[data-dpr="3"] .account-balance-main .dt {font-size: 39px;}
+.account-balance-main .dd {padding-left: 0.46875rem; background: #fff;}
+.account-balance-main .dd-item {height: 2.34375rem; padding-top: 0.625rem; position: relative; border-bottom: 1px solid #eee;}
+.account-balance-main .dd-item .info {width: 5.3125rem; height: 1.125rem; line-height: 0.5625rem; color: #333; display: -webkit-box; display: -moz-box; display: -ms-box; display: box; -webkit-line-clamp: 2; -moz-line-clamp: 2; -ms-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; -moz-box-orient: vertical; -ms-box-orient: vertical; box-orient: vertical; overflow: hidden;}
+.account-balance-main .dd-item .price {font-size: 18px; position: absolute; top: 0.55rem; right: 0.390625rem; color: #333;}
+[data-dpr="2"] .account-balance-main .dd-item .price {font-size: 36px;}
+[data-dpr="3"] .account-balance-main .dd-item .price {font-size: 54px;}
+.account-balance-main .dd-item .price-add {color: #02BB00;}
+.account-balance-main .dd-item .time {font-size: 12px; color: #999999; position: absolute; top: 1.40625rem; right: 0.390625rem;}
+[data-dpr="2"] .account-balance-main .dd-item .time {font-size: 24px;}
+[data-dpr="3"] .account-balance-main .dd-item .time {font-size: 36px;}
+.account-balance-main .show-more {display: block; height: 1.34375rem; font-size: 10px; line-height: 1.34375rem; text-align: center; color: #90A4AE;}
+[data-dpr="2"] .account-balance-main .show-more {font-size: 20px;}
+[data-dpr="3"] .account-balance-main .show-more {font-size: 30px;}

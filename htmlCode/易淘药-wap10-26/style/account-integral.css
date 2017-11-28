@@ -1,0 +1,29 @@
+.account-integral-main {padding-top: 1.40625rem; font-family: PingFangSC-Regular; font-size: 14px;}
+[data-dpr="2"] .account-integral-main {font-size: 28px;}
+[data-dpr="3"] .account-integral-main {font-size: 42px;}
+.account-integral-main .current-integral {height: 5.4375rem; padding-left: 0.46875rem; font-family: .PingFangSC-Light; font-size: 13px; line-height: 1.5625rem; color: rgba(255, 255, 255, 0.8); background-image: linear-gradient(-135deg, #FF6600 0%, #FF9200 100%);}
+[data-dpr="2"] .account-integral-main .current-integral {font-size: 26px;}
+[data-dpr="3"] .account-integral-main .current-integral {font-size: 39px;}
+.account-integral-main .current-integral span {display: block; font-size: 40px; line-height: 1.25rem; color: #fff;}
+[data-dpr="2"] .account-integral-main .current-integral span {font-size: 80px;}
+[data-dpr="3"] .account-integral-main .current-integral span {font-size: 120px;}
+.account-integral-main .current-integral .integral-exchange {display: block; width: 9.0625rem; height: 1.40625rem; line-height: 1.40625rem; margin-top: 0.625rem; border-radius: 0.0625rem; background: #fff; text-align: center; font-size: 16px; color: #FF6B00;}
+[data-dpr="2"] .account-integral-main .current-integral .integral-exchange {font-size: 32px;}
+[data-dpr="3"] .account-integral-main .current-integral .integral-exchange {font-size: 48px;}
+.account-integral-main .dt {height: 1.1875rem; padding-left: 0.46875rem; font-size: 13px; line-height: 1.1875rem; color: #666666;}
+[data-dpr="2"] .account-integral-main .dt {font-size: 26px;}
+[data-dpr="3"] .account-integral-main .dt {font-size: 39px;}
+.account-integral-main .dd {padding-left: 0.46875rem; background: #fff;}
+.account-integral-main .dd-item {display: table; height: 2.34375rem; width: 100%; position: relative; border-bottom: 1px solid #eee;}
+.account-integral-main .dd-item .middle-box {display: table-cell; vertical-align: middle;}
+.account-integral-main .dd-item .info {width: 5.3125rem; line-height: 0.5625rem; color: #333; display: -webkit-box; display: -moz-box; display: -ms-box; display: box; -webkit-line-clamp: 2; -moz-line-clamp: 2; -ms-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; -moz-box-orient: vertical; -ms-box-orient: vertical; box-orient: vertical; overflow: hidden;}
+.account-integral-main .dd-item .price {font-size: 18px; position: absolute; top: 0.55rem; right: 0.390625rem; color: #333;}
+[data-dpr="2"] .account-integral-main .dd-item .price {font-size: 36px;}
+[data-dpr="3"] .account-integral-main .dd-item .price {font-size: 54px;}
+.account-integral-main .dd-item .price-add {color: #02BB00;}
+.account-integral-main .dd-item .time {font-size: 12px; color: #999999; position: absolute; top: 1.40625rem; right: 0.390625rem;}
+[data-dpr="2"] .account-integral-main .dd-item .time {font-size: 24px;}
+[data-dpr="3"] .account-integral-main .dd-item .time {font-size: 36px;}
+.account-integral-main .show-more {display: block; height: 1.34375rem; font-size: 10px; line-height: 1.34375rem; text-align: center; color: #90A4AE;}
+[data-dpr="2"] .account-integral-main .show-more {font-size: 20px;}
+[data-dpr="3"] .account-integral-main .show-more {font-size: 30px;}

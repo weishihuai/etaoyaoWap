@@ -1,0 +1,59 @@
+.login-main { margin-top: 1.71875rem; }
+.login-main .mt { background-color: #fff; padding: 0 0.46875rem; }
+.login-main .mt .item { height: 1.5625rem; padding-left: 1.71875rem; position: relative; padding-top: 0.46875rem; border-bottom: 1px solid #E5E5E5; }
+.login-main .mt .item span { display: inline-block; line-height: 1.56rem; position: absolute; left: 0; top: 0; color: #333333; font-size: 14px; }
+[data-dpr="2"] .login-main .mt .item span { font-size: 28px; }
+[data-dpr="3"] .login-main .mt .item span { font-size: 42px; }
+.login-main .mt .item input { display: block; width: 100%; height: 0.625rem; line-height: 0.625rem; color: #333333; font-size: 14px; }
+[data-dpr="2"] .login-main .mt .item input { font-size: 28px; }
+[data-dpr="3"] .login-main .mt .item input { font-size: 42px; }
+.login-main .mt .item .del-btn { display: block; width: 0.78125rem; height: 1.25rem; position: absolute; right: 0; top: 0.15625rem; background: #FFF url(../images/qingchu.png) no-repeat center center/0.45313rem auto; }
+.login-main .mt .item .send { position: absolute; right: 0.2rem; top: 0; color: #3C4551; display: inline-block; height: 1.5625rem; line-height: 1.5625rem; font-size: 14px; }
+[data-dpr="2"] .login-main .mt .item .send { font-size: 28px; }
+[data-dpr="3"] .login-main .mt .item .send { font-size: 42px; }
+.login-main .mt .item .send.count { color: #ACB3BE; cursor: default; }
+.login-main .mt .item .send:before { content: ''; width: 0.03125rem; height: 0.671875rem; background-color: #E5E5E5; position: absolute; left: -0.53125rem; top: 0.4375rem; }
+.login-main .mt .item:last-child { border-bottom: none; }
+.login-main .login-btn { display: block; width: 9.0625rem; height: 1.40625rem; line-height: 1.40625rem; background-color: #FF6B00; border-radius: 0.0625rem; color: #fff; text-align: center; margin: 0.78125rem auto 0; font-size: 16px; }
+[data-dpr="2"] .login-main .login-btn { font-size: 32px; }
+[data-dpr="3"] .login-main .login-btn { font-size: 48px; }
+.login-main .login-btn.disbale { background-color: #E0E0E1; color: #BFBFBF; }
+.login-main .quick-nav { padding: 0.625rem 0.625rem 0; line-height: 0.578125rem; color: #49535F; overflow: hidden; font-size: 13px; }
+[data-dpr="2"] .login-main .quick-nav { font-size: 26px; }
+[data-dpr="3"] .login-main .quick-nav { font-size: 39px; }
+.login-main .quick-nav .find { float: left; }
+.login-main .quick-nav .register { float: right; }
+.login-main .other { margin-top: 2.125rem; padding: 0 0.46875rem; }
+.login-main .other .ot-top { border-top: 1px solid #CCCCCC; position: relative; text-align: center; }
+.login-main .other .ot-top span { color: #838F9E; font-size: 13px; background-color: #eef0f3; padding: 0 0.53125rem; position: relative; top: -0.3125rem; }
+[data-dpr="2"] .login-main .other .ot-top span { font-size: 26px; }
+[data-dpr="3"] .login-main .other .ot-top span { font-size: 39px; }
+.login-main .other .ot-bot { padding-top: 1.0rem; text-align: center; }
+.login-main .other .ot-bot a { display: inline-block; width: 1.09375rem; height: 1.09375rem; margin: 0 0.5rem; }
+.login-main .other .ot-bot a img { width: 1.09375rem; height: 1.09375rem; }
+.login-main .agreement { padding: 0.78125rem 0.46875rem 0; margin-bottom: 1rem; line-height: 0.46875rem; }
+.login-main .agreement span { display: inline-block; height: 0.46875rem; line-height: 0.46875rem; color: #7A848C; padding-left: 0.625rem; background: url(../images/gouxuan@2x.png) no-repeat 0 center/0.45313rem auto; }
+.login-main .agreement .selected { background: url(../images/gouxuan_s@2x.png) no-repeat 0 center/0.45313rem auto; }
+.login-main .agreement a { color: #373737; font-size: 12px; }
+[data-dpr="2"] .login-main .agreement a { font-size: 24px; }
+[data-dpr="3"] .login-main .agreement a { font-size: 36px; }
+
+.login-main { padding-bottom: 0.3125rem; }
+
+.reset-main .mt .item { padding-left: 2.1875rem; }
+
+.login-main .mt .ver-code { padding-left: 2.34375rem; }
+
+.login-main .mt .ver-code input { font-size: 15px; }
+[data-dpr="2"] .login-main .mt .ver-code input { font-size: 30px; }
+[data-dpr="3"] .login-main .mt .ver-code input { font-size: 45px; }
+
+.login-main .mt .ver-code .pic { width: 2.03125rem; height: 1.09375rem; position: absolute; left: 0; top: 0.234375rem; }
+
+.login-main .mt .ver-code .pic img { width: 2.03125rem; height: 1.09375rem; }
+
+.login-main .mt .ver-code .jud-right { display: block; width: 0.59375rem; height: 0.5rem; position: absolute; top: 0.54rem; left: 4.0rem; background: url(../images/zhengque.png) no-repeat 0 0/0.59375rem auto; }
+
+.login-main .mt .ver-code .jud-error { display: block; width: 0.59375rem; height: 0.5rem; position: absolute; top: 0.54rem; left: 4.0rem; background: url(../images/cuowu.png) no-repeat 0 0/0.59375rem auto; }
+
+/*# sourceMappingURL=login.css.map */

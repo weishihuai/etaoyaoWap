@@ -1,0 +1,59 @@
+.checkbox {display: block; width: 0.625rem; height: 100%; border-radius: 50%; background: url(../images/gouxuan.png) no-repeat center center / 0.59375rem 0.59375rem;}
+.checkbox-active {background-image: url(../images/gouxuan_s.png);}
+
+.m-top .bianyi { width: 1.875rem; height: 1.375rem; font-size: 14px; color: #666666; line-height: 1.40625rem; text-align: center; color: #444444; position: absolute; right: 0; top: 0;}
+[data-dpr="2"] .m-top .bianyi {font-size: 28px;}
+[data-dpr="3"] .m-top .bianyi {font-size: 42px;}
+
+.collect-main {padding-top: 1.40625rem; font-family: PingFangSC-Regular; font-size: 14px;}
+[data-dpr="2"] .collect-main {font-size: 28px;}
+[data-dpr="3"] .collect-main {font-size: 42px;}
+.collect-main .item {height: 3.28125rem; padding-left: 0.3125rem; padding-top: 0.390625rem; padding-right: 0.46875rem; background: #fff; position: relative;}
+.collect-main .item .pic {width: 2.5rem; height: 2.5rem; margin-right: 0.3125rem; float: left; background: url(../images/wutupain_160x160.png) no-repeat center center / 100% 100%;}
+.collect-main .item .pic img {display: block; width: 2.5rem; height: 2.5rem;}
+.collect-main .item .name {margin-bottom: 0.546875rem; color: #0C1828;}
+.collect-main .item div {height: 0.78125rem; line-height: 0.78125rem; position: absolute; top: 2.03125rem; left: 3.125rem;}
+.collect-main .item .price {display: inline; padding-right: 0.25rem; color: #FF6600;} 
+.collect-main .item .price span {font-size: 18px;}
+[data-dpr="2"] .collect-main .item .price span {font-size: 36px;}
+[data-dpr="3"] .collect-main .item .price span {font-size: 54px;}
+.collect-main .item .cuxiao {display: inline-block; position: relative; top: -0.1rem; padding-left: 0.109375rem; padding-right: 0.109375rem; background: rgba(255,102,0,0.10); border: 1px solid rgba(255,107,0,0.60); border-radius: 0.03125rem; font-size: 9px; line-height: 0.40625rem; color: #FF6B00; text-align: center;}
+[data-dpr="2"] .collect-main .item .cuxiao {font-size: 18px;}
+[data-dpr="3"] .collect-main .item .cuxiao {font-size: 27px;}
+.collect-main .item .cancel {display: block; width: 1.5rem; height: 1.25rem; background: url(../images/gengduo-2.png) no-repeat center center / 0.40625rem 0.0625rem; position: absolute; bottom: 0; right: 0;}
+
+.collect-main .cancel-collect-box {display: none; width: 100%; height: 3.28125rem; background: rgba(0,4,14,0.60); position: fixed; top: 50%; margin-top: -1.640625rem;}
+.collect-main .cancel-collect-btn {display: block; width: 2.03125rem; height: 2.03125rem; position: absolute; top: 50%; left: 50%; margin-top: -1.015625rem; margin-left: -1.015625rem; font-size: 13px; line-height: 2.03125rem; background: #FF6B00; border-radius: 50%; text-align: center; color: #FFFFFF; border: 1px solid #979797;}
+[data-dpr="2"] .collect-main .cancel-collect-btn {font-size: 26px;}
+[data-dpr="3"] .collect-main .cancel-collect-btn {font-size: 39px;}
+
+.collect-bj {padding-bottom: 1.5625rem;}
+.collect-bj .item {padding-left: 1.40625rem;}
+.collect-bj .item .checkbox {position: absolute; left: 0.390625rem; top: 0;}
+.collect-bj .item div {left: 4.21875rem;}
+
+.collect-bj .btn-box {width: 100%; height: 1.5625rem; line-height: 1.5625rem; background: #fff; overflow: hidden; position: fixed; bottom: 0; left: 0; border-top: 1px solid #ddd;}
+.collect-bj .btn-box-l {width: 63%; float: left; color: #333333; padding-left: 1.171875rem;}
+.collect-bj .btn-box-l .checkbox {position: absolute; left: 0.390625rem; top: 0;}
+.collect-bj .btn-box-r {width: 37%; float: right;}
+.collect-bj .btn-box-r a {display: block; color: #fff; background: #FF6B00; text-align: center; font-size: 16px;}
+[data-dpr="2"] .collect-bj .btn-box-r a {font-size: 32px;}
+[data-dpr="3"] .collect-bj .btn-box-r a {font-size: 48px;}
+
+.shop-collect .item {height: 2.65625rem;}
+.shop-collect .item .pic {width: 1.875rem; height: 1.875rem;}
+.shop-collect .item .pic img {display: block; width: 1.875rem; height: 1.875rem;}
+.shop-collect .item .name {line-height: 1.1rem;}
+.shop-collect .item .collect-number, .shop-collect .item .delivery-fw, .shop-collect .item .delivery-price {display: inline; color: #949DA9; font-size: 10px;}
+[data-dpr="2"] .shop-collect .item .collect-number, [data-dpr="2"] .shop-collect .item .delivery-fw, [data-dpr="2"] .shop-collect .item .delivery-price {font-size: 20px;}
+[data-dpr="3"] .shop-collect .item .collect-number, [data-dpr="3"] .shop-collect .item .delivery-fw, [data-dpr="3"] .shop-collect .item .delivery-price {font-size: 30px;}
+.shop-collect .item .delivery-fw, .shop-collect .item .delivery-price {color: #444C59; padding-left: 0.125rem;}
+.shop-collect .item .delivery-fw i, .shop-collect .item .delivery-price i {color: #ff5b53;}
+
+/* 空商品收藏 新增2017-11-06 */
+.collect-main {min-height: 100%; position: relative;}
+.collect-main .none-box {width: 100%; height: 100%; position: fixed; background: #fff; font-family: PingFangSC-Regular; font-size: 14px; padding-top: 2.65625rem;}
+[data-dpr="2"] .collect-main .none-box {font-size: 28px;}
+[data-dpr="3"] .collect-main .none-box {font-size: 42px;}
+.collect-main .none-box .none-icon {display: block; width: 4.0625rem; height: 4.0625rem;  margin: 0 auto;}
+.collect-main .none-box p {color: #586172; text-align: center; padding-top: 0.46875rem;}

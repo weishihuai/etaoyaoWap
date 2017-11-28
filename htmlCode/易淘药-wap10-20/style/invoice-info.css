@@ -1,0 +1,28 @@
+.checkbox {display: block; width: 0.625rem; height: 100%; border-radius: 50%; background: url(../images/gouxuan.png) no-repeat center center / 0.59375rem 0.59375rem;}
+.checkbox-active {background-image: url(../images/gouxuan_s.png);}
+
+.invoice-info-main {padding-top: 1.40625rem; font-family: PingFangSC-Regular; font-size: 14px; color: #333333; background: #eceef1;}
+[data-dpr="2"] .invoice-info-main {font-size: 28px;}
+[data-dpr="3"] .invoice-info-main {font-size: 28px;}
+.invoice-info-main .invoice-title {height: 1.25rem; padding-left: 0.390625rem; line-height: 1.25rem; background: #fff;}
+.invoice-info-main .invoice-toggle {height: 1.40625rem; padding-left: 0.390625rem; background: #fff;}
+.invoice-info-main .invoice-toggle a {display: block; width: 2.5rem; height: 0.9375rem; float: left; margin-right: 0.3125rem; line-height: 0.9375rem; text-align: center; color: #373C47; font-size: 12px; border: 1px solid #8E939A;} 
+[data-dpr="2"] .invoice-info-main .invoice-toggle a {font-size: 24px;}
+[data-dpr="3"] .invoice-info-main .invoice-toggle a {font-size: 36px;}
+.invoice-info-main .invoice-toggle .cur {color: #FF6B00; border-color: #FF6B00;}
+
+.invoice-info-main .invoice-info-inner {display: none; padding: 0 0.390625rem; margin-top: 0.3125rem; margin-bottom: 1.96875rem; position: relative; background: #fff;}
+.invoice-info-main .invoice-info-inner .invoice-title {padding-left: 0;}
+.invoice-info-main .invoice-info-inner .dt {height: 1.09375rem;}
+.invoice-info-main .invoice-info-inner .dt p {display: inline-block; height: 0.625rem; padding-left: 0.9375rem; margin-right: 0.625rem; position: relative;}
+.invoice-info-main .invoice-info-inner .dt .checkbox {position: absolute; left: 0; top: 0;}
+.invoice-info-main .invoice-info-inner .dd-item {display: none; padding-bottom: 0.15625rem;}
+.invoice-info-main .invoice-info-inner .dd-item input {display: block; width: 100%; height: 1.25rem; padding-left: 0.28125rem; margin-bottom: 0.3125rem; line-height: 1.25rem; background: #F0F2F5; border-radius: 0.09375rem; color: #3B3E46; opacity: 0.9;}
+.invoice-info-main .invoice-info-inner .dd-item input::-webkit-input-placeholder {color: #A1A8B2;}
+.invoice-info-main .invoice-info-inner .dd-item input::-moz-placeholder {color: #A1A8B2;}
+.invoice-info-main .invoice-info-inner .dd-item input:-ms-input-placeholder {color: #A1A8B2;}
+.invoice-info-main .invoice-info-inner .invoice-btn-box {width: 100%; position: absolute; bottom: -1.96875rem; left: 0; padding-top: 0.625rem;}
+.invoice-info-main .invoice-info-inner .invoice-btn {display: block; width: 7.8125rem; height: 1.34375rem; margin: 0 auto; background: #FF6B00; color: #fff; text-align: center; font-size: 16px; line-height: 1.34375rem; border-radius: 0.046875rem;}
+[data-dpr="2"] .invoice-info-main .invoice-info-inner .invoice-btn {font-size: 32px;}
+[data-dpr="3"] .invoice-info-main .invoice-info-inner .invoice-btn {font-size: 48px;}
+

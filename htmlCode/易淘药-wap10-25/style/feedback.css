@@ -1,0 +1,25 @@
+.feedback-main {padding-top: 1.40625rem; padding-bottom: 1.5625rem; font-family: PingFangSC-Regular; font-size: 14px;}
+[data-dpr="2"] .feedback-main {font-size: 28px;}
+[data-dpr="3"] .feedback-main {font-size: 42px;}
+.feedback-main .item {background: #fff; margin-bottom: 0.3125rem; padding-left: 0.390625rem; }
+.feedback-main .ask-box {border-bottom: 1px solid #eee;}
+.feedback-main .ask-box .user-info {height: 1.40625rem; padding-left: 0.859375rem; padding-right: 0.5rem; font-size: 12px; color: #4D5053; line-height: 1.40625rem; position: relative;}
+[data-dpr="2"] .feedback-main .ask-box .user-info {font-size: 24px;}
+[data-dpr="3"] .feedback-main .ask-box .user-info {font-size: 36px;}
+.feedback-main .ask-box .user-info::before {display: block; content: ''; width: 0.625rem; height: 100%; background: url(../images/touxiang_40x40.png) no-repeat center center / 0.625rem 0.625rem; position: absolute; top: 0; left: 0;}
+.feedback-main .ask-box .user-info span {color: #999999; font-size: 11px; float: right;}
+[data-dpr="2"] .feedback-main .ask-box .user-info span {font-size: 22px;}
+[data-dpr="3"] .feedback-main .ask-box .user-info span {font-size: 33px;}
+.feedback-main .ask-box .ask-txt {color: #4B5963; padding: 0 0.4rem 0.46875rem 0.859375rem; position: relative; font-family: .PingFang-SC-Medium;}
+.feedback-main .ask-box .ask-txt em, .feedback-main .answer-box em {display: block; width: 0.5rem; height: 0.5rem; font-size: 10px; line-height: 0.5rem; text-align: center; color: #fff; background: #0082FF; position: absolute; top: 0.0625rem; left: 0;}
+[data-dpr="2"] .feedback-main .ask-box .ask-txt em, [data-dpr="2"] .feedback-main .answer-box em {font-size: 20px;}
+[data-dpr="3"] .feedback-main .ask-box .ask-txt em, [data-dpr="3"] .feedback-main .answer-box em {font-size: 30px;}
+.feedback-main .answer-box {padding-top: 0.46875rem;}
+.feedback-main .answer-box p {position: relative; padding: 0 0.4rem 0.46875rem 0.859375rem; color: #0C1828; font-family: PingFangSC-Light;}
+.feedback-main .answer-box em {background: #FF6B00;}
+
+.feedback-main .feedback-btn {display: block; width: 100%; height: 1.5625rem; font-size: 13px; line-height: 1.5625rem; text-align: center; color: #051B28; background: rgba(255,255,255,0.90); box-shadow: inset 0 1px 0 0 #E5E5E5; position: fixed; bottom: 0; left: 0; z-index: 11;}
+[data-dpr="2"] .feedback-main .feedback-btn {font-size: 26px;}
+[data-dpr="3"] .feedback-main .feedback-btn {font-size: 39px;}
+.feedback-main .feedback-btn::before {display: block; content: ''; width: 0.46875rem; height: 100%; background: url(../images/woyaozixun.png) no-repeat center center / 0.46875rem 0.46875rem; position: absolute; top: 0; left: 50%; margin-left: -1rem}
+.feedback-main .feedback-btn span {padding-left: 1rem;}

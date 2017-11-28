@@ -1,0 +1,45 @@
+.add-site-main {padding-top: 1.40625rem; padding-bottom: 1.5625rem; font-family: PingFangSC-Regular; font-size: 15px;}
+[data-dpr="2"] .add-site-main {font-size: 30px;}
+[data-dpr="3"] .add-site-main {font-size: 45px;}
+.add-site-main .item {display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; line-height: 1.5625rem; color: #444A50; background: #fff; padding-left: 0.390625rem; padding-right: 0.390625rem; position: relative; border-bottom: 1px solid #e5e5e5;}
+.add-site-main .item span {float: left; padding-right: 0.3125rem;}
+.add-site-main .item input, .add-site-main .item .site-txt {-webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; line-height: 0.59375rem;display: table-cell; vertical-align: middle;}
+.add-site-main .item .site-txt {padding-top: 0.46875rem; padding-bottom: 0.46875rem; -webkit-tap-highlight-color:rgba(255,255,255,0)}
+.add-site-main .item .site-txt:empty:before {content: attr(data-placeholder); color: #AAAEB9;}
+.add-site-main .item .site-txt:focus:before {content:none;}
+
+.m-sub { position: fixed; left: 0; bottom: 0; right: 0; z-index: 10; text-align: center; height: 1.5625rem; line-height: 1.5625rem; background-color: #fff; }
+.m-sub a { display: block; color: #fff; font-size: 16px; background-color: #FF6B00; height: 1.5625rem; }
+[data-dpr="2"] .m-sub a { font-size: 32px; }
+[data-dpr="3"] .m-sub a { font-size: 48px; }
+.m-sub .disable { cursor: default; color: #BFBFBF; background-color: #E0E0E1; }
+
+.site-select-layer {display: none; position: fixed; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0,4,14,0.50); z-index: 104;}
+.site-select-layer .site-select-box { width: 100%; background: #fff; position: absolute; bottom: 0; left: 0;}
+.site-select-layer .site-select-box .dt {height: 1.5625rem; font-size: 14px; line-height: 1.5625rem; text-align: center; position: relative; color: #8F949F;}
+[data-dpr="2"] .site-select-layer .site-select-box .dt {font-size: 28px;}
+[data-dpr="3"] .site-select-layer .site-select-box .dt {font-size: 42px;}
+.site-select-layer .site-select-box .dt .close-btn {display: block; width: 1.40625rem; height: 100%; background: url(../images/guanbi.png) no-repeat center center / 0.46875rem 0.46875rem; position: absolute; right: 0; top: 0;}
+.site-select-layer .site-select-box .dd {font-size: 13px;}
+[data-dpr="2"] .site-select-layer .site-select-box .dd {font-size: 26px;}
+[data-dpr="3"] .site-select-layer .site-select-box .dd {font-size: 39px;}
+.site-select-layer .site-select-box .dd-toggle {height: 0.9375rem; line-height: 0.9375rem; border-bottom: 1px solid #f0f0f0; }
+.site-select-layer .site-select-box .dd-toggle p {display: block; float: left; margin-left: 0.46875rem; margin-right: 0.46875rem; position: relative;}
+.site-select-layer .site-select-box .dd-toggle .cur, .site-select-layer .site-select-box .dd-list .cur {color: #FF6B00;}
+.site-select-layer .site-select-box .dd-toggle .cur::before {display: block; content: ''; width: 100%; height: 0.0625rem; background: #FF6B00; position: absolute; left: 0; bottom: 0;}
+.site-select-layer .site-select-box .dd-list {height: 8.28125rem; overflow: auto;}
+.site-select-layer .site-select-box .dd-list li {height: 1.25rem; padding-left: 0.46875rem; line-height: 1.25rem; color: #333333; position: relative;} 
+.site-select-layer .site-select-box .dd-list .cur::before {display: block; content: ''; width: 0.484375rem; height: 100%; background: url(../images/xuanzhong.png) no-repeat center center / 0.484375rem 0.3125rem; position: absolute; top: 0; right: 0.625rem;}
+
+/* 暂无收货地址 新增2017-11-06 */
+.m-top .bianyi { width: 1.875rem; height: 1.375rem; font-size: 14px; color: #666666; line-height: 1.40625rem; text-align: center; color: #444444; position: absolute; right: 0; top: 0;}
+[data-dpr="2"] .m-top .bianyi {font-size: 28px;}
+[data-dpr="3"] .m-top .bianyi {font-size: 42px;}
+
+.add-site-main {min-height: 100%; position: relative;}
+.add-site-main .none-box {width: 100%; height: 100%; position: fixed; background: #fff; font-family: PingFangSC-Regular; font-size: 14px; padding-top: 2.65625rem;}
+[data-dpr="2"] .add-site-main .none-box {font-size: 28px;}
+[data-dpr="3"] .add-site-main .none-box {font-size: 42px;}
+.add-site-main .none-box .none-icon {display: block; width: 4.0625rem; height: 4.0625rem;  margin: 0 auto;}
+.add-site-main .none-box p {color: #586172; text-align: center; padding-top: 0.46875rem;}
+
